@@ -127,8 +127,7 @@
                             <i class="fas fa-check"></i>
                             <div class="about-info-text">
                                 <h4>We Understand your concern</h4>
-                                <p>Once upon a time there was a thirsty crow he flew here and there in search of water
-                                    but he could not find water</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam omnis ratione repellat sit eos corrupti odio provident consequuntur.</p>
                             </div>
                         </div>
                         <div class="about-info-box">
@@ -166,7 +165,7 @@
     <!-- About Section /-->
 
     <div class="services module grey-bg">
-        <div class="section-title">
+        <div class="section-title container">
             <h2>Best Services</h2>
             <p>Explore Our Best Neurosurgeon Services</p>
         </div><!-- Section Title /-->
@@ -335,7 +334,7 @@
 
     <div class="our-staff module">
 
-        <div class="section-title">
+        <div class="section-title container">
             <h2>Best Neurosurgeons</h2>
             <p>Meet Our Best Neurosurgeons</p>
         </div><!-- Section Title /-->
@@ -470,7 +469,7 @@
 
     <div class="why-chose-us module">
 
-        <div class="section-title">
+        <div class="section-title container">
             <h2>Awesome Facts</h2>
             <p>why we are best in industry</p>
         </div><!-- Section Title /-->
@@ -716,9 +715,9 @@
 
     <div class="blog-section module">
 
-        <div class="section-title">
-            <h2>Our weekly news alert</h2>
-            <p>What we wrote for you this week</p>
+        <div class="section-title container">
+            <h2>Our Blogs</h2>
+            <p>Our latest blog updates for the week.</p>
         </div><!-- Section Title /-->
 
         <div class="grid-container grid-x grid-padding-x">
@@ -729,7 +728,7 @@
                         <img src="{{ asset('assets/images/help/blog/blog-img-1.jpg') }}" alt="Product Img" />
                     </div>
                     <div class="blog-text">
-                        <h6><a href="#">How you can protect your skin?</a></h6>
+                        <h6><a href="#">Lorem ipsum dolor sit amet.</a></h6>
                         <div class="meta-tags">
                             <i class="far fa-user"> <span>By:</span><a href="#">Ateeq</a></i>
                             <i class="far fa-comment"> <a href="#">3 Comments</a></i>
@@ -746,7 +745,7 @@
                         <img src="{{ asset('assets/images/help/blog/blog-img-2.jpg') }}" alt="Product Img" />
                     </div>
                     <div class="blog-text">
-                        <h6><a href="#">How harm can be local creams?</a></h6>
+                        <h6><a href="#">Lorem ipsum dolor sit amet.</a></h6>
                         <div class="meta-tags">
                             <i class="far fa-user"> <span>By:</span><a href="#">Ateeq</a></i>
                             <i class="far fa-comment"> <a href="#">3 Comments</a></i>
@@ -763,7 +762,7 @@
                         <img src="{{ asset('assets/images/help/blog/blog-img-3.jpg') }}" alt="Product Img" />
                     </div>
                     <div class="blog-text">
-                        <h6><a href="#">Skin care advice for month of august.</a></h6>
+                        <h6><a href="#">Lorem ipsum dolor sit amet.</a></h6>
                         <div class="meta-tags">
                             <i class="far fa-user"> <span>By:</span><a href="#">Ateeq</a></i>
                             <i class="far fa-comment"> <a href="#">3 Comments</a></i>
