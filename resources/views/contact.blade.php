@@ -206,23 +206,41 @@
 					</div><!-- map ends here -->
 					<div class="contact-form">
 						<h3>Fill the form below to contact us</h3>
-						<form>
-							<div class="grid-container grid-x grid-padding-x">
-								<div class="medium-6 cell">
-									<input type="text" placeholder="Name">
-								 </div>
-								 <div class="medium-6 cell">    
-									<input type="text" placeholder="Email">
-								 </div>
-								 <div class="medium-12 cell">
-									<input type="text" placeholder="Website">
-								</div>
-								<div class="medium-12 cell">
-									<textarea placeholder="Your message" rows="6"></textarea>
-									<button class="button primary">Send!</button>
-								</div>
-							</div><!-- Grid Container /-->
-						</form>
+						<form action="">
+                        <input type="text" value="" placeholder="Full Name">
+                        {{-- <input type="email" value="" placeholder="Email Address"> --}}
+                        <input type="text" value="" placeholder="Phone Number">
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <select name="gender" id="gender">
+                                    <option value="" selected disabled>Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="number" value="" placeholder="Age">
+                            </div>
+                        </div>
+
+                        <!-- Appointment Date & Time -->
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input type="date" class="form-control" name="appointment_date" placeholder="Select Date"
+                                    required>
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="time" class="form-control" name="appointment_time" placeholder="Select Time"
+                                    required>
+                            </div>
+                        </div>
+
+                        <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief"
+                            required></textarea>
+                        <a class="button secondary button-second">Send Message</a>
+                    </form>
 					</div><!-- contact Form ends here. -->
 			   </div> <!-- Right Side Ends /-->
                 

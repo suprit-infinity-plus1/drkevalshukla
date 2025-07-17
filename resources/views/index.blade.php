@@ -127,7 +127,8 @@
                             <i class="fas fa-check"></i>
                             <div class="about-info-text">
                                 <h4>We Understand your concern</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam omnis ratione repellat sit eos corrupti odio provident consequuntur.</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam omnis ratione
+                                    repellat sit eos corrupti odio provident consequuntur.</p>
                             </div>
                         </div>
                         <div class="about-info-box">
@@ -277,8 +278,7 @@
                 <div class="large-4 medium-6 small-12 cell">
                     <div class="service-box hover-wrap">
                         <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/services/service-img-6.png') }}"
-                                alt="Service Images" />
+                            <img src="{{ asset('assets/images/help/services/service-img-6.png') }}" alt="Service Images" />
                             <div class="service-detail hover-info">
                                 <a href="#" class="button primary">Know More</a>
                             </div>
@@ -294,8 +294,7 @@
                 <div class="large-4 medium-6 small-12 cell">
                     <div class="service-box hover-wrap">
                         <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/services/service-img-6.png') }}"
-                                alt="Service Images" />
+                            <img src="{{ asset('assets/images/help/services/service-img-6.png') }}" alt="Service Images" />
                             <div class="service-detail hover-info">
                                 <a href="#" class="button primary">Know More</a>
                             </div>
@@ -311,8 +310,7 @@
                 <div class="large-4 medium-6 small-12 cell">
                     <div class="service-box hover-wrap">
                         <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/services/service-img-6.png') }}"
-                                alt="Service Images" />
+                            <img src="{{ asset('assets/images/help/services/service-img-6.png') }}" alt="Service Images" />
                             <div class="service-detail hover-info">
                                 <a href="#" class="button primary">Know More</a>
                             </div>
@@ -418,7 +416,7 @@
                         <img src="{{ asset('assets/images/help/icons/cup.png') }}" alt="Counter Icon" />
                     </div>
                     <div class="counter-text">
-                        <h2>250+</h2>
+                        <h2 class="count" data-count="250">0</h2>
                         <p>Brain Surgery</p>
                     </div>
                 </div><!-- Counter /-->
@@ -431,7 +429,7 @@
                         <img src="{{ asset('assets/images/help/icons/cup.png') }}" alt="Counter Icon" />
                     </div>
                     <div class="counter-text">
-                        <h2>500+</h2>
+                        <h2 class="count" data-count="500">0</h2>
                         <p>Spinal Surgery</p>
                     </div>
                 </div><!-- Counter /-->
@@ -444,7 +442,7 @@
                         <img src="{{ asset('assets/images/help/icons/cup.png') }}" alt="Counter Icon" />
                     </div>
                     <div class="counter-text">
-                        <h2>100+</h2>
+                        <h2 class="count" data-count="100">0</h2>
                         <p>Neurovascular Surgery</p>
                     </div>
                 </div><!-- Counter /-->
@@ -456,13 +454,14 @@
                         <img src="{{ asset('assets/images/help/icons/cup.png') }}" alt="Counter Icon" />
                     </div>
                     <div class="counter-text">
-                        <h2>200+</h2>
+                        <h2 class="count" data-count="200">0</h2>
                         <p>Minimally Invasive Neurosurgery</p>
                     </div>
                 </div><!-- Counter /-->
             </div><!-- columns /-->
 
-        </div><!-- Grid Container /-->
+        </div>
+        <!-- Grid Container /-->
 
     </div>
     <!-- Achievement Counter /-->
@@ -614,64 +613,64 @@
 
     {{-- <div class="products grey-bg module">
 
-            <div class="section-title">
-                <h2>Awesome Skin care</h2>
-                <p>amazing skin products for you</p>
+        <div class="section-title">
+            <h2>Awesome Skin care</h2>
+            <p>amazing skin products for you</p>
+        </div>
+
+        <div class="grid-container grid-x grid-padding-x products-box">
+
+            <div class="large-3 medium-6 small-12 cell">
+                <div class="product">
+                    <div class="product-icon">
+                        <img src="{{ asset('assets/images/help/products/product-1.png') }}" alt="Product Img" />
+                    </div>
+                    <div class="product-text">
+                        <h6><a href="#">Sun Block Herbal Lotion</a></h6>
+                        <p>$39.00 - <span>$50.00</span></p>
+                    </div>
+                </div>
             </div>
 
-            <div class="grid-container grid-x grid-padding-x products-box">
-
-                <div class="large-3 medium-6 small-12 cell">
-                    <div class="product">
-                        <div class="product-icon">
-                            <img src="{{ asset('assets/images/help/products/product-1.png') }}" alt="Product Img" />
-                        </div>
-                        <div class="product-text">
-                            <h6><a href="#">Sun Block Herbal Lotion</a></h6>
-                            <p>$39.00 - <span>$50.00</span></p>
-                        </div>
+            <div class="large-3 medium-6 small-12 cell">
+                <div class="product">
+                    <div class="product-icon">
+                        <img src="{{ asset('assets/images/help/products/product-2.png') }}" alt="Product Img" />
+                    </div>
+                    <div class="product-text">
+                        <h6><a href="#">Multi Vitamin Skin Product</a></h6>
+                        <p>$39.00 - <span>$50.00</span></p>
                     </div>
                 </div>
-
-                <div class="large-3 medium-6 small-12 cell">
-                    <div class="product">
-                        <div class="product-icon">
-                            <img src="{{ asset('assets/images/help/products/product-2.png') }}" alt="Product Img" />
-                        </div>
-                        <div class="product-text">
-                            <h6><a href="#">Multi Vitamin Skin Product</a></h6>
-                            <p>$39.00 - <span>$50.00</span></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="large-3 medium-6 small-12 cell">
-                    <div class="product">
-                        <div class="product-icon">
-                            <img src="{{ asset('assets/images/help/products/product-3.png') }}" alt="Product Img" />
-                        </div>
-                        <div class="product-text">
-                            <h6><a href="#">Whitening special Cream</a></h6>
-                            <p>$39.00 - <span>$50.00</span></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="large-3 medium-6 small-12 cell">
-                    <div class="product">
-                        <div class="product-icon">
-                            <img src="{{ asset('assets/images/help/products/product-4.png') }}" alt="Product Img" />
-                        </div>
-                        <div class="product-text">
-                            <h6><a href="#">Sun Block Special Lotion</a></h6>
-                            <p>$39.00 - <span>$50.00</span></p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
-        </div> --}}
+            <div class="large-3 medium-6 small-12 cell">
+                <div class="product">
+                    <div class="product-icon">
+                        <img src="{{ asset('assets/images/help/products/product-3.png') }}" alt="Product Img" />
+                    </div>
+                    <div class="product-text">
+                        <h6><a href="#">Whitening special Cream</a></h6>
+                        <p>$39.00 - <span>$50.00</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="large-3 medium-6 small-12 cell">
+                <div class="product">
+                    <div class="product-icon">
+                        <img src="{{ asset('assets/images/help/products/product-4.png') }}" alt="Product Img" />
+                    </div>
+                    <div class="product-text">
+                        <h6><a href="#">Sun Block Special Lotion</a></h6>
+                        <p>$39.00 - <span>$50.00</span></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> --}}
     <!-- Products /-->
 
 
@@ -688,9 +687,10 @@
                         <input type="text" value="" placeholder="Full Name">
                         {{-- <input type="email" value="" placeholder="Email Address"> --}}
                         <input type="text" value="" placeholder="Phone Number">
+
                         <div class="row">
                             <div class="col-sm-6">
-                                <select name="" id="">
+                                <select name="gender" id="gender">
                                     <option value="" selected disabled>Gender</option>
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
@@ -701,9 +701,24 @@
                                 <input type="number" value="" placeholder="Age">
                             </div>
                         </div>
-                        <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief" required></textarea>
+
+                        <!-- Appointment Date & Time -->
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input type="date" class="form-control" name="appointment_date" placeholder="Select Date"
+                                    required>
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="time" class="form-control" name="appointment_time" placeholder="Select Time"
+                                    required>
+                            </div>
+                        </div>
+
+                        <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief"
+                            required></textarea>
                         <a class="button secondary button-second">Send Message</a>
                     </form>
+
                 </div><!-- Form/-->
                 <div class="clearfix"></div>
             </div>
@@ -788,9 +803,31 @@
 @endsection
 @section('extrajs')
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
 
         });
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.6.2/countUp.umd.js"></script>
+    <script>
+        $(document).ready(function () { });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll('.count').forEach(function (el) {
+                const target = parseInt(el.getAttribute('data-count'));
+                const counter = new countUp.CountUp(el, target, {
+                    duration: 2,
+                    suffix: '+'
+                });
+
+                if (!counter.error) {
+                    counter.start();
+                } else {
+                    console.error(counter.error);
+                }
+            });
+        });
+    </script>
+
 
 @endsection

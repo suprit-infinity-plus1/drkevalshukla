@@ -1344,6 +1344,8 @@ hr {
 .form-section [type=email],
 .form-section [type=number],
 .form-section [type=text],
+.form-section [type=date],
+.form-section [type=time],
 .form-section textarea {
     border: 0;
     background-color: #fff;

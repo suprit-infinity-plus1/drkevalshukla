@@ -15,7 +15,8 @@
     <meta name="description" content="">
 
     <!-- FavIcon for Website /-->
-    {{-- <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}"> --}}
+    {{--
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}"> --}}
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/help/icons/pointer.png') }}">
 
     <!-- important for responsiveness remove to make your site non responsive. -->
@@ -24,15 +25,20 @@
     <!-- Theme Styles CSS File -->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/owl.carousel.css') }}" media="all" />
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    {{--
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
-    {{-- <link rel="stylesheet"
+    {{--
+    <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> --}}
-    {{-- <link rel="stylesheet"
+    {{--
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    --}}
+    {{--
+    <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"> --}}
 
     {{-- bootstrap 5.3 css --}}
@@ -44,8 +50,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/foundation.min.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/theme-styles.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive-styles.css') }}" media="all" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}"
-        media="all" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fontawesome-all.min.css') }}" media="all" />
 
 </head>
@@ -126,16 +131,16 @@
                                     <li><a class="dropdown-item" href="#">Service 4</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"> <a class="nav-link p-3 fw-semibold text-uppercase"
-                                    href="#">Our Staff</a>
+                            <li class="nav-item"> <a class="nav-link p-3 fw-semibold text-uppercase" href="#">Our
+                                    Staff</a>
                             </li>
                             <li class="nav-item"> <a class="nav-link p-3 fw-semibold text-uppercase"
                                     href="#">Appointment</a>
                             </li>
-                            <li class="nav-item"> <a class="nav-link p-3 fw-semibold text-uppercase"
-                                    href="#">Blog</a> </li>
-                            <li class="nav-item"> <a class="nav-link p-3 fw-semibold text-uppercase"
-                                    href="#">Contact us</a>
+                            <li class="nav-item"> <a class="nav-link p-3 fw-semibold text-uppercase" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link p-3 fw-semibold text-uppercase" href="#">Contact
+                                    us</a>
                             </li>
                         </ul>
                     </div>
@@ -146,18 +151,17 @@
                                 aria-haspopup="true" aria-expanded="false">
                                 <img src="{{ asset('assets/images/help/icons/magnifier.png') }}" alt="icon" />
                             </a><!-- Search Icon button /-->
-                            <a href="#" class="cart-icon-toggle" data-toggle="cart-dropdown"
-                                data-is-focus="false" data-yeti-box="cart-dropdown" aria-haspopup="true"
-                                aria-expanded="false">
+                            <a href="#" class="cart-icon-toggle" data-toggle="cart-dropdown" data-is-focus="false"
+                                data-yeti-box="cart-dropdown" aria-haspopup="true" aria-expanded="false">
                                 <img src="{{ asset('assets/images/help/icons/basket.png') }}" alt="icon" />
                             </a><!-- Shopping Cart Button /-->
                             <a href="#">
                                 <img src="{{ asset('assets/images/help/icons/share.png') }}" alt="icon" />
                             </a><!-- Search Icon button /-->
                         </div>
-                        <div class="search-dropdown dropdown-pane" id="search-dropdown"
-                            data-dropdown="mkonmu-dropdown" data-auto-focus="true" aria-hidden="true"
-                            data-yeti-box="search-dropdown" data-resize="search-dropdown">
+                        <div class="search-dropdown dropdown-pane" id="search-dropdown" data-dropdown="mkonmu-dropdown"
+                            data-auto-focus="true" aria-hidden="true" data-yeti-box="search-dropdown"
+                            data-resize="search-dropdown">
                             <input type="text" placeholder="Enter keyword .... ">
                             <button class="primary button"><i class="fa fa-search"></i></button>
                         </div>
@@ -205,8 +209,7 @@
                                 <a href="#">
                                     <h3>
                                         Dr. Keval Shukla
-                                        {{-- <img src="{{ asset('assets/images/logo-footer.png') }}"
-                        alt="" /> --}}
+                                        {{-- <img src="{{ asset('assets/images/logo-footer.png') }}" alt="" /> --}}
                                     </h3>
                                 </a>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id officiis obcaecati iste
@@ -215,8 +218,7 @@
                                 </p>
                                 <div class="contact-us">
                                     <ul>
-                                        <li><i class="fas fa-map-marker-alt"></i><a
-                                                href="#"><span>Address:</span>
+                                        <li><i class="fas fa-map-marker-alt"></i><a href="#"><span>Address:</span>
                                                 Wockhardt Hospitals, 1877, Mumbai Central, Mumbai -
                                                 400011</a></li>
                                         <li><i class="fas fa-mobile-alt"></i><a href="#"><span>Phone:</span>
@@ -264,16 +266,14 @@
                                 <h6>Recent News</h6>
                                 <div class="footer-news-post">
                                     <div class="footer-news">
-                                        <img src="{{ asset('assets/images/help/footer-icon-1.jpg') }}"
-                                            alt="News" />
+                                        <img src="{{ asset('assets/images/help/footer-icon-1.jpg') }}" alt="News" />
                                         <h2><a href="#">How can we help you get the amazing skin results from
                                                 us?</a>
                                         </h2>
                                         <p>01 August 2018</p>
                                     </div>
                                     <div class="footer-news">
-                                        <img src="{{ asset('assets/images/help/footer-icon-2.jpg') }}"
-                                            alt="News" />
+                                        <img src="{{ asset('assets/images/help/footer-icon-2.jpg') }}" alt="News" />
                                         <h2><a href="#">How can you keep your skin glowing and infection less in
                                                 sprint</a></h2>
                                         <p>01 August 2018</p>
@@ -334,8 +334,10 @@
 
     @yield('extrajs')
     <!-- Including Jquery so All js Can run -->
-    {{-- <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> --}}
-    {{-- <script src="{{ asset('assets/js/jquery.js') }}"></script> --}}
+    {{--
+    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> --}}
+    {{--
+    <script src="{{ asset('assets/js/jquery.js') }}"></script> --}}
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
     <!-- Including Foundation JS so Foundation function can work. -->
@@ -343,7 +345,8 @@
 
     <!-- Carousel JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    {{-- <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script> --}}
+    {{--
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script> --}}
 
     <!-- TwentyTwenty After Before -->
     <script src="{{ asset('assets/js/jquery.event.move.js') }}"></script>
@@ -352,7 +355,8 @@
     <!-- Webful JS -->
     <script src="{{ asset('assets/js/template.js') }}"></script>
 
-    {{-- <script src="../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+    {{--
+    <script src="../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
         data-cf-settings="46bab44878df5714b4619bc3-|49" defer></script> --}}
     {{-- bootstrap js --}}
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
@@ -360,10 +364,9 @@
         integrity="sha512-eHx4nbBTkIr2i0m9SANm/cczPESd0DUEcfl84JpIuutE6oDxPhXvskMR08Wmvmfx5wUpVjlWdi82G5YLvqqJdA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script>
-        $(document).ready(function() {});
-    </script>
+
 </body>
+
 
 <!-- Mirrored from templates.webfulcreations.com/dermatology/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Jul 2025 08:13:37 GMT -->
 

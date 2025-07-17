@@ -25,5 +25,9 @@ class MainController
     {
         return view('blog-grid');
     }
+    public function contact()
+    {
+        return view('contact');
+    }
 }
 
