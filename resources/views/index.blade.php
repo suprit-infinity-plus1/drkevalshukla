@@ -104,7 +104,7 @@
                 <div class="col-12 col-lg-6 ps-lg-5">
                     <div class="introduction-side">
                         <div class="about-text">
-                            <h2>Welcome to Dr. Keval Shukla</h2>
+                            <h2>Dr. Keval Shukla</h2>
                             <h3>About <span> Neurosurgeon</span></h3>
                             <p>
                                 Dr. Keval Shukla is an experienced Brain and Spine surgeon with over 8 years of experience
@@ -124,35 +124,38 @@
                             </p>
                         </div>
                         <div class="about-info-box">
-                            <i class="fas fa-check"></i>
                             <div class="about-info-text">
-                                <h4>We Understand your concern</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam omnis ratione
-                                    repellat sit eos corrupti odio provident consequuntur.</p>
+                                <h4>EXPERTISE</h4>
                             </div>
                         </div>
                         <div class="about-info-box">
                             <i class="fas fa-check"></i>
                             <div class="about-info-text">
-                                <h4>8 Years Experienced</h4>
-                                <p>Once upon a time there was a thirsty crow he flew here and there in search of water
-                                    but he could not find water</p>
+                                <h4>Minimally Invasive Spine Surgery</h4>
                             </div>
                         </div>
                         <div class="about-info-box">
                             <i class="fas fa-check"></i>
                             <div class="about-info-text">
-                                <h4>Free Consultation</h4>
-                                <p>Once upon a time there was a thirsty crow he flew here and there in search of water
-                                    but he could not find water</p>
+                                <h4>Full Endoscopic Spine Surgery</h4>
                             </div>
                         </div>
                         <div class="about-info-box">
                             <i class="fas fa-check"></i>
                             <div class="about-info-text">
-                                <h4>Rapid Emergency Treatments</h4>
-                                <p>Once upon a time there was a thirsty crow he flew here and there in search of water
-                                    but he could not find water</p>
+                                <h4>Endoscopic Skull Base Surgeries</h4>
+                            </div>
+                        </div>
+                        <div class="about-info-box">
+                            <i class="fas fa-check"></i>
+                            <div class="about-info-text">
+                                <h4>Neuro Oncology</h4>
+                            </div>
+                        </div>
+                        <div class="about-info-box">
+                            <i class="fas fa-check"></i>
+                            <div class="about-info-text">
+                                <h4>Neuro traumatology</h4>
                             </div>
                         </div>
                         <a class="button primary" href="{{ route('about') }}">About Us</a>

@@ -52,7 +52,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive-styles.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fontawesome-all.min.css') }}" media="all" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -81,7 +81,7 @@
                                 <img src="{{ asset('assets/images/help/icons/tablet.png') }}" alt="icon" />
                             </div><!-- Icon Side /-->
                             <div class="info-side">
-                                <p><strong>+91 969 991 5789</strong><br>
+                                <p><a href="tel:+91 9699915789">+91 9699915789</a><br>
                                     Book an Appointment
                                 </p>
                             </div><!-- Info Side /-->
@@ -91,8 +91,8 @@
                                 <img src="{{ asset('assets/images/help/icons/pointer.png') }}" alt="icon" />
                             </div><!-- Icon Side /-->
                             <div class="info-side">
-                                <p><strong>4th Avenue Bloom</strong><br>
-                                    ST 4th, Sanfrans, FL, USA
+                                <p><strong>Wockhardt Hospital </strong><br>
+                                    Agripada , Mumbai Centra
                                 </p>
                             </div><!-- Info Side /-->
                         </div>
@@ -144,29 +144,12 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="social-icons">
-                        <div class="search-wrap float-right">
-                            <a href="#" class="search-icon-toggle" data-toggle="search-dropdown"
-                                aria-controls="search-dropdown" data-is-focus="false" data-yeti-box="search-dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                <img src="{{ asset('assets/images/help/icons/magnifier.png') }}" alt="icon" />
-                            </a><!-- Search Icon button /-->
-                            <a href="#" class="cart-icon-toggle" data-toggle="cart-dropdown" data-is-focus="false"
-                                data-yeti-box="cart-dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img src="{{ asset('assets/images/help/icons/basket.png') }}" alt="icon" />
-                            </a><!-- Shopping Cart Button /-->
-                            <a href="#">
-                                <img src="{{ asset('assets/images/help/icons/share.png') }}" alt="icon" />
-                            </a><!-- Search Icon button /-->
-                        </div>
-                        <div class="search-dropdown dropdown-pane" id="search-dropdown" data-dropdown="mkonmu-dropdown"
-                            data-auto-focus="true" aria-hidden="true" data-yeti-box="search-dropdown"
-                            data-resize="search-dropdown">
-                            <input type="text" placeholder="Enter keyword .... ">
-                            <button class="primary button"><i class="fa fa-search"></i></button>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div><!--Social Icons /-->
+                    <div class="social-icons d-flex gap-3">
+                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
                 </div>
             </nav>
 
@@ -222,20 +205,17 @@
                                                 Wockhardt Hospitals, 1877, Mumbai Central, Mumbai -
                                                 400011</a></li>
                                         <li><i class="fas fa-mobile-alt"></i><a href="#"><span>Phone:</span>
-                                                0800-123-345</a></li>
-                                        <li><i class="fas fa-envelope"></i><a href="#"><span>Email:</span> <span
-                                                    class="__cf_email__"
-                                                    data-cfemail="0774727777687573476362756a6673686b68606e7473746e73622964686a">[email&#160;protected]</span></a>
+                                                +91 9699915789 </a></li>
+                                        <li><i class="fas fa-envelope"></i><a href="#"><span>Email:</span> <span>keval242@gmail.com</span></a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="social-icons">
                                     <ul class="menu">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
                                     </ul>
                                 </div>
                             </div><!-- Footer Box /-->

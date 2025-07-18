@@ -479,6 +479,12 @@ hr {
     font-weight: 600;
 }
 
+.info-side p a {
+    font-size: 0.9375rem;
+    color: #444444;
+    font-weight: 600;
+}
+
 .info-side p {
     margin-bottom: 0;
     line-height: 19px;
@@ -850,7 +856,7 @@ hr {
 .about-text p {
     font-size: 1rem;
     line-height: 27px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .about-info-box i,
@@ -2675,3 +2681,24 @@ body.box .banner-container .slide-text {
     margin: auto;
     margin-bottom: 25px;
 }
+
+
+/* ================== Contact page ================ */
+
+@media(min-width:768px) {
+    .contact-page-doctor-img {
+        border-radius: 50%;
+    }
+}
+
+.fa-solid,
+.fa-location-dot .me-2 {
+    width: 16px;
+}
+
+/* .contact-now a{
+    color: #777777 ;
+    line-height: 26px ;
+    font-size: 16px ;
+    font-weight: 400;
+} */
