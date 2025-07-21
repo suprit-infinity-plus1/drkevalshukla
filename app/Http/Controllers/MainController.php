@@ -17,13 +17,21 @@ class MainController
         return view('about-us');
     }
 
-    public function service()
+    public function services()
     {
-        return view('service');
+        return view('services');
+    }
+    public function staff()
+    {
+        return view('staff');
     }
     public function blog()
     {
-        return view('blog-grid');
+        return view('blog');
+    }
+    public function appointment()
+    {
+        return view('appointment');
     }
     public function contact()
     {

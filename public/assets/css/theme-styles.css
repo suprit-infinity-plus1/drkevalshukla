@@ -1556,7 +1556,7 @@ body.box .banner-container .slide-text {
 .appointment-page [type=email],
 .appointment-page [type=text],
 .appointment-page textarea {
-    padding: 27.5px 30px;
+    /* padding: 27.5px 30px; */
 }
 
 .sidebar .icon-box {
@@ -2702,3 +2702,45 @@ body.box .banner-container .slide-text {
     font-size: 16px ;
     font-weight: 400;
 } */
+
+/* =====================Header hover and focus effect================ */
+
+.nav-link {
+    transition: all 0.3s ease; /* Smooth transition for hover/focus effects */
+    position: relative;        /* Required for pseudo-element */
+}
+
+/* Hover & Focus Styles */
+.nav-link:focus,
+.nav-link:hover {
+    color: var(--bs-nav-link-hover-color);
+}
+
+/* Top border on hover/focus using a pseudo-element */
+.nav-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #e9490b;
+    transform: scaleX(0);        /* Hidden by default */
+    transition: transform 0.3s ease;
+    transform-origin: left;
+}
+
+.nav-link:hover::before,
+.nav-link:focus::before,
+.nav-link.active::before {
+    transform: scaleX(1);        /* Reveal the top border */
+}
+
+
+/* ================Services========================= */
+@media (min-width: 992px) {
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}

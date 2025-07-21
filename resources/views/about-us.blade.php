@@ -13,8 +13,7 @@
             <div class="small-12 cell">
                 <ul class="breadcrumbs">
                     <li><a href="#">Home</a></li>
-                    <li class="disabled">Gene Splicing</li>
-                    <li><span class="show-for-sr">Current: </span> Cloning</li>
+                        <li><a href="">About Us</a></li>                    
                 </ul><!-- Breadcrumbs /-->
             </div><!-- Bottom Row /-->
 

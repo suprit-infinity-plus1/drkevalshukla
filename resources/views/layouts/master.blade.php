@@ -52,7 +52,9 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive-styles.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fontawesome-all.min.css') }}" media="all" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -114,38 +116,80 @@
                     <div class="navbar-collapse collapse" id="navbarsExample07XL" style="">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active p-3 fw-semibold text-uppercase" aria-current="page"
+                                <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('home') ? 'active' : '' }}"
                                     href="{{ route('home') }}">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link p-3 fw-semibold text-uppercase" aria-current="page"
+                                <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('about') ? 'active' : '' }}"
                                     href="{{ route('about') }}">About Us</a>
                             </li>
-                            <li class="nav-item dropdown"> <a
-                                    class="nav-link dropdown-toggle p-3 fw-semibold text-uppercase" href="#"
-                                    data-bs-toggle="dropdown" aria-expanded="false">Services </a>
+                            {{-- DESKTOP ONLY (hover dropdown) --}}
+                            <li class="nav-item dropdown d-none d-lg-block">
+                                <a class="nav-link dropdown-toggle p-3 fw-semibold text-uppercase 
+       {{ request()->is('services/*') ? 'active' : '' }}" href="{{ route('services') }}">
+                                    Services
+                                </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Service 1</a></li>
-                                    <li><a class="dropdown-item" href="#">Service 2</a></li>
-                                    <li><a class="dropdown-item" href="#">Service 3</a></li>
-                                    <li><a class="dropdown-item" href="#">Service 4</a></li>
+                                    <li><a class="dropdown-item {{ request()->routeIs('service1') ? 'active' : '' }}"
+                                            href="#">Service 1</a></li>
+                                    <li><a class="dropdown-item {{ request()->routeIs('service2') ? 'active' : '' }}"
+                                            href="#">Service 2</a></li>
+                                    <li><a class="dropdown-item {{ request()->routeIs('service3') ? 'active' : '' }}"
+                                            href="#">Service 3</a></li>
+                                    <li><a class="dropdown-item {{ request()->routeIs('service4') ? 'active' : '' }}"
+                                            href="#">Service 4</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"> <a class="nav-link p-3 fw-semibold text-uppercase" href="#">Our
-                                    Staff</a>
+
+                            {{-- MOBILE ONLY: Services text (link) + dropdown toggle (arrow) --}}
+                            <li class="nav-item dropdown d-block d-lg-none">
+                                <div class="d-flex flex-wrap justify-content-between align-items-center px-3 py-2">
+                                    {{-- Left: Clickable text --}}
+                                    <a href="{{ route('services') }}" class="col-11 fw-semibold text-uppercase text-decoration-none 
+            {{ request()->is('services') ? 'active' : '' }}">
+                                        Services
+                                    </a>
+
+                                    {{-- Right: Dropdown toggle (only arrow) --}}
+                                    <button class="col-1 dropdown-toggle text-dark text-decoration-none"
+                                        data-bs-toggle="dropdown" aria-expanded="false" type="button">
+                                    </button>
+                                    
+                                    <ul class="col-12 dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Service 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Service 2</a></li>
+                                        <li><a class="dropdown-item" href="#">Service 3</a></li>
+                                        <li><a class="dropdown-item" href="#">Service 4</a></li>
+                                    </ul>
+                                </div>
                             </li>
-                            <li class="nav-item"> <a class="nav-link p-3 fw-semibold text-uppercase"
-                                    href="#">Appointment</a>
+
+
+
+
+
+
+                            <li class="nav-item">
+                                <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('staff') ? 'active' : '' }}"
+                                    href="{{ route('staff') }}">Our Staff</a>
                             </li>
-                            <li class="nav-item"> <a class="nav-link p-3 fw-semibold text-uppercase" href="#">Blog</a>
+                            <li class="nav-item">
+                                <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('appointment') ? 'active' : '' }}"
+                                    href="{{ route('appointment') }}">Appointment</a>
                             </li>
-                            <li class="nav-item"> <a class="nav-link p-3 fw-semibold text-uppercase" href="#">Contact
-                                    us</a>
+                            <li class="nav-item">
+                                <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('blog') ? 'active' : '' }}"
+                                    href="{{ route('blog') }}">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('contact') ? 'active' : '' }}"
+                                    href="{{ route('contact') }}">Contact Us</a>
                             </li>
                         </ul>
+
                     </div>
                     <div class="social-icons d-flex gap-3">
-                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                         <a href="#"><i class="fa-brands fa-youtube"></i></a>
@@ -175,7 +219,8 @@
                             <h2>Its For your Great Life!</h2>
                             <p>Crown quis lectus et mauris commodo blandit. Morbi rutrum libero eget nibh facilisis
                                 sollicitudin.</p>
-                            <a class="button button-second secondary">fix an appointment</a>
+                            <a class="button button-second secondary" data-bs-toggle="modal"
+                                data-bs-target="#appointmentModal">Fix an Appointment</a>
                         </div><!-- Form/-->
                     </div>
 
@@ -206,7 +251,8 @@
                                                 400011</a></li>
                                         <li><i class="fas fa-mobile-alt"></i><a href="#"><span>Phone:</span>
                                                 +91 9699915789 </a></li>
-                                        <li><i class="fas fa-envelope"></i><a href="#"><span>Email:</span> <span>keval242@gmail.com</span></a>
+                                        <li><i class="fas fa-envelope"></i><a href="#"><span>Email:</span>
+                                                <span>keval242@gmail.com</span></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -311,6 +357,61 @@
         </div>
     </div> --}}
     <!-- Preloader /-->
+
+
+
+    <!-- Appointment Modal -->
+    <div class="modal fade" id="appointmentModal" tabindex="-1" aria-labelledby="appointmentModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content p-4">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="appointmentModalLabel">Fix an Appointment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <input type="text" class="form-control mb-3 shadow-none" placeholder="Full Name" />
+
+                        <!-- <input type="email" class="form-control mb-3" placeholder="Email Address" /> -->
+
+                        <input type="text" class="form-control mb-3 shadow-none" placeholder="Phone Number" />
+
+                        <div class="row">
+                            <div class="col-sm-6 shadow-none">
+                                <select class="" name="gender" id="gender">
+                                    <option value="" selected disabled>Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-6 ">
+                                <input type="number" class="form-control shadow-none" placeholder="Age" />
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6 ">
+                                <input type="date" class="form-control shadow-none" name="appointment_date"
+                                    placeholder="Select Date" required>
+                            </div>
+                            <div class="col-sm-6 ">
+                                <input type="time" class="form-control shadow-none" name="appointment_time"
+                                    placeholder="Select Time" required>
+                            </div>
+                        </div>
+
+                        <textarea class="form-control shadow-none" rows="3" placeholder="Problem in Brief"
+                            required></textarea>
+
+                        <button type="submit" class="button secondary button-second mb-0">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     @yield('extrajs')
     <!-- Including Jquery so All js Can run -->

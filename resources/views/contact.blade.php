@@ -14,19 +14,17 @@
                 <ul class="breadcrumbs">
                     <li><a href="#">Home</a></li>
                     <li> <a href="#">Contact Us</a></li>
-                </ul><!-- Breadcrumbs /-->
-            </div><!-- Bottom Row /-->
+                </ul>
+            </div>
 
-        </div><!-- Row /-->
+        </div>
 
     </div>
-    <!-- Title Section Ends /-->
 
     <div class="container">
         <div class="row">
             <!-- Left Sidebar -->
             <div class="col-md-4">
-                <!-- Mobile Flex Row: Image Left, Text Right -->
                 <div class="row">
 
                     <!-- Image -->
@@ -96,7 +94,7 @@
                         {{-- <input type="email" value="" placeholder="Email Address"> --}}
                         <input type="text" value="" placeholder="Phone Number">
 
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-sm-6">
                                 <select name="gender" id="gender">
                                     <option value="" selected disabled>Gender</option>
@@ -110,7 +108,6 @@
                             </div>
                         </div>
 
-                        <!-- Appointment Date & Time -->
                         <div class="row">
                             <div class="col-sm-6">
                                 <input type="date" class="form-control" name="appointment_date" placeholder="Select Date"
@@ -120,9 +117,9 @@
                                 <input type="time" class="form-control" name="appointment_time" placeholder="Select Time"
                                     required>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief"
+                        <textarea id="Reason" class="form-control" rows="3" placeholder="Message"
                             required></textarea>
                         <a class="button secondary button-second">Send Message</a>
                     </form>
