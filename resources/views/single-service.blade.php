@@ -10,7 +10,7 @@
             <div class="grid-container grid-x grid-padding-x">
 
                 <div class="small-12 cell">
-                    <h1>Skin Care Management</h1>
+                    <h1>Service 1</h1>
                 </div><!-- Top Row /-->
 
                 <div class="small-12 cell">
@@ -141,13 +141,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-            Remove to Not Display /-->
+                Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-            Delete to Remove Preloader /-->
+                Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>
