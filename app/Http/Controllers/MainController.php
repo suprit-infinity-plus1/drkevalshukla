@@ -21,6 +21,10 @@ class MainController
     {
         return view('services');
     }
+    public function singleService()
+    {
+        return view('single-service');
+    }
     public function staff()
     {
         return view('staff');
@@ -28,6 +32,10 @@ class MainController
     public function blog()
     {
         return view('blog');
+    }
+    public function singlePostPage()
+    {
+        return view('single-post-page');
     }
     public function appointment()
     {
