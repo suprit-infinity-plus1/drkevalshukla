@@ -132,14 +132,14 @@
                                     Services
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item {{ request()->routeIs('service1') ? 'active' : '' }}"
-                                            href="#">Service 1</a></li>
-                                    <li><a class="dropdown-item {{ request()->routeIs('service2') ? 'active' : '' }}"
-                                            href="#">Service 2</a></li>
-                                    <li><a class="dropdown-item {{ request()->routeIs('service3') ? 'active' : '' }}"
-                                            href="#">Service 3</a></li>
-                                    <li><a class="dropdown-item {{ request()->routeIs('service4') ? 'active' : '' }}"
-                                            href="#">Service 4</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('single-service') }}">Service 1</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="{{ route('single-service') }}">Service 2</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="{{ route('single-service') }}">Service 3</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="{{ route('single-service') }}">Service 4</a>
+                                    </li>
                                 </ul>
                             </li>
 

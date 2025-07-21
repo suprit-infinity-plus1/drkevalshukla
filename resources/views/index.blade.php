@@ -183,11 +183,11 @@
                                 <img src="{{ asset('assets/images/help/services/service-img-6.png') }}"
                                     alt="Service Images" />
                                 <div class="service-detail hover-info">
-                                    <a href="#" class="button primary">Know More</a>
+                                    <a href="{{ route('single-service') }}" class="button primary">Know More</a>
                                 </div>
                             </div>
                             <div class="service-text hover-bottom">
-                                <h6><a href="#">Lorem, ipsum dolor.</a></h6>
+                                <h6><a href="{{ route('single-service') }}">Lorem, ipsum dolor.</a></h6>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have
                                     suffered alteration in some.</p>
                             </div>
@@ -199,11 +199,11 @@
                                 <img src="{{ asset('assets/images/help/services/service-img-6.png') }}"
                                     alt="Service Images" />
                                 <div class="service-detail hover-info">
-                                    <a href="#" class="button primary">Know More</a>
+                                    <a href="{{ route('single-service') }}" class="button primary">Know More</a>
                                 </div>
                             </div>
                             <div class="service-text hover-bottom">
-                                <h6><a href="#">Lorem, ipsum.</a></h6>
+                                <h6><a href="{{ route('single-service') }}">Lorem, ipsum.</a></h6>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have
                                     suffered alteration in some.</p>
                             </div>
@@ -215,11 +215,11 @@
                                 <img src="{{ asset('assets/images/help/services/service-img-6.png') }}"
                                     alt="Service Images" />
                                 <div class="service-detail hover-info">
-                                    <a href="#" class="button primary">Know More</a>
+                                    <a href="{{ route('single-service') }}" class="button primary">Know More</a>
                                 </div>
                             </div>
                             <div class="service-text hover-bottom">
-                                <h6><a href="#">Lorem, ipsum dolor.</a></h6>
+                                <h6><a href="{{ route('single-service') }}">Lorem, ipsum dolor.</a></h6>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have
                                     suffered alteration in some.</p>
                             </div>
@@ -231,11 +231,11 @@
                                 <img src="{{ asset('assets/images/help/services/service-img-6.png') }}"
                                     alt="Service Images" />
                                 <div class="service-detail hover-info">
-                                    <a href="#" class="button primary">Know More</a>
+                                    <a href="{{ route('single-service') }}" class="button primary">Know More</a>
                                 </div>
                             </div>
                             <div class="service-text hover-bottom">
-                                <h6><a href="#">Lorem, ipsum dolor.</a></h6>
+                                <h6><a href="{{ route('single-service') }}">Lorem, ipsum dolor.</a></h6>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have
                                     suffered alteration in some.</p>
                             </div>
@@ -247,11 +247,11 @@
                                 <img src="{{ asset('assets/images/help/services/service-img-6.png') }}"
                                     alt="Service Images" />
                                 <div class="service-detail hover-info">
-                                    <a href="#" class="button primary">Know More</a>
+                                    <a href="{{ route('single-service') }}" class="button primary">Know More</a>
                                 </div>
                             </div>
                             <div class="service-text hover-bottom">
-                                <h6><a href="#">Lorem, ipsum.</a></h6>
+                                <h6><a href="{{ route('single-service') }}">Lorem, ipsum.</a></h6>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have
                                     suffered alteration in some.</p>
                             </div>
@@ -263,18 +263,18 @@
                                 <img src="{{ asset('assets/images/help/services/service-img-6.png') }}"
                                     alt="Service Images" />
                                 <div class="service-detail hover-info">
-                                    <a href="#" class="button primary">Know More</a>
+                                    <a href="{{ route('single-service') }}" class="button primary">Know More</a>
                                 </div>
                             </div>
                             <div class="service-text hover-bottom">
-                                <h6><a href="#">Lorem, ipsum dolor.</a></h6>
+                                <h6><a href="{{ route('single-service') }}">Lorem, ipsum dolor.</a></h6>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have
                                     suffered alteration in some.</p>
                             </div>
                         </div><!-- Service Box /-->
                     </div>
                 </div>
-            </div><!-- Grid Container /-->
+            </div>
 
             {{-- <div class="grid-container grid-x grid-padding-x grid-padding-y">
 
@@ -708,17 +708,16 @@
                         <!-- Appointment Date & Time -->
                         <div class="row">
                             <div class="col-sm-6">
-                                <input type="date" class="form-control" name="appointment_date" placeholder="Select Date"
-                                    required>
+                                <input type="date" class="form-control" name="appointment_date"
+                                    placeholder="Select Date" required>
                             </div>
                             <div class="col-sm-6">
-                                <input type="time" class="form-control" name="appointment_time" placeholder="Select Time"
-                                    required>
+                                <input type="time" class="form-control" name="appointment_time"
+                                    placeholder="Select Time" required>
                             </div>
                         </div>
 
-                        <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief"
-                            required></textarea>
+                        <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief" required></textarea>
                         <a class="button secondary button-second">Send Message</a>
                     </form>
 
@@ -746,13 +745,13 @@
                         <img src="{{ asset('assets/images/help/blog/blog-img-1.jpg') }}" alt="Product Img" />
                     </div>
                     <div class="blog-text">
-                        <h6><a href="#">Lorem ipsum dolor sit amet.</a></h6>
+                        <h6><a href="{{ route('single-post-page') }}">Lorem ipsum dolor sit amet.</a></h6>
                         <div class="meta-tags">
                             <i class="far fa-user"> <span>By:</span><a href="#">Ateeq</a></i>
                             <i class="far fa-comment"> <a href="#">3 Comments</a></i>
                         </div>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered some <a href="#">Read More</a></p>
+                            suffered some <a href="{{ route('single-post-page') }}">Read More</a></p>
                     </div>
                 </div><!-- Blog /-->
             </div>
@@ -763,13 +762,13 @@
                         <img src="{{ asset('assets/images/help/blog/blog-img-2.jpg') }}" alt="Product Img" />
                     </div>
                     <div class="blog-text">
-                        <h6><a href="#">Lorem ipsum dolor sit amet.</a></h6>
+                        <h6><a href="{{ route('single-post-page') }}">Lorem ipsum dolor sit amet.</a></h6>
                         <div class="meta-tags">
                             <i class="far fa-user"> <span>By:</span><a href="#">Ateeq</a></i>
                             <i class="far fa-comment"> <a href="#">3 Comments</a></i>
                         </div>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered some <a href="#">Read More</a></p>
+                            suffered some <a href="{{ route('single-post-page') }}">Read More</a></p>
                     </div>
                 </div><!-- Blog /-->
             </div>
@@ -780,13 +779,13 @@
                         <img src="{{ asset('assets/images/help/blog/blog-img-3.jpg') }}" alt="Product Img" />
                     </div>
                     <div class="blog-text">
-                        <h6><a href="#">Lorem ipsum dolor sit amet.</a></h6>
+                        <h6><a href="{{ route('single-post-page') }}">Lorem ipsum dolor sit amet.</a></h6>
                         <div class="meta-tags">
                             <i class="far fa-user"> <span>By:</span><a href="#">Ateeq</a></i>
                             <i class="far fa-comment"> <a href="#">3 Comments</a></i>
                         </div>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered some <a href="#">Read More</a></p>
+                            suffered some <a href="{{ route('single-post-page') }}">Read More</a></p>
                     </div>
                 </div><!-- Blog /-->
             </div>
@@ -806,17 +805,17 @@
 @endsection
 @section('extrajs')
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
 
         });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.6.2/countUp.umd.js"></script>
     <script>
-        $(document).ready(function () { });
+        $(document).ready(function() {});
     </script>
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            document.querySelectorAll('.count').forEach(function (el) {
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.count').forEach(function(el) {
                 const target = parseInt(el.getAttribute('data-count'));
                 const counter = new countUp.CountUp(el, target, {
                     duration: 2,
