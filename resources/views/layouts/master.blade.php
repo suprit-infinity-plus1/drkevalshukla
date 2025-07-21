@@ -50,7 +50,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/foundation.min.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/theme-styles.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive-styles.css') }}" media="all" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}" media="all" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}"
+        media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fontawesome-all.min.css') }}" media="all" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -125,8 +126,9 @@
                             </li>
                             {{-- DESKTOP ONLY (hover dropdown) --}}
                             <li class="nav-item dropdown d-none d-lg-block">
-                                <a class="nav-link dropdown-toggle p-3 fw-semibold text-uppercase 
-       {{ request()->is('services/*') ? 'active' : '' }}" href="{{ route('services') }}">
+                                <a class="nav-link dropdown-toggle p-3 fw-semibold text-uppercase
+       {{ request()->is('services/*') ? 'active' : '' }}"
+                                    href="{{ route('services') }}">
                                     Services
                                 </a>
                                 <ul class="dropdown-menu">
@@ -145,7 +147,8 @@
                             <li class="nav-item dropdown d-block d-lg-none">
                                 <div class="d-flex flex-wrap justify-content-between align-items-center px-3 py-2">
                                     {{-- Left: Clickable text --}}
-                                    <a href="{{ route('services') }}" class="col-11 fw-semibold text-uppercase text-decoration-none 
+                                    <a href="{{ route('services') }}"
+                                        class="col-11 fw-semibold text-uppercase text-decoration-none
             {{ request()->is('services') ? 'active' : '' }}">
                                         Services
                                     </a>
@@ -154,7 +157,7 @@
                                     <button class="col-1 dropdown-toggle text-dark text-decoration-none"
                                         data-bs-toggle="dropdown" aria-expanded="false" type="button">
                                     </button>
-                                    
+
                                     <ul class="col-12 dropdown-menu">
                                         <li><a class="dropdown-item" href="#">Service 1</a></li>
                                         <li><a class="dropdown-item" href="#">Service 2</a></li>
@@ -246,7 +249,8 @@
                                 </p>
                                 <div class="contact-us">
                                     <ul>
-                                        <li><i class="fas fa-map-marker-alt"></i><a href="#"><span>Address:</span>
+                                        <li><i class="fas fa-map-marker-alt"></i><a
+                                                href="#"><span>Address:</span>
                                                 Wockhardt Hospitals, 1877, Mumbai Central, Mumbai -
                                                 400011</a></li>
                                         <li><i class="fas fa-mobile-alt"></i><a href="#"><span>Phone:</span>
@@ -292,14 +296,16 @@
                                 <h6>Recent News</h6>
                                 <div class="footer-news-post">
                                     <div class="footer-news">
-                                        <img src="{{ asset('assets/images/help/footer-icon-1.jpg') }}" alt="News" />
+                                        <img src="{{ asset('assets/images/help/footer-icon-1.jpg') }}"
+                                            alt="News" />
                                         <h2><a href="#">How can we help you get the amazing skin results from
                                                 us?</a>
                                         </h2>
                                         <p>01 August 2018</p>
                                     </div>
                                     <div class="footer-news">
-                                        <img src="{{ asset('assets/images/help/footer-icon-2.jpg') }}" alt="News" />
+                                        <img src="{{ asset('assets/images/help/footer-icon-2.jpg') }}"
+                                            alt="News" />
                                         <h2><a href="#">How can you keep your skin glowing and infection less in
                                                 sprint</a></h2>
                                         <p>01 August 2018</p>
@@ -402,8 +408,7 @@
                             </div>
                         </div>
 
-                        <textarea class="form-control shadow-none" rows="3" placeholder="Problem in Brief"
-                            required></textarea>
+                        <textarea class="form-control shadow-none" rows="3" placeholder="Problem in Brief" required></textarea>
 
                         <button type="submit" class="button secondary button-second mb-0">Send Message</button>
                     </form>
@@ -411,6 +416,19 @@
             </div>
         </div>
     </div>
+
+    <a href="https://wa.me/+919699915789" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="tel:+919699915789" class="call-btn">
+        <i class="fa-solid fa-phone text-light"></i>
+    </a>
+
+    <a href="#enquiry" class="enquiry-btn">
+        Enquire Now
+    </a>
+
 
 
     @yield('extrajs')

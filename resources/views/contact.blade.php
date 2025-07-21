@@ -36,30 +36,27 @@
                     <!-- Text -->
                     <div class=" col-12 col-sm-6 col-md-12 text-start mb-4 ">
                         <h5 class="fw-bold mb-2">Meet Our Dermatologist</h5>
-                        
+
                         <a href="https://maps.app.goo.gl/aMZT4g9UFW64BvNLA"
-                                class="d-flex align-items-center text-decoration-none mb-2">
-                                <i class="fa-solid fa-location-dot me-2"></i>
-                                <span>Wockhardt Hospital , Agripada , Mumbai Central</span>
-                            </a>
+                            class="d-flex align-items-center text-decoration-none mb-2">
+                            <i class="fa-solid fa-location-dot me-2"></i>
+                            <span>Wockhardt Hospital , Agripada , Mumbai Central</span>
+                        </a>
 
                         <div class="contact-now mb-3">
                             <h5 class="fw-bold">Contact Now</h5>
 
-                            <a href="tel:+919699915789"
-                                class="d-flex align-items-center text-decoration-none mb-2">
+                            <a href="tel:+919699915789" class="d-flex align-items-center text-decoration-none mb-2">
                                 <i class="fa-solid fa-phone me-2"></i>
                                 <span>+91 9699915789</span>
                             </a>
 
-                            <a href="tel:+918208017035"
-                                class="d-flex align-items-center text-decoration-none mb-2">
+                            <a href="tel:+918208017035" class="d-flex align-items-center text-decoration-none mb-2">
                                 <i class="fa-solid fa-phone me-2"></i>
                                 <span>+91 8208017035</span>
                             </a>
 
-                            <a href="mailto:keval242@gmail.com"
-                                class="d-flex align-items-center text-decoration-none">
+                            <a href="mailto:keval242@gmail.com" class="d-flex align-items-center text-decoration-none">
                                 <i class="fa-solid fa-envelope me-2"></i>
                                 <span>keval242@gmail.com</span>
                             </a>
@@ -95,32 +92,31 @@
                         <input type="text" value="" placeholder="Phone Number">
 
                         <!-- <div class="row">
-                            <div class="col-sm-6">
-                                <select name="gender" id="gender">
-                                    <option value="" selected disabled>Gender</option>
-                                    <option value="male">Male</option>
-                                    <option value="female">Female</option>
-                                    <option value="other">Other</option>
-                                </select>
+                                <div class="col-sm-6">
+                                    <select name="gender" id="gender">
+                                        <option value="" selected disabled>Gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="number" value="" placeholder="Age">
+                                </div>
                             </div>
-                            <div class="col-sm-6">
-                                <input type="number" value="" placeholder="Age">
-                            </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <input type="date" class="form-control" name="appointment_date" placeholder="Select Date"
-                                    required>
-                            </div>
-                            <div class="col-sm-6">
-                                <input type="time" class="form-control" name="appointment_time" placeholder="Select Time"
-                                    required>
-                            </div>
-                        </div> -->
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="date" class="form-control" name="appointment_date" placeholder="Select Date"
+                                        required>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="time" class="form-control" name="appointment_time" placeholder="Select Time"
+                                        required>
+                                </div>
+                            </div> -->
 
-                        <textarea id="Reason" class="form-control" rows="3" placeholder="Message"
-                            required></textarea>
+                        <textarea id="Reason" class="form-control" rows="3" placeholder="Message" required></textarea>
                         <a class="button secondary button-second">Send Message</a>
                     </form>
                 </div>
@@ -129,11 +125,7 @@
     </div>
 
 
-    <hr>
-    <hr>
-    <hr>
-
-    {{--<div class="content-section module single-products-page products-page">
+    {{-- <div class="content-section module single-products-page products-page">
         <div class="grid-container grid-x grid-padding-x">
 
             <div class="medium-3 small-12 cell contact-sidebar">

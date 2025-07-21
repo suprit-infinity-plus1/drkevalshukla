@@ -2706,8 +2706,10 @@ body.box .banner-container .slide-text {
 /* =====================Header hover and focus effect================ */
 
 .nav-link {
-    transition: all 0.3s ease; /* Smooth transition for hover/focus effects */
-    position: relative;        /* Required for pseudo-element */
+    transition: all 0.3s ease;
+    /* Smooth transition for hover/focus effects */
+    position: relative;
+    /* Required for pseudo-element */
 }
 
 /* Hover & Focus Styles */
@@ -2725,7 +2727,8 @@ body.box .banner-container .slide-text {
     height: 3px;
     width: 100%;
     background-color: #e9490b;
-    transform: scaleX(0);        /* Hidden by default */
+    transform: scaleX(0);
+    /* Hidden by default */
     transition: transform 0.3s ease;
     transform-origin: left;
 }
@@ -2733,14 +2736,98 @@ body.box .banner-container .slide-text {
 .nav-link:hover::before,
 .nav-link:focus::before,
 .nav-link.active::before {
-    transform: scaleX(1);        /* Reveal the top border */
+    transform: scaleX(1);
+    /* Reveal the top border */
 }
 
 
 /* ================Services========================= */
 @media (min-width: 992px) {
-  .nav-item.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-  }
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}
+
+
+
+/* ================== floating buttons ================= */
+.whatsapp-btn,
+.call-btn,
+.enquiry-btn {
+    margin-right: -42px;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #25d366;
+    border-radius: 50%;
+    font-size: 36px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Call Button */
+.call-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    height: 50px;
+    width: 50px;
+    background: #007bff;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+    z-index: 1000;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.call-btn i {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    transform: translateX(-1.5px);
+    /* ⬅️ Nudging slightly to left */
+}
+
+
+/* Enquiry Form Button */
+.enquiry-btn {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #ff4500;
+    color: #fff;
+    padding: 12px 16px;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+    transform: rotate(-90deg);
+    text-orientation: mixed;
+    z-index: 9999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.whatsapp-btn:hover,
+.call-btn:hover,
+.enquiry-btn:hover {
+    opacity: 0.9;
+    text-decoration: none;
 }
