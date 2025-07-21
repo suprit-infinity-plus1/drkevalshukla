@@ -2755,7 +2755,6 @@ body.box .banner-container .slide-text {
 .whatsapp-btn,
 .call-btn,
 .enquiry-btn {
-    margin-right: -42px;
     position: fixed;
     z-index: 9999;
     display: flex;
@@ -2809,6 +2808,7 @@ body.box .banner-container .slide-text {
 
 /* Enquiry Form Button */
 .enquiry-btn {
+    margin-right: -42px;
     position: fixed;
     top: 50%;
     right: 0;
