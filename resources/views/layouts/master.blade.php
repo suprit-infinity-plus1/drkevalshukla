@@ -109,7 +109,7 @@
         <div class="navigation">
             <nav class="navbar navbar-expand-lg navbar-white bg-white p-0" aria-label="Ninth navbar example">
                 <div class="container-xl">
-                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="navbar-toggler border-0 shadow-none collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -158,7 +158,7 @@
                                         data-bs-toggle="dropdown" aria-expanded="false" type="button">
                                     </button>
 
-                                    <ul class="col-12 dropdown-menu">
+                                    <ul class="col-12 dropdown-menu border-0">
                                         <li><a class="dropdown-item" href="#">Service 1</a></li>
                                         <li><a class="dropdown-item" href="#">Service 2</a></li>
                                         <li><a class="dropdown-item" href="#">Service 3</a></li>
@@ -331,9 +331,6 @@
                     <div class="medium-6 large-6 small-12 cell">
                         <div class="footer-bottom-nav">
                             <ul class="menu">
-                                <li><a href="{{ route('home') }}">Home</a></li>
-                                <li><a href="{{ route('about') }}">About Us</a></li>
-                                <li><a href="#">Blog</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
                                 <li><a href="#">Terms & Conditions</a></li>
                             </ul>
