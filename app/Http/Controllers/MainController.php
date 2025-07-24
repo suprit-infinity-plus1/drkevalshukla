@@ -47,6 +47,13 @@ class MainController
     }
 
 
+    public function minimallyInvasiveSpineSurgeries()
+    {
+        return view('minimally-invasive-spine-surgeries');
+    }
+
+
+
 
     public function dashboard()
     {

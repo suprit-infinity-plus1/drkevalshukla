@@ -18,6 +18,9 @@ Route::get('/single-post-page', [MainController::class, 'singlePostPage'])->name
 Route::get('/appointment', [MainController::class, 'appointment'])->name('appointment');
 Route::get('/contact', [MainController::class, 'contact'])->name('contact');
 
+Route::get('/minimally-invasive-spine-surgeries', [MainController::class, 'minimallyInvasiveSpineSurgeries'])->name('minimally-invasive-spine-surgeries');
+
+
 
 Route::prefix('admin')->group(function () {
     Route::middleware('auth')->group(function () {
