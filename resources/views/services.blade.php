@@ -27,7 +27,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                     <div class="service-box hover-wrap">
                         <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/services/service-img-6.png') }}" alt="Service Images" />
+                            <img src="{{ asset('assets/images/service-1.png') }}" alt="Service Images" />
                             <div class="service-detail hover-info">
                                 <a href="{{ route('single-service') }}" class="button primary">Know More</a>
                             </div>
@@ -42,7 +42,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                     <div class="service-box hover-wrap">
                         <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/services/service-img-6.png') }}" alt="Service Images" />
+                            <img src="{{ asset('assets/images/service-2.png') }}" alt="Service Images" />
                             <div class="service-detail hover-info">
                                 <a href="{{ route('single-service') }}" class="button primary">Know More</a>
                             </div>
@@ -57,7 +57,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                     <div class="service-box hover-wrap">
                         <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/services/service-img-6.png') }}" alt="Service Images" />
+                            <img src="{{ asset('assets/images/service-3.png') }}" alt="Service Images" />
                             <div class="service-detail hover-info">
                                 <a href="{{ route('single-service') }}" class="button primary">Know More</a>
                             </div>
@@ -72,7 +72,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                     <div class="service-box hover-wrap">
                         <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/services/service-img-6.png') }}" alt="Service Images" />
+                            <img src="{{ asset('assets/images/service-4.png') }}" alt="Service Images" />
                             <div class="service-detail hover-info">
                                 <a href="{{ route('single-service') }}" class="button primary">Know More</a>
                             </div>

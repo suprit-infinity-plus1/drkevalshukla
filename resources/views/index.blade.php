@@ -180,7 +180,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="service-box hover-wrap">
                             <div class="hover-img">
-                                <img src="{{ asset('assets/images/help/services/service-img-6.png') }}"
+                                <img src="{{ asset('assets/images/service-1.png') }}"
                                     alt="Service Images" />
                                 <div class="service-detail hover-info">
                                     <a href="{{ route('single-service') }}" class="button primary">Know More</a>
@@ -196,7 +196,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="service-box hover-wrap">
                             <div class="hover-img">
-                                <img src="{{ asset('assets/images/help/services/service-img-6.png') }}"
+                                <img src="{{ asset('assets/images/service-2.png') }}"
                                     alt="Service Images" />
                                 <div class="service-detail hover-info">
                                     <a href="{{ route('single-service') }}" class="button primary">Know More</a>
@@ -212,7 +212,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="service-box hover-wrap">
                             <div class="hover-img">
-                                <img src="{{ asset('assets/images/help/services/service-img-6.png') }}"
+                                <img src="{{ asset('assets/images/service-3.png') }}"
                                     alt="Service Images" />
                                 <div class="service-detail hover-info">
                                     <a href="{{ route('single-service') }}" class="button primary">Know More</a>
@@ -228,7 +228,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="service-box hover-wrap">
                             <div class="hover-img">
-                                <img src="{{ asset('assets/images/help/services/service-img-6.png') }}"
+                                <img src="{{ asset('assets/images/service-4.png') }}"
                                     alt="Service Images" />
                                 <div class="service-detail hover-info">
                                     <a href="{{ route('single-service') }}" class="button primary">Know More</a>
@@ -708,16 +708,17 @@
                         <!-- Appointment Date & Time -->
                         <div class="row">
                             <div class="col-sm-6">
-                                <input type="date" class="form-control" name="appointment_date"
-                                    placeholder="Select Date" required>
+                                <input type="date" class="form-control" name="appointment_date" placeholder="Select Date"
+                                    required>
                             </div>
                             <div class="col-sm-6">
-                                <input type="time" class="form-control" name="appointment_time"
-                                    placeholder="Select Time" required>
+                                <input type="time" class="form-control" name="appointment_time" placeholder="Select Time"
+                                    required>
                             </div>
                         </div>
 
-                        <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief" required></textarea>
+                        <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief"
+                            required></textarea>
                         <a class="button secondary button-second">Send Message</a>
                     </form>
 
@@ -730,68 +731,88 @@
     </div>
     <!-- Form Section /-->
 
-    <div class="blog-section module">
+    <div class="blog-section pb-5">
 
-        <div class="section-title container">
-            <h2>Our Blogs</h2>
-            <p>Our latest blog updates for the week.</p>
-        </div><!-- Section Title /-->
-
-        <div class="grid-container grid-x grid-padding-x">
-
-            <div class="large-4 medium-6 small-12 cell">
-                <div class="blog">
-                    <div class="blog-img">
-                        <img src="{{ asset('assets/images/help/blog/blog-img-1.jpg') }}" alt="Product Img" />
-                    </div>
-                    <div class="blog-text">
-                        <h6><a href="{{ route('single-post-page') }}">Lorem ipsum dolor sit amet.</a></h6>
-                        <div class="meta-tags">
-                            <i class="far fa-user"> <span>By:</span><a href="#">Ateeq</a></i>
-                            <i class="far fa-comment"> <a href="#">3 Comments</a></i>
-                        </div>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered some <a href="{{ route('single-post-page') }}">Read More</a></p>
-                    </div>
-                </div><!-- Blog /-->
+        <div class="container">
+            <div class="section-title    mb-5">
+                <h2>Our Blogs</h2>
+                <p>Our latest blog updates for the week.</p>
             </div>
 
-            <div class="large-4 medium-6 small-12 cell">
-                <div class="blog">
-                    <div class="blog-img">
-                        <img src="{{ asset('assets/images/help/blog/blog-img-2.jpg') }}" alt="Product Img" />
-                    </div>
-                    <div class="blog-text">
-                        <h6><a href="{{ route('single-post-page') }}">Lorem ipsum dolor sit amet.</a></h6>
-                        <div class="meta-tags">
-                            <i class="far fa-user"> <span>By:</span><a href="#">Ateeq</a></i>
-                            <i class="far fa-comment"> <a href="#">3 Comments</a></i>
+            <div class="row g-4">
+                <!-- Blog Card 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="{{ asset('assets/images/help/blog/blog-img-1.jpg') }}" class="card-img-top"
+                            alt="Product Img">
+                        <div class="card-body">
+                            <h6 class="card-title">
+                                <a href="{{ route('single-post-page') }}" class="text-decoration-none text-dark">Lorem
+                                    ipsum dolor sit amet.</a>
+                            </h6>
+                            <!-- <div class="mb-2 text-muted small">
+                                            <i class="far fa-user me-1"></i><span>By:</span> <a href="#"
+                                                class="text-muted">Ateeq</a> |
+                                            <i class="far fa-comment ms-2 me-1"></i><a href="#" class="text-muted">3 Comments</a>
+                                        </div> -->
+                            <p class="card-text">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered some
+                                <a href="{{ route('single-post-page') }}">Read More</a>
+                            </p>
                         </div>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered some <a href="{{ route('single-post-page') }}">Read More</a></p>
                     </div>
-                </div><!-- Blog /-->
-            </div>
+                </div>
 
-            <div class="large-4 medium-6 small-12 cell">
-                <div class="blog">
-                    <div class="blog-img">
-                        <img src="{{ asset('assets/images/help/blog/blog-img-3.jpg') }}" alt="Product Img" />
-                    </div>
-                    <div class="blog-text">
-                        <h6><a href="{{ route('single-post-page') }}">Lorem ipsum dolor sit amet.</a></h6>
-                        <div class="meta-tags">
-                            <i class="far fa-user"> <span>By:</span><a href="#">Ateeq</a></i>
-                            <i class="far fa-comment"> <a href="#">3 Comments</a></i>
+                <!-- Blog Card 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="{{ asset('assets/images/help/blog/blog-img-2.jpg') }}" class="card-img-top"
+                            alt="Product Img">
+                        <div class="card-body">
+                            <h6 class="card-title">
+                                <a href="{{ route('single-post-page') }}" class="text-decoration-none text-dark">Lorem
+                                    ipsum dolor sit amet.</a>
+                            </h6>
+                            <!-- <div class="mb-2 text-muted small">
+                                            <i class="far fa-user me-1"></i><span>By:</span> <a href="#"
+                                                class="text-muted">Ateeq</a> |
+                                            <i class="far fa-comment ms-2 me-1"></i><a href="#" class="text-muted">3 Comments</a>
+                                        </div> -->
+                            <p class="card-text">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered some
+                                <a href="{{ route('single-post-page') }}">Read More</a>
+                            </p>
                         </div>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered some <a href="{{ route('single-post-page') }}">Read More</a></p>
                     </div>
-                </div><!-- Blog /-->
+                </div>
+
+                <!-- Blog Card 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="{{ asset('assets/images/help/blog/blog-img-3.jpg') }}" class="card-img-top"
+                            alt="Product Img">
+                        <div class="card-body">
+                            <h6 class="card-title">
+                                <a href="{{ route('single-post-page') }}" class="text-decoration-none text-dark">Lorem
+                                    ipsum dolor sit amet.</a>
+                            </h6>
+                            <!-- <div class="mb-2 text-muted small">
+                                            <i class="far fa-user me-1"></i><span>By:</span> <a href="#"
+                                                class="text-muted">Ateeq</a> |
+                                            <i class="far fa-comment ms-2 me-1"></i><a href="#" class="text-muted">3 Comments</a>
+                                        </div> -->
+                            <p class="card-text">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered some
+                                <a href="{{ route('single-post-page') }}">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-        </div><!-- Grid Container /-->
-
+        </div>
     </div>
     <!-- Blog Section /-->
 
@@ -805,17 +826,17 @@
 @endsection
 @section('extrajs')
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
 
         });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.6.2/countUp.umd.js"></script>
     <script>
-        $(document).ready(function() {});
+        $(document).ready(function () { });
     </script>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            document.querySelectorAll('.count').forEach(function(el) {
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll('.count').forEach(function (el) {
                 const target = parseInt(el.getAttribute('data-count'));
                 const counter = new countUp.CountUp(el, target, {
                     duration: 2,

@@ -32,7 +32,8 @@
                 <div class="medium-9 small-12 cell">
                     <div class="service-post">
                         <div class="thumbnail">
-                            <img src="assets/images/help/services/large-service.jpg" alt="Service Images">
+                            <img src="assets/images/help/services/large-service.jpg
+                            " alt="Service Images">
                         </div><!-- News Img /-->
                         <div class="service-text">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at velit in neque efficitur
