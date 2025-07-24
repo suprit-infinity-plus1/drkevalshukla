@@ -2894,3 +2894,30 @@ body.box .banner-container .slide-text {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.ellipsis-multiline-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* Number of lines before cutting off */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ellipsis-multiline-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* Number of lines before cutting off */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ellipsis-multiline-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /* Number of lines before cutting off */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

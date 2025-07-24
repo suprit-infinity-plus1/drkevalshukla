@@ -132,13 +132,25 @@
                                     Services
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="{{ route('single-service') }}">Service 1</a>
+                                    <li><a class="dropdown-item"
+                                            href="{{ route('minimally-invasive-spine-surgeries') }}">Minimally
+                                            Invasive Spine Surgeries
+                                        </a>
                                     </li>
-                                    <li><a class="dropdown-item" href="{{ route('single-service') }}">Service 2</a>
+                                    <li><a class="dropdown-item" href="{{ route('neuro-oncology') }}">Neuro Oncology
+                                        </a>
                                     </li>
-                                    <li><a class="dropdown-item" href="{{ route('single-service') }}">Service 3</a>
+                                    <li><a class="dropdown-item" href="{{ route('neuro-trauma') }}">Neuro Trauma</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="{{ route('single-service') }}">Service 4</a>
+                                    <li><a class="dropdown-item" href="{{ route('vascular-neurosurgery') }}">Vascular
+                                            Neurosurgery</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="{{ route('epilepsy-surgery') }}">Epilepsy
+                                            Surgery</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull Base
+                                            Surgery</a>
                                     </li>
                                 </ul>
                             </li>
