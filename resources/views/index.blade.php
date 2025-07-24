@@ -44,7 +44,7 @@
     </div>
     <!-- Banner Container /-->
 
-    <div class="information-boxes grey-bg module">
+    {{-- <div class="information-boxes grey-bg module">
         <div class="container">
 
             <div class="row d-flex align-items-stretch">
@@ -86,8 +86,8 @@
                 </div>
             </div>
 
-        </div><!-- Grid Container /-->
-    </div>
+        </div>
+    </div> --}}
     <!-- information-boxes /-->
 
     <div class="about-section module">

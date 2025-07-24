@@ -45,5 +45,12 @@ class MainController
     {
         return view('contact');
     }
+
+
+
+    public function dashboard()
+    {
+        return view('backend.admin.dashboard');
+    }
 }
 
