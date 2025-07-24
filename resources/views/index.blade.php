@@ -180,80 +180,64 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="service-box hover-wrap">
                             <div class="hover-img">
-                                <img src="{{ asset('assets/images/service-1.png') }}"
-                                    alt="Service Images" />
+                                <img src="{{ asset('assets/images/service-1.png') }}" alt="Service Images" />
                                 <div class="service-detail hover-info">
                                     <a href="{{ route('single-service') }}" class="button primary">Know More</a>
                                 </div>
                             </div>
                             <div class="service-text hover-bottom">
-                                <h6><a href="{{ route('single-service') }}">Lorem, ipsum dolor.</a></h6>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some.</p>
+                                <h6><a href="{{ route('single-service') }}">MINIMALLY INVASIVE SPINE SURGERIES</a></h6>
+                                <p>Minimally Invasive Spine Surgery (MISS) is a modern, patient-friendly approach to
+                                    treating spinal conditions with smaller incisions, less tissue damage, and faster
+                                    recovery. </p>
                             </div>
                         </div><!-- Service Box /-->
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="service-box hover-wrap">
                             <div class="hover-img">
-                                <img src="{{ asset('assets/images/service-2.png') }}"
-                                    alt="Service Images" />
+                                <img src="{{ asset('assets/images/service-2.png') }}" alt="Service Images" />
                                 <div class="service-detail hover-info">
                                     <a href="{{ route('single-service') }}" class="button primary">Know More</a>
                                 </div>
                             </div>
                             <div class="service-text hover-bottom">
-                                <h6><a href="{{ route('single-service') }}">Lorem, ipsum.</a></h6>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some.</p>
+                                <h6><a href="{{ route('single-service') }}">NEURO ONCOLOGY</a></h6>
+                                <p>Neuro-oncology focuses on the diagnosis and surgical treatment of brain and spinal cord
+                                    tumors. These tumors can be benign (non-cancerous) or malignant (cancerous) and may
+                                    originate in the central nervous system or spread from other parts of the body.</p>
                             </div>
                         </div><!-- Service Box /-->
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="service-box hover-wrap">
                             <div class="hover-img">
-                                <img src="{{ asset('assets/images/service-3.png') }}"
-                                    alt="Service Images" />
+                                <img src="{{ asset('assets/images/service-3.png') }}" alt="Service Images" />
                                 <div class="service-detail hover-info">
                                     <a href="{{ route('single-service') }}" class="button primary">Know More</a>
                                 </div>
                             </div>
                             <div class="service-text hover-bottom">
-                                <h6><a href="{{ route('single-service') }}">Lorem, ipsum dolor.</a></h6>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some.</p>
+                                <h6><a href="{{ route('single-service') }}">NEURO TRAUMA</a></h6>
+                                <p>Neuro trauma involves serious injuries to the brain and spinal cord, often caused by road
+                                    accidents, falls, sports injuries, or violence. These injuries can lead to
+                                    life-threatening complications and long-term disability if not treated promptly.</p>
                             </div>
                         </div><!-- Service Box /-->
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="service-box hover-wrap">
                             <div class="hover-img">
-                                <img src="{{ asset('assets/images/service-4.png') }}"
-                                    alt="Service Images" />
+                                <img src="{{ asset('assets/images/service-4.png') }}" alt="Service Images" />
                                 <div class="service-detail hover-info">
                                     <a href="{{ route('single-service') }}" class="button primary">Know More</a>
                                 </div>
                             </div>
                             <div class="service-text hover-bottom">
-                                <h6><a href="{{ route('single-service') }}">Lorem, ipsum dolor.</a></h6>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some.</p>
-                            </div>
-                        </div><!-- Service Box /-->
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 p-3">
-                        <div class="service-box hover-wrap">
-                            <div class="hover-img">
-                                <img src="{{ asset('assets/images/help/services/service-img-6.png') }}"
-                                    alt="Service Images" />
-                                <div class="service-detail hover-info">
-                                    <a href="{{ route('single-service') }}" class="button primary">Know More</a>
-                                </div>
-                            </div>
-                            <div class="service-text hover-bottom">
-                                <h6><a href="{{ route('single-service') }}">Lorem, ipsum.</a></h6>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some.</p>
+                                <h6><a href="{{ route('single-service') }}">VASCULAR NEUROSURGERY</a></h6>
+                                <p>Vascular neurosurgery deals with abnormalities in the blood vessels of the brain and
+                                    spinal cord, including aneurysms, arteriovenous malformations (AVMs), and stroke related
+                                    hemorrhages.</p>
                             </div>
                         </div><!-- Service Box /-->
                     </div>
@@ -267,9 +251,28 @@
                                 </div>
                             </div>
                             <div class="service-text hover-bottom">
-                                <h6><a href="{{ route('single-service') }}">Lorem, ipsum dolor.</a></h6>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some.</p>
+                                <h6><a href="{{ route('single-service') }}">EPILLEPSY SURGERY</a></h6>
+                                <p>Epilepsy surgery is an effective option for patients with seizures that cannot be
+                                    controlled with medication (drug-resistant epilepsy). By identifying and removing the
+                                    seizure focus in the brain, surgery can lead to a dramatic improvement or complete
+                                    freedom from seizures.</p>
+                            </div>
+                        </div><!-- Service Box /-->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                        <div class="service-box hover-wrap">
+                            <div class="hover-img">
+                                <img src="{{ asset('assets/images/help/services/service-img-6.png') }}"
+                                    alt="Service Images" />
+                                <div class="service-detail hover-info">
+                                    <a href="{{ route('single-service') }}" class="button primary">Know More</a>
+                                </div>
+                            </div>
+                            <div class="service-text hover-bottom">
+                                <h6><a href="{{ route('single-service') }}">ENDOSCOPIC SKULL BASE SURGERY</a></h6>
+                                <p>Endoscopic Skull Base Surgery is a cutting-edge, minimally invasive technique that uses
+                                    an endoscope (thin tube with a camera) to access deep brain areas through the nasal
+                                    passages or small incisions.</p>
                             </div>
                         </div><!-- Service Box /-->
                     </div>
@@ -333,12 +336,12 @@
     </div>
     <!-- Services /-->
 
-    <div class="our-staff module">
+    {{-- <div class="our-staff module">
 
         <div class="section-title container">
             <h2>Best Neurosurgeons</h2>
             <p>Meet Our Best Neurosurgeons</p>
-        </div><!-- Section Title /-->
+        </div>
 
         <div class="container">
             <div class="row">
@@ -354,7 +357,7 @@
                             <h6><a href="#">Dr. Robert Doe</a></h6>
                             <p>Sr. Neurosurgeon</p>
                         </div>
-                    </div><!-- Service Box /-->
+                    </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-12 p-3">
@@ -369,7 +372,7 @@
                             <h6><a href="#">Dr. Tina Meena</a></h6>
                             <p>Jr. Neurosurgeon</p>
                         </div>
-                    </div><!-- Service Box /-->
+                    </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-12 p-3">
@@ -384,7 +387,7 @@
                             <h6><a href="#">Dr. Seena Tina</a></h6>
                             <p>Sr. Neurosurgeon</p>
                         </div>
-                    </div><!-- Service Box /-->
+                    </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-12 p-3">
@@ -399,13 +402,13 @@
                             <h6><a href="#">Dr. Mario Doe</a></h6>
                             <p>Sr. Neurosurgeon</p>
                         </div>
-                    </div><!-- Service Box /-->
+                    </div>
                 </div>
             </div>
 
-        </div><!-- Grid Container /-->
+        </div>
 
-    </div>
+    </div> --}}
     <!-- Our Staff /-->
 
     <div class="achievement-counter dark-bg grey-bg module">
@@ -473,7 +476,7 @@
 
         <div class="section-title container">
             <h2>Awesome Facts</h2>
-            <p>why we are best in industry</p>
+            <p>why we are best</p>
         </div><!-- Section Title /-->
 
         <div class="grid-container grid-x grid-padding-x">
@@ -482,43 +485,40 @@
                 <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true"
                     data-deep-link-smudge="500" id="deeplinked-accordion">
                     <li class="accordion-item border-0" data-accordion-item>
-                        <a href="#" class="accordion-title">What makes us the best Neurosurgeon in
-                            town?</a>
+                        <a href="#" class="accordion-title">Advanced Surgical Expertise</a>
                         <div class="accordion-content" data-tab-content id="deeplink1">
-                            Phasellus quis ex nec ex molestie tincidunt. Vimus cursus metus ac lacus comdsmo
-                            venenatis. The Aenean pulvinar ornare justo, eu efficitur leo dinga mushi.
+                            Dr. Keval Shukla brings over 8 years of experience in handling complex brain and spine
+                            conditions. His international fellowship in Full Endoscopic Spine Surgery from South Korea
+                            highlights his proficiency in cutting-edge, minimally invasive techniques.
                         </div>
                     </li>
                     <li class="accordion-item border-0" data-accordion-item>
-                        <a href="#" class="accordion-title">What makes us the best Neurosurgeon in
-                            town?</a>
+                        <a href="#" class="accordion-title">Minimally Invasive, Maximum Recovery</a>
                         <div class="accordion-content" data-tab-content id="deeplink1">
-                            Phasellus quis ex nec ex molestie tincidunt. Vimus cursus metus ac lacus comdsmo
-                            venenatis. The Aenean pulvinar ornare justo, eu efficitur leo dinga mushi.
+                            We specialize in minimally invasive and endoscopic procedures, ensuring reduced pain, minimal
+                            scarring, shorter hospital stays, and quicker recovery without compromising surgical precision.
                         </div>
                     </li>
                     <li class="accordion-item border-0" data-accordion-item>
-                        <a href="#" class="accordion-title">What makes us the best Neurosurgeon in
-                            town?</a>
+                        <a href="#" class="accordion-title">Comprehensive Neurosurgical Care</a>
                         <div class="accordion-content" data-tab-content id="deeplink2">
-                            Phasellus quis ex nec ex molestie tincidunt. Vimus cursus metus ac lacus comdsmo
-                            venenatis. The Aenean pulvinar ornare justo, eu efficitur leo dinga mushi.
+                            From spine disorders and brain tumors to skull base surgeries and neurotrauma, we offer complete
+                            neurosurgical care under one roof, tailored to each patient’s unique condition.
                         </div>
                     </li>
                     <li class="accordion-item border-0" data-accordion-item>
-                        <a href="#" class="accordion-title">What makes us the best Neurosurgeon in
-                            town?</a>
+                        <a href="#" class="accordion-title">Personalized Patient Approach</a>
                         <div class="accordion-content" data-tab-content id="deeplink3">
-                            Phasellus quis ex nec ex molestie tincidunt. Vimus cursus metus ac lacus comdsmo
-                            venenatis. The Aenean pulvinar ornare justo, eu efficitur leo dinga mushi.
+                            Every patient is unique and so is their treatment. We believe in personalized care plans, clear
+                            communication, and supporting patients through every step of their journey to recovery.
                         </div>
                     </li>
                     <li class="accordion-item border-0 is-active" data-accordion-item>
-                        <a href="#" class="accordion-title">What makes us the best Neurosurgeon in
-                            town?</a>
+                        <a href="#" class="accordion-title">International Standards, Local Accessibility</a>
                         <div class="accordion-content" data-tab-content id="deeplink4">
-                            Phasellus quis ex nec ex molestie tincidunt. Vimus cursus metus ac lacus comdsmo
-                            venenatis. The Aenean pulvinar ornare justo, eu efficitur leo dinga mushi.
+                            With training from global centers of excellence and years of experience in Mumbai’s top
+                            hospitals, Dr. Shukla combines international standards of care with local accessibility, making
+                            world-class treatment available close to home.
                         </div>
                     </li>
                 </ul><!-- Cccordion /-->
@@ -708,17 +708,16 @@
                         <!-- Appointment Date & Time -->
                         <div class="row">
                             <div class="col-sm-6">
-                                <input type="date" class="form-control" name="appointment_date" placeholder="Select Date"
-                                    required>
+                                <input type="date" class="form-control" name="appointment_date"
+                                    placeholder="Select Date" required>
                             </div>
                             <div class="col-sm-6">
-                                <input type="time" class="form-control" name="appointment_time" placeholder="Select Time"
-                                    required>
+                                <input type="time" class="form-control" name="appointment_time"
+                                    placeholder="Select Time" required>
                             </div>
                         </div>
 
-                        <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief"
-                            required></textarea>
+                        <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief" required></textarea>
                         <a class="button secondary button-second">Send Message</a>
                     </form>
 
@@ -751,10 +750,10 @@
                                     ipsum dolor sit amet.</a>
                             </h6>
                             <!-- <div class="mb-2 text-muted small">
-                                            <i class="far fa-user me-1"></i><span>By:</span> <a href="#"
-                                                class="text-muted">Ateeq</a> |
-                                            <i class="far fa-comment ms-2 me-1"></i><a href="#" class="text-muted">3 Comments</a>
-                                        </div> -->
+                                                                                                                                                            <i class="far fa-user me-1"></i><span>By:</span> <a href="#"
+                                                                                                                                                                class="text-muted">Ateeq</a> |
+                                                                                                                                                            <i class="far fa-comment ms-2 me-1"></i><a href="#" class="text-muted">3 Comments</a>
+                                                                                                                                                        </div> -->
                             <p class="card-text">
                                 There are many variations of passages of Lorem Ipsum available, but the majority have
                                 suffered some
@@ -775,10 +774,10 @@
                                     ipsum dolor sit amet.</a>
                             </h6>
                             <!-- <div class="mb-2 text-muted small">
-                                            <i class="far fa-user me-1"></i><span>By:</span> <a href="#"
-                                                class="text-muted">Ateeq</a> |
-                                            <i class="far fa-comment ms-2 me-1"></i><a href="#" class="text-muted">3 Comments</a>
-                                        </div> -->
+                                                                                                                                                            <i class="far fa-user me-1"></i><span>By:</span> <a href="#"
+                                                                                                                                                                class="text-muted">Ateeq</a> |
+                                                                                                                                                            <i class="far fa-comment ms-2 me-1"></i><a href="#" class="text-muted">3 Comments</a>
+                                                                                                                                                        </div> -->
                             <p class="card-text">
                                 There are many variations of passages of Lorem Ipsum available, but the majority have
                                 suffered some
@@ -799,10 +798,10 @@
                                     ipsum dolor sit amet.</a>
                             </h6>
                             <!-- <div class="mb-2 text-muted small">
-                                            <i class="far fa-user me-1"></i><span>By:</span> <a href="#"
-                                                class="text-muted">Ateeq</a> |
-                                            <i class="far fa-comment ms-2 me-1"></i><a href="#" class="text-muted">3 Comments</a>
-                                        </div> -->
+                                                                                                                                                            <i class="far fa-user me-1"></i><span>By:</span> <a href="#"
+                                                                                                                                                                class="text-muted">Ateeq</a> |
+                                                                                                                                                            <i class="far fa-comment ms-2 me-1"></i><a href="#" class="text-muted">3 Comments</a>
+                                                                                                                                                        </div> -->
                             <p class="card-text">
                                 There are many variations of passages of Lorem Ipsum available, but the majority have
                                 suffered some
@@ -826,17 +825,17 @@
 @endsection
 @section('extrajs')
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
 
         });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.6.2/countUp.umd.js"></script>
     <script>
-        $(document).ready(function () { });
+        $(document).ready(function() {});
     </script>
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            document.querySelectorAll('.count').forEach(function (el) {
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.count').forEach(function(el) {
                 const target = parseInt(el.getAttribute('data-count'));
                 const counter = new countUp.CountUp(el, target, {
                     duration: 2,

@@ -109,9 +109,9 @@
         <div class="navigation">
             <nav class="navbar navbar-expand-lg navbar-white bg-white p-0" aria-label="Ninth navbar example">
                 <div class="container-xl">
-                    <button class="navbar-toggler border-0 shadow-none collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                    <button class="navbar-toggler border-0 shadow-none collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL"
+                        aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="navbar-collapse collapse" id="navbarsExample07XL" style="">
@@ -220,8 +220,7 @@
                         <div class="call-to-action-text">
                             <img src="{{ asset('assets/images/help/icons/ribbon.png') }}" alt="Ribbon" />
                             <h2>Its For your Great Life!</h2>
-                            <p>Crown quis lectus et mauris commodo blandit. Morbi rutrum libero eget nibh facilisis
-                                sollicitudin.</p>
+                            <p>Advanced brain and spine care tailored to your lifestyle and goals.</p>
                             <a class="button button-second secondary" data-bs-toggle="modal"
                                 data-bs-target="#appointmentModal">Fix an Appointment</a>
                         </div><!-- Form/-->
