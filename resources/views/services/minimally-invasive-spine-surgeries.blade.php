@@ -257,14 +257,19 @@
 
                         <div class="widget-content">
                             <ul class="menu vertical">
-                                <li><a href="#">Cosmetic Dermatology</a></li>
-                                <li><a href="#">Clinical Dermatology</a></li>
-                                <li><a href="#">Hair Transplant</a></li>
-                                <li><a href="#">Emergency Treatments</a></li>
+                                {{-- <li><a href="{{ route('minimally-invasive-spine-surgeries') }}">Minimally Invasive Spine
+                                        Surgeries</a></li> --}}
+                                <li><a href="{{ route('neuro-oncology') }}">Neuro Oncology</a></li>
+                                <li><a href="{{ route('neuro-trauma') }}">Neuro Trauma</a></li>
+                                <li><a href="{{ route('vascular-neurosurgery') }}">Vascular Neurosurgery</a></li>
+                                <li><a href="{{ route('epilepsy-surgery') }}">Epilepsy Surgery</a></li>
+                                <li><a href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull Base
+                                        Surgery</a>
+                                </li>
                             </ul>
                         </div>
                         <div class="clearfix"></div>
-                    </div><!-- widget ends -->
+                    </div>
 
                     <div class="widget">
                         <h2>Contact Us</h2>
@@ -295,13 +300,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                        Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                    Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                        Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                    Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>
