@@ -49,7 +49,27 @@ class MainController
 
     public function minimallyInvasiveSpineSurgeries()
     {
-        return view('minimally-invasive-spine-surgeries');
+        return view('services.minimally-invasive-spine-surgeries');
+    }
+    public function neuroOncology()
+    {
+        return view('services.neuro-oncology');
+    }
+    public function neuroTrauma()
+    {
+        return view('services.neuro-trauma');
+    }
+    public function vascularNeurosurgery()
+    {
+        return view('services.vascular-neurosurgery');
+    }
+    public function epilepsySurgery()
+    {
+        return view('services.epilepsy-surgery');
+    }
+    public function endoscopicSkullBaseSurgery()
+    {
+        return view('services.endoscopic-skull-base-surgery');
     }
 
 

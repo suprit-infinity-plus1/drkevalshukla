@@ -33,9 +33,12 @@
                             </div>
                         </div>
                         <div class="service-text hover-bottom">
-                            <h6><a href="{{ route('single-service') }}">Lorem, ipsum dolor.</a></h6>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some.</p>
+                            <h6><a href="{{ route('single-service') }}" class="ellipsis-multiline-1">MINIMALLY INVASIVE
+                                    SPINE SURGERIES</a></h6>
+                            <p class="ellipsis-multiline-3">Minimally Invasive Spine Surgery (MISS) is a modern,
+                                patient-friendly approach to
+                                treating spinal conditions with smaller incisions, less tissue damage, and faster
+                                recovery. </p>
                         </div>
                     </div><!-- Service Box /-->
                 </div>
@@ -48,9 +51,12 @@
                             </div>
                         </div>
                         <div class="service-text hover-bottom">
-                            <h6><a href="{{ route('single-service') }}">Lorem, ipsum.</a></h6>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some.</p>
+                            <h6><a href="{{ route('single-service') }}" class="ellipsis-multiline-1">NEURO ONCOLOGY</a></h6>
+                            <p class="ellipsis-multiline-3">Neuro-oncology focuses on the diagnosis and surgical treatment
+                                of
+                                brain and spinal cord
+                                tumors. These tumors can be benign (non-cancerous) or malignant (cancerous) and may
+                                originate in the central nervous system or spread from other parts of the body.</p>
                         </div>
                     </div><!-- Service Box /-->
                 </div>
@@ -63,9 +69,11 @@
                             </div>
                         </div>
                         <div class="service-text hover-bottom">
-                            <h6><a href="{{ route('single-service') }}">Lorem, ipsum dolor.</a></h6>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some.</p>
+                            <h6><a href="{{ route('single-service') }}" class="ellipsis-multiline-1">NEURO TRAUMA</a></h6>
+                            <p class="ellipsis-multiline-3">Neuro trauma involves serious injuries to the brain and spinal
+                                cord, often caused by road
+                                accidents, falls, sports injuries, or violence. These injuries can lead to
+                                life-threatening complications and long-term disability if not treated promptly.</p>
                         </div>
                     </div><!-- Service Box /-->
                 </div>
@@ -78,9 +86,12 @@
                             </div>
                         </div>
                         <div class="service-text hover-bottom">
-                            <h6><a href="{{ route('single-service') }}">Lorem, ipsum dolor.</a></h6>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some.</p>
+                            <h6><a href="{{ route('single-service') }}" class="ellipsis-multiline-1">VASCULAR
+                                    NEUROSURGERY</a></h6>
+                            <p class="ellipsis-multiline-3">Vascular neurosurgery deals with abnormalities in the blood
+                                vessels of the brain and
+                                spinal cord, including aneurysms, arteriovenous malformations (AVMs), and stroke related
+                                hemorrhages.</p>
                         </div>
                     </div><!-- Service Box /-->
                 </div>
@@ -93,9 +104,14 @@
                             </div>
                         </div>
                         <div class="service-text hover-bottom">
-                            <h6><a href="{{ route('single-service') }}">Lorem, ipsum.</a></h6>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some.</p>
+                            <h6><a href="{{ route('single-service') }}" class="ellipsis-multiline-1">EPILLEPSY SURGERY</a>
+                            </h6>
+                            <p class="ellipsis-multiline-3">Epilepsy surgery is an effective option for patients with
+                                seizures
+                                that cannot be
+                                controlled with medication (drug-resistant epilepsy). By identifying and removing the
+                                seizure focus in the brain, surgery can lead to a dramatic improvement or complete
+                                freedom from seizures.</p>
                         </div>
                     </div><!-- Service Box /-->
                 </div>
@@ -108,9 +124,12 @@
                             </div>
                         </div>
                         <div class="service-text hover-bottom">
-                            <h6><a href="{{ route('single-service') }}">Lorem, ipsum dolor.</a></h6>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some.</p>
+                            <h6><a href="{{ route('single-service') }}" class="ellipsis-multiline-1">ENDOSCOPIC SKULL BASE
+                                    SURGERY</a></h6>
+                            <p class="ellipsis-multiline-3">Endoscopic Skull Base Surgery is a cutting-edge, minimally
+                                invasive technique that uses
+                                an endoscope (thin tube with a camera) to access deep brain areas through the nasal
+                                passages or small incisions.</p>
                         </div>
                     </div><!-- Service Box /-->
                 </div>
@@ -125,7 +144,7 @@
     </a>
 
     <!-- Page Preloader
-                    Delete to Remove Preloader /-->
+                                        Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>
