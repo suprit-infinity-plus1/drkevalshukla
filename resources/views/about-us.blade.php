@@ -13,7 +13,7 @@
             <div class="small-12 cell">
                 <ul class="breadcrumbs">
                     <li><a href="#">Home</a></li>
-                        <li><a href="">About Us</a></li>                    
+                    <li><a href="">About Us</a></li>
                 </ul><!-- Breadcrumbs /-->
             </div><!-- Bottom Row /-->
 
@@ -98,7 +98,7 @@
     </div>
     <!-- About Section /-->
 
-    <div class="information-boxes grey-bg module">
+    {{-- <div class="information-boxes grey-bg module">
         <div class="container">
 
             <div class="row d-flex align-items-stretch">
@@ -141,7 +141,7 @@
             </div>
 
         </div><!-- Grid Container /-->
-    </div>
+    </div> --}}
     <!-- information-boxes /-->
 
     {{-- <div class="our-partners module">

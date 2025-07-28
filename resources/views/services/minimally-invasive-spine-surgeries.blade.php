@@ -31,20 +31,19 @@
 
                 <div class="medium-9 small-12 cell">
                     <div class="service-post">
-                        <div class="thumbnail">
-                            <img src="assets/images/help/services/large-service.jpg
-                            "
-                                alt="Service Images">
+                        <div class="thumbnail w-100">
+                            <img src="{{ asset('assets/images/help/services/Minimally-Invasive-Spine-Surgeries-(1).png') }}"
+                                class="w-100" alt="Service Images">
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">
                             <p>Minimally Invasive Spine Surgeries</p>
                         </div>
                         <div class="service-text">
-                            <p>Minimally Invasive Spine Surgery (MISS) is a modern, patient-friendly approach to treating
+                            <p>Minimally Invasive Spine Surgery (MISS) is a modern, patient friendly approach to treating
                                 spinal conditions with smaller incisions, less tissue damage, and faster recovery. Dr. Keval
                                 Shukla is extensively trained in MISS techniques and has helped numerous patients achieve
-                                long-term relief from back and neck pain without the need for large incisions or prolonged
+                                long term relief from back and neck pain without the need for large incisions or prolonged
                                 hospital stays.</p>
                             <p>MISS is performed using specialized instruments and intraoperative imaging, allowing for
                                 precise targeting of the problem area with minimal disruption to muscles, ligaments, and
@@ -56,7 +55,7 @@
                         </div>
                         <div>
                             <p>
-                                Minimally Invasive Spine Surgery is ideal for many spine-related disorders, including:
+                                Minimally Invasive Spine Surgery is ideal for many spine related disorders, including:
                             </p>
                             <div class="conditions-treated-contaner">
                                 <div class="row text-center">
@@ -179,7 +178,7 @@
                         <p>
                             These techniques allow for faster recovery, less postoperative pain, and reduced risk of
                             complications compared to traditional open surgery.
-                            All procedures are done using microscopes, tubular retractors, and image-guided navigation
+                            All procedures are done using microscopes, tubular retractors, and image guided navigation
                             for
                             optimal safety and accuracy.
                         </p>
@@ -210,7 +209,7 @@
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Shorter hospital stays (often same-day or next-day discharge)</span>
+                                        <span>Shorter hospital stays (often same day or next day discharge)</span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
@@ -222,27 +221,6 @@
                                     </div>
                                 </div>
                             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                         </div>
 
 
@@ -277,12 +255,12 @@
                         <div class="widget-content">
                             <form>
                                 <input type="text" placeholder="Your Name..." />
-                                <input type="text" placeholder="Your Email ...." />
+                                {{-- <input type="text" placeholder="Your Email ...." /> --}}
                                 <input type="text" placeholder="Your Phone..." />
-                                <input type="text" placeholder="Email Subject ...." />
+                                {{-- <input type="text" placeholder="Email Subject ...." />
                                 <label>Select Your Image
                                     <input type="file" />
-                                </label>
+                                </label> --}}
                                 <textarea placeholder="Your Message..." rows="2"></textarea>
                                 <input type="submit" class="button primary last-item" />
                             </form>
@@ -300,13 +278,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                    Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                            Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                    Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                            Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

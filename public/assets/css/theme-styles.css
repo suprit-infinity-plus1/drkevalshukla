@@ -2428,6 +2428,15 @@ body.box .banner-container .slide-text {
     display: inline-table;
 }
 
+.footer-logo-side .social-icons .menu {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-logo-side .social-icons {
+    margin-bottom: 24px;
+}
+
 .footer-box .social-icons ul li a,
 .footer-box .footer-news h2 a {
     color: #444444;

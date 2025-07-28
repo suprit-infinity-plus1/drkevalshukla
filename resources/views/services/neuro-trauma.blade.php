@@ -31,9 +31,8 @@
 
                 <div class="medium-9 small-12 cell">
                     <div class="service-post">
-                        <div class="thumbnail">
-                            <img src="assets/images/help/services/large-service.jpg
-                            "
+                        <div class="thumbnail w-100">
+                            <img src="{{ asset('assets/images/help/services/neuro-trauma-1.png') }}" class="w-100"
                                 alt="Service Images">
                         </div><!-- News Img /-->
 
@@ -42,10 +41,10 @@
                         </div>
                         <div class="service-text">
                             <p>Neuro trauma involves serious injuries to the brain and spinal cord, often caused by road
-                                accidents, falls, sports injuries, or violence. These injuries can lead to life-threatening
-                                complications and long-term disability if not treated promptly.</p>
-                            <p>Dr. Keval Shukla offers rapid, life-saving surgical interventions and complete post-trauma
-                                care, ensuring both emergency management and long-term neurological recovery.</p>
+                                accidents, falls, sports injuries, or violence. These injuries can lead to life threatening
+                                complications and long term disability if not treated promptly.</p>
+                            <p>Dr. Keval Shukla offers rapid, life saving surgical interventions and complete post trauma
+                                care, ensuring both emergency management and long term neurological recovery.</p>
                         </div><!-- News Text /-->
                         <div class="border border-bottom-2 border-black my-3"></div>
                         <div class="section-title container p-0 mb-2">
@@ -188,7 +187,7 @@
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Integration with ICU care and long-term rehabilitation</span>
+                                        <span>Integration with ICU care and long term rehabilitation</span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
@@ -230,12 +229,12 @@
                         <div class="widget-content">
                             <form>
                                 <input type="text" placeholder="Your Name..." />
-                                <input type="text" placeholder="Your Email ...." />
+                                {{-- <input type="text" placeholder="Your Email ...." /> --}}
                                 <input type="text" placeholder="Your Phone..." />
-                                <input type="text" placeholder="Email Subject ...." />
+                                {{-- <input type="text" placeholder="Email Subject ...." />
                                 <label>Select Your Image
                                     <input type="file" />
-                                </label>
+                                </label> --}}
                                 <textarea placeholder="Your Message..." rows="2"></textarea>
                                 <input type="submit" class="button primary last-item" />
                             </form>
@@ -253,13 +252,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

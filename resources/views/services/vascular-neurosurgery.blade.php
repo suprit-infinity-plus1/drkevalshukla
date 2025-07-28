@@ -31,10 +31,9 @@
 
                 <div class="medium-9 small-12 cell">
                     <div class="service-post">
-                        <div class="thumbnail">
-                            <img src="assets/images/help/services/large-service.jpg
-                            "
-                                alt="Service Images">
+                        <div class="thumbnail w-100">
+                            <img src="{{ asset('assets/images/help/services/Vascular-neurosurgery-(1).png') }}"
+                                class="w-100" alt="Service Images">
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">
@@ -42,9 +41,9 @@
                         </div>
                         <div class="service-text">
                             <p>Vascular neurosurgery deals with abnormalities in the blood vessels of the brain and spinal
-                                cord, including aneurysms, arteriovenous malformations (AVMs), and stroke-related
+                                cord, including aneurysms, arteriovenous malformations (AVMs), and stroke related
                                 hemorrhages.</p>
-                            <p>These conditions often require high-precision, life-saving interventions. Dr. Keval Shukla
+                            <p>These conditions often require high precision, life saving interventions. Dr. Keval Shukla
                                 offers both open microsurgical and minimally invasive (endovascular) treatment strategies to
                                 restore normal blood flow and prevent catastrophic bleeding or stroke.</p>
                         </div><!-- News Text /-->
@@ -130,7 +129,7 @@
                                             <span class="fw-semibold ">
                                                 AVM Resection
                                             </span>
-                                            using image-guided mapping
+                                            using image guided mapping
                                         </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
@@ -158,7 +157,7 @@
                                             <span class="fw-semibold">
                                                 Intraoperative Angiography
                                             </span>
-                                            for real-time precision
+                                            for real time precision
                                         </span>
                                     </div>
                                 </div>
@@ -194,7 +193,7 @@
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Improved long-term prognosis and survival</span>
+                                        <span>Improved long term prognosis and survival</span>
                                     </div>
 
                                 </div>
@@ -255,13 +254,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

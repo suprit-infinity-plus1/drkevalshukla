@@ -171,10 +171,23 @@
                                     </button>
 
                                     <ul class="col-12 dropdown-menu border-0">
-                                        <li><a class="dropdown-item" href="#">Service 1</a></li>
-                                        <li><a class="dropdown-item" href="#">Service 2</a></li>
-                                        <li><a class="dropdown-item" href="#">Service 3</a></li>
-                                        <li><a class="dropdown-item" href="#">Service 4</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="{{ route('minimally-invasive-spine-surgeries') }}">Minimally
+                                                Invasive Spine Surgeries</a></li>
+                                        <li><a class="dropdown-item" href="{{ route('neuro-oncology') }}">Neuro
+                                                Oncology
+                                            </a></li>
+                                        <li><a class="dropdown-item" href="{{ route('neuro-trauma') }}">Neuro
+                                                Trauma</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="{{ route('vascular-neurosurgery') }}">Vascular
+                                                Neurosurgery</a></li>
+                                        <li><a class="dropdown-item" href="{{ route('epilepsy-surgery') }}">Epilepsy
+                                                Surgery</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull
+                                                Base
+                                                Surgery</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -254,9 +267,10 @@
                                         {{-- <img src="{{ asset('assets/images/logo-footer.png') }}" alt="" /> --}}
                                     </h3>
                                 </a>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id officiis obcaecati iste
-                                    architecto accusamus fuga reiciendis nostrum, quibusdam, corporis quis aspernatur
-                                    esse
+                                <p>
+                                    Dr. Keval Shukla is an experienced Brain and Spine surgeon with over 8 years of
+                                    experience in this field. After completing his training, Dr. Keval has worked at a
+                                    major corporate hospital in Mumbai .
                                 </p>
                                 <div class="contact-us">
                                     <ul>
@@ -288,16 +302,36 @@
                                 <ul class="links">
                                     <li><a href="{{ route('home') }}">Home</a></li>
                                     <li><a href="{{ route('about') }}">About Us</a></li>
-                                    <li><a href="#">Our Services</a></li>
-                                    <li><a href="#">Staff & Doctors</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="{{ route('services') }}">Our Services</a></li>
+                                    <li><a href="{{ route('staff') }}">Staff & Doctors</a></li>
+                                    <li><a href="{{ route('blog') }}">Blog</a></li>
+                                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                 </ul>
                                 <ul class="links">
-                                    <li><a href="#">Brain Surgery </a></li>
-                                    <li><a href="#">Spinal Surgery</a></li>
-                                    <li><a href="#">Neurovascular Surgery</a></li>
-                                    <li><a href="#">Chronic Pain Management</a></li>
+                                    <li>
+                                        <a href="{{ route('minimally-invasive-spine-surgeries') }}">Minimally
+                                            Invasive Spine Surgeries
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('neuro-oncology') }}">Neuro Oncology
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('neuro-trauma') }}">Neuro Trauma</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('vascular-neurosurgery') }}">Vascular
+                                            Neurosurgery</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('epilepsy-surgery') }}">Epilepsy
+                                            Surgery</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull Base
+                                            Surgery</a>
+                                    </li>
                                 </ul>
                             </div><!-- Footer Box /-->
                         </div>

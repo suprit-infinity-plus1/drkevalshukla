@@ -31,9 +31,8 @@
 
                 <div class="medium-9 small-12 cell">
                     <div class="service-post">
-                        <div class="thumbnail">
-                            <img src="assets/images/help/services/large-service.jpg
-                            "
+                        <div class="thumbnail w-100">
+                            <img src="{{ asset('assets/images/help/services/Neuro-Oncology.png') }}" class="w-100"
                                 alt="Service Images">
                         </div><!-- News Img /-->
 
@@ -41,12 +40,12 @@
                             <p>NEURO ONCOLOGY</p>
                         </div>
                         <div class="service-text">
-                            <p>Neuro-oncology focuses on the diagnosis and surgical treatment of brain and spinal cord
-                                tumors. These tumors can be benign (non-cancerous) or malignant (cancerous) and may
+                            <p>Neuro oncology focuses on the diagnosis and surgical treatment of brain and spinal cord
+                                tumors. These tumors can be benign (non cancerous) or malignant (cancerous) and may
                                 originate in the central nervous system or spread from other parts of the body.
                             </p>
                             <p>Dr. Keval Shukla specializes in microsurgical and minimally invasive tumor resections, with a
-                                strong emphasis on preserving neurological function and improving long-term outcomes. His
+                                strong emphasis on preserving neurological function and improving long term outcomes. His
                                 approach is multidisciplinary, involving close coordination with oncologists, radiologists,
                                 and rehabilitation experts.
                             </p>
@@ -133,14 +132,14 @@
                                             <span class="fw-semibold">
                                                 Microsurgical Tumor Resection
                                             </span>
-                                            with high-powered operating microscopes
+                                            with high powered operating microscopes
                                         </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
                                         <span>
                                             <span class="fw-semibold">
-                                                Neuronavigation-Guided Surgery
+                                                Neuronavigation Guided Surgery
                                             </span>
                                             for precision targeting
                                         </span>
@@ -196,7 +195,7 @@
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Improved seizure control in tumor-related epilepsy
+                                        <span>Improved seizure control in tumor related epilepsy
                                         </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
@@ -244,12 +243,12 @@
                         <div class="widget-content">
                             <form>
                                 <input type="text" placeholder="Your Name..." />
-                                <input type="text" placeholder="Your Email ...." />
+                                {{-- <input type="text" placeholder="Your Email ...." /> --}}
                                 <input type="text" placeholder="Your Phone..." />
-                                <input type="text" placeholder="Email Subject ...." />
+                                {{-- <input type="text" placeholder="Email Subject ...." />
                                 <label>Select Your Image
                                     <input type="file" />
-                                </label>
+                                </label> --}}
                                 <textarea placeholder="Your Message..." rows="2"></textarea>
                                 <input type="submit" class="button primary last-item" />
                             </form>
@@ -267,13 +266,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

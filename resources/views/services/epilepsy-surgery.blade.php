@@ -31,9 +31,8 @@
 
                 <div class="medium-9 small-12 cell">
                     <div class="service-post">
-                        <div class="thumbnail">
-                            <img src="assets/images/help/services/large-service.jpg
-                            "
+                        <div class="thumbnail w-100">
+                            <img src="{{ asset('assets/images/help/services/Epilepsy-surgery.png') }}" class="w-100"
                                 alt="Service Images">
                         </div><!-- News Img /-->
 
@@ -42,8 +41,8 @@
                         </div>
                         <div class="service-text">
                             <p>Epilepsy surgery is an effective option for patients with seizures that cannot be controlled
-                                with medication (drug-resistant epilepsy). By identifying and removing the seizure focus in
-                                the brain, surgery can lead to a dramatic improvement—or complete freedom from seizures.
+                                with medication (drug resistant epilepsy). By identifying and removing the seizure focus in
+                                the brain, surgery can lead to a dramatic improvement or complete freedom from seizures.
                             </p>
                             <p>Dr. Keval Shukla provides comprehensive epilepsy surgery services with detailed diagnostic
                                 evaluation and highly targeted surgical techniques.
@@ -161,7 +160,7 @@
                                 <div class="row">
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Long-term or complete seizure control in many patients
+                                        <span>Long term or complete seizure control in many patients
                                         </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
@@ -217,12 +216,12 @@
                         <div class="widget-content">
                             <form>
                                 <input type="text" placeholder="Your Name..." />
-                                <input type="text" placeholder="Your Email ...." />
+                                {{-- <input type="text" placeholder="Your Email ...." /> --}}
                                 <input type="text" placeholder="Your Phone..." />
-                                <input type="text" placeholder="Email Subject ...." />
+                                {{-- <input type="text" placeholder="Email Subject ...." />
                                 <label>Select Your Image
                                     <input type="file" />
-                                </label>
+                                </label> --}}
                                 <textarea placeholder="Your Message..." rows="2"></textarea>
                                 <input type="submit" class="button primary last-item" />
                             </form>
@@ -240,13 +239,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

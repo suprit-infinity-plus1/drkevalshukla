@@ -31,17 +31,16 @@
 
                 <div class="medium-9 small-12 cell">
                     <div class="service-post">
-                        <div class="thumbnail">
-                            <img src="assets/images/help/services/large-service.jpg
-                            "
-                                alt="Service Images">
+                        <div class="thumbnail w-100">
+                            <img src="{{ asset('assets/images/help/services/Endoscopic-Skull-Base-Surgery.png') }}"
+                                class="w-100" alt="Service Images">
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">
                             <p>ENDOSCOPIC SKULL BASE SURGERY</p>
                         </div>
                         <div class="service-text">
-                            <p>Endoscopic Skull Base Surgery is a cutting-edge, minimally invasive technique that uses an
+                            <p>Endoscopic Skull Base Surgery is a cutting edge, minimally invasive technique that uses an
                                 endoscope (thin tube with a camera) to access deep brain areas through the nasal passages or
                                 small incisions.
                             </p>
@@ -126,7 +125,7 @@
                                             <span class="fw-semibold ">
                                                 Endoscopic Tumor Resection
                                             </span>
-                                            using high-definition imaging
+                                            using high definition imaging
                                         </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
@@ -227,12 +226,12 @@
                         <div class="widget-content">
                             <form>
                                 <input type="text" placeholder="Your Name..." />
-                                <input type="text" placeholder="Your Email ...." />
+                                {{-- <input type="text" placeholder="Your Email ...." /> --}}
                                 <input type="text" placeholder="Your Phone..." />
-                                <input type="text" placeholder="Email Subject ...." />
+                                {{-- <input type="text" placeholder="Email Subject ...." />
                                 <label>Select Your Image
                                     <input type="file" />
-                                </label>
+                                </label> --}}
                                 <textarea placeholder="Your Message..." rows="2"></textarea>
                                 <input type="submit" class="button primary last-item" />
                             </form>
@@ -250,13 +249,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

@@ -263,11 +263,14 @@
 
     /** Footer **/
     .footer-bottom-nav,
-    .footer-logo-side .social-icons,
     .footer-logo-side {
         text-align: center;
         display: table;
         margin: auto;
+    }
+
+    .footer-logo-side .social-icons {
+        margin-bottom: 24px;
     }
 
     .footer-logo-side .contact-us {
@@ -286,7 +289,16 @@
 
     .footer-box .links:last-child,
     .footer-box .links {
-        float: left;
+        /* float: left; */
+        float: none;
+    }
+
+    .footer-box .links {
+        margin-bottom: 5px;
+    }
+
+    .footer-box .links:last-child {
+        margin-bottom: 15px;
     }
 
     .footer-top .grid-container .small-12 {
