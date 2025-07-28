@@ -541,7 +541,7 @@
             </div>
 
             <div class="large-4 medium-12 small-12 cell">
-                <img src="{{ asset('assets/images/help/DrKevalShukla-2.png') }}" alt="">
+                <img src="{{ asset('assets/images/help/dekevalshukla-img2.png') }}" alt="">
                 {{-- <div class="after-before-item">
                     <div class="twentytwenty-container">
                         <img src="{{ asset('assets/images/help/before.jpg') }}" alt="" />
