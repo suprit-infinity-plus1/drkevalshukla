@@ -50,8 +50,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/foundation.min.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/theme-styles.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive-styles.css') }}" media="all" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}"
-        media="all" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fontawesome-all.min.css') }}" media="all" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -69,10 +68,11 @@
                 <div class="small-12 large-3 medium-3 cell">
                     <div class="logo">
                         <a href="index.html">
-                            <h2 style="margin-bottom:0px;">
+                            <!-- <h2 style="margin-bottom:0px;">
                                 Dr. Keval Shukla
-                            </h2>
-                            {{-- <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" /> --}}
+                            </h2> -->
+                            <img src="{{ asset('assets/images/help/drkevalshukla-logo.png') }}"
+                                alt="Dr Keval Shukla Logo" />
                         </a>
                     </div>
                 </div><!-- Cell /  -->
@@ -127,8 +127,7 @@
                             {{-- DESKTOP ONLY (hover dropdown) --}}
                             <li class="nav-item dropdown d-none d-lg-block">
                                 <a class="nav-link dropdown-toggle p-3 fw-semibold text-uppercase
-       {{ request()->is('services/*') ? 'active' : '' }}"
-                                    href="{{ route('services') }}">
+       {{ request()->is('services/*') ? 'active' : '' }}" href="{{ route('services') }}">
                                     Services
                                 </a>
                                 <ul class="dropdown-menu">
@@ -159,8 +158,7 @@
                             <li class="nav-item dropdown d-block d-lg-none">
                                 <div class="d-flex flex-wrap justify-content-between align-items-center px-3 py-2">
                                     {{-- Left: Clickable text --}}
-                                    <a href="{{ route('services') }}"
-                                        class="col-11 fw-semibold text-uppercase text-decoration-none
+                                    <a href="{{ route('services') }}" class="col-11 fw-semibold text-uppercase text-decoration-none
             {{ request()->is('services') ? 'active' : '' }}">
                                         Services
                                     </a>
@@ -197,10 +195,10 @@
 
 
 
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('staff') ? 'active' : '' }}"
                                     href="{{ route('staff') }}">Our Staff</a>
-                            </li>
+                            </li> -->
                             <li class="nav-item">
                                 <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('appointment') ? 'active' : '' }}"
                                     href="{{ route('appointment') }}">Appointment</a>
@@ -263,8 +261,9 @@
                             <div class="footer-box footer-logo-side">
                                 <a href="#">
                                     <h3>
-                                        Dr. Keval Shukla
-                                        {{-- <img src="{{ asset('assets/images/logo-footer.png') }}" alt="" /> --}}
+                                        <!-- Dr. Keval Shukla -->
+                                        <img src="{{ asset('assets/images/help/drkevalshukla-logo.png') }}"
+                                            alt="Dr Keval Shukla Logo" />
                                     </h3>
                                 </a>
                                 <p>
@@ -274,8 +273,7 @@
                                 </p>
                                 <div class="contact-us">
                                     <ul>
-                                        <li><i class="fas fa-map-marker-alt"></i><a
-                                                href="#"><span>Address:</span>
+                                        <li><i class="fas fa-map-marker-alt"></i><a href="#"><span>Address:</span>
                                                 Wockhardt Hospitals, 1877, Mumbai Central, Mumbai -
                                                 400011</a></li>
                                         <li><i class="fas fa-mobile-alt"></i><a href="#"><span>Phone:</span>
@@ -303,7 +301,7 @@
                                     <li><a href="{{ route('home') }}">Home</a></li>
                                     <li><a href="{{ route('about') }}">About Us</a></li>
                                     <li><a href="{{ route('services') }}">Our Services</a></li>
-                                    <li><a href="{{ route('staff') }}">Staff & Doctors</a></li>
+                                    <!-- <li><a href="{{ route('staff') }}">Staff & Doctors</a></li> -->
                                     <li><a href="{{ route('blog') }}">Blog</a></li>
                                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                 </ul>
@@ -341,16 +339,14 @@
                                 <h6>Recent News</h6>
                                 <div class="footer-news-post">
                                     <div class="footer-news">
-                                        <img src="{{ asset('assets/images/help/footer-icon-1.jpg') }}"
-                                            alt="News" />
+                                        <img src="{{ asset('assets/images/help/footer-icon-1.jpg') }}" alt="News" />
                                         <h2><a href="#">How can we help you get the amazing skin results from
                                                 us?</a>
                                         </h2>
                                         <p>01 August 2018</p>
                                     </div>
                                     <div class="footer-news">
-                                        <img src="{{ asset('assets/images/help/footer-icon-2.jpg') }}"
-                                            alt="News" />
+                                        <img src="{{ asset('assets/images/help/footer-icon-2.jpg') }}" alt="News" />
                                         <h2><a href="#">How can you keep your skin glowing and infection less in
                                                 sprint</a></h2>
                                         <p>01 August 2018</p>
@@ -450,7 +446,8 @@
                             </div>
                         </div>
 
-                        <textarea class="form-control shadow-none" rows="3" placeholder="Problem in Brief" required></textarea>
+                        <textarea class="form-control shadow-none" rows="3" placeholder="Problem in Brief"
+                            required></textarea>
 
                         <button type="submit" class="button secondary button-second mb-0">Send Message</button>
                     </form>
@@ -467,8 +464,7 @@
         <i class="fa-solid fa-phone text-light"></i>
     </a>
 
-    <a data-bs-toggle="modal"
-                                data-bs-target="#appointmentModal" class="enquiry-btn">
+    <a data-bs-toggle="modal" data-bs-target="#appointmentModal" class="enquiry-btn">
         Enquire Now
     </a>
 

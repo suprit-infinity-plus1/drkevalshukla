@@ -201,7 +201,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="service-box hover-wrap">
                             <div class="hover-img">
-                                <img src="{{ asset('assets/images/help/services/Neuro-Oncology.png') }}"
+                                <img src="{{ asset('assets/images/help/services/drkevalshukla-services-img2.jpeg') }}"
                                     alt="Service Images" />
                                 <div class="service-detail hover-info">
                                     <a href="{{ route('neuro-oncology') }}" class="button primary">Know More</a>
