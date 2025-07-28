@@ -728,16 +728,17 @@
                         <!-- Appointment Date & Time -->
                         <div class="row">
                             <div class="col-sm-6">
-                                <input type="date" class="form-control" name="appointment_date"
-                                    placeholder="Select Date" required>
+                                <input type="date" class="form-control" name="appointment_date" placeholder="Select Date"
+                                    required>
                             </div>
                             <div class="col-sm-6">
-                                <input type="time" class="form-control" name="appointment_time"
-                                    placeholder="Select Time" required>
+                                <input type="time" class="form-control" name="appointment_time" placeholder="Select Time"
+                                    required>
                             </div>
                         </div>
 
-                        <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief" required></textarea>
+                        <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief"
+                            required></textarea>
                         <a class="button secondary button-second">Send Message</a>
                     </form>
 
@@ -760,76 +761,75 @@
 
             <div class="row g-4">
                 <!-- Blog Card 1 -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <img src="{{ asset('assets/images/help/blog/blog-img-1.jpg') }}" class="card-img-top"
-                            alt="Product Img">
-                        <div class="card-body">
-                            <h6 class="card-title">
-                                <a href="{{ route('single-post-page') }}" class="text-decoration-none text-dark">Lorem
-                                    ipsum dolor sit amet.</a>
-                            </h6>
-                            <!-- <div class="mb-2 text-muted small">
-                                                                                                                                                                                                    <i class="far fa-user me-1"></i><span>By:</span> <a href="#"
-                                                                                                                                                                                                        class="text-muted">Ateeq</a> |
-                                                                                                                                                                                                    <i class="far fa-comment ms-2 me-1"></i><a href="#" class="text-muted">3 Comments</a>
-                                                                                                                                                                                                </div> -->
-                            <p class="card-text">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered some
-                                <a href="{{ route('single-post-page') }}">Read More</a>
-                            </p>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="{{ asset('assets/images/help/blog/blog-img-1.jpg') }}" class="card-img-top"
+                                alt="Product Img">
+                            <div class="card-body">
+                                <h6 class="card-title blog-title">
+                                    <a href="{{ route('single-post-page') }}" class="text-decoration-none text-dark">
+                                        What Are Brain Tumors?
+                                    </a>
+                                </h6>
+                                <div class="blog-description-wrapper">
+                                    <p class="blog-description">
+                                        Brain tumors are abnormal growths within the brain that can be either benign or
+                                        malignant. Understanding their causes, symptoms like headaches or seizures, and
+                                        treatment options such as surgery, radiation, or chemotherapy is essential for early
+                                        diagnosis and effective care.
+                                    </p>
+                                    <a href="{{ route('single-post-page') }}" class="blog-readmore">Read More</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Blog Card 2 -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <img src="{{ asset('assets/images/help/blog/blog-img-2.jpg') }}" class="card-img-top"
-                            alt="Product Img">
-                        <div class="card-body">
-                            <h6 class="card-title">
-                                <a href="{{ route('single-post-page') }}" class="text-decoration-none text-dark">Lorem
-                                    ipsum dolor sit amet.</a>
-                            </h6>
-                            <!-- <div class="mb-2 text-muted small">
-                                                                                                                                                                                                    <i class="far fa-user me-1"></i><span>By:</span> <a href="#"
-                                                                                                                                                                                                        class="text-muted">Ateeq</a> |
-                                                                                                                                                                                                    <i class="far fa-comment ms-2 me-1"></i><a href="#" class="text-muted">3 Comments</a>
-                                                                                                                                                                                                </div> -->
-                            <p class="card-text">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered some
-                                <a href="{{ route('single-post-page') }}">Read More</a>
-                            </p>
+                    <!-- Blog Card 2 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="{{ asset('assets/images/help/blog/blog-img-2.jpg') }}" class="card-img-top"
+                                alt="Product Img">
+                            <div class="card-body">
+                                <h6 class="card-title blog-title">
+                                    <a href="{{ route('single-post-page') }}" class="text-decoration-none text-dark">
+                                        Treating Spine Tumors Safely
+                                    </a>
+                                </h6>
+                                <div class="blog-description-wrapper">
+                                    <p class="blog-description">
+                                        Spinal cord tumors can affect movement, sensation, and even bladder control. Thanks
+                                        to advances in imaging and microsurgical techniques, neurosurgeons can now remove
+                                        many of these tumors with high precision, reducing risks and improving quality of
+                                        life.
+                                    </p>
+                                    <a href="{{ route('single-post-page') }}" class="blog-readmore">Read More</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Blog Card 3 -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <img src="{{ asset('assets/images/help/blog/blog-img-3.jpg') }}" class="card-img-top"
-                            alt="Product Img">
-                        <div class="card-body">
-                            <h6 class="card-title">
-                                <a href="{{ route('single-post-page') }}" class="text-decoration-none text-dark">Lorem
-                                    ipsum dolor sit amet.</a>
-                            </h6>
-                            <!-- <div class="mb-2 text-muted small">
-                                                                                                                                                                                                    <i class="far fa-user me-1"></i><span>By:</span> <a href="#"
-                                                                                                                                                                                                        class="text-muted">Ateeq</a> |
-                                                                                                                                                                                                    <i class="far fa-comment ms-2 me-1"></i><a href="#" class="text-muted">3 Comments</a>
-                                                                                                                                                                                                </div> -->
-                            <p class="card-text">
-                                There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered some
-                                <a href="{{ route('single-post-page') }}">Read More</a>
-                            </p>
+                    <!-- Blog Card 3 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="{{ asset('assets/images/help/blog/blog-img-3.jpg') }}" class="card-img-top"
+                                alt="Product Img">
+                            <div class="card-body">
+                                <h6 class="card-title blog-title">
+                                    <a href="{{ route('single-post-page') }}" class="text-decoration-none text-dark">
+                                        Awake Surgery for Brain Tumors
+                                    </a>
+                                </h6>
+                                <div class="blog-description-wrapper">
+                                    <p class="blog-description">
+                                        Awake brain surgery allows surgeons to operate while the patient is conscious, helping preserve critical functions like speech and movement. It’s especially useful for tumors located near vital brain areas and offers greater surgical accuracy with reduced complications.
+
+
+                                    </p>
+                                    <a href="{{ route('single-post-page') }}" class="blog-readmore">Read More</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </div>
@@ -845,17 +845,17 @@
 @endsection
 @section('extrajs')
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
 
         });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.6.2/countUp.umd.js"></script>
     <script>
-        $(document).ready(function() {});
+        $(document).ready(function () { });
     </script>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            document.querySelectorAll('.count').forEach(function(el) {
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll('.count').forEach(function (el) {
                 const target = parseInt(el.getAttribute('data-count'));
                 const counter = new countUp.CountUp(el, target, {
                     duration: 2,
