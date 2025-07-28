@@ -467,7 +467,8 @@
         <i class="fa-solid fa-phone text-light"></i>
     </a>
 
-    <a href="#enquiry" class="enquiry-btn">
+    <a data-bs-toggle="modal"
+                                data-bs-target="#appointmentModal" class="enquiry-btn">
         Enquire Now
     </a>
 
