@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\Backend\BlogController;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfileController;
@@ -17,6 +18,10 @@ Route::get('/blog', [MainController::class, 'blog'])->name('blog');
 Route::get('/single-post-page', [MainController::class, 'singlePostPage'])->name('single-post-page');
 Route::get('/appointment', [MainController::class, 'appointment'])->name('appointment');
 Route::get('/contact', [MainController::class, 'contact'])->name('contact');
+Route::get('/blog-brain-tumors', [MainController::class, 'blogBrainTumors'])->name('blog-brain-tumors');
+Route::get('/blog-spine-surgery', [MainController::class, 'blogSpineSurgery'])->name('blog-spine-surgery');
+Route::get('/blog-open-brain-surgery', [MainController::class, 'blogOpenBrainSurgery'])->name('blog-open-brain-surgery');
+
 
 Route::get('/minimally-invasive-spine-surgeries', [MainController::class, 'minimallyInvasiveSpineSurgeries'])->name('minimally-invasive-spine-surgeries');
 Route::get('/neuro-oncology', [MainController::class, 'neuroOncology'])->name('neuro-oncology');
@@ -35,6 +40,13 @@ Route::prefix('admin')->group(function () {
         Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
         Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
         Route::get('/profile2/edit', [AdminController::class, 'profileEdit'])->name('admin.profileEdit');
+
+        Route::get('/blogs2', [BlogController::class, 'blogs'])->name('admin.blogs');
+        Route::get('/blogs2/add', [BlogController::class, 'blogsAdd'])->name('admin.blogs.add');
+        Route::get('/blogs2/edit/{id}', [BlogController::class, 'blogsEdit'])->name('admin.blogs.edit');
+        Route::post('/blogs2/delete/{id}', [BlogController::class, 'blogsDelete'])->name('admin.blogs.delete');
+        Route::post('/blogs2/store', [BlogController::class, 'store'])->name('admin.blogs.store');
+        Route::post('/blogs2/update/{id}', [BlogController::class, 'blogsUpdate'])->name('admin.blogs.update');
     });
 });
 // Route::get('/dashboard', function () {

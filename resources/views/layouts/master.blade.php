@@ -50,7 +50,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/foundation.min.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/theme-styles.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive-styles.css') }}" media="all" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}" media="all" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}"
+        media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fontawesome-all.min.css') }}" media="all" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -71,8 +72,7 @@
                             <!-- <h2 style="margin-bottom:0px;">
                                 Dr. Keval Shukla
                             </h2> -->
-                            <img src="{{ asset('assets/images/help/drkevalshukla-logo.png') }}"
-                                alt="Dr Keval Shukla Logo" />
+                            <img src="{{ asset('assets/images/help/logo.png') }}" alt="Dr Keval Shukla Logo" />
                         </a>
                     </div>
                 </div><!-- Cell /  -->
@@ -127,7 +127,8 @@
                             {{-- DESKTOP ONLY (hover dropdown) --}}
                             <li class="nav-item dropdown d-none d-lg-block">
                                 <a class="nav-link dropdown-toggle p-3 fw-semibold text-uppercase
-       {{ request()->is('services/*') ? 'active' : '' }}" href="{{ route('services') }}">
+       {{ request()->is('services/*') ? 'active' : '' }}"
+                                    href="{{ route('services') }}">
                                     Services
                                 </a>
                                 <ul class="dropdown-menu">
@@ -158,7 +159,8 @@
                             <li class="nav-item dropdown d-block d-lg-none">
                                 <div class="d-flex flex-wrap justify-content-between align-items-center px-3 py-2">
                                     {{-- Left: Clickable text --}}
-                                    <a href="{{ route('services') }}" class="col-11 fw-semibold text-uppercase text-decoration-none
+                                    <a href="{{ route('services') }}"
+                                        class="col-11 fw-semibold text-uppercase text-decoration-none
             {{ request()->is('services') ? 'active' : '' }}">
                                         Services
                                     </a>
@@ -262,7 +264,7 @@
                                 <a href="#">
                                     <h3>
                                         <!-- Dr. Keval Shukla -->
-                                        <img src="{{ asset('assets/images/help/drkevalshukla-logo.png') }}"
+                                        <img src="{{ asset('assets/images/help/logo.png') }}"
                                             alt="Dr Keval Shukla Logo" />
                                     </h3>
                                 </a>
@@ -273,7 +275,8 @@
                                 </p>
                                 <div class="contact-us">
                                     <ul>
-                                        <li><i class="fas fa-map-marker-alt"></i><a href="#"><span>Address:</span>
+                                        <li><i class="fas fa-map-marker-alt"></i><a
+                                                href="#"><span>Address:</span>
                                                 Wockhardt Hospitals, 1877, Mumbai Central, Mumbai -
                                                 400011</a></li>
                                         <li><i class="fas fa-mobile-alt"></i><a href="#"><span>Phone:</span>
@@ -339,17 +342,28 @@
                                 <h6>Recent News</h6>
                                 <div class="footer-news-post">
                                     <div class="footer-news">
-                                        <img src="{{ asset('assets/images/help/footer-icon-1.jpg') }}" alt="News" />
-                                        <h2><a href="#">How can we help you get the amazing skin results from
-                                                us?</a>
+                                        <img style="width: 80px; height: 80px; object-fit: cover;"
+                                            src="{{ asset('assets/images/help/blog/blog-brain-tumor.jpg') }}"
+                                            alt="News" />
+                                        <h2><a href="{{ route('blog-brain-tumors') }}">What Are Brain Tumors?</a>
                                         </h2>
-                                        <p>01 August 2018</p>
+                                        <p>25 September 2022</p>
                                     </div>
                                     <div class="footer-news">
-                                        <img src="{{ asset('assets/images/help/footer-icon-2.jpg') }}" alt="News" />
-                                        <h2><a href="#">How can you keep your skin glowing and infection less in
-                                                sprint</a></h2>
-                                        <p>01 August 2018</p>
+                                        <img style="width: 80px; height: 80px; object-fit: cover;"
+                                            src="{{ asset('assets/images/help/blog/blog-spine-surgery.jpg') }}"
+                                            alt="News" />
+                                        <h2><a href="{{ route('blog-spine-surgery') }}">Treating Spine Tumors
+                                                Safely</a></h2>
+                                        <p>01 August 201825 September 2022</p>
+                                    </div>
+                                    <div class="footer-news">
+                                        <img style="width: 80px; height: 80px; object-fit: cover;"
+                                            src="{{ asset('assets/images/help/blog/blog-open-brain.jpg') }}"
+                                            alt="News" />
+                                        <h2><a href="{{ route('blog-open-brain-surgery') }}">Awake Surgery for Brain
+                                                Tumors</a></h2>
+                                        <p>01 August 201825 September 2022</p>
                                     </div>
                                 </div>
                             </div><!-- Footer Box /-->
@@ -446,8 +460,7 @@
                             </div>
                         </div>
 
-                        <textarea class="form-control shadow-none" rows="3" placeholder="Problem in Brief"
-                            required></textarea>
+                        <textarea class="form-control shadow-none" rows="3" placeholder="Problem in Brief" required></textarea>
 
                         <button type="submit" class="button secondary button-second mb-0">Send Message</button>
                     </form>

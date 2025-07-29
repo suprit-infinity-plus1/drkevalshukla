@@ -142,7 +142,7 @@
 
     .slide.slide-two,
     .slide.slide-one {
-        background-image: url("../images/help/slide1.jpg");
+        background-image: url("../images/help/banner/mobile-banner1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -150,12 +150,24 @@
     }
 
     .slide.slide-two {
-        background-image: url("../images/help/slide2.jpg");
+        background-image: url("../images/help/banner/mobile-banner2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .slide.slide-three {
-        background-image: url("../images/help/slide3.jpeg");
-        background-position: right bottom;
+        background-image: url("../images/help/banner/mobile-banner3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .slide.slide-four {
+        background-image: url("../images/help/banner/mobile-banner4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .slide.transparent-background img {
@@ -511,7 +523,7 @@
 
     .slide.slide-two,
     .slide.slide-one {
-        background-image: url("../images/help/slide1.jpg");
+        background-image: url("../images/help/banner/tablet-banner1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -519,12 +531,24 @@
     }
 
     .slide.slide-two {
-        background-image: url("../images/help/slide2.jpg");
+        background-image: url("../images/help/banner/tablet-banner2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .slide.slide-three {
-        background-image: url("../images/help/slide3.jpeg");
-        background-position: right bottom;
+        background-image: url("../images/help/banner/tablet-banner3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .slide.slide-four {
+        background-image: url("../images/help/banner/tablet-banner4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .slide.transparent-background img {

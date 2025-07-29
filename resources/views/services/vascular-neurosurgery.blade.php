@@ -32,7 +32,7 @@
                 <div class="medium-9 small-12 cell">
                     <div class="service-post">
                         <div class="thumbnail w-100">
-                            <img src="{{ asset('assets/images/help/services/Vascular-neurosurgery-(1).png') }}"
+                            <img src="{{ asset('assets/images/help/services/service-vascular-neurosurgery.jpg') }}"
                                 class="w-100" alt="Service Images">
                         </div><!-- News Img /-->
 
@@ -254,13 +254,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

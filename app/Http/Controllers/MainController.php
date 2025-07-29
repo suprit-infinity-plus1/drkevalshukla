@@ -46,6 +46,20 @@ class MainController
         return view('contact');
     }
 
+    public function blogBraintumors()
+    {
+        return view('blog-brain-tumors');
+    }
+    public function blogSpineSurgery()
+    {
+        return view('blog-spine-surgery');
+    }
+    public function blogOpenBrainSurgery()
+    {
+        return view('blog-open-brain-surgery');
+    }
+
+
 
     public function minimallyInvasiveSpineSurgeries()
     {

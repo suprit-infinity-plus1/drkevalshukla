@@ -48,7 +48,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                     <div class="service-box hover-wrap">
                         <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/services/Neuro-Oncology.png') }}" alt="Service Images" />
+                            <img src="{{ asset('assets/images/help/services/service-neuro-oncology.jpg') }}"
+                                alt="Service Images" />
                             <div class="service-detail hover-info">
                                 <a href="{{ route('neuro-oncology') }}" class="button primary">Know More</a>
                             </div>
@@ -84,7 +85,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                     <div class="service-box hover-wrap">
                         <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/services/Vascular-neurosurgery-(1).png') }}"
+                            <img src="{{ asset('assets/images/help/services/service-vascular-neurosurgery.jpg') }}"
                                 alt="Service Images" />
                             <div class="service-detail hover-info">
                                 <a href="{{ route('vascular-neurosurgery') }}" class="button primary">Know More</a>
@@ -152,7 +153,7 @@
     </a>
 
     <!-- Page Preloader
-                                                                            Delete to Remove Preloader /-->
+                                                                                    Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>
