@@ -18,9 +18,9 @@ Route::get('/blog', [MainController::class, 'blog'])->name('blog');
 Route::get('/single-post-page', [MainController::class, 'singlePostPage'])->name('single-post-page');
 Route::get('/appointment', [MainController::class, 'appointment'])->name('appointment');
 Route::get('/contact', [MainController::class, 'contact'])->name('contact');
-Route::get('/blog-brain-tumors', [MainController::class, 'blogBrainTumors'])->name('blog-brain-tumors');
-Route::get('/blog-spine-surgery', [MainController::class, 'blogSpineSurgery'])->name('blog-spine-surgery');
-Route::get('/blog-open-brain-surgery', [MainController::class, 'blogOpenBrainSurgery'])->name('blog-open-brain-surgery');
+Route::get('/blog/brain-tumors', [MainController::class, 'blogBrainTumors'])->name('blog-brain-tumors');
+Route::get('/blog/spine-surgery', [MainController::class, 'blogSpineSurgery'])->name('blog-spine-surgery');
+Route::get('/blog/open-brain-surgery', [MainController::class, 'blogOpenBrainSurgery'])->name('blog-open-brain-surgery');
 
 
 Route::get('/minimally-invasive-spine-surgeries', [MainController::class, 'minimallyInvasiveSpineSurgeries'])->name('minimally-invasive-spine-surgeries');
