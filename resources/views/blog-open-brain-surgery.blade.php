@@ -245,11 +245,13 @@
                     <!-- Blog Content -->
                     <div class="col-lg-9">
                         <div class="blog-detail-content">
-                            <img src="assets/images/help/blog/blog-open-brain.jpg" alt="Blog Image"
+                            {{-- <img src="assets/images/help/blog/blog-open-brain.jpg" alt="Blog Image"
+                                class="img-fluid rounded mb-4 w-100"> --}}
+                            <img src="{{asset('assets/images/help/blog/blog-open-brain.jpg')}}" alt="Blog Image"
                                 class="img-fluid rounded mb-4 w-100">
 
                             <h2 class="mb-3">Awake Surgery for Brain Tumors</h2>
-                            <p>Posted by admin | 25 September 2022</p>
+                            <p>Posted by admin | 22 July 2025</p>
 
                             <p>
                                 Awake brain surgery allows surgeons to operate while the patient is conscious, helping
@@ -292,7 +294,7 @@
                             <h5 class="mb-4">Related Blogs</h5>
 
                             <div class="d-flex mb-4">
-                                <img src="assets/images/help/blog/blog-brain-tumor.jpg" alt="Blog 1"
+                                <img src="{{asset('assets/images/help/blog/blog-brain-tumor.jpg')}}" alt="Blog 1"
                                     class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
                                 <div>
                                     <a href="{{ route('blog-brain-tumors') }}" class="mb-1">What Are Brain Tumors?</a>
@@ -302,7 +304,7 @@
                             </div>
 
                             <div class="d-flex mb-4">
-                                <img src="assets/images/help/blog/blog-spine-surgery.jpg" alt="Blog 2"
+                                <img src="{{asset('assets/images/help/blog/blog-spine-surgery.jpg')}}" alt="Blog 2"
                                     class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
                                 <div>
                                     <a href="{{ route('blog-spine-surgery') }}" class="mb-1">Treating Spine Tumors

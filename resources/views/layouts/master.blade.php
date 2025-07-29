@@ -347,7 +347,7 @@
                                             alt="News" />
                                         <h2><a href="{{ route('blog-brain-tumors') }}">What Are Brain Tumors?</a>
                                         </h2>
-                                        <p>25 September 2022</p>
+                                        <p>29 July 2025</p>
                                     </div>
                                     <div class="footer-news">
                                         <img style="width: 80px; height: 80px; object-fit: cover;"
@@ -355,7 +355,7 @@
                                             alt="News" />
                                         <h2><a href="{{ route('blog-spine-surgery') }}">Treating Spine Tumors
                                                 Safely</a></h2>
-                                        <p>01 August 201825 September 2022</p>
+                                        <p>25 July 2025</p>
                                     </div>
                                     <div class="footer-news">
                                         <img style="width: 80px; height: 80px; object-fit: cover;"
@@ -363,7 +363,7 @@
                                             alt="News" />
                                         <h2><a href="{{ route('blog-open-brain-surgery') }}">Awake Surgery for Brain
                                                 Tumors</a></h2>
-                                        <p>01 August 201825 September 2022</p>
+                                        <p>22 July 2025</p>
                                     </div>
                                 </div>
                             </div><!-- Footer Box /-->
