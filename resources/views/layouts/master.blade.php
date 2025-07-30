@@ -70,7 +70,7 @@
 
                     <div class="small-12 large-3 medium-3 cell">
                         <div class="logo">
-                            <a href="{{ route('home') }}">
+                            <a href="{{ route('index') }}">
                                 <!-- <h2 style="margin-bottom:0px;">
                                 Dr. Keval Shukla
                             </h2> -->
@@ -120,7 +120,7 @@
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-4">
                                 <li class="nav-item">
                                     <a class="nav-link p-2 p-lg-3 fw-semibold text-uppercase {{ request()->routeIs('home') ? 'active' : '' }}"
-                                        href="{{ route('home') }}">Home</a>
+                                        href="{{ route('index') }}">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link p-2 p-lg-3 fw-semibold text-uppercase {{ request()->routeIs('about') ? 'active' : '' }}"
@@ -209,7 +209,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link p-2 p-lg-3 fw-semibold text-uppercase {{ request()->routeIs('blog') ? 'active' : '' }}"
-                                        href="{{ route('blog') }}">Blog</a>
+                                        href="{{ route('blogs') }}">Blog</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link p-2 p-lg-3 fw-semibold text-uppercase {{ request()->routeIs('contact') ? 'active' : '' }}"
@@ -238,7 +238,7 @@
 
                     <div class="small-12 large-3 medium-3 cell">
                         <div class="logo">
-                            <a href="{{ route('home') }}">
+                            <a href="{{ route('index') }}">
                                 <!-- <h2 style="margin-bottom:0px;">
                                 Dr. Keval Shukla
                             </h2> -->
@@ -288,7 +288,7 @@
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-4">
                                 <li class="nav-item">
                                     <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('home') ? 'active' : '' }}"
-                                        href="{{ route('home') }}">Home</a>
+                                        href="{{ route('index') }}">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('about') ? 'active' : '' }}"
@@ -432,7 +432,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="footer-box footer-logo-side">
-                                <a href="#">
+                                <a href="{{ route('index') }}">
                                     <h3>
                                         <!-- Dr. Keval Shukla -->
                                         <img src="{{ asset('assets/images/drkevalshukla-logo.png') }}"
@@ -450,7 +450,7 @@
                             <div class="footer-box border-btm">
                                 <h6>Quick Links</h6>
                                 <ul class="links">
-                                    <li><a href="{{ route('home') }}">Home</a></li>
+                                    <li><a href="{{ route('index') }}">Home</a></li>
                                     <li><a href="{{ route('about') }}">About</a></li>
                                     <li><a href="{{ route('services') }}">Our Services</a></li>
                                     <li><a href="{{ route('appointment') }}">Appointment</a></li>
