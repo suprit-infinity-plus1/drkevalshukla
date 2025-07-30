@@ -1109,11 +1109,34 @@ hr {
 	12 - Testimonials CSS
 -------------------------*/
 .testimonials.grey-bg {
-    background-color: transparent;
+    position: relative;
+    background-image: url(../images/help/banner/desktop-banner1.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+    /* Adjust as needed */
+    z-index: 1;
+    overflow: hidden;
 }
 
+.testimonials.grey-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(225, 232, 240, 0.75);
+    z-index: 2;
+}
+
+/* Ensure content sits above overlay */
+.testimonials.grey-bg>* {
+    position: relative;
+    z-index: 3;
+}
+
+
 .testimonials.dark-bg:before {
-    background-color: rgba(225, 232, 240, 0.85);
+    /* background-color: rgba(225, 232, 240, 0.85); */
 }
 
 .testimonial-slid .testimonial-text {
@@ -1318,11 +1341,13 @@ hr {
 }
 
 .form-section.dark-bg:before {
-    background: linear-gradient(90deg, transparent 40.9%, rgba(225, 232, 240, 0.75) 40.9%);
+    /* background: linear-gradient(90deg, transparent 40.9%,
+     rgba(225, 232, 240, 0.75) 40.9%); */
+     background-color: transparent;
 }
 
 .form-section.dark-bg:after {
-    background: url(../images/help/background-effect-4.jpg);
+    background: url(../images/drkevalshukla-contactus-bgimage.jpeg);
     background-size: cover;
 }
 
@@ -1373,7 +1398,7 @@ hr {
 
 .form-section .form {
     width: calc(100% - 26px);
-    float: right;
+    /* float: right; */
 }
 
 .form .button {
@@ -2348,7 +2373,7 @@ body.box .banner-container .slide-text {
 }
 
 .call-to-action.dark-bg:after {
-    background: url(../images/help/background-effect-5.jpg) repeat fixed center center / cover;
+    background: url(../images/help/banner/desktop-banner1.jpg) repeat fixed center center / cover;
 }
 
 .call-to-action-text {

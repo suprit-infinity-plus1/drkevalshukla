@@ -50,8 +50,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/foundation.min.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/theme-styles.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive-styles.css') }}" media="all" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}"
-        media="all" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fontawesome-all.min.css') }}" media="all" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -63,171 +62,343 @@
 
     <div class="main-container">
 
-        <div class="header">
-            <div class="grid-container grid-x grid-padding-x">
+        <div class="main-header" id="mainHeader">
 
-                <div class="small-12 large-3 medium-3 cell">
-                    <div class="logo">
-                        <a href="index.html">
-                            <!-- <h2 style="margin-bottom:0px;">
+
+            <div class="header">
+                <div class="grid-container grid-x grid-padding-x">
+
+                    <div class="small-12 large-3 medium-3 cell">
+                        <div class="logo">
+                            <a href="{{ route('home') }}">
+                                <!-- <h2 style="margin-bottom:0px;">
                                 Dr. Keval Shukla
                             </h2> -->
-                            <img src="{{ asset('assets/images/help/logo.png') }}" alt="Dr Keval Shukla Logo" />
-                        </a>
-                    </div>
-                </div><!-- Cell /  -->
-
-                <div class="small-12 large-9 medium-9 cell margin-auto">
-                    <div class="info-container">
-                        <div class="icon-box">
-                            <div class="icon-side">
-                                <img src="{{ asset('assets/images/help/icons/tablet.png') }}" alt="icon" />
-                            </div><!-- Icon Side /-->
-                            <div class="info-side">
-                                <p><a href="tel:+91 9699915789">+91 9699915789</a><br>
-                                    Book an Appointment
-                                </p>
-                            </div><!-- Info Side /-->
+                                <img src="{{ asset('assets/images/drkevalshukla-logo.png') }}" alt="Dr Keval Shukla Logo" />
+                            </a>
                         </div>
-                        <div class="icon-box">
-                            <div class="icon-side">
-                                <img src="{{ asset('assets/images/help/icons/pointer.png') }}" alt="icon" />
-                            </div><!-- Icon Side /-->
-                            <div class="info-side">
-                                <p><strong>Wockhardt Hospital </strong><br>
-                                    Agripada , Mumbai Centra
-                                </p>
-                            </div><!-- Info Side /-->
-                        </div>
-                    </div><!-- Info Container /-->
-                </div><!-- Cell /  -->
+                    </div><!-- Cell /  -->
 
-            </div><!-- Grid Container /-->
-        </div>
-        <!-- Header /-->
+                    <div class="small-12 large-9 medium-9 cell margin-auto">
+                        <div class="info-container">
+                            <div class="icon-box">
+                                <div class="icon-side">
+                                    <img src="{{ asset('assets/images/help/icons/tablet.png') }}" alt="icon" />
+                                </div><!-- Icon Side /-->
+                                <div class="info-side">
+                                    <p><a href="tel:+91 9699915789">+91 9699915789</a><br>
+                                        Book an Appointment
+                                    </p>
+                                </div><!-- Info Side /-->
+                            </div>
+                            <div class="icon-box">
+                                <div class="icon-side">
+                                    <img src="{{ asset('assets/images/help/icons/pointer.png') }}" alt="icon" />
+                                </div><!-- Icon Side /-->
+                                <div class="info-side">
+                                    <p><strong>Wockhardt Hospital </strong><br>
+                                        Agripada , Mumbai Centra
+                                    </p>
+                                </div><!-- Info Side /-->
+                            </div>
+                        </div><!-- Info Container /-->
+                    </div><!-- Cell /  -->
 
-        <div class="navigation">
-            <nav class="navbar navbar-expand-lg navbar-white bg-white p-0" aria-label="Ninth navbar example">
-                <div class="container-xl">
-                    <button class="navbar-toggler border-0 shadow-none collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL"
-                        aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navbar-collapse collapse" id="navbarsExample07XL" style="">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('home') ? 'active' : '' }}"
-                                    href="{{ route('home') }}">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('about') ? 'active' : '' }}"
-                                    href="{{ route('about') }}">About Us</a>
-                            </li>
-                            {{-- DESKTOP ONLY (hover dropdown) --}}
-                            <li class="nav-item dropdown d-none d-lg-block">
-                                <a class="nav-link dropdown-toggle p-3 fw-semibold text-uppercase
-       {{ request()->is('services/*') ? 'active' : '' }}"
-                                    href="{{ route('services') }}">
-                                    Services
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item"
-                                            href="{{ route('minimally-invasive-spine-surgeries') }}">Minimally
-                                            Invasive Spine Surgeries
-                                        </a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="{{ route('neuro-oncology') }}">Neuro Oncology
-                                        </a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="{{ route('neuro-trauma') }}">Neuro Trauma</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="{{ route('vascular-neurosurgery') }}">Vascular
-                                            Neurosurgery</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="{{ route('epilepsy-surgery') }}">Epilepsy
-                                            Surgery</a>
-                                    </li>
-                                    <li><a class="dropdown-item"
-                                            href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull Base
-                                            Surgery</a>
-                                    </li>
-                                </ul>
-                            </li>
+                </div><!-- Grid Container /-->
+            </div>
+            <!-- Header /-->
 
-                            {{-- MOBILE ONLY: Services text (link) + dropdown toggle (arrow) --}}
-                            <li class="nav-item dropdown d-block d-lg-none">
-                                <div class="d-flex flex-wrap justify-content-between align-items-center px-3 py-2">
-                                    {{-- Left: Clickable text --}}
-                                    <a href="{{ route('services') }}"
-                                        class="col-11 fw-semibold text-uppercase text-decoration-none
-            {{ request()->is('services') ? 'active' : '' }}">
+            <div class="navigation">
+                <nav class="navbar navbar-expand-lg navbar-white bg-white p-0" aria-label="Ninth navbar example">
+                    <div class="container-xl">
+                        <button class="navbar-toggler border-0 shadow-none collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL"
+                            aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navbar-collapse collapse" id="navbarsExample07XL" style="">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-4">
+                                <li class="nav-item">
+                                    <a class="nav-link p-2 p-lg-3 fw-semibold text-uppercase {{ request()->routeIs('home') ? 'active' : '' }}"
+                                        href="{{ route('home') }}">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-2 p-lg-3 fw-semibold text-uppercase {{ request()->routeIs('about') ? 'active' : '' }}"
+                                        href="{{ route('about') }}">About</a>
+                                </li>
+                                {{-- DESKTOP ONLY (hover dropdown) --}}
+                                <li class="nav-item dropdown d-none d-lg-block">
+                                    <a class="nav-link dropdown-toggle p-2 p-lg-3 fw-semibold text-uppercase
+       {{ request()->is('services/*') ? 'active' : '' }}" href="{{ route('services') }}">
                                         Services
                                     </a>
-
-                                    {{-- Right: Dropdown toggle (only arrow) --}}
-                                    <button class="col-1 dropdown-toggle text-dark text-decoration-none"
-                                        data-bs-toggle="dropdown" aria-expanded="false" type="button">
-                                    </button>
-
-                                    <ul class="col-12 dropdown-menu border-0">
+                                    <ul class="dropdown-menu">
                                         <li><a class="dropdown-item"
                                                 href="{{ route('minimally-invasive-spine-surgeries') }}">Minimally
-                                                Invasive Spine Surgeries</a></li>
-                                        <li><a class="dropdown-item" href="{{ route('neuro-oncology') }}">Neuro
-                                                Oncology
-                                            </a></li>
-                                        <li><a class="dropdown-item" href="{{ route('neuro-trauma') }}">Neuro
-                                                Trauma</a></li>
+                                                Invasive Spine Surgeries
+                                            </a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="{{ route('neuro-oncology') }}">Neuro Oncology
+                                            </a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="{{ route('neuro-trauma') }}">Neuro Trauma</a>
+                                        </li>
                                         <li><a class="dropdown-item"
                                                 href="{{ route('vascular-neurosurgery') }}">Vascular
-                                                Neurosurgery</a></li>
+                                                Neurosurgery</a>
+                                        </li>
                                         <li><a class="dropdown-item" href="{{ route('epilepsy-surgery') }}">Epilepsy
-                                                Surgery</a></li>
+                                                Surgery</a>
+                                        </li>
                                         <li><a class="dropdown-item"
                                                 href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull
                                                 Base
-                                                Surgery</a></li>
+                                                Surgery</a>
+                                        </li>
                                     </ul>
-                                </div>
-                            </li>
+                                </li>
+
+                                {{-- MOBILE ONLY: Services text (link) + dropdown toggle (arrow) --}}
+                                <li class="nav-item dropdown d-block d-lg-none">
+                                    <div class="d-flex flex-wrap justify-content-between align-items-center px-3 py-2">
+                                        {{-- Left: Clickable text --}}
+                                        <a href="{{ route('services') }}" class="col-11 fw-semibold text-uppercase text-decoration-none
+            {{ request()->is('services') ? 'active' : '' }}">
+                                            Services
+                                        </a>
+
+                                        {{-- Right: Dropdown toggle (only arrow) --}}
+                                        <button class="col-1 dropdown-toggle text-dark text-decoration-none"
+                                            data-bs-toggle="dropdown" aria-expanded="false" type="button">
+                                        </button>
+
+                                        <ul class="col-12 dropdown-menu border-0">
+                                            <li><a class="dropdown-item"
+                                                    href="{{ route('minimally-invasive-spine-surgeries') }}">Minimally
+                                                    Invasive Spine Surgeries</a></li>
+                                            <li><a class="dropdown-item" href="{{ route('neuro-oncology') }}">Neuro
+                                                    Oncology
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="{{ route('neuro-trauma') }}">Neuro
+                                                    Trauma</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="{{ route('vascular-neurosurgery') }}">Vascular
+                                                    Neurosurgery</a></li>
+                                            <li><a class="dropdown-item" href="{{ route('epilepsy-surgery') }}">Epilepsy
+                                                    Surgery</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull
+                                                    Base
+                                                    Surgery</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
 
 
 
 
 
 
-                            <!-- <li class="nav-item">
+                                <!-- <li class="nav-item">
                                 <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('staff') ? 'active' : '' }}"
                                     href="{{ route('staff') }}">Our Staff</a>
                             </li> -->
-                            <li class="nav-item">
-                                <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('appointment') ? 'active' : '' }}"
-                                    href="{{ route('appointment') }}">Appointment</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('blog') ? 'active' : '' }}"
-                                    href="{{ route('blog') }}">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('contact') ? 'active' : '' }}"
-                                    href="{{ route('contact') }}">Contact Us</a>
-                            </li>
-                        </ul>
+                                <li class="nav-item">
+                                    <a class="nav-link p-2 p-lg-3 fw-semibold text-uppercase {{ request()->routeIs('appointment') ? 'active' : '' }}"
+                                        href="{{ route('appointment') }}">Appointment</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-2 p-lg-3 fw-semibold text-uppercase {{ request()->routeIs('blog') ? 'active' : '' }}"
+                                        href="{{ route('blog') }}">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-2 p-lg-3 fw-semibold text-uppercase {{ request()->routeIs('contact') ? 'active' : '' }}"
+                                        href="{{ route('contact') }}">Contact Us</a>
+                                </li>
+                            </ul>
 
+                        </div>
+                        <div class="social-icons d-flex gap-3">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
                     </div>
-                    <div class="social-icons d-flex gap-3">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    </div>
-                </div>
-            </nav>
+                </nav>
 
+            </div>
+            <!-- navigation CSS Ends /-->
         </div>
-        <!-- navigation CSS Ends /-->
+        <div class="sticky-nav d-none position-sticky top-0 w-100 bg-white shadow-sm z-3" id="stickyHeader">
 
+
+            <div class="header">
+                <div class="grid-container grid-x grid-padding-x">
+
+                    <div class="small-12 large-3 medium-3 cell">
+                        <div class="logo">
+                            <a href="{{ route('home') }}">
+                                <!-- <h2 style="margin-bottom:0px;">
+                                Dr. Keval Shukla
+                            </h2> -->
+                                <img src="{{ asset('assets/images/drkevalshukla-logo.png') }}" alt="Dr Keval Shukla Logo" />
+                            </a>
+                        </div>
+                    </div><!-- Cell /  -->
+
+                    <div class="small-12 large-9 medium-9 cell margin-auto">
+                        <div class="info-container">
+                            <div class="icon-box">
+                                <div class="icon-side">
+                                    <img src="{{ asset('assets/images/help/icons/tablet.png') }}" alt="icon" />
+                                </div><!-- Icon Side /-->
+                                <div class="info-side">
+                                    <p><a href="tel:+91 9699915789">+91 9699915789</a><br>
+                                        Book an Appointment
+                                    </p>
+                                </div><!-- Info Side /-->
+                            </div>
+                            <div class="icon-box">
+                                <div class="icon-side">
+                                    <img src="{{ asset('assets/images/help/icons/pointer.png') }}" alt="icon" />
+                                </div><!-- Icon Side /-->
+                                <div class="info-side">
+                                    <p><strong>Wockhardt Hospital </strong><br>
+                                        Agripada , Mumbai Centra
+                                    </p>
+                                </div><!-- Info Side /-->
+                            </div>
+                        </div><!-- Info Container /-->
+                    </div><!-- Cell /  -->
+
+                </div><!-- Grid Container /-->
+            </div>
+            <!-- Header /-->
+
+            <div class="navigation">
+                <nav class="navbar navbar-expand-lg navbar-white bg-white p-0" aria-label="Ninth navbar example">
+                    <div class="container-xl">
+                        <button class="navbar-toggler border-0 shadow-none collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL"
+                            aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navbar-collapse collapse" id="navbarsExample07XL" style="">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-4">
+                                <li class="nav-item">
+                                    <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('home') ? 'active' : '' }}"
+                                        href="{{ route('home') }}">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('about') ? 'active' : '' }}"
+                                        href="{{ route('about') }}">About</a>
+                                </li>
+                                {{-- DESKTOP ONLY (hover dropdown) --}}
+                                <li class="nav-item dropdown d-none d-lg-block">
+                                    <a class="nav-link dropdown-toggle p-3 fw-semibold text-uppercase
+       {{ request()->is('services/*') ? 'active' : '' }}" href="{{ route('services') }}">
+                                        Services
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item"
+                                                href="{{ route('minimally-invasive-spine-surgeries') }}">Minimally
+                                                Invasive Spine Surgeries
+                                            </a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="{{ route('neuro-oncology') }}">Neuro Oncology
+                                            </a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="{{ route('neuro-trauma') }}">Neuro Trauma</a>
+                                        </li>
+                                        <li><a class="dropdown-item"
+                                                href="{{ route('vascular-neurosurgery') }}">Vascular
+                                                Neurosurgery</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="{{ route('epilepsy-surgery') }}">Epilepsy
+                                                Surgery</a>
+                                        </li>
+                                        <li><a class="dropdown-item"
+                                                href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull
+                                                Base
+                                                Surgery</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                {{-- MOBILE ONLY: Services text (link) + dropdown toggle (arrow) --}}
+                                <li class="nav-item dropdown d-block d-lg-none">
+                                    <div class="d-flex flex-wrap justify-content-between align-items-center px-3 py-2">
+                                        {{-- Left: Clickable text --}}
+                                        <a href="{{ route('services') }}" class="col-11 fw-semibold text-uppercase text-decoration-none
+            {{ request()->is('services') ? 'active' : '' }}">
+                                            Services
+                                        </a>
+
+                                        {{-- Right: Dropdown toggle (only arrow) --}}
+                                        <button class="col-1 dropdown-toggle text-dark text-decoration-none"
+                                            data-bs-toggle="dropdown" aria-expanded="false" type="button">
+                                        </button>
+
+                                        <ul class="col-12 dropdown-menu border-0">
+                                            <li><a class="dropdown-item"
+                                                    href="{{ route('minimally-invasive-spine-surgeries') }}">Minimally
+                                                    Invasive Spine Surgeries</a></li>
+                                            <li><a class="dropdown-item" href="{{ route('neuro-oncology') }}">Neuro
+                                                    Oncology
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="{{ route('neuro-trauma') }}">Neuro
+                                                    Trauma</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="{{ route('vascular-neurosurgery') }}">Vascular
+                                                    Neurosurgery</a></li>
+                                            <li><a class="dropdown-item" href="{{ route('epilepsy-surgery') }}">Epilepsy
+                                                    Surgery</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull
+                                                    Base
+                                                    Surgery</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+
+
+
+
+
+                                <!-- <li class="nav-item">
+                                <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('staff') ? 'active' : '' }}"
+                                    href="{{ route('staff') }}">Our Staff</a>
+                            </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('appointment') ? 'active' : '' }}"
+                                        href="{{ route('appointment') }}">Appointment</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('blog') ? 'active' : '' }}"
+                                        href="{{ route('blog') }}">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('contact') ? 'active' : '' }}"
+                                        href="{{ route('contact') }}">Contact Us</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="social-icons d-flex gap-3">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+            <!-- navigation CSS Ends /-->
+        </div>
+        <div id="stickySpacer" style="height: 0;"></div>
         @yield('content')
 
 
@@ -259,12 +430,12 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="footer-box footer-logo-side">
                                 <a href="#">
                                     <h3>
                                         <!-- Dr. Keval Shukla -->
-                                        <img src="{{ asset('assets/images/help/logo.png') }}"
+                                        <img src="{{ asset('assets/images/drkevalshukla-logo.png') }}"
                                             alt="Dr Keval Shukla Logo" />
                                     </h3>
                                 </a>
@@ -273,41 +444,24 @@
                                     experience in this field. After completing his training, Dr. Keval has worked at a
                                     major corporate hospital in Mumbai .
                                 </p>
-                                <div class="contact-us">
-                                    <ul>
-                                        <li><i class="fas fa-map-marker-alt"></i><a
-                                                href="#"><span>Address:</span>
-                                                Wockhardt Hospitals, 1877, Mumbai Central, Mumbai -
-                                                400011</a></li>
-                                        <li><i class="fas fa-mobile-alt"></i><a href="#"><span>Phone:</span>
-                                                +91 9699915789 </a></li>
-                                        <li><i class="fas fa-envelope"></i><a href="#"><span>Email:</span>
-                                                <span>keval242@gmail.com</span></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="social-icons">
-                                    <ul class="menu">
-                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div><!-- Footer Box /-->
+                            </div>
                         </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-lg-2 col-md-6 col-sm-12">
                             <div class="footer-box border-btm">
-                                <h6>About Our Clinic</h6>
+                                <h6>Quick Links</h6>
                                 <ul class="links">
                                     <li><a href="{{ route('home') }}">Home</a></li>
-                                    <li><a href="{{ route('about') }}">About Us</a></li>
+                                    <li><a href="{{ route('about') }}">About</a></li>
                                     <li><a href="{{ route('services') }}">Our Services</a></li>
-                                    <!-- <li><a href="{{ route('staff') }}">Staff & Doctors</a></li> -->
+                                    <li><a href="{{ route('appointment') }}">Appointment</a></li>
                                     <li><a href="{{ route('blog') }}">Blog</a></li>
                                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                 </ul>
+                            </div><!-- Footer Box /-->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="footer-box border-btm">
+                                <h6>Services</h6>
                                 <ul class="links">
                                     <li>
                                         <a href="{{ route('minimally-invasive-spine-surgeries') }}">Minimally
@@ -336,8 +490,42 @@
                                 </ul>
                             </div><!-- Footer Box /-->
                         </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="footer-box border-btm footer-logo-side">
+                                <h6>Contact</h6>
 
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+
+                                <div class="contact-us">
+                                    <ul>
+                                        <li class="d-flex"><div>
+                                            <i class="fas fa-map-marker-alt"></i></div>
+                                            <span>Address:</span>
+                                            <div>
+                                            <a href="#">
+                                                
+                                                
+                                                Wockhardt Hospitals, 1877, Mumbai Central, Mumbai -
+                                                400011</a> </div></li>
+                                        <li><i class="fas fa-mobile-alt"></i><a href="#"><span>Phone:</span>
+                                                +91 9699915789</a></li>
+                                        <li><i class="fas fa-envelope"></i><a href="#"><span>Email:</span>
+                                                keval242@gmail.com</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="social-icons">
+                                    <ul class="menu">
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- Footer Box /-->
+                        </div>
+
+
+                        {{-- <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="footer-box border-btm">
                                 <h6>Recent News</h6>
                                 <div class="footer-news-post">
@@ -368,6 +556,7 @@
                                 </div>
                             </div><!-- Footer Box /-->
                         </div>
+                        --}}
                     </div>
 
                 </div><!-- Grid Container /-->
@@ -460,7 +649,8 @@
                             </div>
                         </div>
 
-                        <textarea class="form-control shadow-none" rows="3" placeholder="Problem in Brief" required></textarea>
+                        <textarea class="form-control shadow-none" rows="3" placeholder="Problem in Brief"
+                            required></textarea>
 
                         <button type="submit" class="button secondary button-second mb-0">Send Message</button>
                     </form>
@@ -519,6 +709,27 @@
 </body>
 
 
-<!-- Mirrored from templates.webfulcreations.com/dermatology/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 15 Jul 2025 08:13:37 GMT -->
+<script>
+    const stickyHeader = document.getElementById('stickyHeader');
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 200) {
+            stickyHeader.classList.remove('d-none');
+        } else {
+            stickyHeader.classList.add('d-none');
+        }
+    });
+    const sticky = document.getElementById('stickyHeader');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 200) {
+            sticky.classList.add('visible');
+        } else {
+            sticky.classList.remove('visible');
+        }
+    });
+
+
+
+</script>
 
 </html>

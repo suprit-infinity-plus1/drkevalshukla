@@ -54,6 +54,10 @@
                                 Besides this he also performs general Neurosurgical procedures including Neuro trauma cases,
                                 Neuro oncology, Epilepsy surgeries, Skull base Neurosurgery.
                             </p>
+                            <p>
+                                Dr. Keval Shukla has done his M.S (Gen. Surg.) from Indira Gandhi Govt. Med college Nagpur,
+                                he has done M.Ch Neuro Surgery from Topiwala National Medical College, BYL Nair Hospital,
+                                Mumbai.</p>
                         </div>
                         <div class="about-info-box">
                             <div class="about-info-text">
@@ -179,7 +183,7 @@
 @endsection
 @section('extrajs')
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
 
         });
     </script>

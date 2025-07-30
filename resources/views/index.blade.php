@@ -7,17 +7,17 @@
     <div class="banner-container module">
         <div class="main-banner owl-carousel owl-theme" id="main-banner">
 
-            <div class="slide transparent-background slide-one">
-                <img src="{{ asset('assets/images/help/banner/desktop-banner1.jpg') }}" alt="banner" />
-                <div class="slide-text">
-                    <h2>Meet Experts</h2>
-                    <h3>Best Neurosurgeon</h3>
-                    <p>Our expert neurosurgeons deliver precise and compassionate care <br> using the latest technology for
-                        brain and spine conditions.</p>
+            <!-- <div class="slide transparent-background slide-one">
+                    <img src="{{ asset('assets/images/help/banner/desktop-banner1.jpg') }}" alt="banner" />
+                    <div class="slide-text">
+                        <h2>Meet Experts</h2>
+                        <h3>Best Neurosurgeon</h3>
+                        <p>Our expert neurosurgeons deliver precise and compassionate care <br> using the latest technology for
+                            brain and spine conditions.</p>
 
-                    <a class="button primary" href="{{ route('about') }}">Read More &gt;</a>
-                </div>
-            </div><!-- Slide /-->
+                        <a class="button primary" href="{{ route('about') }}">Read More &gt;</a>
+                    </div>
+                </div> -->
             <div class="slide transparent-background slide-two">
                 <img src="{{ asset('assets/images/help/banner/desktop-banner2.jpg') }}" alt="banner" />
                 <div class="slide-text">
@@ -135,6 +135,11 @@
                             <p>
                                 Besides this he also performs general Neurosurgical procedures including Neuro trauma cases,
                                 Neuro oncology, Epilepsy surgeries, Skull base Neurosurgery.
+                            </p>
+                            <p>
+                                Dr. Keval Shukla has done his M.S (Gen. Surg.) from Indira Gandhi Govt. Med college Nagpur,
+                                he has done M.Ch Neuro Surgery from Topiwala National Medical College, BYL Nair Hospital,
+                                Mumbai.
                             </p>
                         </div>
                         <div class="about-info-box">
@@ -513,9 +518,10 @@
             <p>why we are best</p>
         </div><!-- Section Title /-->
 
-        <div class="grid-container grid-x grid-padding-x">
+        <div class="container">
+        <div class=" row">
 
-            <div class="large-8 medium-12 small-12 cell">
+            <div class="col-lg-8 col-12">
                 <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true"
                     data-deep-link-smudge="500" id="deeplinked-accordion">
                     <li class="accordion-item border-0" data-accordion-item>
@@ -558,7 +564,7 @@
                 </ul><!-- Cccordion /-->
             </div>
 
-            <div class="large-4 medium-12 small-12 cell">
+            <div class="col-lg-4 d-sm-none d-lg-block">
                 <img src="{{ asset('assets/images/help/dekevalshukla-img2.png') }}" alt="">
                 {{-- <div class="after-before-item">
                     <div class="twentytwenty-container">
@@ -568,12 +574,13 @@
                 </div> --}}
             </div>
 
-        </div><!-- Grid Container /-->
+        </div>
+        </div>
 
     </div>
     <!-- Why Chose Us /-->
 
-    <div class="testimonials dark-bg grey-bg">
+    <div class="testimonials grey-bg">
 
         <div class="section-title-second">
             <h2>Awesome Reviews</h2>
@@ -716,7 +723,7 @@
 
         <div class="grid-container grid-x grid-padding-x">
 
-            <div class="large-7 medium-7 small-12 large-offset-5 medium-offset-5 cell">
+            <div class="large-6 medium-8 small-12 large-offset-3 medium-offset-2 cell">
                 <div class="form">
                     <h2>Contact Us</h2>
                     <p>Want to book an appointment with us? Fill up the form below to get appointment.</p>
@@ -742,16 +749,17 @@
                         <!-- Appointment Date & Time -->
                         <div class="row">
                             <div class="col-sm-6">
-                                <input type="date" class="form-control" name="appointment_date"
-                                    placeholder="Select Date" required>
+                                <input type="date" class="form-control" name="appointment_date" placeholder="Select Date"
+                                    required>
                             </div>
                             <div class="col-sm-6">
-                                <input type="time" class="form-control" name="appointment_time"
-                                    placeholder="Select Time" required>
+                                <input type="time" class="form-control" name="appointment_time" placeholder="Select Time"
+                                    required>
                             </div>
                         </div>
 
-                        <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief" required></textarea>
+                        <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief"
+                            required></textarea>
                         <a class="button secondary button-second">Send Message</a>
                     </form>
 
@@ -861,17 +869,17 @@
 @endsection
 @section('extrajs')
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
 
         });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.6.2/countUp.umd.js"></script>
     <script>
-        $(document).ready(function() {});
+        $(document).ready(function () { });
     </script>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            document.querySelectorAll('.count').forEach(function(el) {
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll('.count').forEach(function (el) {
                 const target = parseInt(el.getAttribute('data-count'));
                 const counter = new countUp.CountUp(el, target, {
                     duration: 2,
