@@ -14,7 +14,8 @@ Route::get('/about', [MainController::class, 'about'])->name('about');
 Route::get('/services', [MainController::class, 'services'])->name('services');
 Route::get('/single-service', [MainController::class, 'singleService'])->name('single-service');
 Route::get('/staff', [MainController::class, 'staff'])->name('staff');
-Route::get('/blog', [MainController::class, 'blog'])->name('blog');
+Route::get('/blog', [MainController::class, 'blog'])->name('blogs');
+Route::get('/blogs/{blog_url}', [MainController::class, 'getBlog'])->name('blog');
 Route::get('/single-post-page', [MainController::class, 'singlePostPage'])->name('single-post-page');
 Route::get('/appointment', [MainController::class, 'appointment'])->name('appointment');
 Route::get('/contact', [MainController::class, 'contact'])->name('contact');
@@ -40,6 +41,8 @@ Route::prefix('admin')->group(function () {
         Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
         Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
         Route::get('/profile2/edit', [AdminController::class, 'profileEdit'])->name('admin.profileEdit');
+
+        Route::get('/blogs2', [BlogController::class, 'blogs'])->name('admin.blogs');
 
         Route::get('/blogs2', [BlogController::class, 'blogs'])->name('admin.blogs');
         Route::get('/blogs2/add', [BlogController::class, 'blogsAdd'])->name('admin.blogs.add');
