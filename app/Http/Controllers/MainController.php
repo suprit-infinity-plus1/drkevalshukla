@@ -69,7 +69,7 @@ class MainController
     {
         try {
             $blog = Blog::where('blog_url', $slug)->firstOrFail();
-            $recentBlogs = Blog::orderBy('created_at', 'desc')->where('id', '!=', $blog->id)->take(3)->get();
+            $recentBlogs = Blog::orderBy('created_at', 'desc')->where('id', '!=', $blog->id)->take(6)->get();
             return view('blog-details', compact('blog', 'recentBlogs'));
         } catch (ModelNotFoundException $ex) {
             return redirect('/')->with('error', 'Whoops, Blog Not Found!');

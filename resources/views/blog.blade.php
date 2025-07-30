@@ -40,7 +40,7 @@
                                         <a href="{{ route('blog', $blog->blog_url) }}"
                                             class="text-decoration-none text-dark">
                                             {{-- What Are Brain Tumors? --}}
-                                            {{ str($recent->title)->limit(20) }}
+                                            {{ str($blog->title)->limit(20) }}
                                         </a>
                                     </h6>
                                     <div class="blog-description-wrapper">
@@ -137,13 +137,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                         Remove to Not Display /-->
+                                                                                             Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                         Delete to Remove Preloader /-->
+                                                                                             Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>
