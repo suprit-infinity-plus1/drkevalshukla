@@ -207,7 +207,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('blog') ? 'active' : '' }}"
-                                    href="{{ route('blog') }}">Blog</a>
+                                    href="{{ route('blogs') }}">Blog</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('contact') ? 'active' : '' }}"
@@ -305,7 +305,7 @@
                                     <li><a href="{{ route('about') }}">About Us</a></li>
                                     <li><a href="{{ route('services') }}">Our Services</a></li>
                                     <!-- <li><a href="{{ route('staff') }}">Staff & Doctors</a></li> -->
-                                    <li><a href="{{ route('blog') }}">Blog</a></li>
+                                    <li><a href="{{ route('blogs') }}">Blog</a></li>
                                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                 </ul>
                                 <ul class="links">

@@ -3,13 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Blog;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 
 class MainController
 {
     //
     public function index()
     {
-        return view('index');
+        $latestBlog = Blog::latest()->take(3)->get();
+        // dd($latestBlog);
+        return view('index', compact('latestBlog'));
     }
 
     public function about()
@@ -31,7 +35,9 @@ class MainController
     }
     public function blog()
     {
-        return view('blog');
+        $blogs = Blog::orderBy('id', 'desc')->get();
+        return view('blog', compact('blogs'));
+        // return view('blog');
     }
     public function singlePostPage()
     {
@@ -57,6 +63,19 @@ class MainController
     public function blogOpenBrainSurgery()
     {
         return view('blog-open-brain-surgery');
+    }
+
+    public function getBlog($slug)
+    {
+        try {
+            $blog = Blog::where('blog_url', $slug)->firstOrFail();
+            $recentBlogs = Blog::orderBy('created_at', 'desc')->where('id', '!=', $blog->id)->take(3)->get();
+            return view('blog-details', compact('blog', 'recentBlogs'));
+        } catch (ModelNotFoundException $ex) {
+            return redirect('/')->with('error', 'Whoops, Blog Not Found!');
+        } catch (\Exception $ex) {
+            return redirect('/')->with('error', 'Whoops, Something Went Wrong from our End!');
+        }
     }
 
 

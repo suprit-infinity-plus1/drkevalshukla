@@ -343,7 +343,7 @@
             <footer class="main-footer bg-dark">
                 <div class="footer-left">
                     Copyright &copy; {{ date('Y') == '2022' ? '2022' : '2022 - ' . date('Y') }}
-                    <div class="bullet"></div> Luxanto
+                    <div class="bullet"></div> Dr. Keval Shukla
                     {{-- - Designed & Developed By <a href="https://www.sanjaresolutions.com" target="_blank">Sanjar E
                         Solutions</a> --}}
                 </div>

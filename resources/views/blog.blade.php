@@ -31,6 +31,29 @@
                 </div>
 
                 <div class="row g-4">
+                    @foreach ($blogs as $blog)
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <img src="{{ asset($blog->cover_image) }}" class="card-img-top" alt="Product Img">
+                                <div class="card-body">
+                                    <h6 class="card-title blog-title">
+                                        <a href="{{ route('blog', $blog->blog_url) }}"
+                                            class="text-decoration-none text-dark">
+                                            {{-- What Are Brain Tumors? --}}
+                                            {{ str($recent->title)->limit(20) }}
+                                        </a>
+                                    </h6>
+                                    <div class="blog-description-wrapper">
+
+                                        <p class="blog-description">
+                                            {{ str(strip_tags($blog->description))->limit(130) }}
+                                        </p>
+                                        <a href="{{ route('blog', $blog->blog_url) }}" class="blog-readmore">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
                     <!-- Blog Card 1 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="card h-100 border-0 shadow-sm">
@@ -86,7 +109,8 @@
                                 alt="Product Img">
                             <div class="card-body">
                                 <h6 class="card-title blog-title">
-                                    <a href="{{ route('blog-open-brain-surgery') }}" class="text-decoration-none text-dark">
+                                    <a href="{{ route('blog-open-brain-surgery') }}"
+                                        class="text-decoration-none text-dark">
                                         Awake Surgery for Brain Tumors
                                     </a>
                                 </h6>
@@ -113,13 +137,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                 Remove to Not Display /-->
+                                                                                         Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                 Delete to Remove Preloader /-->
+                                                                                         Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

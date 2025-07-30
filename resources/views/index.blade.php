@@ -774,6 +774,30 @@
 
             <div class="row g-4">
                 <!-- Blog Card 1 -->
+                @foreach ($latestBlog as $blog)
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="{{ asset($blog->cover_image) }}" class="card-img-top" alt="Product Img">
+                            <div class="card-body">
+                                <h6 class="card-title blog-title">
+                                    <a href="{{ route('blog', $blog->blog_url) }}"
+                                        class="text-decoration-none text-dark">
+                                        {{ str($blog->title)->limit(20) }}
+                                    </a>
+                                </h6>
+                                <div class="blog-description-wrapper">
+                                    <p class="blog-description">
+                                        {{-- {!! $blog->description !!} --}}
+                                        {{ str(strip_tags($blog->description))->limit(130) }}
+
+                                    </p>
+                                    <a href="{{ route('blog', $blog->blog_url) }}" class="blog-readmore">Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
                 <div class="col-lg-4 col-md-6">
                     <div class="card h-100 border-0 shadow-sm">
                         <img src="{{ asset('assets/images/help/blog/blog-brain-tumor.jpg') }}" class="card-img-top"
