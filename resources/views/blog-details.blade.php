@@ -62,7 +62,7 @@
                                 </div>
                             @endforeach
 
-                            <div class="d-flex mb-4">
+                            <!-- <div class="d-flex mb-4">
                                 <img src="{{ asset('assets/images/help/blog/blog-spine-surgery.jpg') }}" alt="Blog 1"
                                     class="img-fluid rounded me-3" style="width: 80px; height: 80px; object-fit: cover;">
                                 <div>
@@ -80,7 +80,7 @@
                                         Brain Tumors</a>
                                     <p class="mb-0 text-muted" style="font-size: 0.9rem;">Awake brain surgery allows</p>
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
