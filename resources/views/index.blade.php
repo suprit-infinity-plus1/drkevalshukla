@@ -806,7 +806,7 @@
                         </div>
                     </div>
                 @endforeach
-                <div class="col-lg-4 col-md-6">
+                <!-- <div class="col-lg-4 col-md-6">
                     <div class="card h-100 border-0 shadow-sm">
                         <img src="{{ asset('assets/images/help/blog/blog-brain-tumor.jpg') }}" class="card-img-top"
                             alt="Product Img">
@@ -828,8 +828,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Blog Card 2 -->
                 <div class="col-lg-4 col-md-6">
                     <div class="card h-100 border-0 shadow-sm">
                         <img src="{{ asset('assets/images/help/blog/blog-spine-surgery.jpg') }}" class="card-img-top"
@@ -853,7 +851,6 @@
                     </div>
                 </div>
 
-                <!-- Blog Card 3 -->
                 <div class="col-lg-4 col-md-6">
                     <div class="card h-100 border-0 shadow-sm">
                         <img src="{{ asset('assets/images/help/blog/blog-open-brain.jpg') }}" class="card-img-top"
@@ -877,7 +874,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
