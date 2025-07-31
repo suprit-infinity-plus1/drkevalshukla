@@ -1575,7 +1575,7 @@ body.box .banner-container .slide-text {
 -------------------------*/
 .appointment-page.dark-bg:before {
     content: "";
-    background-color: rgba(225, 232, 240, 0.9);
+    /* background-color: rgba(225, 232, 240, 0.9); */
 }
 
 .appointment-page select,
