@@ -85,39 +85,21 @@
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div>
+                    @if (session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
+                    @endif
                     <h4 class="fw-bold mb-4">Fill the form below to contact us</h4>
-                    <form action="">
-                        <input type="text" value="" placeholder="Full Name">
+                    <form action="{{ route('contact.submit') }}" method="POST">
+                        @csrf
+                        <input type="text" name="name" value="" placeholder="Full Name" required>
                         {{-- <input type="email" value="" placeholder="Email Address"> --}}
-                        <input type="text" value="" placeholder="Phone Number">
+                        <input type="text" name="phone" value="" placeholder="Phone Number" required>
 
-                        <!-- <div class="row">
-                                <div class="col-sm-6">
-                                    <select name="gender" id="gender">
-                                        <option value="" selected disabled>Gender</option>
-                                        <option value="male">Male</option>
-                                        <option value="female">Female</option>
-                                        <option value="other">Other</option>
-                                    </select>
-                                </div>
-                                <div class="col-sm-6">
-                                    <input type="number" value="" placeholder="Age">
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <input type="date" class="form-control" name="appointment_date" placeholder="Select Date"
-                                        required>
-                                </div>
-                                <div class="col-sm-6">
-                                    <input type="time" class="form-control" name="appointment_time" placeholder="Select Time"
-                                        required>
-                                </div>
-                            </div> -->
-
-                        <textarea id="Reason" class="form-control" rows="3" placeholder="Message" required></textarea>
-                        <a class="button secondary button-second">Send Message</a>
+                        <textarea id="Reason" class="form-control" rows="3" name="message" placeholder="Message"></textarea>
+                        <input type="hidden" name="form_type" value="simple_contact">
+                        <button type="submit" class="button secondary button-second">Send Message</button>
                     </form>
                 </div>
             </div>

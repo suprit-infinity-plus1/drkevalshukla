@@ -50,7 +50,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/foundation.min.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/theme-styles.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive-styles.css') }}" media="all" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}" media="all" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}"
+        media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fontawesome-all.min.css') }}" media="all" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -74,7 +75,8 @@
                                 <!-- <h2 style="margin-bottom:0px;">
                                 Dr. Keval Shukla
                             </h2> -->
-                                <img src="{{ asset('assets/images/drkevalshukla-logo.png') }}" alt="Dr Keval Shukla Logo" />
+                                <img src="{{ asset('assets/images/drkevalshukla-logo.png') }}"
+                                    alt="Dr Keval Shukla Logo" />
                             </a>
                         </div>
                     </div><!-- Cell /  -->
@@ -129,7 +131,8 @@
                                 {{-- DESKTOP ONLY (hover dropdown) --}}
                                 <li class="nav-item dropdown d-none d-lg-block">
                                     <a class="nav-link dropdown-toggle p-2 p-lg-3 fw-semibold text-uppercase
-       {{ request()->is('services/*') ? 'active' : '' }}" href="{{ route('services') }}">
+       {{ request()->is('services/*') ? 'active' : '' }}"
+                                        href="{{ route('services') }}">
                                         Services
                                     </a>
                                     <ul class="dropdown-menu">
@@ -138,10 +141,12 @@
                                                 Invasive Spine Surgeries
                                             </a>
                                         </li>
-                                        <li><a class="dropdown-item" href="{{ route('neuro-oncology') }}">Neuro Oncology
+                                        <li><a class="dropdown-item" href="{{ route('neuro-oncology') }}">Neuro
+                                                Oncology
                                             </a>
                                         </li>
-                                        <li><a class="dropdown-item" href="{{ route('neuro-trauma') }}">Neuro Trauma</a>
+                                        <li><a class="dropdown-item" href="{{ route('neuro-trauma') }}">Neuro
+                                                Trauma</a>
                                         </li>
                                         <li><a class="dropdown-item"
                                                 href="{{ route('vascular-neurosurgery') }}">Vascular
@@ -162,7 +167,8 @@
                                 <li class="nav-item dropdown d-block d-lg-none">
                                     <div class="d-flex flex-wrap justify-content-between align-items-center px-3 py-2">
                                         {{-- Left: Clickable text --}}
-                                        <a href="{{ route('services') }}" class="col-11 fw-semibold text-uppercase text-decoration-none
+                                        <a href="{{ route('services') }}"
+                                            class="col-11 fw-semibold text-uppercase text-decoration-none
             {{ request()->is('services') ? 'active' : '' }}">
                                             Services
                                         </a>
@@ -184,10 +190,12 @@
                                             <li><a class="dropdown-item"
                                                     href="{{ route('vascular-neurosurgery') }}">Vascular
                                                     Neurosurgery</a></li>
-                                            <li><a class="dropdown-item" href="{{ route('epilepsy-surgery') }}">Epilepsy
+                                            <li><a class="dropdown-item"
+                                                    href="{{ route('epilepsy-surgery') }}">Epilepsy
                                                     Surgery</a></li>
                                             <li><a class="dropdown-item"
-                                                    href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull
+                                                    href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic
+                                                    Skull
                                                     Base
                                                     Surgery</a></li>
                                         </ul>
@@ -242,7 +250,8 @@
                                 <!-- <h2 style="margin-bottom:0px;">
                                 Dr. Keval Shukla
                             </h2> -->
-                                <img src="{{ asset('assets/images/drkevalshukla-logo.png') }}" alt="Dr Keval Shukla Logo" />
+                                <img src="{{ asset('assets/images/drkevalshukla-logo.png') }}"
+                                    alt="Dr Keval Shukla Logo" />
                             </a>
                         </div>
                     </div><!-- Cell /  -->
@@ -297,7 +306,8 @@
                                 {{-- DESKTOP ONLY (hover dropdown) --}}
                                 <li class="nav-item dropdown d-none d-lg-block">
                                     <a class="nav-link dropdown-toggle p-3 fw-semibold text-uppercase
-       {{ request()->is('services/*') ? 'active' : '' }}" href="{{ route('services') }}">
+       {{ request()->is('services/*') ? 'active' : '' }}"
+                                        href="{{ route('services') }}">
                                         Services
                                     </a>
                                     <ul class="dropdown-menu">
@@ -306,10 +316,12 @@
                                                 Invasive Spine Surgeries
                                             </a>
                                         </li>
-                                        <li><a class="dropdown-item" href="{{ route('neuro-oncology') }}">Neuro Oncology
+                                        <li><a class="dropdown-item" href="{{ route('neuro-oncology') }}">Neuro
+                                                Oncology
                                             </a>
                                         </li>
-                                        <li><a class="dropdown-item" href="{{ route('neuro-trauma') }}">Neuro Trauma</a>
+                                        <li><a class="dropdown-item" href="{{ route('neuro-trauma') }}">Neuro
+                                                Trauma</a>
                                         </li>
                                         <li><a class="dropdown-item"
                                                 href="{{ route('vascular-neurosurgery') }}">Vascular
@@ -330,7 +342,8 @@
                                 <li class="nav-item dropdown d-block d-lg-none">
                                     <div class="d-flex flex-wrap justify-content-between align-items-center px-3 py-2">
                                         {{-- Left: Clickable text --}}
-                                        <a href="{{ route('services') }}" class="col-11 fw-semibold text-uppercase text-decoration-none
+                                        <a href="{{ route('services') }}"
+                                            class="col-11 fw-semibold text-uppercase text-decoration-none
             {{ request()->is('services') ? 'active' : '' }}">
                                             Services
                                         </a>
@@ -352,10 +365,12 @@
                                             <li><a class="dropdown-item"
                                                     href="{{ route('vascular-neurosurgery') }}">Vascular
                                                     Neurosurgery</a></li>
-                                            <li><a class="dropdown-item" href="{{ route('epilepsy-surgery') }}">Epilepsy
+                                            <li><a class="dropdown-item"
+                                                    href="{{ route('epilepsy-surgery') }}">Epilepsy
                                                     Surgery</a></li>
                                             <li><a class="dropdown-item"
-                                                    href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull
+                                                    href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic
+                                                    Skull
                                                     Base
                                                     Surgery</a></li>
                                         </ul>
@@ -497,15 +512,19 @@
 
                                 <div class="contact-us">
                                     <ul>
-                                        <li class="d-flex"><div>
-                                            <i class="fas fa-map-marker-alt"></i></div>
+                                        <li class="d-flex">
+                                            <div>
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </div>
                                             <span>Address:</span>
                                             <div>
-                                            <a href="#">
-                                                
-                                                
-                                                Wockhardt Hospitals, 1877, Mumbai Central, Mumbai -
-                                                400011</a> </div></li>
+                                                <a href="#">
+
+
+                                                    Wockhardt Hospitals, 1877, Mumbai Central, Mumbai -
+                                                    400011</a>
+                                            </div>
+                                        </li>
                                         <li><i class="fas fa-mobile-alt"></i><a href="#"><span>Phone:</span>
                                                 +91 9699915789</a></li>
                                         <li><i class="fas fa-envelope"></i><a href="#"><span>Email:</span>
@@ -617,43 +636,43 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form action="">
-                        <input type="text" class="form-control mb-3 shadow-none" placeholder="Full Name" />
+                    <form action="{{ route('contact.submit') }}" method="POST">
+                        @csrf
+                        <input type="text" name="name" class="form-control mb-3 shadow-none"
+                            placeholder="Full Name" />
 
-                        <!-- <input type="email" class="form-control mb-3" placeholder="Email Address" /> -->
-
-                        <input type="text" class="form-control mb-3 shadow-none" placeholder="Phone Number" />
+                        <input type="text" name="phone" class="form-control mb-3 shadow-none"
+                            placeholder="Phone Number" />
 
                         <div class="row">
                             <div class="col-sm-6 shadow-none">
-                                <select class="" name="gender" id="gender">
+                                <select name="gender" id="gender">
                                     <option value="" selected disabled>Gender</option>
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
                                     <option value="other">Other</option>
                                 </select>
                             </div>
-                            <div class="col-sm-6 ">
-                                <input type="number" class="form-control shadow-none" placeholder="Age" />
+                            <div class="col-sm-6">
+                                <input type="number" name="age" class="form-control shadow-none"
+                                    placeholder="Age" />
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-sm-6 ">
-                                <input type="date" class="form-control shadow-none" name="appointment_date"
-                                    placeholder="Select Date" required>
+                            <div class="col-sm-6">
+                                <input type="date" name="appointment_date" class="form-control shadow-none">
                             </div>
-                            <div class="col-sm-6 ">
-                                <input type="time" class="form-control shadow-none" name="appointment_time"
-                                    placeholder="Select Time" required>
+                            <div class="col-sm-6">
+                                <input type="time" name="appointment_time" class="form-control shadow-none">
                             </div>
                         </div>
 
-                        <textarea class="form-control shadow-none" rows="3" placeholder="Problem in Brief"
-                            required></textarea>
-
+                        <textarea name="message" class="form-control shadow-none" rows="3" placeholder="Problem in Brief"></textarea>
+                        <input type="hidden" name="form_type" value="appointment_form">
                         <button type="submit" class="button secondary button-second mb-0">Send Message</button>
                     </form>
+
                 </div>
             </div>
         </div>
@@ -711,7 +730,7 @@
 
 <script>
     const stickyHeader = document.getElementById('stickyHeader');
-    window.addEventListener('scroll', function () {
+    window.addEventListener('scroll', function() {
         if (window.scrollY > 200) {
             stickyHeader.classList.remove('d-none');
         } else {
@@ -727,9 +746,6 @@
             sticky.classList.remove('visible');
         }
     });
-
-
-
 </script>
 
 </html>

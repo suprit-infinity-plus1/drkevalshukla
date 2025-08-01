@@ -23,6 +23,7 @@ Route::get('/blog/brain-tumors', [MainController::class, 'blogBrainTumors'])->na
 Route::get('/blog/spine-surgery', [MainController::class, 'blogSpineSurgery'])->name('blog-spine-surgery');
 Route::get('/blog/open-brain-surgery', [MainController::class, 'blogOpenBrainSurgery'])->name('blog-open-brain-surgery');
 
+Route::post('/contact', [MainController::class, 'submitContact'])->name('contact.submit');
 
 Route::get('/minimally-invasive-spine-surgeries', [MainController::class, 'minimallyInvasiveSpineSurgeries'])->name('minimally-invasive-spine-surgeries');
 Route::get('/neuro-oncology', [MainController::class, 'neuroOncology'])->name('neuro-oncology');

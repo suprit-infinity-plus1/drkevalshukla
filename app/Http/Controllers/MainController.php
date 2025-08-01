@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use App\Models\Blog;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
+use App\Mail\ContactMessage;
 
 class MainController
 {
@@ -52,6 +54,70 @@ class MainController
         return view('contact');
     }
 
+    public function submitContact(Request $request)
+    {
+        $formType = $request->input('form_type');
+
+        if ($formType === 'simple_contact') {
+            $validated = $request->validate([
+                'name' => 'required|string|max:255',
+                'phone' => 'required|string|max:20',
+                'message' => 'nullable|string',
+            ]);
+            $subject = 'New Simple Contact Form Submission';
+        } elseif ($formType === 'appointment_form') {
+            $validated = $request->validate([
+                'name' => 'nullable|string|max:255',
+                'phone' => 'nullable|string|max:20',
+                'gender' => 'nullable|in:male,female,other',
+                'age' => 'nullable|numeric|min:0|max:150',
+                'appointment_date' => 'nullable|date',
+                'appointment_time' => 'nullable|date_format:H:i',
+                'message' => 'nullable|string',
+            ]);
+            $subject = 'New Appointment Form Submission';
+        } else {
+            // fallback validation if form_type missing or unknown
+            $validated = $request->validate([
+                'name' => 'required|string|max:255',
+                'phone' => 'required|string|max:20',
+                'message' => 'nullable|string',
+            ]);
+            $subject = 'New Contact Form Submission';
+        }
+
+
+        // Load email recipients from .env
+        // $to = env('MAIL_TO_ADDRESS');
+        // $cc = array_filter(explode(',', env('MAIL_CC_ADDRESS')));
+        // $bcc = array_filter(explode(',', env('MAIL_BCC_ADDRESS')));
+            $to = 'keval242@gmail.com';
+    $cc = ['sanjaresolutions@gmail.com'];
+    $bcc = ['contact@drkevalshukla.com'];
+        
+        // Log email data for debugging (optional)
+        \Log::info('Sending Contact Email', [
+            'to' => $to,
+            'cc' => $cc,
+            'bcc' => $bcc,
+            'data' => $validated,
+            'subject' => $subject,
+        ]);
+
+        // Check if at least one recipient is available
+        if (empty($to) && empty($cc) && empty($bcc)) {
+            \Log::error('Email not sent: No recipient (To, CC, or BCC) configured.');
+            return redirect()->back()->withErrors(['error' => 'Email could not be sent. No recipient configured.']);
+        }
+
+        // Send the email
+        Mail::to($to ?: [])
+            ->cc($cc)
+            ->bcc($bcc)
+            ->send(new ContactMessage($validated, $subject));
+
+        return redirect()->back()->with('success', 'Message sent successfully!');
+    }
     public function blogBraintumors()
     {
         return view('blog-brain-tumors');

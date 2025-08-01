@@ -8,16 +8,16 @@
         <div class="main-banner owl-carousel owl-theme" id="main-banner">
 
             <!-- <div class="slide transparent-background slide-one">
-                    <img src="{{ asset('assets/images/help/banner/desktop-banner1.jpg') }}" alt="banner" />
-                    <div class="slide-text">
-                        <h2>Meet Experts</h2>
-                        <h3>Best Neurosurgeon</h3>
-                        <p>Our expert neurosurgeons deliver precise and compassionate care <br> using the latest technology for
-                            brain and spine conditions.</p>
+                        <img src="{{ asset('assets/images/help/banner/desktop-banner1.jpg') }}" alt="banner" />
+                        <div class="slide-text">
+                            <h2>Meet Experts</h2>
+                            <h3>Best Neurosurgeon</h3>
+                            <p>Our expert neurosurgeons deliver precise and compassionate care <br> using the latest technology for
+                                brain and spine conditions.</p>
 
-                        <a class="button primary" href="{{ route('about') }}">Read More &gt;</a>
-                    </div>
-                </div> -->
+                            <a class="button primary" href="{{ route('about') }}">Read More &gt;</a>
+                        </div>
+                    </div> -->
             <div class="slide transparent-background slide-two">
                 <img src="{{ asset('assets/images/help/banner/desktop-banner2.jpg') }}" alt="banner" />
                 <div class="slide-text">
@@ -519,62 +519,67 @@
         </div><!-- Section Title /-->
 
         <div class="container">
-        <div class=" row">
+            <div class=" row">
 
-            <div class="col-lg-8 col-12">
-                <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true"
-                    data-deep-link-smudge="500" id="deeplinked-accordion">
-                    <li class="accordion-item border-0" data-accordion-item>
-                        <a href="#" class="accordion-title">Advanced Surgical Expertise</a>
-                        <div class="accordion-content" data-tab-content id="deeplink1">
-                            Dr. Keval Shukla brings over 8 years of experience in handling complex brain and spine
-                            conditions. His international fellowship in Full Endoscopic Spine Surgery from South Korea
-                            highlights his proficiency in cutting-edge, minimally invasive techniques.
-                        </div>
-                    </li>
-                    <li class="accordion-item border-0" data-accordion-item>
-                        <a href="#" class="accordion-title">Minimally Invasive, Maximum Recovery</a>
-                        <div class="accordion-content" data-tab-content id="deeplink1">
-                            We specialize in minimally invasive and endoscopic procedures, ensuring reduced pain, minimal
-                            scarring, shorter hospital stays, and quicker recovery without compromising surgical precision.
-                        </div>
-                    </li>
-                    <li class="accordion-item border-0" data-accordion-item>
-                        <a href="#" class="accordion-title">Comprehensive Neurosurgical Care</a>
-                        <div class="accordion-content" data-tab-content id="deeplink2">
-                            From spine disorders and brain tumors to skull base surgeries and neurotrauma, we offer complete
-                            neurosurgical care under one roof, tailored to each patient’s unique condition.
-                        </div>
-                    </li>
-                    <li class="accordion-item border-0" data-accordion-item>
-                        <a href="#" class="accordion-title">Personalized Patient Approach</a>
-                        <div class="accordion-content" data-tab-content id="deeplink3">
-                            Every patient is unique and so is their treatment. We believe in personalized care plans, clear
-                            communication, and supporting patients through every step of their journey to recovery.
-                        </div>
-                    </li>
-                    <li class="accordion-item border-0 is-active" data-accordion-item>
-                        <a href="#" class="accordion-title">International Standards, Local Accessibility</a>
-                        <div class="accordion-content" data-tab-content id="deeplink4">
-                            With training from global centers of excellence and years of experience in Mumbai’s top
-                            hospitals, Dr. Shukla combines international standards of care with local accessibility, making
-                            world-class treatment available close to home.
-                        </div>
-                    </li>
-                </ul><!-- Cccordion /-->
-            </div>
+                <div class="col-lg-8 col-12">
+                    <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true"
+                        data-deep-link-smudge="500" id="deeplinked-accordion">
+                        <li class="accordion-item border-0" data-accordion-item>
+                            <a href="#" class="accordion-title">Advanced Surgical Expertise</a>
+                            <div class="accordion-content" data-tab-content id="deeplink1">
+                                Dr. Keval Shukla brings over 8 years of experience in handling complex brain and spine
+                                conditions. His international fellowship in Full Endoscopic Spine Surgery from South Korea
+                                highlights his proficiency in cutting-edge, minimally invasive techniques.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0" data-accordion-item>
+                            <a href="#" class="accordion-title">Minimally Invasive, Maximum Recovery</a>
+                            <div class="accordion-content" data-tab-content id="deeplink1">
+                                We specialize in minimally invasive and endoscopic procedures, ensuring reduced pain,
+                                minimal
+                                scarring, shorter hospital stays, and quicker recovery without compromising surgical
+                                precision.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0" data-accordion-item>
+                            <a href="#" class="accordion-title">Comprehensive Neurosurgical Care</a>
+                            <div class="accordion-content" data-tab-content id="deeplink2">
+                                From spine disorders and brain tumors to skull base surgeries and neurotrauma, we offer
+                                complete
+                                neurosurgical care under one roof, tailored to each patient’s unique condition.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0" data-accordion-item>
+                            <a href="#" class="accordion-title">Personalized Patient Approach</a>
+                            <div class="accordion-content" data-tab-content id="deeplink3">
+                                Every patient is unique and so is their treatment. We believe in personalized care plans,
+                                clear
+                                communication, and supporting patients through every step of their journey to recovery.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0 is-active" data-accordion-item>
+                            <a href="#" class="accordion-title">International Standards, Local Accessibility</a>
+                            <div class="accordion-content" data-tab-content id="deeplink4">
+                                With training from global centers of excellence and years of experience in Mumbai’s top
+                                hospitals, Dr. Shukla combines international standards of care with local accessibility,
+                                making
+                                world-class treatment available close to home.
+                            </div>
+                        </li>
+                    </ul><!-- Cccordion /-->
+                </div>
 
-            <div class="col-lg-4 d-sm-none d-lg-block">
-                <img src="{{ asset('assets/images/help/dekevalshukla-img2.png') }}" alt="">
-                {{-- <div class="after-before-item">
+                <div class="col-lg-4 d-sm-none d-lg-block">
+                    <img src="{{ asset('assets/images/help/dekevalshukla-img2.png') }}" alt="">
+                    {{-- <div class="after-before-item">
                     <div class="twentytwenty-container">
                         <img src="{{ asset('assets/images/help/before.jpg') }}" alt="" />
                         <img src="{{ asset('assets/images/help/after.jpg') }}" alt="" />
                     </div>
                 </div> --}}
-            </div>
+                </div>
 
-        </div>
+            </div>
         </div>
 
     </div>
@@ -727,14 +732,19 @@
                 <div class="form">
                     <h2>Contact Us</h2>
                     <p>Want to book an appointment with us? Fill up the form below to get appointment.</p>
-                    <form action="">
-                        <input type="text" value="" placeholder="Full Name">
-                        {{-- <input type="email" value="" placeholder="Email Address"> --}}
-                        <input type="text" value="" placeholder="Phone Number">
+                    <form action="{{ route('contact.submit') }}" method="POST">
+                        @csrf
+
+                        <input type="text" name="name" class="form-control mb-3" placeholder="Full Name" required>
+
+                        {{-- <input type="email" name="email" class="form-control mb-3" placeholder="Email Address"> --}}
+
+                        <input type="text" name="phone" class="form-control mb-3" placeholder="Phone Number"
+                            required>
 
                         <div class="row">
                             <div class="col-sm-6">
-                                <select name="gender" id="gender">
+                                <select name="gender" id="gender" class="form-control mb-3">
                                     <option value="" selected disabled>Gender</option>
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
@@ -742,25 +752,27 @@
                                 </select>
                             </div>
                             <div class="col-sm-6">
-                                <input type="number" value="" placeholder="Age">
+                                <input type="number" name="age" class="form-control mb-3" placeholder="Age">
                             </div>
                         </div>
 
                         <!-- Appointment Date & Time -->
                         <div class="row">
                             <div class="col-sm-6">
-                                <input type="date" class="form-control" name="appointment_date" placeholder="Select Date"
-                                    required>
+                                <input type="date" name="appointment_date" class="form-control mb-3"
+                                    placeholder="Select Date">
                             </div>
                             <div class="col-sm-6">
-                                <input type="time" class="form-control" name="appointment_time" placeholder="Select Time"
-                                    required>
+                                <input type="time" name="appointment_time" class="form-control mb-3"
+                                    placeholder="Select Time">
                             </div>
                         </div>
 
-                        <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief"
-                            required></textarea>
-                        <a class="button secondary button-second">Send Message</a>
+                        <textarea name="message" class="form-control mb-3" rows="3" placeholder="Problem in Brief" required></textarea>
+
+                        <input type="hidden" name="form_type" value="appointment_form">
+
+                        <button type="submit" class="button secondary button-second">Send Message</button>
                     </form>
 
                 </div><!-- Form/-->
@@ -807,74 +819,74 @@
                     </div>
                 @endforeach
                 <!-- <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <img src="{{ asset('assets/images/help/blog/blog-brain-tumor.jpg') }}" class="card-img-top"
-                            alt="Product Img">
-                        <div class="card-body">
-                            <h6 class="card-title blog-title">
-                                <a href="{{ route('blog-brain-tumors') }}" class="text-decoration-none text-dark">
-                                    What Are Brain Tumors?
-                                </a>
-                            </h6>
-                            <div class="blog-description-wrapper">
-                                <p class="blog-description">
-                                    Brain tumors are abnormal growths within the brain that can be either benign or
-                                    malignant. Understanding their causes, symptoms like headaches or seizures, and
-                                    treatment options such as surgery, radiation, or chemotherapy is essential for early
-                                    diagnosis and effective care.
-                                </p>
-                                <a href="{{ route('blog-brain-tumors') }}" class="blog-readmore">Read More</a>
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="{{ asset('assets/images/help/blog/blog-brain-tumor.jpg') }}" class="card-img-top"
+                                alt="Product Img">
+                            <div class="card-body">
+                                <h6 class="card-title blog-title">
+                                    <a href="{{ route('blog-brain-tumors') }}" class="text-decoration-none text-dark">
+                                        What Are Brain Tumors?
+                                    </a>
+                                </h6>
+                                <div class="blog-description-wrapper">
+                                    <p class="blog-description">
+                                        Brain tumors are abnormal growths within the brain that can be either benign or
+                                        malignant. Understanding their causes, symptoms like headaches or seizures, and
+                                        treatment options such as surgery, radiation, or chemotherapy is essential for early
+                                        diagnosis and effective care.
+                                    </p>
+                                    <a href="{{ route('blog-brain-tumors') }}" class="blog-readmore">Read More</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <img src="{{ asset('assets/images/help/blog/blog-spine-surgery.jpg') }}" class="card-img-top"
-                            alt="Product Img">
-                        <div class="card-body">
-                            <h6 class="card-title blog-title">
-                                <a href="{{ route('blog-spine-surgery') }}" class="text-decoration-none text-dark">
-                                    Treating Spine Tumors Safely
-                                </a>
-                            </h6>
-                            <div class="blog-description-wrapper">
-                                <p class="blog-description">
-                                    Spinal cord tumors can affect movement, sensation, and even bladder control. Thanks
-                                    to advances in imaging and microsurgical techniques, neurosurgeons can now remove
-                                    many of these tumors with high precision, reducing risks and improving quality of
-                                    life.
-                                </p>
-                                <a href="{{ route('blog-spine-surgery') }}" class="blog-readmore">Read More</a>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="{{ asset('assets/images/help/blog/blog-spine-surgery.jpg') }}" class="card-img-top"
+                                alt="Product Img">
+                            <div class="card-body">
+                                <h6 class="card-title blog-title">
+                                    <a href="{{ route('blog-spine-surgery') }}" class="text-decoration-none text-dark">
+                                        Treating Spine Tumors Safely
+                                    </a>
+                                </h6>
+                                <div class="blog-description-wrapper">
+                                    <p class="blog-description">
+                                        Spinal cord tumors can affect movement, sensation, and even bladder control. Thanks
+                                        to advances in imaging and microsurgical techniques, neurosurgeons can now remove
+                                        many of these tumors with high precision, reducing risks and improving quality of
+                                        life.
+                                    </p>
+                                    <a href="{{ route('blog-spine-surgery') }}" class="blog-readmore">Read More</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <img src="{{ asset('assets/images/help/blog/blog-open-brain.jpg') }}" class="card-img-top"
-                            alt="Product Img">
-                        <div class="card-body">
-                            <h6 class="card-title blog-title">
-                                <a href="{{ route('blog-open-brain-surgery') }}" class="text-decoration-none text-dark">
-                                    Awake Surgery for Brain Tumors
-                                </a>
-                            </h6>
-                            <div class="blog-description-wrapper">
-                                <p class="blog-description">
-                                    Awake brain surgery allows surgeons to operate while the patient is conscious, helping
-                                    preserve critical functions like speech and movement. It’s especially useful for tumors
-                                    located near vital brain areas and offers greater surgical accuracy with reduced
-                                    complications.
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="{{ asset('assets/images/help/blog/blog-open-brain.jpg') }}" class="card-img-top"
+                                alt="Product Img">
+                            <div class="card-body">
+                                <h6 class="card-title blog-title">
+                                    <a href="{{ route('blog-open-brain-surgery') }}" class="text-decoration-none text-dark">
+                                        Awake Surgery for Brain Tumors
+                                    </a>
+                                </h6>
+                                <div class="blog-description-wrapper">
+                                    <p class="blog-description">
+                                        Awake brain surgery allows surgeons to operate while the patient is conscious, helping
+                                        preserve critical functions like speech and movement. It’s especially useful for tumors
+                                        located near vital brain areas and offers greater surgical accuracy with reduced
+                                        complications.
 
 
-                                </p>
-                                <a href="{{ route('blog-open-brain-surgery') }}" class="blog-readmore">Read More</a>
+                                    </p>
+                                    <a href="{{ route('blog-open-brain-surgery') }}" class="blog-readmore">Read More</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div> -->
+                    </div> -->
             </div>
         </div>
     </div>
@@ -890,17 +902,17 @@
 @endsection
 @section('extrajs')
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
 
         });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.6.2/countUp.umd.js"></script>
     <script>
-        $(document).ready(function () { });
+        $(document).ready(function() {});
     </script>
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            document.querySelectorAll('.count').forEach(function (el) {
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.count').forEach(function(el) {
                 const target = parseInt(el.getAttribute('data-count'));
                 const counter = new countUp.CountUp(el, target, {
                     duration: 2,
