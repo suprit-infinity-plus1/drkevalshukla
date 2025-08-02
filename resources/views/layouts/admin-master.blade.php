@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>@yield('title') || Luxanto</title>
+    <title>@yield('title') || Dr. Keval Shukla</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/drkevalshukla-mainlogo.png') }}">
 
 
 
@@ -104,7 +105,7 @@
                 <aside id="sidebar-wrapper">
                     <div class="sidebar-brand">
                         <a href="">
-                            <img alt="image" src="{!! asset('assets/img/logo/luxanto-new-logo-removebg-preview.png') !!}" class="header-logo" />
+                            <img alt="image" src="{!! asset('assets/images/drkevalshukla-logo.png') !!}" class="header-logo" />
                             {{-- <span class="logo-name">Vardhra Shoes</span> --}}
                         </a>
                     </div>
@@ -131,13 +132,13 @@
                                 class="nav-link {{ Request::routeIs('admin.blogs') ? 'active' : '' }}"><i
                                     data-feather="file" class="mt-1"></i><span>Blogs</span></a>
                         </li>
-                        <li class="dropdown">
+                        {{-- <li class="dropdown">
                             <a href="{{ route('admin.profileEdit') }}   "
                                 class="nav-link {{ Request::routeIs('admin.profileEdit') ? 'active' : '' }}"><i
                                     data-feather="user" class="mt-1"></i><span>Profile</span></a>
                         </li>
 
-                        {{-- <li class="dropdown">
+                         <li class="dropdown">
                             <a href="#" class="menu-toggle nav-link has-dropdown">
                                 <i data-feather="layers"></i><span>Main catalogue</span>
                             </a>
@@ -342,7 +343,8 @@
             </div>
             <footer class="main-footer bg-dark">
                 <div class="footer-left">
-                    Copyright &copy; {{ date('Y') == '2022' ? '2022' : '2022 - ' . date('Y') }}
+                    Copyright &copy; 2025
+                    {{-- {{ date('Y') == '2022' ? '2022' : '2022 - ' . date('Y') }} --}}
                     <div class="bullet"></div> Dr. Keval Shukla
                     {{-- - Designed & Developed By <a href="https://www.sanjaresolutions.com" target="_blank">Sanjar E
                         Solutions</a> --}}
