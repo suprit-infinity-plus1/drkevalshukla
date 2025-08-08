@@ -1343,7 +1343,7 @@ hr {
 .form-section.dark-bg:before {
     /* background: linear-gradient(90deg, transparent 40.9%,
      rgba(225, 232, 240, 0.75) 40.9%); */
-     background-color: transparent;
+    background-color: transparent;
 }
 
 .form-section.dark-bg:after {
@@ -2425,7 +2425,7 @@ body.box .banner-container .slide-text {
 }
 
 .footer-box .links:last-child {
-    float: right;
+    /* float: right; */
 }
 
 .footer-box .links,
@@ -2956,4 +2956,13 @@ body.box .banner-container .slide-text {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.conditions-treated-contaner .border.p-3.rounded-3.h-100 {
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.conditions-treated-contaner .border.p-3.rounded-3.h-100:hover {
+    box-shadow: 0 .5rem 1rem #21252926 !important;
 }

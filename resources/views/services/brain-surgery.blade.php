@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'MINIMALLY INVASIVE SPINE SURGERIES')
+@section('title', 'BRAIN SURGERY')
 @section('content')
 
 
@@ -10,13 +10,13 @@
             <div class="grid-container grid-x grid-padding-x">
 
                 <div class="small-12 cell">
-                    <h1>MINIMALLY INVASIVE SPINE SURGERIES</h1>
+                    <h1>BRAIN SURGERY</h1>
                 </div><!-- Top Row /-->
 
                 <div class="small-12 cell">
                     <ul class="breadcrumbs">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">MINIMALLY INVASIVE SPINE SURGERIES</a></li>
+                        <li><a href="#">BRAIN SURGERY</a></li>
                     </ul><!-- Breadcrumbs /-->
                 </div><!-- Bottom Row /-->
 
@@ -32,22 +32,20 @@
                 <div class="medium-9 small-12 cell">
                     <div class="service-post">
                         <div class="thumbnail w-100">
-                            <img src="{{ asset('assets/images/help/services/Minimally-Invasive-Spine-Surgeries-(1).png') }}"
+                            <img src="{{ asset('assets/images/help/services/service-vascular-neurosurgery.jpg') }}"
                                 class="w-100" alt="Service Images">
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">
-                            <p>Minimally Invasive Spine Surgeries</p>
+                            <p>BRAIN SURGERY</p>
                         </div>
                         <div class="service-text">
-                            <p>Minimally Invasive Spine Surgery (MISS) is a modern, patient friendly approach to treating
-                                spinal conditions with smaller incisions, less tissue damage, and faster recovery. Dr. Keval
-                                Shukla is extensively trained in MISS techniques and has helped numerous patients achieve
-                                long term relief from back and neck pain without the need for large incisions or prolonged
-                                hospital stays.</p>
-                            <p>MISS is performed using specialized instruments and intraoperative imaging, allowing for
-                                precise targeting of the problem area with minimal disruption to muscles, ligaments, and
-                                bones.</p>
+                            <p>Brain surgery, also known as neurosurgery, involves the diagnosis and surgical treatment of
+                                conditions affecting the brain, skull, and surrounding structures. These procedures demand
+                                the highest level of precision, skill, and technology.</p>
+                            <p>Under the expert care of Dr. Keval Shukla, a highly trained and experienced neurosurgeon, we
+                                offer cutting-edge brain surgery with a strong focus on safety, minimally invasive
+                                techniques, and optimal recovery.</p>
                         </div><!-- News Text /-->
                         <div class="border border-bottom-2 border-black my-3"></div>
                         <div class="section-title container p-0 mb-2">
@@ -55,56 +53,85 @@
                         </div>
                         <div>
                             <p>
-                                Minimally Invasive Spine Surgery is ideal for many spine related disorders, including:
+                                We provide comprehensive surgical care for a wide range of brain-related conditions,
+                                including:
                             </p>
                             <div class="conditions-treated-contaner">
                                 <div class="row text-center">
                                     <div class="col-md-4 mb-3">
                                         <div class="border p-3 rounded-3 h-100">
                                             <p class="mb-0 text-center fw-semibold">
-                                                Lumbar or cervical disc herniation (slipped disc)
+                                                Brain tumors (benign and malignant)
                                             </p>
                                         </div>
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="border p-3 rounded-3 h-100">
                                             <p class="mb-0 text-center fw-semibold">
-                                                Spinal canal stenosis
+                                                Aneurysms and vascular malformations
                                             </p>
                                         </div>
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="border p-3 rounded-3 h-100">
                                             <p class="mb-0 text-center fw-semibold">
-                                                Spondylolisthesis (vertebra slippage)
+                                                Traumatic brain injury
                                             </p>
                                         </div>
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="border p-3 rounded-3 h-100">
                                             <p class="mb-0 text-center fw-semibold">
-                                                Degenerative disc disease
+                                                Hydrocephalus
                                             </p>
                                         </div>
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="border p-3 rounded-3 h-100">
                                             <p class="mb-0 text-center fw-semibold">
-                                                Sciatica and radiculopathy
+                                                Epilepsy
                                             </p>
                                         </div>
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="border p-3 rounded-3 h-100">
                                             <p class="mb-0 text-center fw-semibold">
-                                                Spinal instability
+                                                Brain abscess
                                             </p>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="border p-3 rounded-3 h-100">
                                             <p class="mb-0 text-center fw-semibold">
-                                                Some spinal tumors and infections (select cases)
+                                                Pituitary tumors
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="border p-3 rounded-3 h-100">
+                                            <p class="mb-0 text-center fw-semibold">
+                                                Skull base tumors
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="border p-3 rounded-3 h-100">
+                                            <p class="mb-0 text-center fw-semibold">
+                                                Hemorrhagic stroke
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="border p-3 rounded-3 h-100">
+                                            <p class="mb-0 text-center fw-semibold">
+                                                Chiari malformation
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="border p-3 rounded-3 h-100">
+                                            <p class="mb-0 text-center fw-semibold">
+                                                Trigeminal neuralgia and facial pain disorders
                                             </p>
                                         </div>
                                     </div>
@@ -114,11 +141,10 @@
                         <div class="border border-bottom-2 border-black my-3"></div>
 
                         <div class="section-title container p-0 mb-2">
-                            <p>Techniques Used</p>
+                            <p>Types of Brain Surgeries Offered</p>
                         </div>
-                        <p>
-                            Dr. Shukla offers a wide range of minimally invasive and endoscopic procedures, such as:
-                        </p>
+                        <p>We utilize modern tools and evidence-based practices to perform the following types of spine
+                            surgeries:</p>
                         <div class="col-12 mb-3">
                             <div class="p-4 bg-white rounded shadow-sm border-start border-4"
                                 style="border-color: #ff4500;">
@@ -127,65 +153,80 @@
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
                                         <span>
                                             <span class="fw-semibold d-block">
-                                                Microdiscectomy:
+                                                Tumor Resection
                                             </span>
-                                            Removal of herniated disc material to relieve nerve pressure
+                                            Safe and precise removal of brain tumors using advanced navigation and
+                                            intraoperative monitoring.
                                         </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
                                         <span>
                                             <span class="fw-semibold d-block">
-                                                MISS Decompression:
+                                                Craniotomy
                                             </span>
-                                            Minimally invasive laminectomy or foraminotomy to widen narrowed spaces
-                                            in the spine
+                                            A surgical opening in the skull to access the brain for treatment of tumors,
+                                            hemorrhages, or injuries.
                                         </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
                                         <span>
                                             <span class="fw-semibold d-block">
-                                                MIS TLIF (Transforaminal Lumbar Interbody Fusion):
+                                                Endoscopic Brain Surgery
                                             </span>
-                                            A minimally invasive spinal fusion to stabilize the spine
+                                            Minimally invasive surgery using a small camera and instruments through
+                                            keyhole-sized incisions.
                                         </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
                                         <span>
                                             <span class="fw-semibold d-block">
-                                                Full Endoscopic Spine Surgery:
+                                                Aneurysm Clipping and Coiling
                                             </span>
-                                            Performed through a keyhole incision under local anesthesia,
-                                            ideal for disc prolapse and foraminal stenosis
+                                            Treatment of brain aneurysms to prevent rupture and life-threatening bleeding.
                                         </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
                                         <span>
                                             <span class="fw-semibold d-block">
-                                                Percutaneous Pedicle Screw Fixation:
+                                                Epilepsy Surgery
                                             </span>
-                                            Stabilizes fractures or fusions through small skin
-                                            punctures
+                                            Resection or disconnection of seizure-causing brain tissue in patients with
+                                            drug-resistant epilepsy.
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Skull Base Surgery
+                                            </span>
+                                            Delicate procedures to treat tumors located at the base of the skull, often
+                                            through endoscopic or minimally invasive approaches.
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Shunt Placement for Hydrocephalus
+                                            </span>
+                                            Insertion of a shunt system to relieve pressure caused by fluid buildup in the
+                                            brain.
                                         </span>
                                     </div>
                                 </div>
+
                             </div>
 
                         </div>
-                        <p>
-                            These techniques allow for faster recovery, less postoperative pain, and reduced risk of
-                            complications compared to traditional open surgery.
-                            All procedures are done using microscopes, tubular retractors, and image guided navigation
-                            for
-                            optimal safety and accuracy.
-                        </p>
 
                         <div class="border border-bottom-2 border-black my-3"></div>
                         <div class="section-title container p-0 mb-2">
-                            <p>Benefits of MISS</p>
+                            <p>Benefits</p>
                         </div>
                         <div class="col-12">
                             <div class="p-4 bg-white rounded shadow-sm border-start border-4"
@@ -193,33 +234,73 @@
                                 <div class="row">
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Small incisions (as little as 1 cm)</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Relief from Symptoms
+                                            </span>
+                                            Alleviates seizures, headaches, vision problems, or motor impairments.
+                                        </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Minimal muscle damage and blood loss</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Minimally Invasive Options
+                                            </span>
+                                            Reduced trauma, faster healing, and shorter hospital stays in selected cases.
+                                        </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Less post-operative pain</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Improved Neurological Function
+                                            </span>
+                                            Restores brain function and quality of life.
+                                        </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Reduced risk of infection</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Life-Saving
+                                            </span>
+                                            Immediate intervention for tumors, bleeding, or trauma can prevent
+                                            life-threatening complications.
+                                        </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Shorter hospital stays (often same day or next day discharge)</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Targeted Treatment
+                                            </span>
+                                            Procedures tailored to the exact location, size, and type of brain condition.
+                                        </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Faster return to work and daily life</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Advanced Technology
+                                            </span>
+                                            Performed with neuronavigation, intraoperative imaging, and neuro-monitoring for
+                                            maximum safety.
+                                        </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Better cosmetic outcomes with no large scars</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Expertise and Compassionate Care
+                                            </span>
+                                            Dr. Keval Shukla combines technical excellence with patient-centered care
+                                            throughout the journey.
+                                        </span>
                                     </div>
                                 </div>
+
+
                             </div>
                         </div>
 
@@ -235,8 +316,8 @@
 
                         <div class="widget-content">
                             <ul class="menu vertical">
-                                {{-- <li><a href="{{ route('minimally-invasive-spine-surgeries') }}">Minimally Invasive Spine
-                                        Surgeries</a></li> --}}
+                                <li><a href="{{ route('minimally-invasive-spine-surgeries') }}">Minimally Invasive Spine
+                                        Surgeries</a></li>
                                 <li><a href="{{ route('neuro-oncology') }}">Neuro Oncology</a></li>
                                 <li><a href="{{ route('neuro-trauma') }}">Neuro Trauma</a></li>
                                 <li><a href="{{ route('vascular-neurosurgery') }}">Vascular Neurosurgery</a></li>
@@ -244,7 +325,6 @@
                                 <li><a href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull Base
                                         Surgery</a>
                                 </li>
-                                <li><a href="{{ route('brain-surgery') }}">Brain Surgery</a></li>
                                 <li><a href="{{ route('spine-surgery') }}">Spine Surgery</a></li>
                             </ul>
                         </div>
@@ -279,13 +359,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                    Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                    Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

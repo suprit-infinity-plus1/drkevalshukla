@@ -160,6 +160,12 @@
                                                 Base
                                                 Surgery</a>
                                         </li>
+                                        <li><a class="dropdown-item" href="{{ route('spine-surgery') }}">Spine
+                                                Surgery</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="{{ route('spine-surgery') }}">Brain
+                                                Surgery</a>
+                                        </li>
                                     </ul>
                                 </li>
 
@@ -335,6 +341,10 @@
                                                 Base
                                                 Surgery</a>
                                         </li>
+                                        <li><a class="dropdown-item" href="{{ route('brain-surgery') }}">Brain
+                                                Surgery</a></li>
+                                        <li><a class="dropdown-item" href="{{ route('spine-surgery') }}">Spine
+                                                Surgery</a></li>
                                     </ul>
                                 </li>
 
@@ -372,6 +382,11 @@
                                                     href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic
                                                     Skull
                                                     Base
+                                                    Surgery</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="{{ route('brain-surgery') }}">Brain
+                                                    Surgery</a></li>
+                                            <li><a class="dropdown-item" href="{{ route('spine-surgery') }}">Spine
                                                     Surgery</a></li>
                                         </ul>
                                     </div>
@@ -501,6 +516,16 @@
                                     <li>
                                         <a href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull Base
                                             Surgery</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('brain-surgery') }}">
+                                            BrainSurgery
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('spine-surgery') }}">Spine
+                                            Surgery
+                                        </a>
                                     </li>
                                 </ul>
                             </div><!-- Footer Box /-->

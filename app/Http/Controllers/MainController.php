@@ -91,10 +91,10 @@ class MainController
         // $to = env('MAIL_TO_ADDRESS');
         // $cc = array_filter(explode(',', env('MAIL_CC_ADDRESS')));
         // $bcc = array_filter(explode(',', env('MAIL_BCC_ADDRESS')));
-            $to = 'keval242@gmail.com';
-    $cc = ['sanjaresolutions@gmail.com'];
-    $bcc = ['contact@drkevalshukla.com'];
-        
+        $to = 'keval242@gmail.com';
+        $cc = ['sanjaresolutions@gmail.com'];
+        $bcc = ['contact@drkevalshukla.com'];
+
         // Log email data for debugging (optional)
         \Log::info('Sending Contact Email', [
             'to' => $to,
@@ -170,7 +170,14 @@ class MainController
     {
         return view('services.endoscopic-skull-base-surgery');
     }
-
+    public function spineSurgery()
+    {
+        return view('services.spine-surgery');
+    }
+    public function brainSurgery()
+    {
+        return view('services.brain-surgery');
+    }
 
 
 
