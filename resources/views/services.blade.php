@@ -145,7 +145,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                     <div class="service-box hover-wrap">
                         <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/services/Endoscopic-Skull-Base-Surgery.png') }}"
+                            <img src="{{ asset('assets/images/help/services/brain-surgery.jpeg') }}"
                                 alt="Service Images" />
                             <div class="service-detail hover-info">
                                 <a href="{{ route('endoscopic-skull-base-surgery') }}" class="button primary">Know
@@ -166,7 +166,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                     <div class="service-box hover-wrap">
                         <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/services/Endoscopic-Skull-Base-Surgery.png') }}"
+                            <img src="{{ asset('assets/images/help/services/spine-surgery.jpeg') }}"
                                 alt="Service Images" />
                             <div class="service-detail hover-info">
                                 <a href="{{ route('spine-surgery') }}" class="button primary">Know
@@ -195,7 +195,7 @@
     </a>
 
     <!-- Page Preloader
-                                                                                        Delete to Remove Preloader /-->
+                                                                                                Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>
