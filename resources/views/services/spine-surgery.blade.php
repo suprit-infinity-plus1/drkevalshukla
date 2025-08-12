@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'MINIMALLY INVASIVE SPINE SURGERIES')
+@section('title', 'SPINE SURGERY')
 @section('content')
 
 
@@ -10,13 +10,13 @@
             <div class="grid-container grid-x grid-padding-x">
 
                 <div class="small-12 cell">
-                    <h1>MINIMALLY INVASIVE SPINE SURGERIES</h1>
+                    <h1>SPINE SURGERY</h1>
                 </div><!-- Top Row /-->
 
                 <div class="small-12 cell">
                     <ul class="breadcrumbs">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">MINIMALLY INVASIVE SPINE SURGERIES</a></li>
+                        <li><a href="#">SPINE SURGERY</a></li>
                     </ul><!-- Breadcrumbs /-->
                 </div><!-- Bottom Row /-->
 
@@ -32,22 +32,21 @@
                 <div class="medium-9 small-12 cell">
                     <div class="service-post">
                         <div class="thumbnail w-100">
-                            <img src="{{ asset('assets/images/help/services/Minimally-Invasive-Spine-Surgeries-(1).png') }}"
-                                class="w-100" alt="Service Images">
+                            <img src="{{ asset('assets/images/help/services/spine-surgery.jpeg') }}" class="w-100"
+                                alt="Service Images">
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">
-                            <p>Minimally Invasive Spine Surgeries</p>
+                            <p>SPINE SURGERY</p>
                         </div>
                         <div class="service-text">
-                            <p>Minimally Invasive Spine Surgery (MISS) is a modern, patient friendly approach to treating
-                                spinal conditions with smaller incisions, less tissue damage, and faster recovery. Dr. Keval
-                                Shukla is extensively trained in MISS techniques and has helped numerous patients achieve
-                                long term relief from back and neck pain without the need for large incisions or prolonged
-                                hospital stays.</p>
-                            <p>MISS is performed using specialized instruments and intraoperative imaging, allowing for
-                                precise targeting of the problem area with minimal disruption to muscles, ligaments, and
-                                bones.</p>
+                            <p>Spine surgery is a specialized field focused on diagnosing and treating conditions affecting
+                                the spinal cord, vertebrae, discs, and nerves. At our advanced neurosurgical center, we
+                                offer a wide range of surgical solutions tailored to relieve pain, restore mobility, and
+                                improve your overall quality of life.</p>
+                            <p>Led by Dr. Keval Shukla, an experienced and highly trained neurosurgeon, our team provides
+                                both conventional and minimally invasive spine procedures, ensuring optimal outcomes with
+                                reduced recovery times.</p>
                         </div><!-- News Text /-->
                         <div class="border border-bottom-2 border-black my-3"></div>
                         <div class="section-title container p-0 mb-2">
@@ -55,28 +54,14 @@
                         </div>
                         <div>
                             <p>
-                                Minimally Invasive Spine Surgery is ideal for many spine related disorders, including:
+                                We provide surgical care for a variety of spinal disorders, including:
                             </p>
                             <div class="conditions-treated-contaner">
                                 <div class="row text-center">
                                     <div class="col-md-4 mb-3">
                                         <div class="border p-3 rounded-3 h-100">
                                             <p class="mb-0 text-center fw-semibold">
-                                                Lumbar or cervical disc herniation (slipped disc)
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Spinal canal stenosis
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Spondylolisthesis (vertebra slippage)
+                                                Herniated or bulging discs
                                             </p>
                                         </div>
                                     </div>
@@ -90,21 +75,49 @@
                                     <div class="col-md-4 mb-3">
                                         <div class="border p-3 rounded-3 h-100">
                                             <p class="mb-0 text-center fw-semibold">
-                                                Sciatica and radiculopathy
+                                                Spinal stenosis
                                             </p>
                                         </div>
                                     </div>
                                     <div class="col-md-4 mb-3">
                                         <div class="border p-3 rounded-3 h-100">
                                             <p class="mb-0 text-center fw-semibold">
-                                                Spinal instability
+                                                Spinal tumors
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="border p-3 rounded-3 h-100">
+                                            <p class="mb-0 text-center fw-semibold">
+                                                Spondylolisthesis
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="border p-3 rounded-3 h-100">
+                                            <p class="mb-0 text-center fw-semibold">
+                                                Spinal fractures
                                             </p>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="border p-3 rounded-3 h-100">
                                             <p class="mb-0 text-center fw-semibold">
-                                                Some spinal tumors and infections (select cases)
+                                                Scoliosis and spinal deformities
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="border p-3 rounded-3 h-100">
+                                            <p class="mb-0 text-center fw-semibold">
+                                                Infections of the spine
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="border p-3 rounded-3 h-100">
+                                            <p class="mb-0 text-center fw-semibold">
+                                                Cervical, thoracic, and lumbar spinal pathologies
                                             </p>
                                         </div>
                                     </div>
@@ -116,9 +129,8 @@
                         <div class="section-title container p-0 mb-2">
                             <p>Techniques Used</p>
                         </div>
-                        <p>
-                            Dr. Shukla offers a wide range of minimally invasive and endoscopic procedures, such as:
-                        </p>
+                        <p>We utilize modern tools and evidence-based practices to perform the following types of spine
+                            surgeries:</p>
                         <div class="col-12 mb-3">
                             <div class="p-4 bg-white rounded shadow-sm border-start border-4"
                                 style="border-color: #ff4500;">
@@ -127,65 +139,79 @@
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
                                         <span>
                                             <span class="fw-semibold d-block">
-                                                Microdiscectomy:
+                                                Microdiscectomy
                                             </span>
-                                            Removal of herniated disc material to relieve nerve pressure
+                                            A minimally invasive procedure used to relieve pressure on spinal nerves caused
+                                            by a herniated disc.
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold d-block ">
+                                                Spinal Fusion
+                                            </span>
+                                            Fuses two or more vertebrae together to stabilize the spine, commonly used for
+                                            degenerative conditions and spinal instability.
                                         </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
                                         <span>
                                             <span class="fw-semibold d-block">
-                                                MISS Decompression:
+                                                Laminectomy
                                             </span>
-                                            Minimally invasive laminectomy or foraminotomy to widen narrowed spaces
-                                            in the spine
+                                            Removes part of the vertebral bone (lamina) to relieve nerve compression in
+                                            conditions like spinal stenosis.
                                         </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
                                         <span>
                                             <span class="fw-semibold d-block">
-                                                MIS TLIF (Transforaminal Lumbar Interbody Fusion):
+                                                Disc Replacement Surgery
                                             </span>
-                                            A minimally invasive spinal fusion to stabilize the spine
+                                            Involves replacing a damaged spinal disc with an artificial one to maintain
+                                            normal spinal motion.
                                         </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
                                         <span>
                                             <span class="fw-semibold d-block">
-                                                Full Endoscopic Spine Surgery:
+                                                Minimally Invasive Spine Surgery (MISS)
                                             </span>
-                                            Performed through a keyhole incision under local anesthesia,
-                                            ideal for disc prolapse and foraminal stenosis
+                                            Smaller incisions, less blood loss, quicker recovery – ideal for many spinal
+                                            conditions.
                                         </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
                                         <span>
                                             <span class="fw-semibold d-block">
-                                                Percutaneous Pedicle Screw Fixation:
+                                                Deformity Correction
                                             </span>
-                                            Stabilizes fractures or fusions through small skin
-                                            punctures
+                                            Surgical realignment of the spine for conditions such as scoliosis or kyphosis.
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Spinal Tumor Surgery
+                                            </span>
+                                            Precise removal of benign or malignant tumors while preserving neurological
+                                            function.
                                         </span>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
-                        <p>
-                            These techniques allow for faster recovery, less postoperative pain, and reduced risk of
-                            complications compared to traditional open surgery.
-                            All procedures are done using microscopes, tubular retractors, and image guided navigation
-                            for
-                            optimal safety and accuracy.
-                        </p>
 
                         <div class="border border-bottom-2 border-black my-3"></div>
                         <div class="section-title container p-0 mb-2">
-                            <p>Benefits of MISS</p>
+                            <p>Benefits</p>
                         </div>
                         <div class="col-12">
                             <div class="p-4 bg-white rounded shadow-sm border-start border-4"
@@ -193,33 +219,79 @@
                                 <div class="row">
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Small incisions (as little as 1 cm)</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Pain Relief
+                                            </span>
+                                            Significant reduction or complete relief from chronic back, neck, or nerve pain.
+                                        </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Minimal muscle damage and blood loss</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Improved Mobility
+                                            </span>
+                                            Restores lost movement and function, allowing you to return to daily activities.
+                                        </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Less post-operative pain</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Minimally Invasive Options
+                                            </span>
+                                            Smaller incisions, less blood loss, and faster recovery in eligible cases.
+                                        </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Reduced risk of infection</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Enhanced Stability
+                                            </span>
+                                            Procedures like spinal fusion provide long-term stability to weakened or damaged
+                                            spinal segments.
+                                        </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Shorter hospital stays (often same day or next day discharge)</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Prevention of Further Damage
+                                            </span>
+                                            Timely intervention can stop progressive conditions from worsening.
+                                        </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Faster return to work and daily life</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Improved Quality of Life
+                                            </span>
+                                            Regain independence and comfort after years of living with pain or limitations.
+                                        </span>
                                     </div>
                                     <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
                                         <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Better cosmetic outcomes with no large scars</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Targeted Treatment
+                                            </span>
+                                            Customized surgical plans tailored to your specific spinal condition.
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                High Success Rates
+                                            </span>
+                                            Most patients experience long-lasting symptom relief and functional improvement.
+                                        </span>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
 
@@ -235,8 +307,8 @@
 
                         <div class="widget-content">
                             <ul class="menu vertical">
-                                {{-- <li><a href="{{ route('minimally-invasive-spine-surgeries') }}">Minimally Invasive Spine
-                                        Surgeries</a></li> --}}
+                                <li><a href="{{ route('minimally-invasive-spine-surgeries') }}">Minimally Invasive Spine
+                                        Surgeries</a></li>
                                 <li><a href="{{ route('neuro-oncology') }}">Neuro Oncology</a></li>
                                 <li><a href="{{ route('neuro-trauma') }}">Neuro Trauma</a></li>
                                 <li><a href="{{ route('vascular-neurosurgery') }}">Vascular Neurosurgery</a></li>
@@ -245,7 +317,6 @@
                                         Surgery</a>
                                 </li>
                                 <li><a href="{{ route('brain-surgery') }}">Brain Surgery</a></li>
-                                <li><a href="{{ route('spine-surgery') }}">Spine Surgery</a></li>
                             </ul>
                         </div>
                         <div class="clearfix"></div>
@@ -279,13 +350,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                    Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                    Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

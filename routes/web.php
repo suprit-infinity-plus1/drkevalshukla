@@ -28,9 +28,12 @@ Route::post('/contact', [MainController::class, 'submitContact'])->name('contact
 Route::get('/minimally-invasive-spine-surgeries', [MainController::class, 'minimallyInvasiveSpineSurgeries'])->name('minimally-invasive-spine-surgeries');
 Route::get('/neuro-oncology', [MainController::class, 'neuroOncology'])->name('neuro-oncology');
 Route::get('/neuro-trauma', [MainController::class, 'neuroTrauma'])->name('neuro-trauma');
-Route::get('/vascular-neurosurgery', [MainController::class, 'vascularNeurosurgery'])->name('vascular-neurosurgery');
+// Route::get('/vascular-neurosurgery', [MainController::class, 'vascularNeurosurgery'])->name('vascular-neurosurgery');
+Route::get('/Best-neurosurgeon-in-Mumbai', [MainController::class, 'vascularNeurosurgery'])->name('vascular-neurosurgery');
 Route::get('/epilepsy-surgery', [MainController::class, 'epilepsySurgery'])->name('epilepsy-surgery');
 Route::get('/endoscopic-skull-base-surgery', [MainController::class, 'endoscopicSkullBaseSurgery'])->name('endoscopic-skull-base-surgery');
+Route::get('/spine-surgery', [MainController::class, 'spineSurgery'])->name('spine-surgery');
+Route::get('/brain-surgery', [MainController::class, 'brainSurgery'])->name('brain-surgery');
 
 
 

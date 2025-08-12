@@ -170,7 +170,14 @@ class MainController
     {
         return view('services.endoscopic-skull-base-surgery');
     }
-
+    public function spineSurgery()
+    {
+        return view('services.spine-surgery');
+    }
+    public function brainSurgery()
+    {
+        return view('services.brain-surgery');
+    }
 
 
 

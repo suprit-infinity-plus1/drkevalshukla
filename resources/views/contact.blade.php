@@ -35,7 +35,7 @@
 
                     <!-- Text -->
                     <div class=" col-12 col-sm-6 col-md-12 text-start mb-4 ">
-                        <h5 class="fw-bold mb-2">Meet Our Dermatologist</h5>
+                        <h5 class="fw-bold mb-2">Meet Our Brain and Spine Surgeon</h5>
 
                         <a href="https://maps.app.goo.gl/aMZT4g9UFW64BvNLA"
                             class="d-flex align-items-center text-decoration-none mb-2">

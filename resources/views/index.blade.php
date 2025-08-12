@@ -8,16 +8,16 @@
         <div class="main-banner owl-carousel owl-theme" id="main-banner">
 
             <!-- <div class="slide transparent-background slide-one">
-                        <img src="{{ asset('assets/images/help/banner/desktop-banner1.jpg') }}" alt="banner" />
-                        <div class="slide-text">
-                            <h2>Meet Experts</h2>
-                            <h3>Best Neurosurgeon</h3>
-                            <p>Our expert neurosurgeons deliver precise and compassionate care <br> using the latest technology for
-                                brain and spine conditions.</p>
+                                                            <img src="{{ asset('assets/images/help/banner/desktop-banner1.jpg') }}" alt="banner" />
+                                                            <div class="slide-text">
+                                                                <h2>Meet Experts</h2>
+                                                                <h3>Best Neurosurgeon</h3>
+                                                                <p>Our expert neurosurgeons deliver precise and compassionate care <br> using the latest technology for
+                                                                    brain and spine conditions.</p>
 
-                            <a class="button primary" href="{{ route('about') }}">Read More &gt;</a>
-                        </div>
-                    </div> -->
+                                                                <a class="button primary" href="{{ route('about') }}">Read More &gt;</a>
+                                                            </div>
+                                                        </div> -->
             <div class="slide transparent-background slide-two">
                 <img src="{{ asset('assets/images/help/banner/desktop-banner2.jpg') }}" alt="banner" />
                 <div class="slide-text">
@@ -312,6 +312,48 @@
                                     invasive technique that uses
                                     an endoscope (thin tube with a camera) to access deep brain areas through the nasal
                                     passages or small incisions.</p>
+                            </div>
+                        </div><!-- Service Box /-->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                        <div class="service-box hover-wrap">
+                            <div class="hover-img">
+                                <img src="{{ asset('assets/images/help/services/Endoscopic-Skull-Base-Surgery.png') }}"
+                                    alt="Service Images" />
+                                <div class="service-detail hover-info">
+                                    <a href="{{ route('endoscopic-skull-base-surgery') }}" class="button primary">Know
+                                        More</a>
+                                </div>
+                            </div>
+                            <div class="service-text hover-bottom">
+                                <h6><a href="{{ route('brain-surgery') }}" class="ellipsis-multiline-1">BRAIN SURGERY</a>
+                                </h6>
+                                <p class="ellipsis-multiline-3">Brain surgery, also known as neurosurgery, involves the
+                                    diagnosis and surgical treatment of
+                                    conditions affecting the brain, skull, and surrounding structures. These procedures
+                                    demand
+                                    the highest level of precision, skill, and technology.</p>
+                            </div>
+                        </div><!-- Service Box /-->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                        <div class="service-box hover-wrap">
+                            <div class="hover-img">
+                                <img src="{{ asset('assets/images/help/services/Endoscopic-Skull-Base-Surgery.png') }}"
+                                    alt="Service Images" />
+                                <div class="service-detail hover-info">
+                                    <a href="{{ route('spine-surgery') }}" class="button primary">Know
+                                        More</a>
+                                </div>
+                            </div>
+                            <div class="service-text hover-bottom">
+                                <h6><a href="{{ route('endoscopic-skull-base-surgery') }}"
+                                        class="ellipsis-multiline-1">SPINE SURGERY</a></h6>
+                                <p class="ellipsis-multiline-3">Spine surgery is a specialized field focused on diagnosing
+                                    and treating conditions affecting
+                                    the spinal cord, vertebrae, discs, and nerves. At our advanced neurosurgical center, we
+                                    offer a wide range of surgical solutions tailored to relieve pain, restore mobility, and
+                                    improve your overall quality of life.</p>
                             </div>
                         </div><!-- Service Box /-->
                     </div>
@@ -819,74 +861,74 @@
                     </div>
                 @endforeach
                 <!-- <div class="col-lg-4 col-md-6">
-                        <div class="card h-100 border-0 shadow-sm">
-                            <img src="{{ asset('assets/images/help/blog/blog-brain-tumor.jpg') }}" class="card-img-top"
-                                alt="Product Img">
-                            <div class="card-body">
-                                <h6 class="card-title blog-title">
-                                    <a href="{{ route('blog-brain-tumors') }}" class="text-decoration-none text-dark">
-                                        What Are Brain Tumors?
-                                    </a>
-                                </h6>
-                                <div class="blog-description-wrapper">
-                                    <p class="blog-description">
-                                        Brain tumors are abnormal growths within the brain that can be either benign or
-                                        malignant. Understanding their causes, symptoms like headaches or seizures, and
-                                        treatment options such as surgery, radiation, or chemotherapy is essential for early
-                                        diagnosis and effective care.
-                                    </p>
-                                    <a href="{{ route('blog-brain-tumors') }}" class="blog-readmore">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card h-100 border-0 shadow-sm">
-                            <img src="{{ asset('assets/images/help/blog/blog-spine-surgery.jpg') }}" class="card-img-top"
-                                alt="Product Img">
-                            <div class="card-body">
-                                <h6 class="card-title blog-title">
-                                    <a href="{{ route('blog-spine-surgery') }}" class="text-decoration-none text-dark">
-                                        Treating Spine Tumors Safely
-                                    </a>
-                                </h6>
-                                <div class="blog-description-wrapper">
-                                    <p class="blog-description">
-                                        Spinal cord tumors can affect movement, sensation, and even bladder control. Thanks
-                                        to advances in imaging and microsurgical techniques, neurosurgeons can now remove
-                                        many of these tumors with high precision, reducing risks and improving quality of
-                                        life.
-                                    </p>
-                                    <a href="{{ route('blog-spine-surgery') }}" class="blog-readmore">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                                            <div class="card h-100 border-0 shadow-sm">
+                                                                <img src="{{ asset('assets/images/help/blog/blog-brain-tumor.jpg') }}" class="card-img-top"
+                                                                    alt="Product Img">
+                                                                <div class="card-body">
+                                                                    <h6 class="card-title blog-title">
+                                                                        <a href="{{ route('blog-brain-tumors') }}" class="text-decoration-none text-dark">
+                                                                            What Are Brain Tumors?
+                                                                        </a>
+                                                                    </h6>
+                                                                    <div class="blog-description-wrapper">
+                                                                        <p class="blog-description">
+                                                                            Brain tumors are abnormal growths within the brain that can be either benign or
+                                                                            malignant. Understanding their causes, symptoms like headaches or seizures, and
+                                                                            treatment options such as surgery, radiation, or chemotherapy is essential for early
+                                                                            diagnosis and effective care.
+                                                                        </p>
+                                                                        <a href="{{ route('blog-brain-tumors') }}" class="blog-readmore">Read More</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="card h-100 border-0 shadow-sm">
+                                                                <img src="{{ asset('assets/images/help/blog/blog-spine-surgery.jpg') }}" class="card-img-top"
+                                                                    alt="Product Img">
+                                                                <div class="card-body">
+                                                                    <h6 class="card-title blog-title">
+                                                                        <a href="{{ route('blog-spine-surgery') }}" class="text-decoration-none text-dark">
+                                                                            Treating Spine Tumors Safely
+                                                                        </a>
+                                                                    </h6>
+                                                                    <div class="blog-description-wrapper">
+                                                                        <p class="blog-description">
+                                                                            Spinal cord tumors can affect movement, sensation, and even bladder control. Thanks
+                                                                            to advances in imaging and microsurgical techniques, neurosurgeons can now remove
+                                                                            many of these tumors with high precision, reducing risks and improving quality of
+                                                                            life.
+                                                                        </p>
+                                                                        <a href="{{ route('blog-spine-surgery') }}" class="blog-readmore">Read More</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card h-100 border-0 shadow-sm">
-                            <img src="{{ asset('assets/images/help/blog/blog-open-brain.jpg') }}" class="card-img-top"
-                                alt="Product Img">
-                            <div class="card-body">
-                                <h6 class="card-title blog-title">
-                                    <a href="{{ route('blog-open-brain-surgery') }}" class="text-decoration-none text-dark">
-                                        Awake Surgery for Brain Tumors
-                                    </a>
-                                </h6>
-                                <div class="blog-description-wrapper">
-                                    <p class="blog-description">
-                                        Awake brain surgery allows surgeons to operate while the patient is conscious, helping
-                                        preserve critical functions like speech and movement. It’s especially useful for tumors
-                                        located near vital brain areas and offers greater surgical accuracy with reduced
-                                        complications.
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="card h-100 border-0 shadow-sm">
+                                                                <img src="{{ asset('assets/images/help/blog/blog-open-brain.jpg') }}" class="card-img-top"
+                                                                    alt="Product Img">
+                                                                <div class="card-body">
+                                                                    <h6 class="card-title blog-title">
+                                                                        <a href="{{ route('blog-open-brain-surgery') }}" class="text-decoration-none text-dark">
+                                                                            Awake Surgery for Brain Tumors
+                                                                        </a>
+                                                                    </h6>
+                                                                    <div class="blog-description-wrapper">
+                                                                        <p class="blog-description">
+                                                                            Awake brain surgery allows surgeons to operate while the patient is conscious, helping
+                                                                            preserve critical functions like speech and movement. It’s especially useful for tumors
+                                                                            located near vital brain areas and offers greater surgical accuracy with reduced
+                                                                            complications.
 
 
-                                    </p>
-                                    <a href="{{ route('blog-open-brain-surgery') }}" class="blog-readmore">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
+                                                                        </p>
+                                                                        <a href="{{ route('blog-open-brain-surgery') }}" class="blog-readmore">Read More</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div> -->
             </div>
         </div>
     </div>

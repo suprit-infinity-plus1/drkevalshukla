@@ -142,6 +142,48 @@
                         </div>
                     </div><!-- Service Box /-->
                 </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                    <div class="service-box hover-wrap">
+                        <div class="hover-img">
+                            <img src="{{ asset('assets/images/help/services/brain-surgery.jpeg') }}"
+                                alt="Service Images" />
+                            <div class="service-detail hover-info">
+                                <a href="{{ route('endoscopic-skull-base-surgery') }}" class="button primary">Know
+                                    More</a>
+                            </div>
+                        </div>
+                        <div class="service-text hover-bottom">
+                            <h6><a href="{{ route('brain-surgery') }}" class="ellipsis-multiline-1">BRAIN SURGERY</a>
+                            </h6>
+                            <p class="ellipsis-multiline-3">Brain surgery, also known as neurosurgery, involves the
+                                diagnosis and surgical treatment of
+                                conditions affecting the brain, skull, and surrounding structures. These procedures
+                                demand
+                                the highest level of precision, skill, and technology.</p>
+                        </div>
+                    </div><!-- Service Box /-->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                    <div class="service-box hover-wrap">
+                        <div class="hover-img">
+                            <img src="{{ asset('assets/images/help/services/spine-surgery.jpeg') }}"
+                                alt="Service Images" />
+                            <div class="service-detail hover-info">
+                                <a href="{{ route('spine-surgery') }}" class="button primary">Know
+                                    More</a>
+                            </div>
+                        </div>
+                        <div class="service-text hover-bottom">
+                            <h6><a href="{{ route('endoscopic-skull-base-surgery') }}" class="ellipsis-multiline-1">SPINE
+                                    SURGERY</a></h6>
+                            <p class="ellipsis-multiline-3">Spine surgery is a specialized field focused on diagnosing
+                                and treating conditions affecting
+                                the spinal cord, vertebrae, discs, and nerves. At our advanced neurosurgical center, we
+                                offer a wide range of surgical solutions tailored to relieve pain, restore mobility, and
+                                improve your overall quality of life.</p>
+                        </div>
+                    </div><!-- Service Box /-->
+                </div>
             </div>
         </div>
 
@@ -153,7 +195,7 @@
     </a>
 
     <!-- Page Preloader
-                                                                                    Delete to Remove Preloader /-->
+                                                                                                Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

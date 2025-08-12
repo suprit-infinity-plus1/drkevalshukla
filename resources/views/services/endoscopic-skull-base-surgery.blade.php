@@ -213,8 +213,10 @@
                                 <li><a href="{{ route('neuro-trauma') }}">Neuro Trauma</a></li>
                                 <li><a href="{{ route('vascular-neurosurgery') }}">Vascular Neurosurgery</a></li>
                                 <li><a href="{{ route('epilepsy-surgery') }}">Epilepsy Surgery</a></li>
-                                {{-- <li><a href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull Base Surgery</a> --}}
-                                </li>
+                                {{-- <li><a href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull Base Surgery</a>
+                                </li> --}}
+                                <li><a href="{{ route('brain-surgery') }}">Brain Surgery</a></li>
+                                <li><a href="{{ route('spine-surgery') }}">Spine Surgery</a></li>
                             </ul>
                         </div>
                         <div class="clearfix"></div>
@@ -224,16 +226,15 @@
                         <h2>Contact Us</h2>
 
                         <div class="widget-content">
-                            <form>
-                                <input type="text" placeholder="Your Name..." />
-                                {{-- <input type="text" placeholder="Your Email ...." /> --}}
-                                <input type="text" placeholder="Your Phone..." />
-                                {{-- <input type="text" placeholder="Email Subject ...." />
-                                <label>Select Your Image
-                                    <input type="file" />
-                                </label> --}}
-                                <textarea placeholder="Your Message..." rows="2"></textarea>
-                                <input type="submit" class="button primary last-item" />
+                            <form action="{{ route('contact.submit') }}" method="POST">
+                                @csrf
+                                <input type="text" name="name" value="" placeholder="Full Name" required>
+                                {{-- <input type="email" value="" placeholder="Email Address"> --}}
+                                <input type="text" name="phone" value="" placeholder="Phone Number" required>
+
+                                <textarea id="Reason" class="form-control" rows="3" name="message" placeholder="Message"></textarea>
+                                <input type="hidden" name="form_type" value="simple_contact">
+                                <button type="submit" class="button secondary button-second">Send Message</button>
                             </form>
                         </div>
                         <div class="clearfix"></div>
@@ -249,13 +250,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>
