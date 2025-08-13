@@ -3013,3 +3013,43 @@ body.box .banner-container .slide-text {
       color: white;
       border: 1px solid white;
     }
+
+    .bg-white-transparent{
+        padding-block: 120px;
+    }
+
+    .single-service-why-choose-us-title {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    @media (max-width: 768px) {
+      .single-service-why-choose-us-title {
+        font-size: 1.5rem;
+      }
+    }
+    .single-service-why-choose-us-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .single-service-why-choose-us-list li {
+      background-color: #4c9bbb;
+      color: #fff;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      transition: background-color 0.3s ease;
+    }
+    .single-service-why-choose-us-list li:hover {
+      background-color: #3a8aa9;
+    }
+    .single-service-why-choose-us-icon {
+      flex-shrink: 0;
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
