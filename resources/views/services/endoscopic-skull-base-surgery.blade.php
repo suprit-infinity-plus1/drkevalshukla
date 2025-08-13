@@ -1,5 +1,7 @@
 @extends('layouts.master')
-@section('title', 'ENDOSCOPIC SKULL BASE SURGERY')
+@section('title', 'Endoscopic Spine Surgeon – Spine Surgery in Mumbai')
+@section('meta_keywords', 'Endoscopic spine Surgery, Spine Surgery, Spine Surgery in Mumbai')
+@section('meta_description', 'Dr Keval Shukla – skilled endoscopic spine surgeon in Mumbai. Expert in advanced spine surgery techniques for safe and effective treatment.')
 @section('content')
 
 

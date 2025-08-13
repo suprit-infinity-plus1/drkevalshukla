@@ -1,5 +1,7 @@
 @extends('layouts.master')
-@section('title', 'VASCULAR NEUROSURGERY')
+@section('title', 'Best Neurosurgeon in Mumbai – Dr Keval Shukla')
+@section('meta_keywords', 'Neurosurgeon, Best neurosurgeon in Mumbai, Neurosurgery hospital in Mumbai')
+@section('meta_description', 'Consult Dr Keval Shukla, leading neurosurgeon in Mumbai. Expert care at a top neurosurgery hospital in Mumbai for brain & spine conditions.')
 @section('content')
 
 

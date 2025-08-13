@@ -1,5 +1,7 @@
 @extends('layouts.master')
-@section('title', 'SPINE SURGERY')
+@section('title', 'Spine Surgeon in Mumbai – Dr Keval Shukla | Spine Specialist')
+@section('meta_keywords', 'Best Spine Surgery in Mumbai, Spine surgeon, Spine surgeon in Mumbai, Spine specialist in Mumbai')
+@section('meta_description', 'Get advanced spine surgery in Mumbai with Dr Keval Shukla. Experienced spine specialist offering personalised care for back and spinal conditions')
 @section('content')
 
 

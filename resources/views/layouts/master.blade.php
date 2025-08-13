@@ -9,6 +9,9 @@
 
     {{-- <title>Dr. Keval Shukla</title> --}}
     <title>@yield('title')</title>
+    <meta name="keywords" content="@yield('meta_keywords')">
+    <meta name="description" content="@yield('meta_description')">
+
 
     <meta name="author" content="Webful Creations">
     <meta name="keywords" content="">
@@ -50,12 +53,20 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/foundation.min.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/theme-styles.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive-styles.css') }}" media="all" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}"
-        media="all" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/twentytwenty-no-compass.css') }}" media="all" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fontawesome-all.min.css') }}" media="all" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TGX5NPBH2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-3TGX5NPBH2');
+    </script>
 </head>
 
 <body>
@@ -131,8 +142,7 @@
                                 {{-- DESKTOP ONLY (hover dropdown) --}}
                                 <li class="nav-item dropdown d-none d-lg-block">
                                     <a class="nav-link dropdown-toggle p-2 p-lg-3 fw-semibold text-uppercase
-       {{ request()->is('services/*') ? 'active' : '' }}"
-                                        href="{{ route('services') }}">
+       {{ request()->is('services/*') ? 'active' : '' }}" href="{{ route('services') }}">
                                         Services
                                     </a>
                                     <ul class="dropdown-menu">
@@ -173,8 +183,7 @@
                                 <li class="nav-item dropdown d-block d-lg-none">
                                     <div class="d-flex flex-wrap justify-content-between align-items-center px-3 py-2">
                                         {{-- Left: Clickable text --}}
-                                        <a href="{{ route('services') }}"
-                                            class="col-11 fw-semibold text-uppercase text-decoration-none
+                                        <a href="{{ route('services') }}" class="col-11 fw-semibold text-uppercase text-decoration-none
             {{ request()->is('services') ? 'active' : '' }}">
                                             Services
                                         </a>
@@ -196,8 +205,7 @@
                                             <li><a class="dropdown-item"
                                                     href="{{ route('vascular-neurosurgery') }}">Vascular
                                                     Neurosurgery</a></li>
-                                            <li><a class="dropdown-item"
-                                                    href="{{ route('epilepsy-surgery') }}">Epilepsy
+                                            <li><a class="dropdown-item" href="{{ route('epilepsy-surgery') }}">Epilepsy
                                                     Surgery</a></li>
                                             <li><a class="dropdown-item"
                                                     href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic
@@ -312,8 +320,7 @@
                                 {{-- DESKTOP ONLY (hover dropdown) --}}
                                 <li class="nav-item dropdown d-none d-lg-block">
                                     <a class="nav-link dropdown-toggle p-3 fw-semibold text-uppercase
-       {{ request()->is('services/*') ? 'active' : '' }}"
-                                        href="{{ route('services') }}">
+       {{ request()->is('services/*') ? 'active' : '' }}" href="{{ route('services') }}">
                                         Services
                                     </a>
                                     <ul class="dropdown-menu">
@@ -352,8 +359,7 @@
                                 <li class="nav-item dropdown d-block d-lg-none">
                                     <div class="d-flex flex-wrap justify-content-between align-items-center px-3 py-2">
                                         {{-- Left: Clickable text --}}
-                                        <a href="{{ route('services') }}"
-                                            class="col-11 fw-semibold text-uppercase text-decoration-none
+                                        <a href="{{ route('services') }}" class="col-11 fw-semibold text-uppercase text-decoration-none
             {{ request()->is('services') ? 'active' : '' }}">
                                             Services
                                         </a>
@@ -375,8 +381,7 @@
                                             <li><a class="dropdown-item"
                                                     href="{{ route('vascular-neurosurgery') }}">Vascular
                                                     Neurosurgery</a></li>
-                                            <li><a class="dropdown-item"
-                                                    href="{{ route('epilepsy-surgery') }}">Epilepsy
+                                            <li><a class="dropdown-item" href="{{ route('epilepsy-surgery') }}">Epilepsy
                                                     Surgery</a></li>
                                             <li><a class="dropdown-item"
                                                     href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic
@@ -663,8 +668,7 @@
                 <div class="modal-body">
                     <form action="{{ route('contact.submit') }}" method="POST">
                         @csrf
-                        <input type="text" name="name" class="form-control mb-3 shadow-none"
-                            placeholder="Full Name" />
+                        <input type="text" name="name" class="form-control mb-3 shadow-none" placeholder="Full Name" />
 
                         <input type="text" name="phone" class="form-control mb-3 shadow-none"
                             placeholder="Phone Number" />
@@ -679,8 +683,7 @@
                                 </select>
                             </div>
                             <div class="col-sm-6">
-                                <input type="number" name="age" class="form-control shadow-none"
-                                    placeholder="Age" />
+                                <input type="number" name="age" class="form-control shadow-none" placeholder="Age" />
                             </div>
                         </div>
 
@@ -693,7 +696,8 @@
                             </div>
                         </div>
 
-                        <textarea name="message" class="form-control shadow-none" rows="3" placeholder="Problem in Brief"></textarea>
+                        <textarea name="message" class="form-control shadow-none" rows="3"
+                            placeholder="Problem in Brief"></textarea>
                         <input type="hidden" name="form_type" value="appointment_form">
                         <button type="submit" class="button secondary button-second mb-0">Send Message</button>
                     </form>
@@ -755,7 +759,7 @@
 
 <script>
     const stickyHeader = document.getElementById('stickyHeader');
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
         if (window.scrollY > 200) {
             stickyHeader.classList.remove('d-none');
         } else {

@@ -1,5 +1,7 @@
 @extends('layouts.master')
-@section('title', 'BRAIN SURGERY')
+@section('title', 'Brain Surgery in Mumbai – Dr Keval Shukla | Brain Specialist')
+@section('meta_keywords', 'Brain surgery in Mumbai, Brain surgeon, Brain surgeon in Mumbai, Brain specialist near me, Brain specialist')
+@section('meta_description', 'Dr Keval Shukla – expert brain surgeon in Mumbai. Specialised brain surgery and treatments from a trusted brain specialist near you.')
 @section('content')
 
 

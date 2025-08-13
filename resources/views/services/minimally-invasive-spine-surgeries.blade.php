@@ -1,5 +1,7 @@
 @extends('layouts.master')
-@section('title', 'MINIMALLY INVASIVE SPINE SURGERIES')
+@section('title', 'Minimally Invasive Spine Surgery in Mumbai – Dr Keval Shukla')
+@section('meta_keywords', 'Minimally invasive spine surgery, Spine surgeon, Spine specialist in Mumbai')
+@section('meta_description', 'Trusted spine surgeon in Mumbai providing minimally invasive spine surgery for quicker recovery and minimal discomfort.')
 @section('content')
 
 

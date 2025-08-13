@@ -2966,3 +2966,50 @@ body.box .banner-container .slide-text {
 .conditions-treated-contaner .border.p-3.rounded-3.h-100:hover {
     box-shadow: 0 .5rem 1rem #21252926 !important;
 }
+
+    .three-service-card {
+      background-color: #166197;
+      color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      transition: background-color 0.3s ease;
+    }
+
+    .three-service-card:hover {
+      background-color: #4c9bbb;
+    }
+
+    .three-service-card-body {
+      padding: 20px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .three-service-card h4 {
+      margin-bottom: 15px;
+    }
+
+    .three-service-card p {
+      flex-grow: 1;
+    }
+
+    .three-service-card-btn {
+      background-color: white;
+      color: #166197;
+      border: none;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+    }
+
+    .three-service-card-btn:hover {
+      background-color: #166197;
+      color: white;
+      border: 1px solid white;
+    }
