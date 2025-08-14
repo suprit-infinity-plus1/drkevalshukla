@@ -270,7 +270,6 @@
                                 advanced imaging techniques before recommending the most suitable surgical or non-surgical
                                 approach. His commitment to precision, safety, and compassionate care makes him one of the
                                 most sought-after spine specialists in Mumbai.</p>
-                            
                         </div>
 
 
@@ -302,7 +301,7 @@
                         <div class="clearfix"></div>
                     </div>
 
-                    <div class="widget">
+                    <div class="widget service-right-side-contact">
                         <h2>Contact Us</h2>
 
                         <div class="widget-content">

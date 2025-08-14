@@ -2967,89 +2967,148 @@ body.box .banner-container .slide-text {
     box-shadow: 0 .5rem 1rem #21252926 !important;
 }
 
-    .three-service-card {
-      background-color: #166197;
-      color: white;
-      border-radius: 8px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-      transition: background-color 0.3s ease;
-    }
+.three-service-card {
+    background-color: #166197;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: background-color 0.3s ease;
+}
 
-    .three-service-card:hover {
-      background-color: #4c9bbb;
-    }
+.three-service-card:hover {
+    background-color: #4c9bbb;
+}
 
-    .three-service-card-body {
-      padding: 20px;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
+.three-service-card-body {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-    .three-service-card h4 {
-      margin-bottom: 15px;
-    }
+.three-service-card h4 {
+    margin-bottom: 15px;
+}
 
-    .three-service-card p {
-      flex-grow: 1;
-    }
+.three-service-card p {
+    flex-grow: 1;
+}
 
-    .three-service-card-btn {
-      background-color: white;
-      color: #166197;
-      border: none;
-      font-weight: bold;
-      padding: 10px 20px;
-      border-radius: 4px;
-      transition: all 0.3s ease;
-    }
+.three-service-card-btn {
+    background-color: white;
+    color: #166197;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
 
-    .three-service-card-btn:hover {
-      background-color: #166197;
-      color: white;
-      border: 1px solid white;
-    }
+.three-service-card-btn:hover {
+    background-color: #166197;
+    color: white;
+}
 
-    .bg-white-transparent{
-        padding-block: 120px;
-    }
+.bg-white-transparent {
+    padding-block: 120px;
+}
 
+.single-service-why-choose-us-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
     .single-service-why-choose-us-title {
-      font-size: 2rem;
-      font-weight: 700;
-      margin-bottom: 30px;
-      text-align: center;
-    }
-    @media (max-width: 768px) {
-      .single-service-why-choose-us-title {
         font-size: 1.5rem;
-      }
     }
-    .single-service-why-choose-us-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    .single-service-why-choose-us-list li {
-      background-color: #4c9bbb;
-      color: #fff;
-      padding: 15px 20px;
-      margin-bottom: 15px;
-      border-radius: 8px;
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      transition: background-color 0.3s ease;
-    }
-    .single-service-why-choose-us-list li:hover {
-      background-color: #3a8aa9;
-    }
-    .single-service-why-choose-us-icon {
-      flex-shrink: 0;
-      font-size: 1.2rem;
-      line-height: 1.5;
-    }
+}
+
+.single-service-why-choose-us-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.single-service-why-choose-us-list li {
+    background-color: #4c9bbb;
+    color: #fff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.single-service-why-choose-us-list li:hover {
+    background-color: #3a8aa9;
+}
+
+.single-service-why-choose-us-icon {
+    flex-shrink: 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.spine-surgery-service-options-title {}
+
+.spine-surgery-service-options-dot-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.spine-surgery-service-options-dot-list li {
+    position: relative;
+    padding-left: 40px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.spine-surgery-service-options-dot-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    box-shadow: inset 1.5px 1.5px 3px rgba(0, 0, 0, 0.4),
+        inset -1.5px -1.5px 3px rgba(255, 255, 255, 0.3);
+
+}
+
+.vascular-neurosurgery-service-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.vascular-neurosurgery-service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.vascular-neurosurgery-service-title {
+    color: #036f9e;
+    font-weight: 600;
+}
+
+.vascular-neurosurgery-service-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+.service-right-side-contact{
+    position: sticky;
+    top: 190px;
+    z-index: 1;
+}

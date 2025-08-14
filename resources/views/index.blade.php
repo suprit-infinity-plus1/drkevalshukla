@@ -142,12 +142,6 @@
                         <div class="about-text">
                             <h2>Dr. Keval Shukla</h2>
                             <h3>About <span> Neurosurgeon</span></h3>
-                            <p>Welcome to Dr Keval Shukla’s Neurosurgery & Spine Care
-                                If you’re searching for the best neurosurgeon in Mumbai, you’re in the right place. Dr Keval
-                                Shukla is a highly skilled spine surgeon and brain surgeon dedicated to delivering
-                                world-class neurological and spine treatments with precision, compassion, and a
-                                patient-first approach. With years of experience and advanced surgical expertise, he has
-                                helped countless patients regain their health and quality of life.</p>
                             <p>
                                 Dr. Keval Shukla is an experienced Brain and Spine surgeon with over 8 years of experience
                                 in

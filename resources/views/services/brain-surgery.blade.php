@@ -39,16 +39,62 @@
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">
-                            <p>BRAIN SURGERY</p>
+                            <p>Brain Surgery in Mumbai – Dr Keval Shukla</p>
                         </div>
                         <div class="service-text">
+                            <p>Brain health is vital to your overall well-being, and when it comes to treatment, you deserve
+                                care from a trusted expert. Dr Keval Shukla, a leading brain surgeon in Mumbai, provides
+                                advanced surgical and non-surgical solutions for a wide range of neurological conditions.
+                                Recognized as a reliable brain specialist near you, he is committed to delivering precise,
+                                safe, and compassionate care to every patient.</p>
                             <p>Brain surgery, also known as neurosurgery, involves the diagnosis and surgical treatment of
                                 conditions affecting the brain, skull, and surrounding structures. These procedures demand
                                 the highest level of precision, skill, and technology.</p>
                             <p>Under the expert care of Dr. Keval Shukla, a highly trained and experienced neurosurgeon, we
                                 offer cutting-edge brain surgery with a strong focus on safety, minimally invasive
                                 techniques, and optimal recovery.</p>
-                        </div><!-- News Text /-->
+                        </div>
+
+                        <div class="border border-bottom-2 border-black my-3"></div>
+
+                        <p>As an experienced brain specialist, Dr Keval Shukla offers comprehensive treatment for:</p>
+
+                        <div class="col-12">
+                            <div class="p-4 bg-white rounded shadow-sm border-start border-4"
+                                style="border-color: #ff4500;">
+                                <div class="row">
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>Brain tumors (benign and malignant)</span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>Traumatic brain injuries and head trauma</span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>Aneurysms and vascular malformations</span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>Epilepsy and seizure disorders</span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>Hydrocephalus and other neurological conditions</span>
+                                    </div>
+                                    <!-- <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                                                <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                                                <span>Faster return to work and daily life</span>
+                                                            </div>
+                                                            <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                                                <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                                                <span>Better cosmetic outcomes with no large scars</span>
+                                                            </div> -->
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="border border-bottom-2 border-black my-3"></div>
                         <div class="section-title container p-0 mb-2">
                             <p>Conditions Treated</p>
@@ -123,23 +169,64 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Chiari malformation
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Trigeminal neuralgia and facial pain disorders
-                                            </p>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="border border-bottom-2 border-black my-3"></div>
+
+                        <div class="section-title container p-0 mb-2">
+                            <p>Advanced Brain Surgery Options</p>
+                        </div>
+                        <p>
+                            Using the latest medical technology and evidence-based practices, Dr Keval Shukla ensures
+                            optimal results with minimal complications:
+                        </p>
+                        <div class="col-12 mb-3">
+                            <div class="p-4 bg-white rounded shadow-sm border-start border-4"
+                                style="border-color: #ff4500;">
+                                <div class="row">
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Microsurgical Brain Tumor Removal
+                                            </span>
+                                            Precision surgery with minimal impact on healthy tissue.
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Minimally Invasive Brain Surgery
+                                            </span>
+                                            Smaller incisions, quicker recovery.
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Endoscopic Brain Surgery
+                                            </span>
+                                            Advanced techniques for deep-seated brain conditions.
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold d-block">
+                                                Vascular Neurosurgery
+                                            </span>
+                                            Treatment for aneurysms and blood vessel disorders in the brain.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
                         <div class="border border-bottom-2 border-black my-3"></div>
 
                         <div class="section-title container p-0 mb-2">
@@ -306,6 +393,42 @@
                             </div>
                         </div>
 
+                        <section class="single-service-why-choose-us-section pt-5">
+                            <div class="container">
+                                <h2 class="single-service-why-choose-us-title">
+                                    Why Choose Dr Keval Shukla for Brain Surgery in Mumbai?
+                                </h2>
+                                <ul class="single-service-why-choose-us-list">
+                                    <li>
+                                        <span class="single-service-why-choose-us-icon">✔</span>
+                                        Recognized among the <strong> best brain surgeons in Mumbai.</strong>
+                                    </li>
+                                    <li>
+                                        <span class="single-service-why-choose-us-icon">✔</span>
+                                        Expertise in both complex and minimally invasive brain surgeries.
+                                    </li>
+                                    <li>
+                                        <span class="single-service-why-choose-us-icon">✔</span>
+                                        Patient-focused approach with clear communication and personalized care plans.
+                                    </li>
+                                    <li>
+                                        <span class="single-service-why-choose-us-icon">✔</span>
+                                        Access to modern facilities and advanced diagnostic tools.
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <div class="section-title container pt-4 mb-2">
+                            <p>Expert Spine Surgery in Mumbai</p>
+                        </div>
+                        <div class="service-text">
+                            <p>Whether you require minimally invasive care or more advanced surgical intervention, Dr Keval
+                                Shukla provides tailored solutions for your spine health. His expertise ensures patients
+                                receive world-class <strong>spine surgery in Mumbai</strong> with the highest safety standards and optimal
+                                recovery results</p>
+                        </div>
+
 
                         <div class="clearfix"></div>
                     </div><!-- News Post /-->
@@ -343,7 +466,8 @@
                                 {{-- <input type="email" value="" placeholder="Email Address"> --}}
                                 <input type="text" name="phone" value="" placeholder="Phone Number" required>
 
-                                <textarea id="Reason" class="form-control" rows="3" name="message" placeholder="Message"></textarea>
+                                <textarea id="Reason" class="form-control" rows="3" name="message"
+                                    placeholder="Message"></textarea>
                                 <input type="hidden" name="form_type" value="simple_contact">
                                 <button type="submit" class="button secondary button-second">Send Message</button>
                             </form>
@@ -361,13 +485,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>
