@@ -82,6 +82,51 @@ console.log("hello man");
             },
         },
     });
+    $("#testimonial-slider").owlCarousel({
+        loop: true,
+        responsiveClass: true,
+        margin: 10,
+        items: 3,
+        autoplay: true,
+        autoplayHoverPause: true,
+        dots: true,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true,
+                navText: [
+                    "<i class='fa fa-chevron-left'></i>",
+                    "<i class='fa fa-chevron-right'></i>",
+                ],
+            },
+            600: {
+                items: 2,
+                nav: true,
+                navText: [
+                    "<i class='fa fa-chevron-left'></i>",
+                    "<i class='fa fa-chevron-right'></i>",
+                ],
+            },
+            600: {
+                items: 2,
+                nav: true,
+                navText: [
+                    "<i class='fa fa-chevron-left'></i>",
+                    "<i class='fa fa-chevron-right'></i>",
+                ],
+            },
+            1000: {
+                items: 3,
+                nav: true,
+                navText: [
+                    "<i class='fa fa-chevron-left'></i>",
+                    "<i class='fa fa-chevron-right'></i>",
+                ],
+                loop: true,
+            },
+        },
+    });
 
     //Our Partners Crousel
     $(".partners").owlCarousel({

@@ -1,5 +1,9 @@
 @extends('layouts.master')
-@section('title', 'Dr. Keval Shukla')
+@section('title', 'Best Neurosurgeon in Mumbai | Dr. Keval Shukla')
+@section('meta_keywords', 'best neurosurgeon in mumbai')
+@section('meta_description',
+    'Consult Dr. Keval Shukla, leading best neurosurgeon in Mumbai for brain, spine & minimally
+    invasive surgery. Expert care, advanced treatments & faster recovery.')
 @section('content')
 
 
@@ -7,17 +11,6 @@
     <div class="banner-container module">
         <div class="main-banner owl-carousel owl-theme" id="main-banner">
 
-            <!-- <div class="slide transparent-background slide-one">
-                                                            <img src="{{ asset('assets/images/help/banner/desktop-banner1.jpg') }}" alt="banner" />
-                                                            <div class="slide-text">
-                                                                <h2>Meet Experts</h2>
-                                                                <h3>Best Neurosurgeon</h3>
-                                                                <p>Our expert neurosurgeons deliver precise and compassionate care <br> using the latest technology for
-                                                                    brain and spine conditions.</p>
-
-                                                                <a class="button primary" href="{{ route('about') }}">Read More &gt;</a>
-                                                            </div>
-                                                        </div> -->
             <div class="slide transparent-background slide-two">
                 <img src="{{ asset('assets/images/help/banner/desktop-banner2.jpg') }}" alt="banner" />
                 <div class="slide-text">
@@ -58,51 +51,27 @@
     </div>
     <!-- Banner Container /-->
 
-    {{-- <div class="information-boxes grey-bg module">
-        <div class="container">
+    <!-- information-boxes /-->
 
-            <div class="row d-flex align-items-stretch">
-                <div class="information-box col-12 col-lg-4 p-0">
-                    <div class="information-icon">
-                        <img src="{{ asset('assets/images/help/information-boxes/icon-1.png') }}" alt="Icon" />
-                    </div>
-                    <div class="information-text">
-                        <h4><a class="#">Lorem, ipsum dolor.</a></h4>
-                        <p>A collection of textile samples lay spread out on the table - Samsa was a travellig
-                            salesman and above it there hung a picture that he had recently cut out in the situation
-                            of lines. Quick brown fox jumps over the lazy.</p>
-                        <a href="#">Learn More ...</a>
-                    </div>
-                </div>
-                <div class="information-box second-information-box col-12 col-lg-4 p-0">
-                    <div class="information-icon">
-                        <img src="{{ asset('assets/images/help/information-boxes/icon-2.png') }}" alt="Icon" />
-                    </div>
-                    <div class="information-text">
-                        <h4><a class="#">Lorem, ipsum dolor.</a></h4>
-                        <p>A collection of textile samples lay spread out on the table - Samsa was a travellig
-                            salesman and above it there hung a picture that he had recently cut out in the situation
-                            of lines. Quick brown fox jumps over the lazy.</p>
-                        <a href="#">Learn More ...</a>
-                    </div>
-                </div>
-                <div class="information-box col-12 col-lg-4 p-0">
-                    <div class="information-icon">
-                        <img src="{{ asset('assets/images/help/information-boxes/icon-3.png') }}" alt="Icon" />
-                    </div>
-                    <div class="information-text">
-                        <h4><a class="#">Lorem, ipsum dolor.</a></h4>
-                        <p>A collection of textile samples lay spread out on the table - Samsa was a travellig
-                            salesman and above it there hung a picture that he had recently cut out in the situation
-                            of lines. Quick brown fox jumps over the lazy.</p>
-                        <a href="#">Learn More ...</a>
-                    </div>
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="about-text text-white">
+                    <h2 class="text-center">Best Neurosurgeon in Mumbai</h2>
+                    <p>
+                        Welcome to Dr Keval Shukla’s Neurosurgery & Spine Care.
+                        If you’re searching for the best neurosurgeon in Mumbai, you’re in the right place.
+                        Dr Keval Shukla is a highly skilled spine surgeon and brain surgeon dedicated to delivering
+                        world-class neurological and spine treatments with precision, compassion, and a patient-first
+                        approach.
+                        With years of experience and advanced surgical expertise, he has helped countless patients regain
+                        their health and quality of life.
+                    </p>
                 </div>
             </div>
-
         </div>
-    </div> --}}
-    <!-- information-boxes /-->
+    </div>
+
 
     <div class="about-section module">
         <div class="container">
@@ -120,6 +89,7 @@
                         <div class="about-text">
                             <h2>Dr. Keval Shukla</h2>
                             <h3>About <span> Neurosurgeon</span></h3>
+
                             <p>
                                 Dr. Keval Shukla is an experienced Brain and Spine surgeon with over 8 years of experience
                                 in
@@ -177,8 +147,10 @@
                                 <h4>Neuro traumatology</h4>
                             </div>
                         </div>
-                        <a class="button primary" href="{{ route('about') }}">About Us</a>
-                        <a class="button secondary" href="#">Why Chose Us</a>
+                        {{-- <a class="button primary" href="{{ route('about') }}">About Us</a>
+                        <a class="button secondary" href="#">Why Chose Us</a> --}}
+                        <button class="button primary" data-bs-toggle="modal" data-bs-target="#appointmentModal">Book
+                            Appointment</button>
                     </div>
                 </div>
             </div>
@@ -187,10 +159,12 @@
     </div>
     <!-- About Section /-->
 
-    <div class="services module grey-bg">
+    <div class="services module grey-bg m-0">
         <div class="section-title container">
-            <h2>Best Services</h2>
-            <p>Explore Our Best Neurosurgeon Services</p>
+            {{-- <h2>Best Services</h2> --}}
+            {{-- <p>Explore Our Best Neurosurgeon Services</p> --}}
+            <h1>Our services</h1>
+
         </div><!-- Section Title /-->
         <div class="padding-between services-wrap">
 
@@ -246,12 +220,13 @@
                                 </div>
                             </div>
                             <div class="service-text hover-bottom">
-                                <h6><a href="{{ route('neuro-trauma') }}" class="ellipsis-multiline-1">NEURO TRAUMA</a>
+                                <h6>
+                                    <a href="{{ route('neuro-trauma') }}" class="ellipsis-multiline-1">NEURO TRAUMA</a>
                                 </h6>
                                 <p class="ellipsis-multiline-3">Neuro trauma involves serious injuries to the brain and
-                                    spinal cord, often caused by road
-                                    accidents, falls, sports injuries, or violence. These injuries can lead to
-                                    life-threatening complications and long term disability if not treated promptly.</p>
+                                    spinal cord, often caused by road accidents, falls, sports injuries, or violence. These
+                                    injuries can lead to life-threatening complications and long term disability if not
+                                    treated promptly.</p>
                             </div>
                         </div><!-- Service Box /-->
                     </div>
@@ -268,9 +243,8 @@
                                 <h6><a href="{{ route('vascular-neurosurgery') }}" class="ellipsis-multiline-1">VASCULAR
                                         NEUROSURGERY</a></h6>
                                 <p class="ellipsis-multiline-3">Vascular neurosurgery deals with abnormalities in the blood
-                                    vessels of the brain and
-                                    spinal cord, including aneurysms, arteriovenous malformations (AVMs), and stroke related
-                                    hemorrhages.</p>
+                                    vessels of the brain and spinal cord, including aneurysms, arteriovenous malformations
+                                    (AVMs), and stroke related hemorrhages.</p>
                             </div>
                         </div><!-- Service Box /-->
                     </div>
@@ -287,12 +261,11 @@
                                 <h6><a href="{{ route('epilepsy-surgery') }}" class="ellipsis-multiline-1">EPILLEPSY
                                         SURGERY</a></h6>
                                 <p class="ellipsis-multiline-3">Epilepsy surgery is an effective option for patients with
-                                    seizures that cannot be
-                                    controlled with medication (drug resistant epilepsy). By identifying and removing the
-                                    seizure focus in the brain, surgery can lead to a dramatic improvement or complete
-                                    freedom from seizures.</p>
+                                    seizures that cannot be controlled with medication (drug resistant epilepsy). By
+                                    identifying and removing the seizure focus in the brain, surgery can lead to a dramatic
+                                    improvement or complete freedom from seizures.</p>
                             </div>
-                        </div><!-- Service Box /-->
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="service-box hover-wrap">
@@ -305,20 +278,21 @@
                                 </div>
                             </div>
                             <div class="service-text hover-bottom">
-                                <h6><a href="{{ route('endoscopic-skull-base-surgery') }}"
+                                <h6>
+                                    <a href="{{ route('endoscopic-skull-base-surgery') }}"
                                         class="ellipsis-multiline-1">ENDOSCOPIC SKULL
-                                        BASE SURGERY</a></h6>
+                                        BASE SURGERY</a>
+                                </h6>
                                 <p class="ellipsis-multiline-3">Endoscopic Skull Base Surgery is a cutting edge, minimally
-                                    invasive technique that uses
-                                    an endoscope (thin tube with a camera) to access deep brain areas through the nasal
-                                    passages or small incisions.</p>
+                                    invasive technique that an endoscope (thin tube with a camera) to access deep brain
+                                    areas through the nasal passages or small incisions.</p>
                             </div>
-                        </div><!-- Service Box /-->
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="service-box hover-wrap">
                             <div class="hover-img">
-                                <img src="{{ asset('assets/images/help/services/Endoscopic-Skull-Base-Surgery.png') }}"
+                                <img src="{{ asset('assets/images/help/services/brain-surgery.jpeg') }}"
                                     alt="Service Images" />
                                 <div class="service-detail hover-info">
                                     <a href="{{ route('endoscopic-skull-base-surgery') }}" class="button primary">Know
@@ -326,20 +300,20 @@
                                 </div>
                             </div>
                             <div class="service-text hover-bottom">
-                                <h6><a href="{{ route('brain-surgery') }}" class="ellipsis-multiline-1">BRAIN SURGERY</a>
+                                <h6>
+                                    <a href="{{ route('brain-surgery') }}" class="ellipsis-multiline-1">BRAIN SURGERY</a>
                                 </h6>
                                 <p class="ellipsis-multiline-3">Brain surgery, also known as neurosurgery, involves the
-                                    diagnosis and surgical treatment of
-                                    conditions affecting the brain, skull, and surrounding structures. These procedures
-                                    demand
-                                    the highest level of precision, skill, and technology.</p>
+                                    diagnosis and surgical treatment of conditions affecting the brain, skull, and
+                                    surrounding structures. These procedures demand the highest level of precision, skill,
+                                    and technology.</p>
                             </div>
                         </div><!-- Service Box /-->
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <div class="service-box hover-wrap">
                             <div class="hover-img">
-                                <img src="{{ asset('assets/images/help/services/Endoscopic-Skull-Base-Surgery.png') }}"
+                                <img src="{{ asset('assets/images/help/services/spine-surgery.jpeg') }}"
                                     alt="Service Images" />
                                 <div class="service-detail hover-info">
                                     <a href="{{ route('spine-surgery') }}" class="button primary">Know
@@ -347,195 +321,141 @@
                                 </div>
                             </div>
                             <div class="service-text hover-bottom">
-                                <h6><a href="{{ route('endoscopic-skull-base-surgery') }}"
-                                        class="ellipsis-multiline-1">SPINE SURGERY</a></h6>
-                                <p class="ellipsis-multiline-3">Spine surgery is a specialized field focused on diagnosing
-                                    and treating conditions affecting
-                                    the spinal cord, vertebrae, discs, and nerves. At our advanced neurosurgical center, we
-                                    offer a wide range of surgical solutions tailored to relieve pain, restore mobility, and
-                                    improve your overall quality of life.</p>
+                                <h6>
+                                    <a href="{{ route('endoscopic-skull-base-surgery') }}"
+                                        class="ellipsis-multiline-1">SPINE SURGERY</a>
+                                </h6>
+                                <p class="ellipsis-multiline-3">
+                                    Spine surgery is a specialized field focused on diagnosing and treating conditions
+                                    affecting the spinal cord, vertebrae, discs, and nerves. At our advanced neurosurgical
+                                    center, we offer a wide range of surgical solutions tailored to relieve pain, restore
+                                    mobility, and improve your overall quality of life.
+                                </p>
                             </div>
-                        </div><!-- Service Box /-->
+                        </div>
                     </div>
                 </div>
             </div>
 
-            {{-- <div class="grid-container grid-x grid-padding-x grid-padding-y">
 
-                <div class="large-4 medium-6 small-12 cell">
-                    <div class="service-box hover-wrap">
-                        <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/services/service-img-6.png') }}" alt="Service Images" />
-                            <div class="service-detail hover-info">
-                                <a href="#" class="button primary">Know More</a>
-                            </div>
-                        </div>
-                        <div class="service-text hover-bottom">
-                            <h6><a href="#">Lorem ipsum dolor sit.</a></h6>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="large-4 medium-6 small-12 cell">
-                    <div class="service-box hover-wrap">
-                        <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/services/service-img-6.png') }}" alt="Service Images" />
-                            <div class="service-detail hover-info">
-                                <a href="#" class="button primary">Know More</a>
-                            </div>
-                        </div>
-                        <div class="service-text hover-bottom">
-                            <h6><a href="#">Lorem, ipsum dolor.</a></h6>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="large-4 medium-6 small-12 cell">
-                    <div class="service-box hover-wrap">
-                        <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/services/service-img-6.png') }}" alt="Service Images" />
-                            <div class="service-detail hover-info">
-                                <a href="#" class="button primary">Know More</a>
-                            </div>
-                        </div>
-                        <div class="service-text hover-bottom">
-                            <h6><a href="#">Lorem, ipsum dolor.</a></h6>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div> --}}
-            <!-- Grid Container /-->
-
-        </div><!-- Padding Between /-->
+        </div>
     </div>
-    <!-- Services /-->
 
-    {{-- <div class="our-staff module">
 
+    <!-- =================Service Card=================== -->
+
+    <div class="container bg-white-transparent">
         <div class="section-title container">
-            <h2>Best Neurosurgeons</h2>
-            <p>Meet Our Best Neurosurgeons</p>
+            <h2>Specialities</h2>
+            <p>Our Specialities</p>
         </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                    <div class="staff-box hover-wrap">
-                        <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/our-staff/staff-img-1.jpg') }}" alt="Staff Images" />
-                            <div class="staff-detail hover-info">
-                                <a href="#" class="button primary">Know More</a>
-                            </div>
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="three-service-card">
+                    <div class="three-service-card-body">
+                        <div>
+                            <h4 class="text-white">Brain Surgery Excellence</h4>
+                            <p class="text-white">
+                                As an experienced brain surgeon, Dr Keval Shukla treats a wide range of
+                                neurological conditions including brain tumors, head injuries, aneurysms, and other complex
+                                brain disorders.
+                            </p>
                         </div>
-                        <div class="staff-text hover-bottom">
-                            <h6><a href="#">Dr. Robert Doe</a></h6>
-                            <p>Sr. Neurosurgeon</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                    <div class="staff-box hover-wrap">
-                        <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/our-staff/staff-img-2.jpg') }}" alt="Staff Images" />
-                            <div class="staff-detail hover-info">
-                                <a href="#" class="button primary">Know More</a>
-                            </div>
-                        </div>
-                        <div class="staff-text hover-bottom">
-                            <h6><a href="#">Dr. Tina Meena</a></h6>
-                            <p>Jr. Neurosurgeon</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                    <div class="staff-box hover-wrap">
-                        <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/our-staff/staff-img-3.jpg') }}" alt="Staff Images" />
-                            <div class="staff-detail hover-info">
-                                <a href="#" class="button primary">Know More</a>
-                            </div>
-                        </div>
-                        <div class="staff-text hover-bottom">
-                            <h6><a href="#">Dr. Seena Tina</a></h6>
-                            <p>Sr. Neurosurgeon</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                    <div class="staff-box hover-wrap">
-                        <div class="hover-img">
-                            <img src="{{ asset('assets/images/help/our-staff/staff-img-4.jpg') }}" alt="Staff Images" />
-                            <div class="staff-detail hover-info">
-                                <a href="#" class="button primary">Know More</a>
-                            </div>
-                        </div>
-                        <div class="staff-text hover-bottom">
-                            <h6><a href="#">Dr. Mario Doe</a></h6>
-                            <p>Sr. Neurosurgeon</p>
+                        <div class="text-center mt-3">
+                            <button class="three-service-card-btn">Read More</button>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="three-service-card">
+                    <div class="three-service-card-body">
+                        <div>
+                            <h4 class="text-white">Specialized Spine Surgery</h4>
+                            <p class="text-white">
+                                Back and neck problems can severely impact daily life. Dr Keval Shukla
+                                offers advanced solutions for herniated discs, spinal stenosis, scoliosis, and other
+                                spine-related conditions.
+                            </p>
+                        </div>
+                        <div class="text-center mt-3">
+                            <button class="three-service-card-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="three-service-card">
+                    <div class="three-service-card-body">
+                        <div>
+                            <h4 class="text-white">Holistic Care for Every Patient</h4>
+                            <p class="text-white">
+                                From diagnosis to surgery and post-operative care, Dr Keval Shukla ensures each patient
+                                receives comprehensive support.
+                            </p>
+                        </div>
+                        <div class="text-center mt-3">
+                            <button class="three-service-card-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
 
-    </div> --}}
-    <!-- Our Staff /-->
 
-    <div class="achievement-counter dark-bg grey-bg module">
+    <div class="achievement-counter dark-bg grey-bg">
 
         <div class="grid-container grid-x grid-padding-x">
 
-            <div class="large-3 medium-6 small-12 cell">
+            <div class="large-4 medium-6 small-12 cell mb-4">
                 <div class="counter">
                     <div class="counter-icon">
-                        {{-- <img src="{{ asset('assets/images/help/icons/chemestry.png') }}" alt="Counter Icon" /> --}}
+                        <img src="{{ asset('assets/images/help/icons/cup.png') }}" alt="Counter Icon" />
+                    </div>
+                    <div class="counter-text">
+                        <h2 class="count" data-count="8">0</h2>
+                        <p>Years of Experience</p>
+                    </div>
+                </div>
+            </div>
+            <div class="large-4 medium-6 small-12 cell mb-4">
+                <div class="counter">
+                    <div class="counter-icon">
                         <img src="{{ asset('assets/images/help/icons/cup.png') }}" alt="Counter Icon" />
                     </div>
                     <div class="counter-text">
                         <h2 class="count" data-count="250">0</h2>
                         <p>Brain Surgery</p>
                     </div>
-                </div><!-- Counter /-->
+                </div>
             </div>
 
-            <div class="large-3 medium-6 small-12 cell">
+            <div class="large-4 medium-6 small-12 cell mb-4">
                 <div class="counter">
                     <div class="counter-icon">
-                        {{-- <img src="{{ asset('assets/images/help/icons/rocket.png') }}" alt="Counter Icon" /> --}}
                         <img src="{{ asset('assets/images/help/icons/cup.png') }}" alt="Counter Icon" />
                     </div>
                     <div class="counter-text">
                         <h2 class="count" data-count="500">0</h2>
                         <p>Spinal Surgery</p>
                     </div>
-                </div><!-- Counter /-->
-            </div><!-- columns /-->
+                </div>
+            </div>
 
-            <div class="large-3 medium-6 small-12 cell">
+            <div class="large-4 medium-6 small-12 cell mb-4">
                 <div class="counter">
                     <div class="counter-icon">
-                        {{-- <img src="{{ asset('assets/images/help/icons/friends.png') }}" alt="Counter Icon" /> --}}
                         <img src="{{ asset('assets/images/help/icons/cup.png') }}" alt="Counter Icon" />
                     </div>
                     <div class="counter-text">
                         <h2 class="count" data-count="100">0</h2>
                         <p>Neurovascular Surgery</p>
                     </div>
-                </div><!-- Counter /-->
-            </div><!-- columns /-->
+                </div>
+            </div>
 
-            <div class="large-3 medium-6 small-12 cell">
+            <div class="large-4 medium-6 small-12 cell mb-4">
                 <div class="counter">
                     <div class="counter-icon">
                         <img src="{{ asset('assets/images/help/icons/cup.png') }}" alt="Counter Icon" />
@@ -544,29 +464,25 @@
                         <h2 class="count" data-count="200">0</h2>
                         <p>Minimally Invasive Neurosurgery</p>
                     </div>
-                </div><!-- Counter /-->
-            </div><!-- columns /-->
+                </div>
+            </div>
 
         </div>
-        <!-- Grid Container /-->
 
     </div>
-    <!-- Achievement Counter /-->
 
-    <div class="why-chose-us module">
-
+    <div class="why-chose-us bg-white-transparent">
         <div class="section-title container">
-            <h2>Awesome Facts</h2>
-            <p>why we are best</p>
-        </div><!-- Section Title /-->
-
+            <h1>
+                Why Choose Dr Keval Shukla
+            </h1>
+        </div>
         <div class="container">
             <div class=" row">
-
                 <div class="col-lg-8 col-12">
                     <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true"
                         data-deep-link-smudge="500" id="deeplinked-accordion">
-                        <li class="accordion-item border-0" data-accordion-item>
+                        <li class="accordion-item border-0 is-active" data-accordion-item>
                             <a href="#" class="accordion-title">Advanced Surgical Expertise</a>
                             <div class="accordion-content" data-tab-content id="deeplink1">
                                 Dr. Keval Shukla brings over 8 years of experience in handling complex brain and spine
@@ -599,7 +515,7 @@
                                 communication, and supporting patients through every step of their journey to recovery.
                             </div>
                         </li>
-                        <li class="accordion-item border-0 is-active" data-accordion-item>
+                        <li class="accordion-item border-0 " data-accordion-item>
                             <a href="#" class="accordion-title">International Standards, Local Accessibility</a>
                             <div class="accordion-content" data-tab-content id="deeplink4">
                                 With training from global centers of excellence and years of experience in Mumbai’s top
@@ -608,38 +524,29 @@
                                 world-class treatment available close to home.
                             </div>
                         </li>
-                    </ul><!-- Cccordion /-->
+                    </ul>
                 </div>
 
                 <div class="col-lg-4 d-sm-none d-lg-block">
                     <img src="{{ asset('assets/images/help/dekevalshukla-img2.png') }}" alt="">
-                    {{-- <div class="after-before-item">
-                    <div class="twentytwenty-container">
-                        <img src="{{ asset('assets/images/help/before.jpg') }}" alt="" />
-                        <img src="{{ asset('assets/images/help/after.jpg') }}" alt="" />
-                    </div>
-                </div> --}}
                 </div>
-
             </div>
         </div>
-
     </div>
-    <!-- Why Chose Us /-->
 
-    <div class="testimonials grey-bg">
+
+    <div class="testimonials grey-bg module mb-0">
 
         <div class="section-title-second">
             <h2>Awesome Reviews</h2>
             <p>What our customers say about us</p>
-        </div><!-- Section Title /-->
+        </div>
 
         <div class="grid-container grid-x grid-padding-x">
 
             <div class="testimonial-slid owl-carousel owl-theme">
 
                 <div class="testimonial-text">
-                    {{-- <img src="{{ asset('assets/images/help/testimonial-1.png') }}" alt="" /> --}}
                     <div class="testimonial-profile" style="background-color: rgb(243 77 29);">
                         K
                     </div>
@@ -650,10 +557,9 @@
                         Would definitely recommend for neuro care.
                     </p>
                     <h6>Kamlesh Shah - <span>Google Ads</span></h6>
-                </div><!-- testimonial -->
+                </div>
 
                 <div class="testimonial-text">
-                    {{-- <img src="{{ asset('assets/images/help/testimonial-2.png') }}" alt="" /> --}}
                     <div class="testimonial-profile" style="background-color: rgb(120 27 161);">
                         K
                     </div>
@@ -664,10 +570,9 @@
                         he earns very easily.
                     </p>
                     <h6>Kinnari Thaker - <span>Google Ads</span></h6>
-                </div><!-- testimonial -->
+                </div>
 
                 <div class="testimonial-text">
-                    {{-- <img src="{{ asset('assets/images/help/testimonial-1.png') }}" alt="" /> --}}
                     <div class="testimonial-profile" style="background-color: rgb(151 194 193);">
                         S
                     </div>
@@ -679,10 +584,9 @@
                         Best for patients.
                     </p>
                     <h6>Shankar Kadam - <span>Google Ads</span></h6>
-                </div><!-- testimonial -->
+                </div>
 
                 <div class="testimonial-text">
-                    {{-- <img src="{{ asset('assets/images/help/testimonial-1.png') }}" alt="" /> --}}
                     <div class="testimonial-profile" style="background-color: rgb(15 157 138);">
                         R
                     </div>
@@ -693,93 +597,239 @@
                         needed, it's benefit and complications, outcomes in a very good way.
                     </p>
                     <h6>Rahul Doe - <span>Google Ads</span></h6>
-                </div><!-- testimonial -->
+                </div>
 
-            </div><!-- testimonial Slid -->
+            </div>
 
-        </div><!-- Grid Container /-->
+        </div>
 
     </div>
-    <!-- Testimonials /-->
 
-    {{-- <div class="products grey-bg module">
 
-        <div class="section-title">
-            <h2>Awesome Skin care</h2>
-            <p>amazing skin products for you</p>
+    <section class="bg-danger text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-md-3">
+                    <h3 class="text-white">Exellent</h3>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="col-sm-7 col-md-9">
+                    {{-- review --}}
+                    <div id="testimonial-slider" class="owl-carousel owl-theme">
+
+                        <div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <div class="bg-primary">R</div>
+                                </div>
+                                <div>
+                                    <h3 class="text-white">hello man</h3>
+                                    <div>
+                                        <span>25 feb 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="{{ asset('assets/images/download.png') }}" alt="">
+                            </div>
+                            <p class="text-white">its google review</p>
+                        </div>
+                        {{-- review --}}
+                        <div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <div class="bg-primary">R</div>
+                                </div>
+                                <div>
+                                    <h3 class="text-white">hello man</h3>
+                                    <div>
+                                        <span>25 feb 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="{{ asset('assets/images/download.png') }}" alt="">
+                            </div>
+                            <p class="text-white">its google review</p>
+                        </div>
+                        {{-- review --}}
+                        <div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <div class="bg-primary">R</div>
+                                </div>
+                                <div>
+                                    <h3 class="text-white">hello man</h3>
+                                    <div>
+                                        <span>25 feb 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="{{ asset('assets/images/download.png') }}" alt="">
+                            </div>
+                            <p class="text-white">its google review</p>
+                        </div>
+                        {{-- review --}}
+                        <div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <div class="bg-primary">R</div>
+                                </div>
+                                <div>
+                                    <h3 class="text-white">hello man</h3>
+                                    <div>
+                                        <span>25 feb 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="{{ asset('assets/images/download.png') }}" alt="">
+                            </div>
+                            <p class="text-white">its google review</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="grid-container grid-x grid-padding-x products-box">
 
-            <div class="large-3 medium-6 small-12 cell">
-                <div class="product">
-                    <div class="product-icon">
-                        <img src="{{ asset('assets/images/help/products/product-1.png') }}" alt="Product Img" />
-                    </div>
-                    <div class="product-text">
-                        <h6><a href="#">Sun Block Herbal Lotion</a></h6>
-                        <p>$39.00 - <span>$50.00</span></p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="large-3 medium-6 small-12 cell">
-                <div class="product">
-                    <div class="product-icon">
-                        <img src="{{ asset('assets/images/help/products/product-2.png') }}" alt="Product Img" />
-                    </div>
-                    <div class="product-text">
-                        <h6><a href="#">Multi Vitamin Skin Product</a></h6>
-                        <p>$39.00 - <span>$50.00</span></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="large-3 medium-6 small-12 cell">
-                <div class="product">
-                    <div class="product-icon">
-                        <img src="{{ asset('assets/images/help/products/product-3.png') }}" alt="Product Img" />
-                    </div>
-                    <div class="product-text">
-                        <h6><a href="#">Whitening special Cream</a></h6>
-                        <p>$39.00 - <span>$50.00</span></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="large-3 medium-6 small-12 cell">
-                <div class="product">
-                    <div class="product-icon">
-                        <img src="{{ asset('assets/images/help/products/product-4.png') }}" alt="Product Img" />
-                    </div>
-                    <div class="product-text">
-                        <h6><a href="#">Sun Block Special Lotion</a></h6>
-                        <p>$39.00 - <span>$50.00</span></p>
-                    </div>
-                </div>
-            </div>
-
+    <div class="why-chose-us bg-white-transparent">
+        <div class="section-title container">
+            <h1>
+                Faqs
+            </h1>
         </div>
-
-    </div> --}}
-    <!-- Products /-->
-
+        <div class="container">
+            <div class=" row">
+                <div class="col-lg-8 col-12">
+                    <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true"
+                        data-deep-link-smudge="500" id="deeplinked-accordion">
+                        <li class="accordion-item border-0 is-active" data-accordion-item>
+                            <a href="#" class="accordion-title">Do I need to make an appointment with the best
+                                neurosurgeon in Mumbai?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink1">
+                                Yes, it is recommended to book an appointment before visiting. You can call the clinic or
+                                fill the online form to consult the best neurosurgeon in Mumbai without delays.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0" data-accordion-item>
+                            <a href="#" class="accordion-title">Do you provide 24/7 emergency neurosurgical
+                                care?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink1">
+                                Yes. Emergency neurosurgical care is available for conditions like head trauma, brain
+                                injury, or spine accidents. Immediate consultation with the best neurosurgeon in Mumbai can
+                                save lives.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0" data-accordion-item>
+                            <a href="#" class="accordion-title">What are the specializations of Dr. Keval
+                                Shukla?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink2">
+                                Dr. Keval Shukla specializes in brain tumor surgery, spine surgery, minimally invasive
+                                neurosurgery, disc replacement, and trauma management, making him one of the most trusted
+                                neurosurgeons in Mumbai.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0" data-accordion-item>
+                            <a href="#" class="accordion-title"> When should I visit a neurosurgeon in Mumbai?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink3">
+                                If you experience persistent headaches, seizures, back or neck pain, sudden weakness, loss
+                                of sensation, or trauma-related injuries, you should consult a best neurosurgeon in Mumbai
+                                immediately.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0 " data-accordion-item>
+                            <a href="#" class="accordion-title">What is the role of a neurosurgeon?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink4">
+                                A neurosurgeon diagnoses and treats disorders of the brain, spine, and nervous system. The
+                                best neurosurgeon in Mumbai ensures both surgical and non-surgical care tailored to patient
+                                needs.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0 " data-accordion-item>
+                            <a href="#" class="accordion-title">What recovery time should I expect after
+                                neurosurgery?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink4">
+                                Recovery depends on the type of surgery, patient health, and procedure complexity. With
+                                advanced minimally invasive techniques, recovery is usually faster in Mumbai hospitals.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 d-sm-none d-lg-block">
+                    <img src="{{ asset('assets/images/help/dekevalshukla-img2.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="form-section module dark-bg grey-bg">
-
         <div class="grid-container grid-x grid-padding-x">
-
             <div class="large-6 medium-8 small-12 large-offset-3 medium-offset-2 cell">
                 <div class="form">
                     <h2>Contact Us</h2>
                     <p>Want to book an appointment with us? Fill up the form below to get appointment.</p>
                     <form action="{{ route('contact.submit') }}" method="POST">
                         @csrf
-
                         <input type="text" name="name" class="form-control mb-3" placeholder="Full Name" required>
-
-                        {{-- <input type="email" name="email" class="form-control mb-3" placeholder="Email Address"> --}}
 
                         <input type="text" name="phone" class="form-control mb-3" placeholder="Phone Number"
                             required>
@@ -817,19 +867,16 @@
                         <button type="submit" class="button secondary button-second">Send Message</button>
                     </form>
 
-                </div><!-- Form/-->
+                </div>
                 <div class="clearfix"></div>
             </div>
-
-        </div><!-- Grid Container /-->
-
+        </div>
     </div>
     <!-- Form Section /-->
 
     <div class="blog-section pb-5">
-
         <div class="container">
-            <div class="section-title    mb-5">
+            <div class="section-title mb-5">
                 <h2>Our Blogs</h2>
                 <p>Our latest blog updates for the week.</p>
             </div>
@@ -860,98 +907,15 @@
                         </div>
                     </div>
                 @endforeach
-                <!-- <div class="col-lg-4 col-md-6">
-                                                            <div class="card h-100 border-0 shadow-sm">
-                                                                <img src="{{ asset('assets/images/help/blog/blog-brain-tumor.jpg') }}" class="card-img-top"
-                                                                    alt="Product Img">
-                                                                <div class="card-body">
-                                                                    <h6 class="card-title blog-title">
-                                                                        <a href="{{ route('blog-brain-tumors') }}" class="text-decoration-none text-dark">
-                                                                            What Are Brain Tumors?
-                                                                        </a>
-                                                                    </h6>
-                                                                    <div class="blog-description-wrapper">
-                                                                        <p class="blog-description">
-                                                                            Brain tumors are abnormal growths within the brain that can be either benign or
-                                                                            malignant. Understanding their causes, symptoms like headaches or seizures, and
-                                                                            treatment options such as surgery, radiation, or chemotherapy is essential for early
-                                                                            diagnosis and effective care.
-                                                                        </p>
-                                                                        <a href="{{ route('blog-brain-tumors') }}" class="blog-readmore">Read More</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-4 col-md-6">
-                                                            <div class="card h-100 border-0 shadow-sm">
-                                                                <img src="{{ asset('assets/images/help/blog/blog-spine-surgery.jpg') }}" class="card-img-top"
-                                                                    alt="Product Img">
-                                                                <div class="card-body">
-                                                                    <h6 class="card-title blog-title">
-                                                                        <a href="{{ route('blog-spine-surgery') }}" class="text-decoration-none text-dark">
-                                                                            Treating Spine Tumors Safely
-                                                                        </a>
-                                                                    </h6>
-                                                                    <div class="blog-description-wrapper">
-                                                                        <p class="blog-description">
-                                                                            Spinal cord tumors can affect movement, sensation, and even bladder control. Thanks
-                                                                            to advances in imaging and microsurgical techniques, neurosurgeons can now remove
-                                                                            many of these tumors with high precision, reducing risks and improving quality of
-                                                                            life.
-                                                                        </p>
-                                                                        <a href="{{ route('blog-spine-surgery') }}" class="blog-readmore">Read More</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-lg-4 col-md-6">
-                                                            <div class="card h-100 border-0 shadow-sm">
-                                                                <img src="{{ asset('assets/images/help/blog/blog-open-brain.jpg') }}" class="card-img-top"
-                                                                    alt="Product Img">
-                                                                <div class="card-body">
-                                                                    <h6 class="card-title blog-title">
-                                                                        <a href="{{ route('blog-open-brain-surgery') }}" class="text-decoration-none text-dark">
-                                                                            Awake Surgery for Brain Tumors
-                                                                        </a>
-                                                                    </h6>
-                                                                    <div class="blog-description-wrapper">
-                                                                        <p class="blog-description">
-                                                                            Awake brain surgery allows surgeons to operate while the patient is conscious, helping
-                                                                            preserve critical functions like speech and movement. It’s especially useful for tumors
-                                                                            located near vital brain areas and offers greater surgical accuracy with reduced
-                                                                            complications.
-
-
-                                                                        </p>
-                                                                        <a href="{{ route('blog-open-brain-surgery') }}" class="blog-readmore">Read More</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div> -->
             </div>
         </div>
     </div>
-    <!-- Blog Section /-->
-
-    {{-- partners section - our-partners --}}
-
-
-
-
-
-    <!-- Main Container /-->
 @endsection
 @section('extrajs')
     <script>
-        $(document).ready(function() {
-
-        });
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.6.2/countUp.umd.js"></script>
-    <script>
         $(document).ready(function() {});
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.6.2/countUp.umd.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             document.querySelectorAll('.count').forEach(function(el) {
@@ -969,6 +933,4 @@
             });
         });
     </script>
-
-
 @endsection

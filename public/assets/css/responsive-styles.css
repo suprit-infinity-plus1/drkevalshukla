@@ -466,7 +466,7 @@
         text-align: start;
     }
 
-    .footer-logo-side .contact-us ul li:last-child,
+    /* .footer-logo-side .contact-us ul li:last-child, */
     .footer-logo-side .contact-us span {
         display: none;
     }

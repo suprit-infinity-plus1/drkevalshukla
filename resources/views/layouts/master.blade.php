@@ -9,6 +9,9 @@
 
     {{-- <title>Dr. Keval Shukla</title> --}}
     <title>@yield('title')</title>
+    <meta name="keywords" content="@yield('meta_keywords')">
+    <meta name="description" content="@yield('meta_description')">
+
 
     <meta name="author" content="Webful Creations">
     <meta name="keywords" content="">
@@ -56,6 +59,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TGX5NPBH2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-3TGX5NPBH2');
+    </script>
 </head>
 
 <body>
@@ -233,9 +248,12 @@
 
                         </div>
                         <div class="social-icons d-flex gap-3">
-                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.facebook.com/people/Dr-Keval-Shukla/61578950248122/"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/drkevalshukla/"><i class="fab fa-instagram"></i></a>
+                            <a
+                                href="https://in.linkedin.com/in/keval-shukla-b936076b?trk=public_post_follow-view-profile"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
                             <a href="#"><i class="fa-brands fa-youtube"></i></a>
                         </div>
                     </div>
@@ -417,9 +435,12 @@
 
                         </div>
                         <div class="social-icons d-flex gap-3">
-                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.facebook.com/people/Dr-Keval-Shukla/61578950248122/"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/drkevalshukla/"><i class="fab fa-instagram"></i></a>
+                            <a
+                                href="https://in.linkedin.com/in/keval-shukla-b936076b?trk=public_post_follow-view-profile"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
                             <a href="#"><i class="fa-brands fa-youtube"></i></a>
                         </div>
                     </div>
@@ -474,7 +495,21 @@
                                     experience in this field. After completing his training, Dr. Keval has worked at a
                                     major corporate hospital in Mumbai .
                                 </p>
+
+                                <div class="social-icons">
+                                    <ul class="menu">
+                                        <li><a href="https://www.facebook.com/people/Dr-Keval-Shukla/61578950248122/"><i
+                                                    class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.instagram.com/drkevalshukla/"><i
+                                                    class="fab fa-instagram"></i></a></li>
+                                        <li><a
+                                                href="https://in.linkedin.com/in/keval-shukla-b936076b?trk=public_post_follow-view-profile"><i
+                                                    class="fa-brands fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
                             </div>
+
                         </div>
                         <div class="col-lg-2 col-md-6 col-sm-12">
                             <div class="footer-box border-btm">
@@ -556,15 +591,25 @@
                                                 keval242@gmail.com</a>
                                         </li>
                                     </ul>
+                                    <div>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15092.062996140385!2d72.8140650347248!3d18.974911857187383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce68931537f1%3A0xf7c810f37868e781!2sWockhardt%20Hospitals%2C%20Agripada%2C%20Mumbai%2C%20Maharashtra%20400011!5e0!3m2!1sen!2sin!4v1759745123556!5m2!1sen!2sin"
+                                            height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
                                 </div>
-                                <div class="social-icons">
+                                {{-- <div class="social-icons">
                                     <ul class="menu">
-                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        <li><a href="https://www.facebook.com/people/Dr-Keval-Shukla/61578950248122/"><i
+                                                    class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.instagram.com/drkevalshukla/"><i
+                                                    class="fab fa-instagram"></i></a></li>
+                                        <li><a
+                                                href="https://in.linkedin.com/in/keval-shukla-b936076b?trk=public_post_follow-view-profile"><i
+                                                    class="fa-brands fa-linkedin-in"></i></a></li>
                                         <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
                                     </ul>
-                                </div>
+                                </div> --}}
                             </div><!-- Footer Box /-->
                         </div>
 
