@@ -1,5 +1,7 @@
 @extends('layouts.master')
-@section('title', 'SPINE SURGERY')
+@section('title', 'Spine Surgeon in Mumbai – Dr Keval Shukla | Spine Specialist')
+@section('meta_keywords', 'Best Spine Surgery in Mumbai, Spine surgeon, Spine surgeon in Mumbai, Spine specialist in Mumbai')
+@section('meta_description', 'Get advanced spine surgery in Mumbai with Dr Keval Shukla. Experienced spine specialist offering personalised care for back and spinal conditions')
 @section('content')
 
 
@@ -37,7 +39,14 @@
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">
-                            <p>SPINE SURGERY</p>
+                            <p>Best Spine Surgery in Mumbai – Dr Keval Shukla</p>
+                        </div>
+                        <div class="service-text">
+                            <p>Back and spine problems can significantly affect your mobility, comfort, and overall quality
+                                of life. Dr Keval Shukla, an experienced spine surgeon in Mumbai, is dedicated to providing
+                                advanced and personalized solutions for a wide range of spinal conditions.</p>
+                            <p>Recognized as one of the best spine specialists in Mumbai, he combines surgical expertise
+                                with modern technology to ensure the best possible outcomes for his patients.</p>
                         </div>
                         <div class="service-text">
                             <p>Spine surgery is a specialized field focused on diagnosing and treating conditions affecting
@@ -47,9 +56,9 @@
                             <p>Led by Dr. Keval Shukla, an experienced and highly trained neurosurgeon, our team provides
                                 both conventional and minimally invasive spine procedures, ensuring optimal outcomes with
                                 reduced recovery times.</p>
-                        </div><!-- News Text /-->
+                        </div>
                         <div class="border border-bottom-2 border-black my-3"></div>
-                        <div class="section-title container p-0 mb-2">
+                        <!-- <div class="section-title container p-0 mb-2">
                             <p>Conditions Treated</p>
                         </div>
                         <div>
@@ -123,8 +132,109 @@
                                     </div>
                                 </div>
                             </div>
+                        </div> -->
+                        <div class="section-title container p-0 mb-2 mt-5">
+                            <p>Comprehensive Spine Care</p>
+                        </div>
+                        <div>
+                            <p>
+                                Dr Keval Shukla offers diagnosis, treatment, and rehabilitation for various spine
+                                conditions, including:
+                            </p>
+                            <div class="conditions-treated-contaner">
+                                <div class="row text-center">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="border p-3 rounded-3 h-100">
+                                            <p class="mb-0 text-center fw-semibold">
+                                                Herniated or slipped discs
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="border p-3 rounded-3 h-100">
+                                            <p class="mb-0 text-center fw-semibold">
+                                                Spinal stenosis
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="border p-3 rounded-3 h-100">
+                                            <p class="mb-0 text-center fw-semibold">
+                                                Scoliosis and spinal deformities
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="border p-3 rounded-3 h-100">
+                                            <p class="mb-0 text-center fw-semibold">
+                                                Sciatica and nerve compression
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="border p-3 rounded-3 h-100">
+                                            <p class="mb-0 text-center fw-semibold">
+                                                Spinal fractures and injuries
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="border border-bottom-2 border-black my-3"></div>
+
+                        <section class="spine-surgery-service-options-section py-5 ">
+                            <div class="container">
+                                <h2 class="spine-surgery-service-options-title mb-5">Advanced Spine
+                                    Surgery Options</h2>
+
+                                <div class="row g-4 spine-surgery-service-options-row">
+                                    <!-- Card 1 -->
+                                    <div class="col-md-6 d-flex">
+                                        <div
+                                            class="card spine-surgery-service-options-card border-0 shadow-sm p-3 flex-fill">
+                                            <ul class="spine-surgery-service-options-dot-list mb-0">
+                                                <li><strong>Minimally Invasive Spine Surgery</strong> <br> Smaller
+                                                    incisions, faster recovery, less pain.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Card 2 -->
+                                    <div class="col-md-6 d-flex">
+                                        <div
+                                            class="card spine-surgery-service-options-card border-0 shadow-sm p-3 flex-fill">
+                                            <ul class="spine-surgery-service-options-dot-list mb-0">
+                                                <li><strong>Endoscopic Spine Surgery</strong> <br> Precision treatment with
+                                                    minimal tissue disruption.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Card 3 -->
+                                    <div class="col-md-6 d-flex">
+                                        <div
+                                            class="card spine-surgery-service-options-card border-0 shadow-sm p-3 flex-fill">
+                                            <ul class="spine-surgery-service-options-dot-list mb-0">
+                                                <li><strong>Spinal Fusion Surgery</strong> <br> Stabilizing the spine for
+                                                    long-term relief.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- Card 4 -->
+                                    <div class="col-md-6 d-flex">
+                                        <div
+                                            class="card spine-surgery-service-options-card border-0 shadow-sm p-3 flex-fill">
+                                            <ul class="spine-surgery-service-options-dot-list mb-0">
+                                                <li><strong>Disc Replacement Surgery</strong> <br> Restoring mobility with
+                                                    artificial disc implants.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
 
                         <div class="section-title container p-0 mb-2">
                             <p>Techniques Used</p>
@@ -294,7 +404,49 @@
 
                             </div>
                         </div>
+                        <div class="border border-bottom-2 border-black my-3"></div>
+                        <div class="section-title container p-0 mb-2">
+                            <p>Why Choose Dr Keval Shukla for Spine Surgery in Mumbai?</p>
+                        </div>
+                        <div class="col-12">
+                            <div class="p-4 bg-white rounded shadow-sm border-start border-4"
+                                style="border-color: #ff4500;">
+                                <div class="row">
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
 
+                                            Recognized for delivering the best spine surgery in Mumbai with excellent
+                                            recovery results.
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            Expertise in both surgical and non-surgical spine care. </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            Personalized treatment plans for every patient. </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            Access to advanced facilities and imaging technologies.
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="section-title container p-0 mb-2 mt-4">
+                            <p>Personalized Care, Lasting Relief</p>
+                        </div>
+                        <div class="service-text">
+                            <p>As a trusted spine specialist in Mumbai, Dr Keval Shukla focuses on not just relieving pain, but also restoring mobility and improving quality of life. From the initial consultation to post-surgery rehabilitation, patients receive compassionate, comprehensive care every step of the way.</p>
+
+                        </div>
 
                         <div class="clearfix"></div>
                     </div><!-- News Post /-->
@@ -322,7 +474,7 @@
                         <div class="clearfix"></div>
                     </div>
 
-                    <div class="widget">
+                    <div class="widget service-right-side-contact">
                         <h2>Contact Us</h2>
 
                         <div class="widget-content">
@@ -332,7 +484,8 @@
                                 {{-- <input type="email" value="" placeholder="Email Address"> --}}
                                 <input type="text" name="phone" value="" placeholder="Phone Number" required>
 
-                                <textarea id="Reason" class="form-control" rows="3" name="message" placeholder="Message"></textarea>
+                                <textarea id="Reason" class="form-control" rows="3" name="message"
+                                    placeholder="Message"></textarea>
                                 <input type="hidden" name="form_type" value="simple_contact">
                                 <button type="submit" class="button secondary button-second">Send Message</button>
                             </form>
@@ -350,13 +503,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>
