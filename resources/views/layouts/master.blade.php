@@ -15,6 +15,9 @@
     <meta name="keywords" content="@yield('meta_keywords')">
     <meta name="description" content="@yield('meta_description')">
 
+    @yield('meta')
+    @yield('schema')
+
 
     <meta name="author" content="Webful Creations">
     <meta name="keywords" content="">
@@ -237,16 +240,6 @@
                                         </ul>
                                     </div>
                                 </li>
-
-
-
-
-
-
-                                <!-- <li class="nav-item">
-                                <a class="nav-link p-3 fw-semibold text-uppercase {{ request()->routeIs('staff') ? 'active' : '' }}"
-                                    href="{{ route('staff') }}">Our Staff</a>
-                            </li> -->
                                 <li class="nav-item">
                                     <a class="nav-link p-2 p-lg-3 fw-semibold text-uppercase {{ request()->routeIs('appointment') ? 'active' : '' }}"
                                         href="{{ route('appointment') }}">Appointment</a>
@@ -687,7 +680,7 @@
 
                 </div><!-- Grid Container /-->
 
-            </div><!-- Footer Bottom /-->
+            </div>
 
         </div>
         <!-- Footer /-->

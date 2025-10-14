@@ -1,7 +1,60 @@
 @extends('layouts.master')
 @section('title', 'Minimally Invasive Spine Surgery in Mumbai – Dr Keval Shukla')
-@section('meta_keywords', 'Minimally invasive spine surgery, Spine surgeon, Spine specialist in Mumbai')
-@section('meta_description', 'Trusted spine surgeon in Mumbai providing minimally invasive spine surgery for quicker recovery and minimal discomfort.')
+@section('meta_keywords', 'Minimally invasive spine surgery')
+@section('meta_description',
+    'Get advanced minimally invasive spine surgery in Mumbai by Dr. Keval Shukla. Less pain,
+    faster recovery & precision spine care.')
+@section('meta')
+    <link rel="canonical" href="https://drkevalshukla.com/minimally-invasive-spine-surgeries">
+@section('schema')
+    @verbatim
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "url": "https://drkevalshukla.com/minimally-invasive-spine-surgeries",
+  "headline": "Minimally Invasive Spine Surgery — Dr. Keval Shukla (Mumbai)",
+  "mainEntity": {
+    "@type": "MedicalProcedure",
+    "name": "Minimally Invasive Spine Surgery",
+    "alternateName": "MISS",
+    "description": "Minimally invasive spine surgery (MISS) performed by Dr. Keval Shukla in Mumbai. Advanced techniques like endoscopic, microdiscectomy, MIS TLIF etc. for treating herniated discs, stenosis, spinal fractures with minimal incisions and faster recovery.",
+    "procedureType": "SurgicalProcedure",
+    "bodyLocation": "Spine",
+    "medicalSpecialty": "Neurosurgery",
+    "howPerformed": "Performed through small incisions using endoscopic or microscopic tools and intra-operative imaging; the surgeon decompresses nerves or removes damaged disc tissue and may use spinal fusion techniques in certain cases.",
+    "preparation": "Pre-operative evaluation including MRI imaging, clinical assessment, routine blood tests, and anesthetic clearance.",
+    "followup": "Includes short hospital stay (often 1-2 days), outpatient physiotherapy, periodic check ups until full recovery.",
+    "expectedPrognosis": "Significant pain relief, improved mobility within weeks; full recovery time depends on patient age, overall health, severity but often 2-4 weeks for light activities."
+  },
+  "provider": {
+    "@type": "Physician",
+    "name": "Dr. Keval Shukla",
+    "url": "https://drkevalshukla.com",
+    "medicalSpecialty": "Neurosurgery",
+    "telephone": "+919699915789",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1877, Wockhardt Hospitals, Anandrao Nair Marg, Agripada",
+      "addressLocality": "Mumbai Central",
+      "addressRegion": "Maharashtra",
+      "postalCode": "400011",
+      "addressCountry": "IN"
+    },
+    "email": "keval242@gmail.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://drkevalshukla.com/minimally-invasive-spine-surgeries"
+  },
+  "datePublished": "2025-10-04"
+}
+</script>
+    @endverbatim
+@endsection
+
+
+
 @section('content')
 
 
@@ -12,7 +65,7 @@
             <div class="grid-container grid-x grid-padding-x">
 
                 <div class="small-12 cell">
-                    <h1>MINIMALLY INVASIVE SPINE SURGERIES</h1>
+                    <h1>Minimally invasive spine surgery</h1>
                 </div><!-- Top Row /-->
 
                 <div class="small-12 cell">
@@ -35,7 +88,7 @@
                     <div class="service-post">
                         <div class="thumbnail w-100">
                             <img src="{{ asset('assets/images/help/services/Minimally-Invasive-Spine-Surgeries-(1).png') }}"
-                                class="w-100" alt="Service Images">
+                                class="w-100" alt="Minimally invasive spine surgery">
                         </div><!-- News Img /-->
                         <div class="section-title container p-0 mb-2">
                             <p>Minimally Invasive Spine Surgery in Mumbai – Dr Keval Shukla</p>
@@ -59,7 +112,7 @@
                                 precise targeting of the problem area with minimal disruption to muscles, ligaments, and
                                 bones.</p>
                         </div>
-                        
+
                         <!-- News Text /-->
                         <div class="border border-bottom-2 border-black my-3"></div>
                         <div class="section-title container p-0 mb-2">
@@ -107,19 +160,19 @@
                                         </div>
                                     </div>
                                     <!-- <div class="col-md-4 mb-3">
-                                                <div class="border p-3 rounded-3 h-100">
-                                                    <p class="mb-0 text-center fw-semibold">
-                                                        Spinal instability
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="border p-3 rounded-3 h-100">
-                                                    <p class="mb-0 text-center fw-semibold">
-                                                        Some spinal tumors and infections (select cases)
-                                                    </p>
-                                                </div>
-                                            </div> -->
+                                                                            <div class="border p-3 rounded-3 h-100">
+                                                                                <p class="mb-0 text-center fw-semibold">
+                                                                                    Spinal instability
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-4">
+                                                                            <div class="border p-3 rounded-3 h-100">
+                                                                                <p class="mb-0 text-center fw-semibold">
+                                                                                    Some spinal tumors and infections (select cases)
+                                                                                </p>
+                                                                            </div>
+                                                                        </div> -->
                                 </div>
                             </div>
                         </div>
@@ -224,13 +277,13 @@
                                         <span>Reduced post-operative pain and scarring</span>
                                     </div>
                                     <!-- <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
-                                                <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                                <span>Faster return to work and daily life</span>
-                                            </div>
-                                            <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
-                                                <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                                <span>Better cosmetic outcomes with no large scars</span>
-                                            </div> -->
+                                                                            <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                                                            <span>Faster return to work and daily life</span>
+                                                                        </div>
+                                                                        <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                                                            <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                                                            <span>Better cosmetic outcomes with no large scars</span>
+                                                                        </div> -->
                                 </div>
                             </div>
                         </div>
@@ -269,13 +322,12 @@
                             <p>Every patient’s spine condition is unique. Dr Keval Shukla ensures a thorough diagnosis using
                                 advanced imaging techniques before recommending the most suitable surgical or non-surgical
                                 approach. His commitment to precision, safety, and compassionate care makes him one of the
-                                most sought-after spine specialists in Mumbai.</p>
+                                most sought-after <a href="https://drkevalshukla.com/spine-surgery-in-mumbai">best spine
+                                    surgeon in mumbai.</a></p>
                         </div>
-
-
                         <div class="clearfix"></div>
-                    </div><!-- News Post /-->
-                </div><!-- Content Side Ends /-->
+                    </div>
+                </div>
 
                 <div class="services-sidebar sidebar medium-3 small-12 cell">
 
@@ -311,32 +363,86 @@
                                 {{-- <input type="email" value="" placeholder="Email Address"> --}}
                                 <input type="text" name="phone" value="" placeholder="Phone Number" required>
 
-                                <textarea id="Reason" class="form-control" rows="3" name="message"
-                                    placeholder="Message"></textarea>
+                                <textarea id="Reason" class="form-control" rows="3" name="message" placeholder="Message"></textarea>
                                 <input type="hidden" name="form_type" value="simple_contact">
                                 <button type="submit" class="button secondary button-second">Send Message</button>
                             </form>
                         </div>
                         <div class="clearfix"></div>
-                    </div><!-- widget ends -->
+                    </div>
 
-                </div><!-- Ends Sidebar /-->
+                </div>
 
-            </div><!-- row /-->
+            </div>
 
+        </div>
+        <div class="why-chose-us bg-white-transparent">
+
+            <div class="section-title container">
+                <h1>
+                    FAQS
+                </h1>
+            </div>
+            <div class="container">
+                <div class=" row">
+                    <div class="col-lg-8 col-12">
+                        <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true"
+                            data-deep-link-smudge="500" id="deeplinked-accordion">
+                            {{-- <li class="accordion-item border-0 is-active" data-accordion-item> --}}
+                            <li class="accordion-item border-0 is-active" data-accordion-item>
+                                <a href="#" class="accordion-title">What is the success rate of minimally invasive
+                                    spine surgery?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink1">
+                                    Success rates are very high (over 90%) when done by experienced surgeons.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0" data-accordion-item>
+                                <a href="#" class="accordion-title">How soon can I walk after MISS?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink1">
+                                    Most patients walk within a day and recover faster than traditional surgery.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0" data-accordion-item>
+                                <a href="#" class="accordion-title">Is this surgery painful?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink2">
+                                    Pain is minimal and managed effectively with medication.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0" data-accordion-item>
+                                <a href="#" class="accordion-title">Will I need physiotherapy?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink3">
+                                    Yes, a short course of guided exercises helps strengthen your spine.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0 " data-accordion-item>
+                                <a href="#" class="accordion-title">Who is the best doctor for minimally invasive
+                                    spine surgery in mumbai?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink4">
+                                    Dr. Keval Shukla is one of the most trusted and experienced spine surgeons offering MISS
+                                    in Mumbai.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 d-sm-none d-lg-block">
+                        <img src="{{ asset('assets/images/help/dekevalshukla-img2.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Services /-->
     </div>
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                            Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                            Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

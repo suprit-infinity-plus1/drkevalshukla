@@ -1,12 +1,9 @@
 @extends('layouts.master')
-@section('title', 'Dr Keval Shukla – Best Neurosurgeon & Spine Surgeon Mumbai')
-@section('meta_keywords', 'Dr Keval Shukla, Best neurosurgeon in Mumbai, Spine surgeon, Brain surgeon')
-@section('meta_description',
-    'Dr Keval Shukla – leading neurosurgeon in Mumbai. Expert spine surgeon & brain surgeon
-    offering advanced care with precision and compassion.')
+@section('title', 'Best Neurosurgeon in Mumbai | Dr. Keval Shukla')
+@section('meta_keywords', 'best neurosurgeon in mumbai')
+@section('meta_description', 'Consult Dr. Keval Shukla, leading best neurosurgeon in Mumbai for brain, spine & minimally
+    invasive surgery. Expert care, advanced treatments & faster recovery.')
 @section('content')
-
-
 
     <div class="banner-container module">
         <div class="main-banner owl-carousel owl-theme" id="main-banner">
@@ -73,47 +70,8 @@
     </div>
 
 
-    <div class="container pb-5">
-        <div class="row">
-            <div class="col-12">
-                <div class="about-text text-white">
-                    <h2 class="text-center">Welcome to Dr Keval Shukla’s Neurosurgery & Spine Care</h2>
-                    <p>
-                        Welcome to Dr Keval Shukla’s Neurosurgery & Spine Care.
-                        If you’re searching for the best neurosurgeon in Mumbai, you’re in the right place.
-                        Dr Keval Shukla is a highly skilled spine surgeon and brain surgeon dedicated to delivering
-                        world-class neurological and spine treatments with precision, compassion, and a patient-first
-                        approach.
-                        With years of experience and advanced surgical expertise, he has helped countless patients regain
-                        their health and quality of life.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    </div>
-    </div> --}}
+  
     <!-- information-boxes /-->
-
-    <div class="container pb-5">
-        <div class="row">
-            <div class="col-12">
-                <div class="about-text text-white">
-                    <h2 class="text-center">Welcome to Dr Keval Shukla’s Neurosurgery & Spine Care</h2>
-                    <p>
-                        Welcome to Dr Keval Shukla’s Neurosurgery & Spine Care.
-                        If you’re searching for the best neurosurgeon in Mumbai, you’re in the right place.
-                        Dr Keval Shukla is a highly skilled spine surgeon and brain surgeon dedicated to delivering
-                        world-class neurological and spine treatments with precision, compassion, and a patient-first
-                        approach.
-                        With years of experience and advanced surgical expertise, he has helped countless patients regain
-                        their health and quality of life.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
     <div class="about-section module">
@@ -386,7 +344,7 @@
 
 
     <!-- =================Service Card=================== -->
-
+{{--
     <div class="container bg-white-transparent">
         <div class="section-title container">
             <h2>Specialities</h2>
@@ -591,7 +549,7 @@
                 <div class="col-lg-8 col-12">
                     <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true"
                         data-deep-link-smudge="500" id="deeplinked-accordion">
-                        <li class="accordion-item border-0 is-active" data-accordion-item>
+                        {{-- <li class="accordion-item border-0 is-active" data-accordion-item> --}}
                         <li class="accordion-item border-0 is-active" data-accordion-item>
                             <a href="#" class="accordion-title">Advanced Surgical Expertise</a>
                             <div class="accordion-content" data-tab-content id="deeplink1">
