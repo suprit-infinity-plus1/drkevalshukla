@@ -6,6 +6,7 @@
     faster recovery & precision spine care.')
 @section('meta')
     <link rel="canonical" href="https://drkevalshukla.com/minimally-invasive-spine-surgeries">
+@endsection
 @section('schema')
     @verbatim
         <script type="application/ld+json">
@@ -56,14 +57,11 @@
 
 
 @section('content')
-
-
     <div class="main-container">
 
         <div class="title-section dark-bg module">
 
             <div class="grid-container grid-x grid-padding-x">
-
                 <div class="small-12 cell">
                     <h1>Minimally invasive spine surgery</h1>
                 </div><!-- Top Row /-->
@@ -71,7 +69,7 @@
                 <div class="small-12 cell">
                     <ul class="breadcrumbs">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">MINIMALLY INVASIVE SPINE SURGERIES</a></li>
+                        <li><a href="#">Minimally invasive spine surgery</a></li>
                     </ul><!-- Breadcrumbs /-->
                 </div><!-- Bottom Row /-->
 
@@ -160,19 +158,19 @@
                                         </div>
                                     </div>
                                     <!-- <div class="col-md-4 mb-3">
-                                                                            <div class="border p-3 rounded-3 h-100">
-                                                                                <p class="mb-0 text-center fw-semibold">
-                                                                                    Spinal instability
-                                                                                </p>
+                                                                                <div class="border p-3 rounded-3 h-100">
+                                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                                        Spinal instability
+                                                                                    </p>
+                                                                                </div>
                                                                             </div>
-                                                                        </div>
-                                                                        <div class="col-md-4">
-                                                                            <div class="border p-3 rounded-3 h-100">
-                                                                                <p class="mb-0 text-center fw-semibold">
-                                                                                    Some spinal tumors and infections (select cases)
-                                                                                </p>
-                                                                            </div>
-                                                                        </div> -->
+                                                                            <div class="col-md-4">
+                                                                                <div class="border p-3 rounded-3 h-100">
+                                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                                        Some spinal tumors and infections (select cases)
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div> -->
                                 </div>
                             </div>
                         </div>
@@ -277,13 +275,13 @@
                                         <span>Reduced post-operative pain and scarring</span>
                                     </div>
                                     <!-- <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
-                                                                            <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                                                            <span>Faster return to work and daily life</span>
-                                                                        </div>
-                                                                        <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
-                                                                            <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                                                            <span>Better cosmetic outcomes with no large scars</span>
-                                                                        </div> -->
+                                                                                <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                                                                <span>Faster return to work and daily life</span>
+                                                                            </div>
+                                                                            <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                                                                <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                                                                <span>Better cosmetic outcomes with no large scars</span>
+                                                                            </div> -->
                                 </div>
                             </div>
                         </div>
@@ -436,13 +434,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                            Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                            Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

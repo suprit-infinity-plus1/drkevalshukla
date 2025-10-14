@@ -1480,7 +1480,7 @@ body.box .banner-container .slide-text {
 }
 
 .title-section h1 {
-    text-transform: uppercase;
+    text-transform: capitalize  ;
     margin-top: 0px;
     margin-bottom: 5px;
     color: #FFF;
