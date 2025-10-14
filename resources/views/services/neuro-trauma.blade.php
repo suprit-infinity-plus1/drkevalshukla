@@ -1,5 +1,65 @@
 @extends('layouts.master')
-@section('title', 'NEURO TRAUMA')
+@section('title', 'Expert Neuro Trauma Surgery Near Me | Dr. Keval Shukla')
+@section('meta_description',
+    'Looking for expert Neuro Trauma Surgery near you? Dr. Keval Shukla specializes in advanced Neuro
+    Trauma Surgery with precise care and faster recovery.')
+@section('meta_keywords', 'neuro trauma surgery, neuro trauma surgeon near me')
+@section('meta')
+    <link rel="canonical" href="https://drkevalshukla.com/neuro-trauma-surgery">
+@endsection
+@section('schema')
+    @verbatim
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is neuro trauma surgery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neuro trauma surgery treats injuries to the brain, spine, and nerves, often caused by accidents or trauma."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find a neuro trauma surgeon near me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Look for a qualified neurosurgeon with experience in trauma cases. Dr. Keval Shukla is an experienced neuro trauma surgeon near you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does recovery take after neuro trauma surgery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Recovery time depends on the injury severity, surgical procedure, and rehabilitation. Most patients see gradual improvement over weeks to months."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is neuro trauma surgery safe for elderly patients?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, with proper evaluation and care, neuro trauma surgery can be safely performed for older adults."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I find the best neuro trauma surgeon near me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you’re searching for a trusted neuro trauma surgeon near me, Dr. Keval Shukla provides expert evaluation and advanced surgical care for all types of brain and spinal injuries. Book your consultation here."
+      }
+    }
+  ]
+}
+</script>
+
+    @endverbatim
+@endsection
 @section('content')
 
 
@@ -25,7 +85,7 @@
         </div>
         <!-- Title Section Ends /-->
 
-        <div class="service-single-post module">
+        <div class="service-single-post module mb-0">
 
             <div class="grid-container grid-x grid-padding-x">
 
@@ -197,6 +257,51 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="border border-bottom-2 border-black my-3"></div>
+                        <div class="section-title container p-0 mb-2">
+                            <p>Why Choose Dr. Keval Shukla for Neuro Trauma Surgery?</p>
+                        </div>
+                        <p>Dr. Keval Shukla is a leading neuro trauma surgeon with years of experience in handling complex
+                            brain and spinal injuries. His approach combines advanced technology with compassionate care.
+                        </p>
+                        <div class="col-12">
+                            <div class="p-4 bg-white rounded shadow-sm border-start border-4"
+                                style="border-color: #ff4500;">
+                                <div class="row">
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            Expertise in brain and spinal trauma surgeries
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            Use of minimally invasive surgical techniques
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            Personalized treatment plans
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            High success rates and patient satisfaction
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            Comprehensive aftercare and rehabilitation programs
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
 
 
                         <div class="clearfix"></div>
@@ -216,7 +321,8 @@
                                 {{-- <li><a href="{{ route('neuro-trauma') }}">Neuro Trauma</a></li> --}}
                                 <li><a href="{{ route('vascular-neurosurgery') }}">Vascular Neurosurgery</a></li>
                                 <li><a href="{{ route('epilepsy-surgery') }}">Epilepsy Surgery</a></li>
-                                <li><a href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull Base Surgery</a>
+                                <li><a href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull Base
+                                        Surgery</a>
                                 </li>
                                 <li><a href="{{ route('brain-surgery') }}">Brain Surgery</a></li>
                                 <li><a href="{{ route('spine-surgery') }}">Spine Surgery</a></li>
@@ -248,18 +354,83 @@
             </div><!-- row /-->
 
         </div>
+
+        <div class="why-chose-us bg-white-transparent">
+
+            <div class="section-title container">
+                <h1>
+                    FAQS
+                </h1>
+            </div>
+            <div class="container">
+                <div class=" row">
+                    <div class="col-lg-8 col-12">
+                        <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true"
+                            data-deep-link-smudge="500" id="deeplinked-accordion">
+                            {{-- <li class="accordion-item border-0 is-active" data-accordion-item> --}}
+                            <li class="accordion-item border-0 is-active" data-accordion-item>
+                                <a href="#" class="accordion-title">What is neuro trauma surgery?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink1">
+                                    Neuro trauma surgery treats injuries to the brain, spine, and nerves, often caused by
+                                    accidents or trauma.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0" data-accordion-item>
+                                <a href="#" class="accordion-title">How do I find a neuro trauma surgeon near
+                                    me?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink1">
+                                    Look for a qualified neurosurgeon with experience in trauma cases. Dr. Keval Shukla is
+                                    an experienced neuro trauma surgeon near you.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0" data-accordion-item>
+                                <a href="#" class="accordion-title">How long does recovery take after neuro trauma
+                                    surgery?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink2">
+                                    Recovery time depends on the injury severity, surgical procedure, and rehabilitation.
+                                    Most patients see gradual improvement over weeks to months.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0" data-accordion-item>
+                                <a href="#" class="accordion-title">Is neuro trauma surgery safe for elderly
+                                    patients?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink3">
+                                    Yes, with proper evaluation and care, neuro trauma surgery can be safely performed for
+                                    older adults.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0 " data-accordion-item>
+                                <a href="#" class="accordion-title"> Where can I find the best neuro trauma surgeon
+                                    near me?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink4">
+                                    If you’re searching for a trusted neuro trauma surgeon near me, Dr. Keval Shukla
+                                    provides expert evaluation and advanced surgical care for all types of brain and spinal
+                                    injuries. <a href="https://drkevalshukla.com/contact">Book your consultation here</a>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 d-sm-none d-lg-block">
+                        <img src="{{ asset('assets/images/help/dekevalshukla-img2.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Services /-->
     </div>
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

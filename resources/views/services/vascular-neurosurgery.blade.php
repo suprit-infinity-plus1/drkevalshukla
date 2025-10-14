@@ -1,7 +1,65 @@
 @extends('layouts.master')
-@section('title', 'Best Neurosurgeon in Mumbai – Dr Keval Shukla')
-@section('meta_keywords', 'Neurosurgeon, Best neurosurgeon in Mumbai, Neurosurgery hospital in Mumbai')
-@section('meta_description', 'Consult Dr Keval Shukla, leading neurosurgeon in Mumbai. Expert care at a top neurosurgery hospital in Mumbai for brain & spine conditions.')
+@section('title', 'Vascular Neurosurgeon in Mumbai | Dr. Keval Shukla')
+@section('meta_keywords', 'Vascular Neurosurgeon in Mumbai')
+@section('meta_description',
+    'Consult best Vascular Neurosurgeon in Mumbai, Dr. Keval Shukla, for expert treatment of
+    brain and spinal blood vessel conditions, including aneurysms and AVMs.')
+@section('meta')
+    <link rel="canonical" href="https://drkevalshukla.com/Vascular-neurosurgeon-in-Mumbai">
+@endsection
+@section('schema')
+    @verbatim
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is vascular neurosurgery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It’s a subspecialty of neurosurgery that treats conditions related to the blood vessels of the brain and spinal cord, including aneurysms and arteriovenous malformations (AVMs)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common symptoms of neurovascular diseases?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Symptoms may include severe headache, weakness or numbness on one side, vision problems, dizziness, slurred speech, or sudden loss of balance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is the best vascular neurosurgeon in Mumbai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dr. Keval Shukla is among the top vascular neurosurgeons in Mumbai, specializing in aneurysm and AVM surgeries using advanced neurovascular techniques."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the risks of vascular neurosurgery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While modern techniques reduce risk, potential complications can include bleeding, stroke, or infection — all minimized under expert surgical care."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the recovery time after vascular neurosurgery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Recovery varies based on the procedure and patient condition. Most patients begin rehabilitation within a few days and recover steadily with follow-up care."
+      }
+    }
+  ]
+}
+</script>
+
+    @endverbatim
+@endsection
 @section('content')
 
 
@@ -27,7 +85,7 @@
         </div>
         <!-- Title Section Ends /-->
 
-        <div class="service-single-post module">
+        <div class="service-single-post module mb-0">
 
             <div class="grid-container grid-x grid-padding-x">
 
@@ -39,20 +97,22 @@
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">
-                            <p>Dr Keval Shukla – Leading Neurosurgeon in Mumbai</p>
+                            <h1>TRUSTED VASCULAR NEUROSURGEON IN MUMBAI – DR. KEVAL SHUKLA</h1>
                         </div>
                         <div class="service-text">
-                            <p>When it comes to brain and spine health, expert care makes all the difference. Dr Keval
-                                Shukla, recognized as one of the best neurosurgeons in Mumbai, offers a comprehensive range
-                                of advanced treatments at a reputed neurosurgery hospital in Mumbai. With years of
-                                experience and access to state-of-the-art facilities, he ensures every patient receives
-                                accurate diagnosis, precise treatment, and compassionate care.</p>
-                            <p>Vascular neurosurgery deals with abnormalities in the blood vessels of the brain and spinal
-                                cord, including aneurysms, arteriovenous malformations (AVMs), and stroke related
-                                hemorrhages.</p>
-                            <p>These conditions often require high precision, life saving interventions. Dr. Keval Shukla
-                                offers both open microsurgical and minimally invasive (endovascular) treatment strategies to
-                                restore normal blood flow and prevent catastrophic bleeding or stroke.</p>
+                            <p>If you’re looking for a vascular neurosurgeon in Mumbai, Dr. Keval Shukla provides advanced
+                                surgical and endovascular care for complex brain and spine vascular conditions. With years
+                                of expertise and access to world-class neurosurgical facilities, he ensures every patient
+                                receives the safest and most effective treatment possible.</p>
+                            <p>Vascular neurosurgery deals with disorders that affect the blood vessels of the brain and
+                                spinal cord including aneurysms, arteriovenous malformations (AVMs), cavernous
+                                malformations, and stroke-related complications. Early diagnosis and timely intervention are
+                                crucial to prevent permanent brain injury or stroke.</p>
+                            <p>Dr. Keval Shukla combines microsurgical precision with minimally invasive endovascular
+                                techniques to restore normal blood flow and protect delicate brain structures. His
+                                patient-first approach emphasizes accuracy, reduced risk, and faster recovery.</p>
+                            <p>Whether you’re dealing with an aneurysm, stroke, or other neurovascular condition, Dr. Shukla
+                                deliver personalized, evidence-based care to achieve the best outcomes.</p>
                         </div><!-- News Text /-->
                         <div class="border border-bottom-2 border-black my-3"></div>
                         <div class="section-title container p-0 mb-2">
@@ -91,36 +151,36 @@
                                         </div>
                                     </div>
                                     <!-- <div class="col-md-4 mb-3">
-                                                    <div class="border p-3 rounded-3 h-100">
-                                                        <p class="mb-0 text-center fw-semibold">
-                                                            Cavernous malformations (cavernomas)
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 mb-3">
-                                                    <div class="border p-3 rounded-3 h-100">
-                                                        <p class="mb-0 text-center fw-semibold">
-                                                            Dural arteriovenous fistulas (DAVFs)
+                                                                                                                                                                                            <div class="border p-3 rounded-3 h-100">
+                                                                                                                                                                                                <p class="mb-0 text-center fw-semibold">
+                                                                                                                                                                                                    Cavernous malformations (cavernomas)
+                                                                                                                                                                                                </p>
+                                                                                                                                                                                            </div>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                        <div class="col-md-4 mb-3">
+                                                                                                                                                                                            <div class="border p-3 rounded-3 h-100">
+                                                                                                                                                                                                <p class="mb-0 text-center fw-semibold">
+                                                                                                                                                                                                    Dural arteriovenous fistulas (DAVFs)
 
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 mb-3">
-                                                    <div class="border p-3 rounded-3 h-100">
-                                                        <p class="mb-0 text-center fw-semibold">
-                                                            Hemorrhagic and ischemic stroke
+                                                                                                                                                                                                </p>
+                                                                                                                                                                                            </div>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                        <div class="col-md-4 mb-3">
+                                                                                                                                                                                            <div class="border p-3 rounded-3 h-100">
+                                                                                                                                                                                                <p class="mb-0 text-center fw-semibold">
+                                                                                                                                                                                                    Hemorrhagic and ischemic stroke
 
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 mb-3">
-                                                    <div class="border p-3 rounded-3 h-100">
-                                                        <p class="mb-0 text-center fw-semibold">
-                                                            Moyamoya disease
+                                                                                                                                                                                                </p>
+                                                                                                                                                                                            </div>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                        <div class="col-md-4 mb-3">
+                                                                                                                                                                                            <div class="border p-3 rounded-3 h-100">
+                                                                                                                                                                                                <p class="mb-0 text-center fw-semibold">
+                                                                                                                                                                                                    Moyamoya disease
 
-                                                        </p>
-                                                    </div>
-                                                </div> -->
+                                                                                                                                                                                                </p>
+                                                                                                                                                                                            </div>
+                                                                                                                                                                                        </div> -->
                                 </div>
                             </div>
                         </div>
@@ -169,6 +229,92 @@
                             maximized recovery outcomes.</p>
                         <div class="border border-bottom-2 border-black my-3"></div>
 
+                        <div class="section-title container p-0 mb-2">
+                            <p>Symptoms of Neurovascular Diseases</p>
+                        </div>
+                        <p>The symptoms of neurovascular diseases can vary depending on the part of the brain or spinal cord
+                            affected and the severity of the blood vessel disorder. Some patients may show no early signs,
+                            while others may experience sudden, severe symptoms that require immediate medical attention
+                            from a vascular neurosurgeon in Mumbai like Dr. Keval Shukla.</p>
+                        <div class="col-12 mb-3">
+                            <div class="p-4 bg-white rounded shadow-sm border-start border-4"
+                                style="border-color: #ff4500;">
+                                <div class="row">
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Weakness or numbness in one side of the body
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold ">
+                                                Difficulty speaking or understanding language
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Sudden vision changes or double vision
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Dizziness or loss of balance
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Problems with movement or coordination
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Sudden severe headache
+                                            </span>
+                                            (often described as the worst headache ever)
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Seizures without prior history
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Nausea or vomiting
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mt-2">If you notice any of these symptoms, seek urgent neurological evaluation.
+                                Early
+                                diagnosis and prompt treatment can prevent complications like stroke, brain
+                                bleeding, or permanent nerve damage.</p>
+
+                        </div>
+
+                        <div class="border border-bottom-2 border-black my-3"></div>
                         <div class="section-title container p-0 mb-2">
                             <p>Techniques Used</p>
                         </div>
@@ -281,7 +427,8 @@
                                     <div class="col-md-6 d-flex">
                                         <div
                                             class="card vascular-neurosurgery-service-card h-100 border-0 shadow p-4 flex-fill">
-                                            <h3 class="vascular-neurosurgery-service-title mb-3">Comprehensive Neurosurgical
+                                            <h3 class="vascular-neurosurgery-service-title mb-3">Comprehensive
+                                                Neurosurgical
                                                 Care</h3>
                                             <p class="vascular-neurosurgery-service-text">
                                                 From diagnosis to rehabilitation, Dr Keval Shukla offers end-to-end care for
@@ -340,7 +487,8 @@
                                 <li><a href="{{ route('neuro-trauma') }}">Neuro Trauma</a></li>
                                 {{-- <li><a href="{{ route('vascular-neurosurgery') }}">Vascular Neurosurgery</a></li> --}}
                                 <li><a href="{{ route('epilepsy-surgery') }}">Epilepsy Surgery</a></li>
-                                <li><a href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull Base Surgery</a>
+                                <li><a href="{{ route('endoscopic-skull-base-surgery') }}">Endoscopic Skull Base
+                                        Surgery</a>
                                 </li>
                                 <li><a href="{{ route('brain-surgery') }}">Brain Surgery</a></li>
                                 <li><a href="{{ route('spine-surgery') }}">Spine Surgery</a></li>
@@ -359,8 +507,7 @@
                                 {{-- <input type="email" value="" placeholder="Email Address"> --}}
                                 <input type="text" name="phone" value="" placeholder="Phone Number" required>
 
-                                <textarea id="Reason" class="form-control" rows="3" name="message"
-                                    placeholder="Message"></textarea>
+                                <textarea id="Reason" class="form-control" rows="3" name="message" placeholder="Message"></textarea>
                                 <input type="hidden" name="form_type" value="simple_contact">
                                 <button type="submit" class="button secondary button-second">Send Message</button>
                             </form>
@@ -373,18 +520,81 @@
             </div><!-- row /-->
 
         </div>
+
+        <div class="why-chose-us bg-white-transparent">
+
+            <div class="section-title container">
+                <h1>
+                    FAQS
+                </h1>
+            </div>
+            <div class="container">
+                <div class=" row">
+                    <div class="col-lg-8 col-12">
+                        <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true"
+                            data-deep-link-smudge="500" id="deeplinked-accordion">
+                            {{-- <li class="accordion-item border-0 is-active" data-accordion-item> --}}
+                            <li class="accordion-item border-0 is-active" data-accordion-item>
+                                <a href="#" class="accordion-title">What is vascular neurosurgery?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink1">
+                                    It’s a subspecialty of neurosurgery that treats conditions related to the blood vessels
+                                    of the brain and spinal cord, including aneurysms and AVMs.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0" data-accordion-item>
+                                <a href="#" class="accordion-title">What are the common symptoms of neurovascular
+                                    diseases?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink1">
+                                    Symptoms may include severe headache, weakness or numbness on one side, vision problems,
+                                    dizziness, slurred speech, or sudden loss of balance.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0" data-accordion-item>
+                                <a href="#" class="accordion-title">Who is the best vascular neurosurgeon in
+                                    Mumbai?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink2">
+                                    Dr. Keval Shukla is among the top vascular neurosurgeons in Mumbai, specializing in
+                                    aneurysm and AVM surgeries using advanced neurovascular techniques.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0" data-accordion-item>
+                                <a href="#" class="accordion-title">What are the risks of vascular neurosurgery?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink3">
+                                    While modern techniques reduce risk, potential complications can include bleeding,
+                                    stroke, or infection all minimized under expert surgical care.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0 " data-accordion-item>
+                                <a href="#" class="accordion-title"> What is the recovery time after vascular
+                                    neurosurgery?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink4">
+                                    Recovery varies based on the procedure and patient condition. Most patients begin
+                                    rehabilitation within a few days and recover steadily with follow-up care.</a>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 d-sm-none d-lg-block">
+                        <img src="{{ asset('assets/images/help/dekevalshukla-img2.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Services /-->
     </div>
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>
