@@ -1,7 +1,66 @@
 @extends('layouts.master')
-@section('title', 'Endoscopic Spine Surgeon – Spine Surgery in Mumbai')
-@section('meta_keywords', 'Endoscopic spine Surgery, Spine Surgery, Spine Surgery in Mumbai')
-@section('meta_description', 'Dr Keval Shukla – skilled endoscopic spine surgeon in Mumbai. Expert in advanced spine surgery techniques for safe and effective treatment.')
+@section('title', 'Endoscopic Skull Base Surgery in Mumbai | Dr. Keval Shukla')
+@section('meta_keywords', 'endoscopic skull base surgery, endoscopic spine surgery in mumbai, endoscopic spine surgery')
+@section('meta_description',
+    'Trust Dr. Keval Shukla, a leading neurosurgeon in Mumbai, for endoscopic skull base
+    surgery and minimally invasive brain treatments with faster recovery.')
+@section('meta')
+    <link rel="canonical" href="https://drkevalshukla.com/neuro-trauma-surgery">
+@endsection
+
+@section('schema')
+    @verbatim
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is neuro trauma surgery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neuro trauma surgery treats injuries to the brain, spine, and nerves, often caused by accidents or trauma."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find a neuro trauma surgeon near me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Look for a qualified neurosurgeon with experience in trauma cases. Dr. Keval Shukla is an experienced neuro trauma surgeon near you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does recovery take after neuro trauma surgery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Recovery time depends on the injury severity, surgical procedure, and rehabilitation. Most patients see gradual improvement over weeks to months."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is neuro trauma surgery safe for elderly patients?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, with proper evaluation and care, neuro trauma surgery can be safely performed for older adults."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I find the best neuro trauma surgeon near me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you’re searching for a trusted neuro trauma surgeon near me, Dr. Keval Shukla provides expert evaluation and advanced surgical care for all types of brain and spinal injuries. Book your consultation here."
+      }
+    }
+  ]
+}
+</script>
+
+    @endverbatim
+@endsection
 @section('content')
 
 
@@ -27,7 +86,7 @@
         </div>
         <!-- Title Section Ends /-->
 
-        <div class="service-single-post module">
+        <div class="service-single-post module mb-0">
 
             <div class="grid-container grid-x grid-padding-x">
 
@@ -39,25 +98,42 @@
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">
-                            <p>Endoscopic Spine Surgery in Mumbai – Dr Keval Shukla</p>
+                            <p>Endoscopic Skull Base Surgery in Mumbai</p>
                         </div>
                         <div class="service-text">
-                            <p>Back pain and spinal disorders can greatly affect your daily life. Dr Keval Shukla, a highly
-                                skilled endoscopic spine surgeon in Mumbai, offers advanced surgical techniques that provide
-                                effective treatment with minimal discomfort and quicker recovery times.
+                            <p>
+                                <strong>Dr. Keval Shukla</strong>, one of Mumbai’s leading neurosurgeons, specializes in
+                                endoscopic skull
+                                base surgery — a modern, minimally invasive approach to treat complex conditions affecting
+                                the base of the skull and surrounding brain areas. This procedure ensures precision, minimal
+                                scarring, and faster recovery compared to traditional open surgeries.
                             </p>
-                            <p><strong>Endoscopic spine surgery </strong> is a minimally invasive procedure that uses a specialized endoscope
-                                to access and treat spinal conditions through small incisions. This approach reduces tissue
-                                damage, shortens hospital stays, and promotes faster healing compared to traditional spine
-                                surgery.
+                            <p>
+                                <strong>Endoscopic skull base surgery</strong> uses advanced imaging and navigation
+                                technology to safely reach deep-seated tumors through the nasal passages or small incisions.
+                                This technique allows surgeons to operate with high accuracy while protecting vital brain
+                                structures and nerves.
+                            </p>
+                            <p>
+                                Patients in <strong>Mumbai</strong> now have access to world class care for conditions such
+                                as pituitary
+                                tumors, meningiomas, and skull base lesions, thanks to Dr. Shukla’s expertise in endoscopic
+                                skull base surgery. His patient-focused approach and use of minimally invasive methods help
+                                ensure better outcomes and quicker recovery.
+                            </p>
+                            <p>
+                                In addition to treating skull base disorders, Dr. Shukla also performs advanced
+                                <strong>endoscopic
+                                    spine surgery in Mumbai</strong>, offering comprehensive neuro and spine care under one
+                                roof.
                             </p>
                             <!-- <p>Endoscopic Skull Base Surgery is a cutting edge, minimally invasive technique that uses an
-                                endoscope (thin tube with a camera) to access deep brain areas through the nasal passages or
-                                small incisions.
-                            </p>
-                            <p>Dr. Keval Shukla uses this technique to treat tumors and lesions at the base of the skull
-                                with high precision, minimal trauma, and faster recovery.
-                            </p> -->
+                                                                                                        endoscope (thin tube with a camera) to access deep brain areas through the nasal passages or
+                                                                                                        small incisions.
+                                                                                                    </p>
+                                                                                                    <p>Dr. Keval Shukla uses this technique to treat tumors and lesions at the base of the skull
+                                                                                                        with high precision, minimal trauma, and faster recovery.
+                                                                                                    </p> -->
                         </div><!-- News Text /-->
                         <div class="border border-bottom-2 border-black my-3"></div>
                         <div class="section-title container p-0 mb-2">
@@ -105,58 +181,165 @@
                             </div>
                         </div>
                         <!-- <div class="border border-bottom-2 border-black my-3"></div>
-                        <div class="section-title container p-0 mb-2">
-                            <p>Conditions Treated</p>
-                        </div>
-                        <div>
-                            <div class="conditions-treated-contaner">
-                                <div class="row text-center">
-                                    <div class="col-md-4 mb-3">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Pituitary adenomas
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Craniopharyngiomas
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Meningiomas (anterior skull base)
+                                                                                                <div class="section-title container p-0 mb-2">
+                                                                                                    <p>Conditions Treated</p>
+                                                                                                </div>
+                                                                                                <div>
+                                                                                                    <div class="conditions-treated-contaner">
+                                                                                                        <div class="row text-center">
+                                                                                                            <div class="col-md-4 mb-3">
+                                                                                                                <div class="border p-3 rounded-3 h-100">
+                                                                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                                                                        Pituitary adenomas
+                                                                                                                    </p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="col-md-4 mb-3">
+                                                                                                                <div class="border p-3 rounded-3 h-100">
+                                                                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                                                                        Craniopharyngiomas
+                                                                                                                    </p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="col-md-4 mb-3">
+                                                                                                                <div class="border p-3 rounded-3 h-100">
+                                                                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                                                                        Meningiomas (anterior skull base)
 
-                                            </p>
-                                        </div>
+                                                                                                                    </p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="col-md-4 mb-3">
+                                                                                                                <div class="border p-3 rounded-3 h-100">
+                                                                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                                                                        Chordomas
+                                                                                                                    </p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="col-md-4 mb-3">
+                                                                                                                <div class="border p-3 rounded-3 h-100">
+                                                                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                                                                        CSF leaks and skull base defects
+                                                                                                                    </p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="col-md-4 mb-3">
+                                                                                                                <div class="border p-3 rounded-3 h-100">
+                                                                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                                                                        Tumors of the clivus and sphenoid sinus
+                                                                                                                    </p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div> -->
+                        <div class="border border-bottom-2 border-black my-3"></div>
+
+                        <div class="section-title container p-0 mb-2">
+                            <p>Symptoms </p>
+                        </div>
+                        <p>The symptoms of skull base problems can differ based on where the abnormal growth or lesion is
+                            located and how large it is. Since this area controls important nerves and blood vessels, even
+                            small changes can lead to noticeable discomfort. If you experience any of the following signs,
+                            it’s important to consult a specialist for evaluation and timely treatment through endoscopic
+                            skull base surgery if required.</p>
+                        <div class="col-12 mb-3">
+                            <div class="p-4 bg-white rounded shadow-sm border-start border-4"
+                                style="border-color: #ff4500;">
+                                <div class="row">
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Persistent or
+                                            </span>
+                                            recurring headaches
+                                        </span>
                                     </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Chordomas
-                                            </p>
-                                        </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold ">
+                                                Facial pain or pressure
+                                            </span>
+                                            around the eyes, cheeks, or forehead
+                                        </span>
                                     </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                CSF leaks and skull base defects
-                                            </p>
-                                        </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Dizziness or balance issues
+                                            </span>
+                                        </span>
                                     </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Tumors of the clivus and sphenoid sinus
-                                            </p>
-                                        </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Vision disturbances
+                                            </span>
+                                            such as blurred or double vision
+
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Numbness or tingling
+                                            </span>
+                                            sensations on the face
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Weakness of facial muscles
+                                            </span>
+                                            or drooping
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Hearing loss
+                                            </span>
+                                            or continuous ringing in the ears (tinnitus)
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Nasal blockage,
+                                            </span>
+                                            congestion, or
+                                            <span class="fw-semibold">
+                                                frequent sinus infections
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            In some cases,
+                                            <span class="fw-semibold">
+                                                fluid discharge from the nose (possible CSF leak)
+                                            </span>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
+                            <p class="mt-2">
+                                With modern medical technology and Dr. Keval Shukla’s advanced expertise in endoscopic
+                                skull base surgery in Mumbai, patients now have access to safer treatments, quicker
+                                recovery, and an improved quality of life.
+                            </p>
+
+                        </div>
                         <div class="border border-bottom-2 border-black my-3"></div>
 
                         <div class="section-title container p-0 mb-2">
@@ -251,34 +434,34 @@
                             </div>
                         </div>
                         <!-- <div class="col-12">
-                            <div class="p-4 bg-white rounded shadow-sm border-start border-4"
-                                style="border-color: #ff4500;">
-                                <div class="row">
-                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
-                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>No visible scarring (transnasal approach)
-                                        </span>
-                                    </div>
-                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
-                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Less brain retraction and trauma
-                                        </span>
-                                    </div>
-                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
-                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Shorter surgery and hospital stay</span>
-                                    </div>
-                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
-                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Minimal blood loss</span>
-                                    </div>
-                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
-                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                        <span>Faster recovery and return to function</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
+                                                                                                    <div class="p-4 bg-white rounded shadow-sm border-start border-4"
+                                                                                                        style="border-color: #ff4500;">
+                                                                                                        <div class="row">
+                                                                                                            <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                                                                                                <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                                                                                                <span>No visible scarring (transnasal approach)
+                                                                                                                </span>
+                                                                                                            </div>
+                                                                                                            <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                                                                                                <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                                                                                                <span>Less brain retraction and trauma
+                                                                                                                </span>
+                                                                                                            </div>
+                                                                                                            <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                                                                                                <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                                                                                                <span>Shorter surgery and hospital stay</span>
+                                                                                                            </div>
+                                                                                                            <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                                                                                                <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                                                                                                <span>Minimal blood loss</span>
+                                                                                                            </div>
+                                                                                                            <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                                                                                                <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                                                                                                <span>Faster recovery and return to function</span>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div> -->
 
                         <section class="single-service-why-choose-us-section pt-5">
                             <div class="container">
@@ -288,7 +471,8 @@
                                 <ul class="single-service-why-choose-us-list">
                                     <li>
                                         <span class="single-service-why-choose-us-icon">✔</span>
-                                        Recognized as a leading  <strong>endoscopic spine surgeon</strong> with extensive surgical experience
+                                        Recognized as a leading <strong>endoscopic spine surgeon</strong> with extensive
+                                        surgical experience
                                     </li>
                                     <li>
                                         <span class="single-service-why-choose-us-icon">✔</span>
@@ -343,8 +527,7 @@
                                 {{-- <input type="email" value="" placeholder="Email Address"> --}}
                                 <input type="text" name="phone" value="" placeholder="Phone Number" required>
 
-                                <textarea id="Reason" class="form-control" rows="3" name="message"
-                                    placeholder="Message"></textarea>
+                                <textarea id="Reason" class="form-control" rows="3" name="message" placeholder="Message"></textarea>
                                 <input type="hidden" name="form_type" value="simple_contact">
                                 <button type="submit" class="button secondary button-second">Send Message</button>
                             </form>
@@ -357,18 +540,109 @@
             </div><!-- row /-->
 
         </div>
+
+        <div class="why-chose-us bg-white-transparent">
+
+            <div class="section-title container">
+                <h1>
+                    FAQS
+                </h1>
+            </div>
+            <div class="container">
+                <div class=" row">
+                    <div class="col-lg-8 col-12">
+                        <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true"
+                            data-deep-link-smudge="500" id="deeplinked-accordion">
+                            {{-- <li class="accordion-item border-0 is-active" data-accordion-item> --}}
+                            <li class="accordion-item border-0 is-active" data-accordion-item>
+                                <a href="#" class="accordion-title">What is endoscopic skull base surgery?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink1">
+                                    <strong>Endoscopic skull base surgery</strong> is a minimally invasive procedure used to
+                                    remove tumors or
+                                    repair defects at the base of the skull. Using a thin camera (endoscope) inserted
+                                    through the nose or a small incision, surgeons can access deep areas of the brain and
+                                    sinuses without large cuts, reducing pain and recovery time.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0" data-accordion-item>
+                                <a href="#" class="accordion-title">What is skull base surgery for?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink1">
+                                    Skull base surgery is performed to treat conditions that develop at the bottom of the
+                                    brain or behind the eyes and nose. These include pituitary tumors, meningiomas, CSF
+                                    leaks, sinus and nasal tumors, and other growths that affect the nerves and blood
+                                    vessels in this area.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0" data-accordion-item>
+                                <a href="#" class="accordion-title">How risky is skull base surgery?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink2">
+                                    When performed by an experienced neurosurgeon, the risks of endoscopic skull base
+                                    surgery are minimal compared to traditional open surgeries. Possible risks may include
+                                    infection, bleeding, or temporary changes in vision or smell, but modern techniques
+                                    greatly reduce these chances
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0" data-accordion-item>
+                                <a href="#" class="accordion-title">What is endoscopic brain surgery?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink3">
+                                    Endoscopic brain surgery uses the same minimally invasive approach as skull base
+                                    surgery. It allows surgeons to reach deep-seated brain areas through small openings,
+                                    using an endoscope for clear visualization and precision, helping to remove tumors or
+                                    treat other neurological conditions safely.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0 " data-accordion-item>
+                                <a href="#" class="accordion-title">What is the recovery time for endoscopic skull
+                                    base surgery?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink4">
+                                    Most patients recover from endoscopic skull base surgery within 2 to 4 weeks, depending
+                                    on the complexity of the case. Hospital stays are generally short, and patients can
+                                    return to normal routines faster than with traditional surgery. Dr. Keval Shukla
+                                    provides personalized follow-up care to support smooth recovery.
+
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0 " data-accordion-item>
+                                <a href="#" class="accordion-title">Is endoscopic surgery a major surgery?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink4">
+                                    While it is a technically advanced procedure, endoscopic skull base surgery is
+                                    considered minimally invasive rather than major. It offers excellent results with
+                                    smaller incisions, minimal pain, and a faster return to daily life.
+
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0 " data-accordion-item>
+                                <a href="#" class="accordion-title">Where can I get endoscopic skull base surgery in
+                                    Mumbai?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink4">
+                                    You can consult Dr. Keval Shukla, an experienced neurosurgeon in Mumbai, who specializes
+                                    in endoscopic skull base surgery and endoscopic spine surgery. His clinic provides
+                                    state of the art facilities and personalized care for patients with brain and spine
+                                    disorders.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 d-sm-none d-lg-block">
+                        <img src="{{ asset('assets/images/help/dekevalshukla-img2.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Services /-->
     </div>
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

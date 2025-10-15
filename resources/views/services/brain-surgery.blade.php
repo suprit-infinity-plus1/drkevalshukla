@@ -1,7 +1,65 @@
 @extends('layouts.master')
-@section('title', 'Brain Surgery in Mumbai – Dr Keval Shukla | Brain Specialist')
-@section('meta_keywords', 'Brain surgery in Mumbai, Brain surgeon, Brain surgeon in Mumbai, Brain specialist near me, Brain specialist')
-@section('meta_description', 'Dr Keval Shukla – expert brain surgeon in Mumbai. Specialised brain surgery and treatments from a trusted brain specialist near you.')
+@section('title', 'Brain Surgery in Mumbai | Endoscopic Brain Surgeon Near Me')
+@section('meta_keywords', 'brain surgery in mumbai, endoscopic brain surgery, brain surgeon near me')
+@section('meta_description', 'Get advanced brain surgery in Mumbai by Dr. Keval Shukla, specializing in minimally
+    invasive endoscopic brain surgery for faster recovery.')
+    @section('meta')
+    <link rel="canonical" href="https://drkevalshukla.com/brain-surgery-in-mumbai">
+@endsection
+@section('schema')
+    @verbatim
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is neuro trauma surgery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neuro trauma surgery treats injuries to the brain, spine, and nerves, often caused by accidents or trauma."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find a neuro trauma surgeon near me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Look for a qualified neurosurgeon with experience in trauma cases. Dr. Keval Shukla is an experienced neuro trauma surgeon near you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does recovery take after neuro trauma surgery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Recovery time depends on the injury severity, surgical procedure, and rehabilitation. Most patients see gradual improvement over weeks to months."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is neuro trauma surgery safe for elderly patients?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, with proper evaluation and care, neuro trauma surgery can be safely performed for older adults."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I find the best neuro trauma surgeon near me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you’re searching for a trusted neuro trauma surgeon near me, Dr. Keval Shukla provides expert evaluation and advanced surgical care for all types of brain and spinal injuries. Book your consultation here."
+      }
+    }
+  ]
+}
+</script>
+
+    @endverbatim
+@endsection
+
 @section('content')
 
 
@@ -84,13 +142,13 @@
                                         <span>Hydrocephalus and other neurological conditions</span>
                                     </div>
                                     <!-- <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
-                                                                <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                                                <span>Faster return to work and daily life</span>
-                                                            </div>
-                                                            <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
-                                                                <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                                                <span>Better cosmetic outcomes with no large scars</span>
-                                                            </div> -->
+                                                                    <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                                                    <span>Faster return to work and daily life</span>
+                                                                </div>
+                                                                <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                                                    <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                                                    <span>Better cosmetic outcomes with no large scars</span>
+                                                                </div> -->
                                 </div>
                             </div>
                         </div>
@@ -425,7 +483,8 @@
                         <div class="service-text">
                             <p>Whether you require minimally invasive care or more advanced surgical intervention, Dr Keval
                                 Shukla provides tailored solutions for your spine health. His expertise ensures patients
-                                receive world-class <strong>spine surgery in Mumbai</strong> with the highest safety standards and optimal
+                                receive world-class <strong>spine surgery in Mumbai</strong> with the highest safety
+                                standards and optimal
                                 recovery results</p>
                         </div>
 
@@ -466,8 +525,7 @@
                                 {{-- <input type="email" value="" placeholder="Email Address"> --}}
                                 <input type="text" name="phone" value="" placeholder="Phone Number" required>
 
-                                <textarea id="Reason" class="form-control" rows="3" name="message"
-                                    placeholder="Message"></textarea>
+                                <textarea id="Reason" class="form-control" rows="3" name="message" placeholder="Message"></textarea>
                                 <input type="hidden" name="form_type" value="simple_contact">
                                 <button type="submit" class="button secondary button-second">Send Message</button>
                             </form>
@@ -485,13 +543,13 @@
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>
