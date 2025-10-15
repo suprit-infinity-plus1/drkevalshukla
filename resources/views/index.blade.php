@@ -606,93 +606,88 @@
     </div>
 
     <div class="testimonials grey-bg module mb-0">
+        <div class="section-title-second">
+            <h2>Awesome Reviews</h2>
+            <p>What our customers say about us</p>
+        </div>
 
-        <div class="testimonials grey-bg module">
+        <div class="grid-container grid-x grid-padding-x">
 
-            <div class="section-title-second">
-                <h2>Awesome Reviews</h2>
-                <p>What our customers say about us</p>
-            </div>
+            <div class="testimonial-slid owl-carousel owl-theme">
 
-            <div class="grid-container grid-x grid-padding-x">
-
-                <div class="testimonial-slid owl-carousel owl-theme">
-
-                    <div class="testimonial-text">
-                        {{-- <img src="{{ asset('assets/images/help/testimonial-1.png') }}" alt="" /> --}}
-                        <div class="testimonial-profile" style="background-color: rgb(243 77 29);">
-                            K
-                        </div>
-                        <p>
-                            A very humble and patient doctor. Dr. Keval calmly listens to the problems and explains the
-                            issues
-                            with accurate judgment and treatment suggestions. He knows how to put the patient at ease and
-                            deal
-                            with the case.
-                            Would definitely recommend for neuro care.
-                        </p>
-                        <h6>Kamlesh Shah - <span>Google Ads</span></h6>
+                <div class="testimonial-text">
+                    {{-- <img src="{{ asset('assets/images/help/testimonial-1.png') }}" alt="" /> --}}
+                    <div class="testimonial-profile" style="background-color: rgb(243 77 29);">
+                        K
                     </div>
+                    <p>
+                        A very humble and patient doctor. Dr. Keval calmly listens to the problems and explains the
+                        issues
+                        with accurate judgment and treatment suggestions. He knows how to put the patient at ease and
+                        deal
+                        with the case.
+                        Would definitely recommend for neuro care.
+                    </p>
+                    <h6>Kamlesh Shah - <span>Google Ads</span></h6>
+                </div>
 
-                    <div class="testimonial-text">
-                        {{-- <img src="{{ asset('assets/images/help/testimonial-2.png') }}" alt="" /> --}}
-                        <div class="testimonial-profile" style="background-color: rgb(120 27 161);">
-                            K
-                        </div>
-                        <p>
-                            Dr. Keval Shukla is one of the most skilled doctor. His diagnosis is very accurate & treatment
-                            is
-                            very effective.
-                            He is humble and clam. Trust in your doctor is one of the vital steps of the healing process,
-                            which
-                            he earns very easily.
-                        </p>
-                        <h6>Kinnari Thaker - <span>Google Ads</span></h6>
+                <div class="testimonial-text">
+                    {{-- <img src="{{ asset('assets/images/help/testimonial-2.png') }}" alt="" /> --}}
+                    <div class="testimonial-profile" style="background-color: rgb(120 27 161);">
+                        K
                     </div>
+                    <p>
+                        Dr. Keval Shukla is one of the most skilled doctor. His diagnosis is very accurate & treatment
+                        is
+                        very effective.
+                        He is humble and clam. Trust in your doctor is one of the vital steps of the healing process,
+                        which
+                        he earns very easily.
+                    </p>
+                    <h6>Kinnari Thaker - <span>Google Ads</span></h6>
+                </div>
 
-                    <div class="testimonial-text">
-                        {{-- <img src="{{ asset('assets/images/help/testimonial-1.png') }}" alt="" /> --}}
-                        <div class="testimonial-profile" style="background-color: rgb(151 194 193);">
-                            S
-                        </div>
-                        <p>
-                            Best Neurosurgen in Mumbai.
-                            Very humble.
-                            Good at his skill.
-                            Very professional.
-                            Best for patients.
-                        </p>
-                        <h6>Shankar Kadam - <span>Google Ads</span></h6>
+                <div class="testimonial-text">
+                    {{-- <img src="{{ asset('assets/images/help/testimonial-1.png') }}" alt="" /> --}}
+                    <div class="testimonial-profile" style="background-color: rgb(151 194 193);">
+                        S
                     </div>
+                    <p>
+                        Best Neurosurgen in Mumbai.
+                        Very humble.
+                        Good at his skill.
+                        Very professional.
+                        Best for patients.
+                    </p>
+                    <h6>Shankar Kadam - <span>Google Ads</span></h6>
+                </div>
 
-                    <div class="testimonial-text">
-                        {{-- <img src="{{ asset('assets/images/help/testimonial-1.png') }}" alt="" /> --}}
-                        <div class="testimonial-profile" style="background-color: rgb(15 157 138);">
-                            R
-                        </div>
-                        <p>
-                            One of the most skillfull Neurosurgeon in Mumbai with a very good clinical diagnosis, surgical
-                            hand.
-                            He is very hard working for patients well being. He gives more time to patients both in OPD as
-                            well
-                            as on rounds for admitted patients and explains regarding the disease, the surgical procedure
-                            needed, it's benefit and complications, outcomes in a very good way.
-                        </p>
-                        <h6>Rahul Doe - <span>Google Ads</span></h6>
+                <div class="testimonial-text">
+                    {{-- <img src="{{ asset('assets/images/help/testimonial-1.png') }}" alt="" /> --}}
+                    <div class="testimonial-profile" style="background-color: rgb(15 157 138);">
+                        R
                     </div>
-
+                    <p>
+                        One of the most skillfull Neurosurgeon in Mumbai with a very good clinical diagnosis, surgical
+                        hand.
+                        He is very hard working for patients well being. He gives more time to patients both in OPD as
+                        well
+                        as on rounds for admitted patients and explains regarding the disease, the surgical procedure
+                        needed, it's benefit and complications, outcomes in a very good way.
+                    </p>
+                    <h6>Rahul Doe - <span>Google Ads</span></h6>
                 </div>
 
             </div>
 
         </div>
-    </div>
+    </div>  
 
-    <section class="bg-danger text-white">
+    <section class="">
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 col-md-3">
-                    <h3 class="text-white">Exellent</h3>
+                    <h3 class="">Exellent</h3>
                     <div>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -705,13 +700,13 @@
                     {{-- review --}}
                     <div id="testimonial-slider" class="owl-carousel owl-theme">
 
-                        <div>
-                            <div class="d-flex justify-content-between align-items-center">
+                        <div class="position-relative border p-3">
+                            <div class="d-flex justify-content-start gap-3 align-items-center">
                                 <div>
-                                    <div class="bg-primary">R</div>
+                                    <div class="bg-primary testimonial-profile mb-0">R</div>
                                 </div>
                                 <div>
-                                    <h3 class="text-white">hello man</h3>
+                                    <h5 class="mb-0">hello man</h5>
                                     <div>
                                         <span>25 feb 2025</span>
                                     </div>
@@ -729,19 +724,19 @@
                                     <i class="fa-solid fa-star"></i>
                                 </div>
                             </div>
-                            <div>
+                            <div class="position-absolute top-0 end-0 mt-3 me-3">
                                 <img src="{{ asset('assets/images/download.png') }}" alt="">
                             </div>
-                            <p class="text-white">its google review</p>
+                            <p class="">its google review</p>
                         </div>
                         {{-- review --}}
-                        <div>
-                            <div class="d-flex justify-content-between align-items-center">
+                         <div class="position-relative border p-3">
+                            <div class="d-flex justify-content-start gap-3 align-items-center">
                                 <div>
-                                    <div class="bg-primary">R</div>
+                                    <div class="bg-primary testimonial-profile mb-0">R</div>
                                 </div>
                                 <div>
-                                    <h3 class="text-white">hello man</h3>
+                                    <h5 class="mb-0">hello man</h5>
                                     <div>
                                         <span>25 feb 2025</span>
                                     </div>
@@ -759,19 +754,19 @@
                                     <i class="fa-solid fa-star"></i>
                                 </div>
                             </div>
-                            <div>
+                            <div class="position-absolute top-0 end-0 mt-3 me-3">
                                 <img src="{{ asset('assets/images/download.png') }}" alt="">
                             </div>
-                            <p class="text-white">its google review</p>
+                            <p class="">its google review</p>
                         </div>
                         {{-- review --}}
-                        <div>
-                            <div class="d-flex justify-content-between align-items-center">
+                         <div class="position-relative border p-3">
+                            <div class="d-flex justify-content-start gap-3 align-items-center">
                                 <div>
-                                    <div class="bg-primary">R</div>
+                                    <div class="bg-primary testimonial-profile mb-0">R</div>
                                 </div>
                                 <div>
-                                    <h3 class="text-white">hello man</h3>
+                                    <h5 class="mb-0">hello man</h5>
                                     <div>
                                         <span>25 feb 2025</span>
                                     </div>
@@ -789,19 +784,19 @@
                                     <i class="fa-solid fa-star"></i>
                                 </div>
                             </div>
-                            <div>
+                            <div class="position-absolute top-0 end-0 mt-3 me-3">
                                 <img src="{{ asset('assets/images/download.png') }}" alt="">
                             </div>
-                            <p class="text-white">its google review</p>
+                            <p class="">its google review</p>
                         </div>
                         {{-- review --}}
-                        <div>
-                            <div class="d-flex justify-content-between align-items-center">
+                         <div class="position-relative border p-3">
+                            <div class="d-flex justify-content-start gap-3 align-items-center">
                                 <div>
-                                    <div class="bg-primary">R</div>
+                                    <div class="bg-primary testimonial-profile mb-0">R</div>
                                 </div>
                                 <div>
-                                    <h3 class="text-white">hello man</h3>
+                                    <h5 class="mb-0">hello man</h5>
                                     <div>
                                         <span>25 feb 2025</span>
                                     </div>
@@ -819,10 +814,10 @@
                                     <i class="fa-solid fa-star"></i>
                                 </div>
                             </div>
-                            <div>
+                            <div class="position-absolute top-0 end-0 mt-3 me-3">
                                 <img src="{{ asset('assets/images/download.png') }}" alt="">
                             </div>
-                            <p class="text-white">its google review</p>
+                            <p class="">its google review</p>
                         </div>
                     </div>
                 </div>
