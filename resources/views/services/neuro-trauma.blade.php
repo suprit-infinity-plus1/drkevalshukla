@@ -10,53 +10,54 @@
 @section('schema')
     @verbatim
         <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is neuro trauma surgery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Neuro trauma surgery treats injuries to the brain, spine, and nerves, often caused by accidents or trauma."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I find a neuro trauma surgeon near me?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Look for a qualified neurosurgeon with experience in trauma cases. Dr. Keval Shukla is an experienced neuro trauma surgeon near you."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does recovery take after neuro trauma surgery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Recovery time depends on the injury severity, surgical procedure, and rehabilitation. Most patients see gradual improvement over weeks to months."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is neuro trauma surgery safe for elderly patients?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, with proper evaluation and care, neuro trauma surgery can be safely performed for older adults."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where can I find the best neuro trauma surgeon near me?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If you’re searching for a trusted neuro trauma surgeon near me, Dr. Keval Shukla provides expert evaluation and advanced surgical care for all types of brain and spinal injuries. Book your consultation here."
-      }
-    }
-  ]
-}
-</script>
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is neuro trauma surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Neuro trauma surgery treats injuries to the brain, spine, and nerves, often caused by accidents or trauma."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How do I find a neuro trauma surgeon near me?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Look for a qualified neurosurgeon with experience in trauma cases. Dr. Keval Shukla is an experienced neuro trauma surgeon near you."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How long does recovery take after neuro trauma surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Recovery time depends on the injury severity, surgical procedure, and rehabilitation. Most patients see gradual improvement over weeks to months."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is neuro trauma surgery safe for elderly patients?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, with proper evaluation and care, neuro trauma surgery can be safely performed for older adults."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Where can I find the best neuro trauma surgeon near me?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "If you’re searching for a trusted neuro trauma surgeon near me, Dr. Keval Shukla provides expert evaluation and advanced surgical care for all types of brain and spinal injuries. Book your consultation here."
+                }
+                }
+            ]
+            }
+        </script>
+
 
     @endverbatim
 @endsection
@@ -70,13 +71,13 @@
             <div class="grid-container grid-x grid-padding-x">
 
                 <div class="small-12 cell">
-                    <h1>NEURO TRAUMA</h1>
+                    <h1>Neuro Trauma Surgery</h1>
                 </div><!-- Top Row /-->
 
                 <div class="small-12 cell">
                     <ul class="breadcrumbs">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">NEURO TRAUMA</a></li>
+                        <li><a href="#">Neuro Trauma Surgery</a></li>
                     </ul><!-- Breadcrumbs /-->
                 </div><!-- Bottom Row /-->
 
@@ -93,7 +94,7 @@
                     <div class="service-post">
                         <div class="thumbnail w-100">
                             <img src="{{ asset('assets/images/help/services/neuro-trauma-1.png') }}" class="w-100"
-                                alt="Service Images">
+                                alt="neuro trauma surgery">
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">

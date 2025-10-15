@@ -1,7 +1,67 @@
 @extends('layouts.master')
-@section('title', 'Spine Surgeon in Mumbai – Dr Keval Shukla | Spine Specialist')
-@section('meta_keywords', 'Best Spine Surgery in Mumbai, Spine surgeon, Spine surgeon in Mumbai, Spine specialist in Mumbai')
-@section('meta_description', 'Get advanced spine surgery in Mumbai with Dr Keval Shukla. Experienced spine specialist offering personalised care for back and spinal conditions')
+@section('title', 'Advanced Spine Surgery in Mumbai | Experienced Spine Surgeon')
+@section('meta_keywords', 'spine surgery in mumbai, best spine surgeon in mumbai, spine surgeon near me')
+@section('meta_description',
+    'Get safe and advanced spine surgery in Mumbai with Dr. Keval Shukla. Trusted spine surgeon
+    near me offering advanced techniques and minimal pain recovery.')
+@section('meta')
+    <link rel="canonical" href="https://drkevalshukla.com/spine-surgery-in-mumbai">
+@endsection
+@section('schema')
+    @verbatim
+        <script type="application/ld+json">
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "Is endoscopic spine surgery safe?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, endoscopic spine surgery is considered very safe when performed by an experienced surgeon. Dr. Keval Shukla uses advanced minimally invasive techniques that ensure less pain, minimal scarring, and faster recovery compared to traditional spine surgery."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is spine surgery safe?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Spine surgery is safe when done by a qualified and skilled specialist. With the latest technology and precise surgical methods, Dr. Keval Shukla ensures safe and successful outcomes for patients undergoing spine surgery in Mumbai."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What is spine surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Spine surgery is a medical procedure designed to treat conditions such as slipped disc, spinal stenosis, herniated disc, or nerve compression. It helps relieve pain, restore mobility, and improve quality of life."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Who is the best doctor for spine surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "If you’re looking for the best spine surgeon in Mumbai, Dr. Keval Shukla is a trusted name known for his expertise in minimally invasive and endoscopic spine surgeries. He provides personalized care with advanced neuro-navigation systems and modern surgical techniques."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is spine surgery dangerous?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Modern spine surgery is not dangerous when performed by an expert using advanced technology. Risks are greatly minimized with Dr. Keval Shukla’s minimally invasive approach and comprehensive post-operative care."
+                }
+                }
+            ]
+            }
+        </script>
+
+
+
+    @endverbatim
+@endsection
 @section('content')
 
 
@@ -12,13 +72,13 @@
             <div class="grid-container grid-x grid-padding-x">
 
                 <div class="small-12 cell">
-                    <h1>SPINE SURGERY</h1>
+                    <h1>Spine Surgery in Mumbai</h1>
                 </div><!-- Top Row /-->
 
                 <div class="small-12 cell">
                     <ul class="breadcrumbs">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">SPINE SURGERY</a></li>
+                        <li><a href="#">Spine Surgery in Mumbai</a></li>
                     </ul><!-- Breadcrumbs /-->
                 </div><!-- Bottom Row /-->
 
@@ -35,7 +95,7 @@
                     <div class="service-post">
                         <div class="thumbnail w-100">
                             <img src="{{ asset('assets/images/help/services/spine-surgery.jpeg') }}" class="w-100"
-                                alt="Service Images">
+                                alt="Spine Surgery in Mumbai">
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">
@@ -59,80 +119,80 @@
                         </div>
                         <div class="border border-bottom-2 border-black my-3"></div>
                         <!-- <div class="section-title container p-0 mb-2">
-                            <p>Conditions Treated</p>
-                        </div>
-                        <div>
-                            <p>
-                                We provide surgical care for a variety of spinal disorders, including:
-                            </p>
-                            <div class="conditions-treated-contaner">
-                                <div class="row text-center">
-                                    <div class="col-md-4 mb-3">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Herniated or bulging discs
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Degenerative disc disease
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Spinal stenosis
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Spinal tumors
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Spondylolisthesis
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Spinal fractures
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Scoliosis and spinal deformities
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Infections of the spine
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="border p-3 rounded-3 h-100">
-                                            <p class="mb-0 text-center fw-semibold">
-                                                Cervical, thoracic, and lumbar spinal pathologies
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
+                                                    <p>Conditions Treated</p>
+                                                </div>
+                                                <div>
+                                                    <p>
+                                                        We provide surgical care for a variety of spinal disorders, including:
+                                                    </p>
+                                                    <div class="conditions-treated-contaner">
+                                                        <div class="row text-center">
+                                                            <div class="col-md-4 mb-3">
+                                                                <div class="border p-3 rounded-3 h-100">
+                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                        Herniated or bulging discs
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4 mb-3">
+                                                                <div class="border p-3 rounded-3 h-100">
+                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                        Degenerative disc disease
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4 mb-3">
+                                                                <div class="border p-3 rounded-3 h-100">
+                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                        Spinal stenosis
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4 mb-3">
+                                                                <div class="border p-3 rounded-3 h-100">
+                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                        Spinal tumors
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4 mb-3">
+                                                                <div class="border p-3 rounded-3 h-100">
+                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                        Spondylolisthesis
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4 mb-3">
+                                                                <div class="border p-3 rounded-3 h-100">
+                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                        Spinal fractures
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="border p-3 rounded-3 h-100">
+                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                        Scoliosis and spinal deformities
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="border p-3 rounded-3 h-100">
+                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                        Infections of the spine
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="border p-3 rounded-3 h-100">
+                                                                    <p class="mb-0 text-center fw-semibold">
+                                                                        Cervical, thoracic, and lumbar spinal pathologies
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div> -->
                         <div class="section-title container p-0 mb-2 mt-5">
                             <p>Comprehensive Spine Care</p>
                         </div>
@@ -444,7 +504,10 @@
                             <p>Personalized Care, Lasting Relief</p>
                         </div>
                         <div class="service-text">
-                            <p>As a trusted spine specialist in Mumbai, Dr Keval Shukla focuses on not just relieving pain, but also restoring mobility and improving quality of life. From the initial consultation to post-surgery rehabilitation, patients receive compassionate, comprehensive care every step of the way.</p>
+                            <p>As a trusted spine specialist in Mumbai, Dr Keval Shukla focuses on not just relieving pain,
+                                but also restoring mobility and improving quality of life. From the initial consultation to
+                                post-surgery rehabilitation, patients receive compassionate, comprehensive care every step
+                                of the way.</p>
 
                         </div>
 
@@ -484,8 +547,7 @@
                                 {{-- <input type="email" value="" placeholder="Email Address"> --}}
                                 <input type="text" name="phone" value="" placeholder="Phone Number" required>
 
-                                <textarea id="Reason" class="form-control" rows="3" name="message"
-                                    placeholder="Message"></textarea>
+                                <textarea id="Reason" class="form-control" rows="3" name="message" placeholder="Message"></textarea>
                                 <input type="hidden" name="form_type" value="simple_contact">
                                 <button type="submit" class="button secondary button-second">Send Message</button>
                             </form>
@@ -500,16 +562,75 @@
         </div>
         <!-- Services /-->
     </div>
+    <div class="why-chose-us bg-white-transparent">
+
+        <div class="section-title container">
+            <h1>
+                FAQS
+            </h1>
+        </div>
+        <div class="container">
+            <div class=" row">
+                <div class="col-lg-8 col-12">
+                    <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true"
+                        data-deep-link-smudge="500" id="deeplinked-accordion">
+                        {{-- <li class="accordion-item border-0 is-active" data-accordion-item> --}}
+                        <li class="accordion-item border-0 is-active" data-accordion-item>
+                            <a href="#" class="accordion-title">Is endoscopic spine surgery safe?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink1">
+                                Yes, endoscopic spine surgery is generally safe when performed by an experienced specialist.
+                                Dr. Keval Shukla uses advanced, minimally invasive techniques that reduce pain, blood loss,
+                                and recovery time.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0" data-accordion-item>
+                            <a href="#" class="accordion-title">Is spine surgery safe?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink1">
+                                Spine surgery is safe when done by a trained spine surgeon with modern technology. With
+                                proper diagnosis, surgical precision, and post-surgery care, the risk is minimal.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0" data-accordion-item>
+                            <a href="#" class="accordion-title">What is spine surgery?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink2">
+                                Spine surgery treats problems like slipped disc, spinal stenosis, or nerve compression that
+                                cause back or leg pain. It helps relieve pressure on the spinal nerves and improves
+                                mobility.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0" data-accordion-item>
+                            <a href="#" class="accordion-title">Who is the best doctor for spine surgery?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink3">
+                                Dr. Keval Shukla is regarded as one of the best spine surgeon in mumbai, known for his
+                                expertise in minimally invasive and endoscopic spine procedures.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0 " data-accordion-item>
+                            <a href="#" class="accordion-title">Is spine surgery dangerous?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink4">
+                                Spine surgery is not dangerous when done by an experienced surgeon using modern tools and
+                                safety protocols. Complications are rare with minimally invasive methods.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 d-sm-none d-lg-block">
+                    <img src="{{ asset('assets/images/help/dekevalshukla-img2.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

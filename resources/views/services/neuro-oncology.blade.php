@@ -51,13 +51,13 @@
             <div class="grid-container grid-x grid-padding-x">
 
                 <div class="small-12 cell">
-                    <h1>NEURO ONCOLOGY</h1>
+                    <h1>Neuro Oncology</h1>
                 </div><!-- Top Row /-->
 
                 <div class="small-12 cell">
                     <ul class="breadcrumbs">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">NEURO ONCOLOGY</a></li>
+                        <li><a href="#">Neuro Oncology</a></li>
                     </ul><!-- Breadcrumbs /-->
                 </div><!-- Bottom Row /-->
 

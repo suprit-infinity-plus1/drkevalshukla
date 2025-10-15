@@ -320,7 +320,7 @@
                             <p>Every patient’s spine condition is unique. Dr Keval Shukla ensures a thorough diagnosis using
                                 advanced imaging techniques before recommending the most suitable surgical or non-surgical
                                 approach. His commitment to precision, safety, and compassionate care makes him one of the
-                                most sought-after <a href="https://drkevalshukla.com/spine-surgery-in-mumbai">best spine
+                                most sought-after <a href="{{ route('spine-surgery') }}">best spine
                                     surgeon in mumbai.</a></p>
                         </div>
                         <div class="clearfix"></div>

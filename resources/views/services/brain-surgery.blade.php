@@ -1,61 +1,87 @@
 @extends('layouts.master')
 @section('title', 'Brain Surgery in Mumbai | Endoscopic Brain Surgeon Near Me')
 @section('meta_keywords', 'brain surgery in mumbai, endoscopic brain surgery, brain surgeon near me')
-@section('meta_description', 'Get advanced brain surgery in Mumbai by Dr. Keval Shukla, specializing in minimally
+@section('meta_description',
+    'Get advanced brain surgery in Mumbai by Dr. Keval Shukla, specializing in minimally
     invasive endoscopic brain surgery for faster recovery.')
-    @section('meta')
+@section('meta')
     <link rel="canonical" href="https://drkevalshukla.com/brain-surgery-in-mumbai">
 @endsection
 @section('schema')
     @verbatim
         <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is neuro trauma surgery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Neuro trauma surgery treats injuries to the brain, spine, and nerves, often caused by accidents or trauma."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I find a neuro trauma surgeon near me?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Look for a qualified neurosurgeon with experience in trauma cases. Dr. Keval Shukla is an experienced neuro trauma surgeon near you."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does recovery take after neuro trauma surgery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Recovery time depends on the injury severity, surgical procedure, and rehabilitation. Most patients see gradual improvement over weeks to months."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is neuro trauma surgery safe for elderly patients?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, with proper evaluation and care, neuro trauma surgery can be safely performed for older adults."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where can I find the best neuro trauma surgeon near me?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If you’re searching for a trusted neuro trauma surgeon near me, Dr. Keval Shukla provides expert evaluation and advanced surgical care for all types of brain and spinal injuries. Book your consultation here."
-      }
-    }
-  ]
-}
-</script>
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is brain surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Brain surgery is a medical procedure performed to treat structural problems in the brain such as tumors, aneurysms, clots, or injuries. It helps restore normal brain function and relieve symptoms like headaches, seizures, or weakness."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What is endoscopic brain surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Endoscopic brain surgery is a minimally invasive procedure where surgeons use a tiny camera (endoscope) and specialized tools to access the brain through small openings. It allows for faster recovery, less pain, and minimal scarring."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is endoscopic brain surgery available in Mumbai?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Dr. Keval Shukla offers advanced endoscopic brain surgery in Mumbai, using high-precision neuro-navigation systems and modern equipment for safe and effective outcomes."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How do I find the best brain surgeon near me?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "When searching for a brain surgeon near you, look for a qualified neurosurgeon with specialized training, hospital affiliation, and positive patient reviews. Dr. Keval Shukla is among the most trusted names for brain surgery in Mumbai."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What conditions require brain surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Common conditions that may need brain surgery include brain tumors, aneurysms or AVMs, brain hemorrhage, traumatic injuries, and epilepsy or movement disorders."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is brain surgery risky?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "All surgeries carry some risk, but with modern technology and experienced neurosurgeons, the risks are greatly reduced. Dr. Keval Shukla focuses on precision and safety using minimally invasive approaches."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How long does recovery take after brain surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Recovery depends on the type of surgery and patient health. Most patients stay in the hospital for a few days and can resume light activities within 4–6 weeks."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the benefits of minimally invasive or endoscopic brain surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The benefits of minimally invasive or endoscopic brain surgery include smaller incisions and scars, less pain and infection risk, quicker recovery and hospital discharge, and improved surgical precision."
+                }
+                }
+            ]
+            }
+        </script>
+
 
     @endverbatim
 @endsection
@@ -70,13 +96,13 @@
             <div class="grid-container grid-x grid-padding-x">
 
                 <div class="small-12 cell">
-                    <h1>BRAIN SURGERY</h1>
+                    <h1>BRAIN SURGERY IN MUMBAI</h1>
                 </div><!-- Top Row /-->
 
                 <div class="small-12 cell">
                     <ul class="breadcrumbs">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">BRAIN SURGERY</a></li>
+                        <li><a href="#">BRAIN SURGERY IN MUMBAI</a></li>
                     </ul><!-- Breadcrumbs /-->
                 </div><!-- Bottom Row /-->
 
@@ -93,7 +119,7 @@
                     <div class="service-post">
                         <div class="thumbnail w-100">
                             <img src="{{ asset('assets/images/help/services/brain-surgery.jpeg') }}" class="w-100"
-                                alt="Service Images">
+                                alt="Brain Surgery in Mumbai">
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">
@@ -142,13 +168,13 @@
                                         <span>Hydrocephalus and other neurological conditions</span>
                                     </div>
                                     <!-- <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
-                                                                    <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                                                    <span>Faster return to work and daily life</span>
-                                                                </div>
-                                                                <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
-                                                                    <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
-                                                                    <span>Better cosmetic outcomes with no large scars</span>
-                                                                </div> -->
+                                                                                <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                                                                <span>Faster return to work and daily life</span>
+                                                                            </div>
+                                                                            <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                                                                <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                                                                <span>Better cosmetic outcomes with no large scars</span>
+                                                                            </div> -->
                                 </div>
                             </div>
                         </div>
@@ -483,7 +509,9 @@
                         <div class="service-text">
                             <p>Whether you require minimally invasive care or more advanced surgical intervention, Dr Keval
                                 Shukla provides tailored solutions for your spine health. His expertise ensures patients
-                                receive world-class <strong>spine surgery in Mumbai</strong> with the highest safety
+                                receive world-class <a
+                                    href="{{ route('spine-surgery') }}">spine surgery in
+                                    Mumbai</a> with the highest safety
                                 standards and optimal
                                 recovery results</p>
                         </div>
@@ -540,16 +568,110 @@
         </div>
         <!-- Services /-->
     </div>
+    <div class="why-chose-us bg-white-transparent">
+
+        <div class="section-title container">
+            <h1>
+                FAQS
+            </h1>
+        </div>
+        <div class="container">
+            <div class=" row">
+                <div class="col-lg-8 col-12">
+                    <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true"
+                        data-deep-link-smudge="500" id="deeplinked-accordion">
+                        {{-- <li class="accordion-item border-0 is-active" data-accordion-item> --}}
+                        <li class="accordion-item border-0 is-active" data-accordion-item>
+                            <a href="#" class="accordion-title">What is brain surgery?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink1">
+                                Brain surgery is a medical procedure performed to treat structural problems in the brain
+                                such as tumors, aneurysms, clots, or injuries. It helps restore normal brain function and
+                                relieve symptoms like headaches, seizures, or weakness.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0" data-accordion-item>
+                            <a href="#" class="accordion-title">What is endoscopic brain surgery</a>
+                            <div class="accordion-content" data-tab-content id="deeplink1">
+                                Endoscopic brain surgery is a minimally invasive procedure where surgeons use a tiny camera
+                                (endoscope) and specialized tools to access the brain through small openings. It allows for
+                                faster recovery, less pain, and minimal scarring.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0" data-accordion-item>
+                            <a href="#" class="accordion-title">Is endoscopic brain surgery available in Mumbai?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink2">
+                                Yes. Dr. Keval Shukla offers advanced endoscopic brain surgery in Mumbai, using
+                                high-precision neuro-navigation systems and modern equipment for safe and effective
+                                outcomes.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0" data-accordion-item>
+                            <a href="#" class="accordion-title">How do I find the best brain surgeon near me?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink3">
+                                When searching for a brain surgeon near you, look for a qualified neurosurgeon with
+                                specialized training, hospital affiliation, and positive patient reviews. Dr. Keval Shukla
+                                is among the most trusted names for brain surgery in Mumbai.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0 " data-accordion-item>
+                            <a href="#" class="accordion-title">What conditions require brain surgery?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink4">
+                                Common conditions that may need brain surgery include:
+                                <ul>
+                                    <li>Brain tumors</li>
+                                    <li>Aneurysms or AVMs</li>
+                                    <li>Brain hemorrhage</li>
+                                    <li>Traumatic injuries</li>
+                                    <li>Epilepsy or movement disorders</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0 " data-accordion-item>
+                            <a href="#" class="accordion-title">Is brain surgery risky?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink4">
+                                All surgeries carry some risk, but with modern technology and experienced neurosurgeons, the
+                                risks are greatly reduced. Dr. Keval Shukla focuses on precision and safety using minimally
+                                invasive approaches.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0 " data-accordion-item>
+                            <a href="#" class="accordion-title">How long does recovery take after brain surgery?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink4">
+                                Recovery depends on the type of surgery and patient health. Most patients stay in the
+                                hospital for a few days and can resume light activities within 4–6 weeks.
+                            </div>
+                        </li>
+                        <li class="accordion-item border-0 " data-accordion-item>
+                            <a href="#" class="accordion-title">8. What are the benefits of minimally invasive or
+                                endoscopic brain surgery?</a>
+                            <div class="accordion-content" data-tab-content id="deeplink4">
+                                <ul>
+                                    <li>Smaller incisions and scars</li>
+                                    <li>Less pain and infection risk</li>
+                                    <li>Quicker recovery and hospital discharge</li>
+                                    <li>Improved surgical precision</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 d-sm-none d-lg-block">
+                    <img src="{{ asset('assets/images/help/dekevalshukla-img2.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Main Container /-->
 
     <!-- Move to Top Icon
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Remove to Not Display /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Remove to Not Display /-->
     <a href="#" id="top" title="Go to Top">
         <i class="fas fa-arrow-alt-circle-up"></i>
     </a>
 
     <!-- Page Preloader
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Delete to Remove Preloader /-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Delete to Remove Preloader /-->
     <div class="preloader">
         <div class="spinner">
             <div class="double-bounce1"></div>

@@ -10,53 +10,53 @@
 @section('schema')
     @verbatim
         <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is vascular neurosurgery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It’s a subspecialty of neurosurgery that treats conditions related to the blood vessels of the brain and spinal cord, including aneurysms and arteriovenous malformations (AVMs)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the common symptoms of neurovascular diseases?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Symptoms may include severe headache, weakness or numbness on one side, vision problems, dizziness, slurred speech, or sudden loss of balance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Who is the best vascular neurosurgeon in Mumbai?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Dr. Keval Shukla is among the top vascular neurosurgeons in Mumbai, specializing in aneurysm and AVM surgeries using advanced neurovascular techniques."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the risks of vascular neurosurgery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While modern techniques reduce risk, potential complications can include bleeding, stroke, or infection — all minimized under expert surgical care."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the recovery time after vascular neurosurgery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Recovery varies based on the procedure and patient condition. Most patients begin rehabilitation within a few days and recover steadily with follow-up care."
-      }
-    }
-  ]
-}
-</script>
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is vascular neurosurgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It’s a subspecialty of neurosurgery that treats conditions related to the blood vessels of the brain and spinal cord, including aneurysms and arteriovenous malformations (AVMs)."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the common symptoms of neurovascular diseases?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Symptoms may include severe headache, weakness or numbness on one side, vision problems, dizziness, slurred speech, or sudden loss of balance."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Who is the best vascular neurosurgeon in Mumbai?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Dr. Keval Shukla is among the top vascular neurosurgeons in Mumbai, specializing in aneurysm and AVM surgeries using advanced neurovascular techniques."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the risks of vascular neurosurgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "While modern techniques reduce risk, potential complications can include bleeding, stroke, or infection — all minimized under expert surgical care."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What is the recovery time after vascular neurosurgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Recovery varies based on the procedure and patient condition. Most patients begin rehabilitation within a few days and recover steadily with follow-up care."
+                }
+                }
+            ]
+            }
+        </script>
 
     @endverbatim
 @endsection
@@ -70,13 +70,13 @@
             <div class="grid-container grid-x grid-padding-x">
 
                 <div class="small-12 cell">
-                    <h1>VASCULAR NEUROSURGERY</h1>
+                    <h1>Vascular Neurosurgery</h1>
                 </div><!-- Top Row /-->
 
                 <div class="small-12 cell">
                     <ul class="breadcrumbs">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">VASCULAR NEUROSURGERY</a></li>
+                        <li><a href="#">Vascular Neurosurgery</a></li>
                     </ul><!-- Breadcrumbs /-->
                 </div><!-- Bottom Row /-->
 
@@ -93,7 +93,7 @@
                     <div class="service-post">
                         <div class="thumbnail w-100">
                             <img src="{{ asset('assets/images/help/services/service-vascular-neurosurgery.jpg') }}"
-                                class="w-100" alt="Service Images">
+                                class="w-100" alt="Vascular Neurosurgeon in Mumbai">
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">
@@ -302,6 +302,22 @@
                                         <span>
                                             <span class="fw-semibold">
                                                 Nausea or vomiting
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Hearing loss or ringing in the ears
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex justify-content-start align-items-start">
+                                        <span class="me-2" style="color: #ff4500; font-size: 1.1rem;">✔</span>
+                                        <span>
+                                            <span class="fw-semibold">
+                                                Changes in personality, behavior, or consciousness
                                             </span>
                                         </span>
                                     </div>

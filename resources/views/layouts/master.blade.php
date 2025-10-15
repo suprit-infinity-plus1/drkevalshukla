@@ -12,9 +12,6 @@
     <meta name="keywords" content="@yield('meta_keywords')">
     <meta name="description" content="@yield('meta_description')">
 
-    <meta name="keywords" content="@yield('meta_keywords')">
-    <meta name="description" content="@yield('meta_description')">
-
     @yield('meta')
     @yield('schema')
 
