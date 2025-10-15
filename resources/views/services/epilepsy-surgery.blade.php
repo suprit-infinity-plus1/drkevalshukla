@@ -10,61 +10,61 @@
 @section('schema')
     @verbatim
         <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can epilepsy be cured by surgery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In many cases, yes. Epilepsy surgery can significantly reduce or completely stop seizures, especially in patients with drug-resistant epilepsy. By removing or isolating the seizure-causing area in the brain, long-term seizure control or even complete freedom is possible. Consulting the best doctor for epilepsy in Mumbai, like Dr. Keval Shukla, helps determine if surgery can be a permanent solution for your condition."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is epilepsy surgery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Epilepsy surgery is a specialized neurosurgical procedure that removes or disconnects the part of the brain responsible for seizures. It’s recommended for patients who don’t respond to medications. At Dr. Keval Shukla’s clinic in Mumbai, advanced diagnostic tools like MRI and EEG are used to accurately locate the seizure focus before surgery."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does split brain surgery help epilepsy?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Split brain surgery, also known as corpus callosotomy, is performed when seizures spread from one side of the brain to the other. By disconnecting the two hemispheres, it helps reduce the severity and frequency of seizures. This technique is especially helpful for patients with uncontrollable generalized seizures and is performed by experienced specialists like Dr. Keval Shukla in Mumbai."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is epilepsy surgery dangerous?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When performed by an experienced neurosurgeon, epilepsy surgery is safe and highly effective. Risks are minimal due to modern imaging, neuronavigation, and minimally invasive methods. Under the care of Dr. Keval Shukla, one of the best doctors for epilepsy in Mumbai, patients experience a high success rate and significant improvement in their quality of life."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does recovery take after epilepsy surgery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Recovery after epilepsy surgery usually takes 4–8 weeks. Patients may return to light activities within a few weeks, with full recovery depending on the procedure type. Follow-up visits with the best epilepsy specialist in Mumbai ensure safe healing and long-term seizure control."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the success rate of epilepsy surgery in Mumbai?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The success rate for epilepsy surgery in Mumbai ranges between 70–90%, depending on the type of epilepsy and surgical approach. Many patients achieve long-term seizure freedom or a major reduction in seizure frequency after surgery performed by Dr. Keval Shukla."
-      }
-    }
-  ]
-}
-</script>
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "Can epilepsy be cured by surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "In many cases, yes. Epilepsy surgery can significantly reduce or completely stop seizures, especially in patients with drug-resistant epilepsy. By removing or isolating the seizure-causing area in the brain, long-term seizure control or even complete freedom is possible. Consulting the best doctor for epilepsy in Mumbai, like Dr. Keval Shukla, helps determine if surgery can be a permanent solution for your condition."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What is epilepsy surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Epilepsy surgery is a specialized neurosurgical procedure that removes or disconnects the part of the brain responsible for seizures. It’s recommended for patients who don’t respond to medications. At Dr. Keval Shukla’s clinic in Mumbai, advanced diagnostic tools like MRI and EEG are used to accurately locate the seizure focus before surgery."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How does split brain surgery help epilepsy?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Split brain surgery, also known as corpus callosotomy, is performed when seizures spread from one side of the brain to the other. By disconnecting the two hemispheres, it helps reduce the severity and frequency of seizures. This technique is especially helpful for patients with uncontrollable generalized seizures and is performed by experienced specialists like Dr. Keval Shukla in Mumbai."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is epilepsy surgery dangerous?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "When performed by an experienced neurosurgeon, epilepsy surgery is safe and highly effective. Risks are minimal due to modern imaging, neuronavigation, and minimally invasive methods. Under the care of Dr. Keval Shukla, one of the best doctors for epilepsy in Mumbai, patients experience a high success rate and significant improvement in their quality of life."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How long does recovery take after epilepsy surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Recovery after epilepsy surgery usually takes 4–8 weeks. Patients may return to light activities within a few weeks, with full recovery depending on the procedure type. Follow-up visits with the best epilepsy specialist in Mumbai ensure safe healing and long-term seizure control."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What is the success rate of epilepsy surgery in Mumbai?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The success rate for epilepsy surgery in Mumbai ranges between 70–90%, depending on the type of epilepsy and surgical approach. Many patients achieve long-term seizure freedom or a major reduction in seizure frequency after surgery performed by Dr. Keval Shukla."
+                }
+                }
+            ]
+            }
+        </script>
 
     @endverbatim
 @endsection
@@ -78,13 +78,13 @@
             <div class="grid-container grid-x grid-padding-x">
 
                 <div class="small-12 cell">
-                    <h1>EPILLEPSY SURGERY</h1>
+                    <h1>Epillepsy Surgery</h1>
                 </div><!-- Top Row /-->
 
                 <div class="small-12 cell">
                     <ul class="breadcrumbs">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">EPILLEPSY SURGERY</a></li>
+                        <li><a href="#">Epillepsy Surgery</a></li>
                     </ul><!-- Breadcrumbs /-->
                 </div><!-- Bottom Row /-->
 
@@ -101,7 +101,7 @@
                     <div class="service-post">
                         <div class="thumbnail w-100">
                             <img src="{{ asset('assets/images/help/services/Epilepsy-surgery.png') }}" class="w-100"
-                                alt="Service Images">
+                                alt="epilepsy surgery in Mumbai ">
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">

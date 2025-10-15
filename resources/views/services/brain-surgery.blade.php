@@ -96,13 +96,13 @@
             <div class="grid-container grid-x grid-padding-x">
 
                 <div class="small-12 cell">
-                    <h1>BRAIN SURGERY IN MUMBAI</h1>
+                    <h1>Brain Surgery in Mumbai</h1>
                 </div><!-- Top Row /-->
 
                 <div class="small-12 cell">
                     <ul class="breadcrumbs">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">BRAIN SURGERY IN MUMBAI</a></li>
+                        <li><a href="#">Brain Surgery in Mumbai</a></li>
                     </ul><!-- Breadcrumbs /-->
                 </div><!-- Bottom Row /-->
 

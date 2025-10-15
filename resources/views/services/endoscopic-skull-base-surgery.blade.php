@@ -5,59 +5,76 @@
     'Trust Dr. Keval Shukla, a leading neurosurgeon in Mumbai, for endoscopic skull base
     surgery and minimally invasive brain treatments with faster recovery.')
 @section('meta')
-    <link rel="canonical" href="https://drkevalshukla.com/neuro-trauma-surgery">
+    <link rel="canonical" href="https://drkevalshukla.com/endoscopic-skull-base-surgery">
 @endsection
 
 @section('schema')
     @verbatim
         <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is neuro trauma surgery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Neuro trauma surgery treats injuries to the brain, spine, and nerves, often caused by accidents or trauma."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I find a neuro trauma surgeon near me?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Look for a qualified neurosurgeon with experience in trauma cases. Dr. Keval Shukla is an experienced neuro trauma surgeon near you."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does recovery take after neuro trauma surgery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Recovery time depends on the injury severity, surgical procedure, and rehabilitation. Most patients see gradual improvement over weeks to months."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is neuro trauma surgery safe for elderly patients?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, with proper evaluation and care, neuro trauma surgery can be safely performed for older adults."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where can I find the best neuro trauma surgeon near me?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If you’re searching for a trusted neuro trauma surgeon near me, Dr. Keval Shukla provides expert evaluation and advanced surgical care for all types of brain and spinal injuries. Book your consultation here."
-      }
-    }
-  ]
-}
-</script>
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is endoscopic skull base surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Endoscopic skull base surgery is a minimally invasive procedure used to remove tumors or repair defects at the base of the skull. Using a thin camera (endoscope) inserted through the nose or a small incision, surgeons can access deep areas of the brain and sinuses without large cuts, reducing pain and recovery time."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What is skull base surgery for?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Skull base surgery is performed to treat conditions that develop at the bottom of the brain or behind the eyes and nose. These include pituitary tumors, meningiomas, CSF leaks, sinus and nasal tumors, and other growths that affect the nerves and blood vessels in this area."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How risky is skull base surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "When performed by an experienced neurosurgeon, the risks of endoscopic skull base surgery are minimal compared to traditional open surgeries. Possible risks may include infection, bleeding, or temporary changes in vision or smell, but modern techniques greatly reduce these chances."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What is endoscopic brain surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Endoscopic brain surgery uses a minimally invasive approach similar to skull base surgery. It allows surgeons to reach deep-seated brain areas through small openings, using an endoscope for clear visualization and precision, helping to remove tumors or treat neurological conditions safely."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What is the recovery time for endoscopic skull base surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Most patients recover from endoscopic skull base surgery within 2 to 4 weeks, depending on the complexity of the case. Hospital stays are generally short, and patients can return to normal routines faster than with traditional surgery."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is endoscopic surgery a major surgery?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "While it is a technically advanced procedure, endoscopic skull base surgery is considered minimally invasive rather than major. It offers excellent results with smaller incisions, minimal pain, and a faster return to daily life."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Where can I get endoscopic skull base surgery in Mumbai?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can consult Dr. Keval Shukla, an experienced neurosurgeon in Mumbai, who specializes in endoscopic skull base surgery and endoscopic spine surgery. His clinic provides state-of-the-art facilities and personalized care for patients with brain and spine disorders."
+                }
+                }
+            ]
+            }
+        </script>
+
 
     @endverbatim
 @endsection
@@ -71,13 +88,13 @@
             <div class="grid-container grid-x grid-padding-x">
 
                 <div class="small-12 cell">
-                    <h1>ENDOSCOPIC SKULL BASE SURGERY</h1>
+                    <h1>Endoscopic Skull Base Surgery</h1>
                 </div><!-- Top Row /-->
 
                 <div class="small-12 cell">
                     <ul class="breadcrumbs">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">ENDOSCOPIC SKULL BASE SURGERY</a></li>
+                        <li><a href="#">Endoscopic Skull Base Surgery</a></li>
                     </ul><!-- Breadcrumbs /-->
                 </div><!-- Bottom Row /-->
 
@@ -94,7 +111,7 @@
                     <div class="service-post">
                         <div class="thumbnail w-100">
                             <img src="{{ asset('assets/images/help/services/Endoscopic-Skull-Base-Surgery.png') }}"
-                                class="w-100" alt="Service Images">
+                                class="w-100" alt="endoscopic skull base surgery">
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">
@@ -568,16 +585,16 @@
                                 <a href="#" class="accordion-title">What is skull base surgery for?</a>
                                 <div class="accordion-content" data-tab-content id="deeplink1">
                                     Skull base surgery is performed to treat conditions that develop at the bottom of the
-                                    brain or behind the eyes and nose. These include pituitary tumors, meningiomas, CSF
-                                    leaks, sinus and nasal tumors, and other growths that affect the nerves and blood
+                                    brain or behind the eyes and nose. These include <strong> pituitary tumors, meningiomas, CSF
+                                    leaks, sinus and nasal tumors</strong>, and other growths that affect the nerves and blood
                                     vessels in this area.
                                 </div>
                             </li>
                             <li class="accordion-item border-0" data-accordion-item>
                                 <a href="#" class="accordion-title">How risky is skull base surgery?</a>
                                 <div class="accordion-content" data-tab-content id="deeplink2">
-                                    When performed by an experienced neurosurgeon, the risks of endoscopic skull base
-                                    surgery are minimal compared to traditional open surgeries. Possible risks may include
+                                    When performed by an experienced neurosurgeon, the risks of <strong> endoscopic skull base
+                                    surgery</strong> are minimal compared to traditional open surgeries. Possible risks may include
                                     infection, bleeding, or temporary changes in vision or smell, but modern techniques
                                     greatly reduce these chances
                                 </div>
@@ -585,7 +602,7 @@
                             <li class="accordion-item border-0" data-accordion-item>
                                 <a href="#" class="accordion-title">What is endoscopic brain surgery?</a>
                                 <div class="accordion-content" data-tab-content id="deeplink3">
-                                    Endoscopic brain surgery uses the same minimally invasive approach as skull base
+                                    <strong>Endoscopic brain surgery</strong> uses the same minimally invasive approach as skull base
                                     surgery. It allows surgeons to reach deep-seated brain areas through small openings,
                                     using an endoscope for clear visualization and precision, helping to remove tumors or
                                     treat other neurological conditions safely.
@@ -595,7 +612,7 @@
                                 <a href="#" class="accordion-title">What is the recovery time for endoscopic skull
                                     base surgery?</a>
                                 <div class="accordion-content" data-tab-content id="deeplink4">
-                                    Most patients recover from endoscopic skull base surgery within 2 to 4 weeks, depending
+                                    Most patients recover from <strong> endoscopic skull base surgery</strong> within 2 to 4 weeks, depending
                                     on the complexity of the case. Hospital stays are generally short, and patients can
                                     return to normal routines faster than with traditional surgery. Dr. Keval Shukla
                                     provides personalized follow-up care to support smooth recovery.
@@ -605,8 +622,8 @@
                             <li class="accordion-item border-0 " data-accordion-item>
                                 <a href="#" class="accordion-title">Is endoscopic surgery a major surgery?</a>
                                 <div class="accordion-content" data-tab-content id="deeplink4">
-                                    While it is a technically advanced procedure, endoscopic skull base surgery is
-                                    considered minimally invasive rather than major. It offers excellent results with
+                                    While it is a technically advanced procedure, <strong>endoscopic skull base surgery</strong> is
+                                    considered <strong> minimally invasive</strong> rather than major. It offers excellent results with
                                     smaller incisions, minimal pain, and a faster return to daily life.
 
                                 </div>
@@ -615,8 +632,8 @@
                                 <a href="#" class="accordion-title">Where can I get endoscopic skull base surgery in
                                     Mumbai?</a>
                                 <div class="accordion-content" data-tab-content id="deeplink4">
-                                    You can consult Dr. Keval Shukla, an experienced neurosurgeon in Mumbai, who specializes
-                                    in endoscopic skull base surgery and endoscopic spine surgery. His clinic provides
+                                    You can consult <strong> Dr. Keval Shukla</strong>, an experienced neurosurgeon in Mumbai, who specializes
+                                    in <strong> endoscopic skull base surgery</strong> and endoscopic spine surgery. His clinic provides
                                     state of the art facilities and personalized care for patients with brain and spine
                                     disorders.
                                 </div>

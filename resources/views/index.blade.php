@@ -685,7 +685,7 @@
             </div>
 
         </div>
-
+    </div>
 
         <section class="bg-danger text-white">
             <div class="container">
