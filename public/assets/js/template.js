@@ -87,7 +87,7 @@ console.log("hello man");
         responsiveClass: true,
         margin: 10,
         items: 3,
-        autoplay: false,
+        autoplay: true,
         autoplayHoverPause: true,
         dots: false,
         responsive: {
