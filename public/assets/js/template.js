@@ -87,18 +87,17 @@ console.log("hello man");
         responsiveClass: true,
         margin: 10,
         items: 3,
-        autoplay: true,
+        autoplay: false,
         autoplayHoverPause: true,
-        dots: true,
-        nav: false,
+        dots: false,
         responsive: {
             0: {
                 items: 1,
-                nav: true,
-                navText: [
-                    "<i class='fa fa-chevron-left'></i>",
-                    "<i class='fa fa-chevron-right'></i>",
-                ],
+                nav: false,
+                // navText: [
+                //     "<i class='fa fa-chevron-left'></i>",
+                //     "<i class='fa fa-chevron-right'></i>",
+                // ],
             },
             600: {
                 items: 2,

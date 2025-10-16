@@ -681,14 +681,14 @@
             </div>
 
         </div>
-    </div>  
+    </div>
 
     <section class="">
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 col-md-3">
                     <h3 class="">Exellent</h3>
-                    <div>
+                    <div style="color: #fadb53;">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -698,8 +698,45 @@
                 </div>
                 <div class="col-sm-7 col-md-9">
                     {{-- review --}}
-                    <div id="testimonial-slider" class="owl-carousel owl-theme">
+                    <div id="testimonial-slider" class="owl-carousel owl-theme position-relative">
 
+                        <div class="position-relative border p-3 d-flex justify-content-start gap-3 flex-column">
+                            <div class="d-flex justify-content-start gap-3 align-items-center">
+                                <div>
+                                    <div class="bg-primary testimonial-profile mb-0">R</div>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0 testimonial-client-name">Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. Nulla, ea. Voluptatibus tenetur quam beatae ad itaque molestiae
+                                        pariatur, dolores totam.</h5>
+                                    <div>
+                                        <span>25 feb 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="bg-primary d-flex align-items-center justify-content-center text-white"
+                                    style="width:20px; height:20px; border-radius:50%;">
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                                <div style="color: #fadb53;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="position-absolute top-0 end-0 mt-3 me-3">
+                                <img src="{{ asset('assets/images/download.png') }}" alt="">
+                            </div>
+                            <p class="mb-0 testimonial-client-review">Lorem ipsum dolor sit amet consectetur, adipisicing
+                                elit. Fugiat exercitationem praesentium inventore rerum nisi, quidem iure quos facilis
+                                soluta tempora dolorum ratione aspernatur aliquam consequuntur quisquam delectus mollitia
+                                laborum iusto est! Et voluptate cumque possimus voluptatibus dolorum, tempore vel
+                                distinctio, corrupti fuga quis veniam? Quas fuga deserunt voluptatem aliquid atque!</p>
+                        </div>
+                        {{-- review --}}
                         <div class="position-relative border p-3">
                             <div class="d-flex justify-content-start gap-3 align-items-center">
                                 <div>
@@ -730,7 +767,7 @@
                             <p class="">its google review</p>
                         </div>
                         {{-- review --}}
-                         <div class="position-relative border p-3">
+                        <div class="position-relative border p-3">
                             <div class="d-flex justify-content-start gap-3 align-items-center">
                                 <div>
                                     <div class="bg-primary testimonial-profile mb-0">R</div>
@@ -760,37 +797,7 @@
                             <p class="">its google review</p>
                         </div>
                         {{-- review --}}
-                         <div class="position-relative border p-3">
-                            <div class="d-flex justify-content-start gap-3 align-items-center">
-                                <div>
-                                    <div class="bg-primary testimonial-profile mb-0">R</div>
-                                </div>
-                                <div>
-                                    <h5 class="mb-0">hello man</h5>
-                                    <div>
-                                        <span>25 feb 2025</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <div>
-                                    <i class="fa-solid fa-check"></i>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="position-absolute top-0 end-0 mt-3 me-3">
-                                <img src="{{ asset('assets/images/download.png') }}" alt="">
-                            </div>
-                            <p class="">its google review</p>
-                        </div>
-                        {{-- review --}}
-                         <div class="position-relative border p-3">
+                        <div class="position-relative border p-3">
                             <div class="d-flex justify-content-start gap-3 align-items-center">
                                 <div>
                                     <div class="bg-primary testimonial-profile mb-0">R</div>
