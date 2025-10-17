@@ -105,7 +105,7 @@
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">
-                            <h1>Epilepsy Surgery in Mumbai</h1>
+                            <p>Epilepsy Surgery in Mumbai</p>
                         </div>
                         <div class="service-text">
                             <p>
@@ -578,184 +578,184 @@
 
         </div>
 
-        <section class="bg-white-transparent pb-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-5 col-md-3 mb-3 mb-md-0">
-                        <h3 class="">Exellent</h3>
-                        <div style="color: #fadb53;">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <p>Patient voices that celebrate trust, comfort, and beautiful outcomes.</p>
-                        <img style="width:100px" src="{{ asset('assets/images/google-logo.png') }}" alt="">
+       <section class="bg-white-transparent pb-0">
+        <div class="section-title-second">
+            <h2>What People Say</h2>
+            <p>Real feedback from our valued customers</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-md-3 mb-3 mb-md-0">
+                    <h3 class="">Excellent</h3>
+                    <div style="color: #fadb53;">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
-                    <div class="col-sm-7 col-md-9">
-                        {{-- review --}}
-                        <div id="testimonial-slider" class="owl-carousel owl-theme position-relative">
-                            <div class="position-relative border p-3 d-flex justify-content-start gap-3 flex-column">
-                                <div class="d-flex justify-content-start gap-3 align-items-center">
+                    <p>Patient voices that celebrate trust, comfort, and beautiful outcomes.</p>
+                    <img style="width:100px"  src="{{ asset('assets/images/google-logo.png') }}" alt="">
+                </div>
+                <div class="col-sm-7 col-md-9">
+                    {{-- review --}}
+                    <div id="testimonial-slider" class="owl-carousel owl-theme position-relative">
+                        <div class="position-relative border p-3 d-flex justify-content-start gap-3 flex-column">
+                            <div class="d-flex justify-content-start gap-3 align-items-center">
+                                <div>
+                                    <div class="bg-danger testimonial-profile mb-0">K</div>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0 testimonial-client-name">Kamlesh Shah</h5>
                                     <div>
-                                        <div class="bg-danger testimonial-profile mb-0">K</div>
-                                    </div>
-                                    <div>
-                                        <h5 class="mb-0 testimonial-client-name">Kamlesh Shah</h5>
-                                        <div>
-                                            <span>25 feb 2025</span>
-                                        </div>
+                                        <span>25 feb 2025</span>
                                     </div>
                                 </div>
-                                <div class="d-flex align-items-center gap-2">
-                                    <div class="bg-primary d-flex align-items-center justify-content-center text-white"
-                                        style="width:20px; font-size: 14px; height:20px; border-radius:50%;">
-                                        <i class="fa-solid fa-check"></i>
-                                    </div>
-                                    <div style="color: #fadb53;">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                                <div class="position-absolute top-0 end-0 mt-3 me-3">
-                                    <img src="{{ asset('assets/images/download.png') }}" alt="">
-                                </div>
-                                <p class="mb-0 testimonial-client-review">A very humble and patient doctor. Dr. Keval
-                                    calmly
-                                    listens to the problems and explains the
-                                    issues
-                                    with accurate judgment and treatment suggestions. He knows how to put the patient at
-                                    ease
-                                    and
-                                    deal
-                                    with the case.
-                                    Would definitely recommend for neuro care.</p>
                             </div>
-                            <div class="position-relative border p-3 d-flex justify-content-start gap-3 flex-column">
-                                <div class="d-flex justify-content-start gap-3 align-items-center">
-                                    <div>
-                                        <div class="bg-warning testimonial-profile mb-0">K</div>
-                                    </div>
-                                    <div>
-                                        <h5 class="mb-0 testimonial-client-name">Kinnari Thaker</h5>
-                                        <div>
-                                            <span>25 feb 2025</span>
-                                        </div>
-                                    </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="bg-primary d-flex align-items-center justify-content-center text-white"
+                                    style="width:20px; font-size: 14px; height:20px; border-radius:50%;">
+                                    <i class="fa-solid fa-check"></i>
                                 </div>
-                                <div class="d-flex align-items-center gap-2">
-                                    <div class="bg-primary d-flex align-items-center justify-content-center text-white"
-                                        style="width:20px; font-size: 14px; height:20px; border-radius:50%;">
-                                        <i class="fa-solid fa-check"></i>
-                                    </div>
-                                    <div style="color: #fadb53;">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
+                                <div style="color: #fadb53;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
                                 </div>
-                                <div class="position-absolute top-0 end-0 mt-3 me-3">
-                                    <img src="{{ asset('assets/images/download.png') }}" alt="">
-                                </div>
-                                <p class="mb-0 testimonial-client-review">Dr. Keval Shukla is one of the most skilled
-                                    doctor.
-                                    His diagnosis is very accurate & treatment is very effective.
-                                    He is humble and clam. Trust in your doctor is one of the vital steps of the healing
-                                    process, which he earns very easily.</p>
                             </div>
-                            <div class="position-relative border p-3 d-flex justify-content-start gap-3 flex-column">
-                                <div class="d-flex justify-content-start gap-3 align-items-center">
-                                    <div>
-                                        <div class="bg-info testimonial-profile mb-0">S</div>
-                                    </div>
-                                    <div>
-                                        <h5 class="mb-0 testimonial-client-name">Shankar Kadam</h5>
-                                        <div>
-                                            <span>25 feb 2025</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-center gap-2">
-                                    <div class="bg-primary d-flex align-items-center justify-content-center text-white"
-                                        style="width:20px; font-size: 14px; height:20px; border-radius:50%;">
-                                        <i class="fa-solid fa-check"></i>
-                                    </div>
-                                    <div style="color: #fadb53;">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                                <div class="position-absolute top-0 end-0 mt-3 me-3">
-                                    <img src="{{ asset('assets/images/download.png') }}" alt="">
-                                </div>
-                                <p class="mb-0 testimonial-client-review">Best Neurosurgen in Mumbai.
-                                    Very humble.
-                                    Good at his skill.
-                                    Very professional.
-                                    Best for patients.</p>
+                            <div class="position-absolute top-0 end-0 mt-3 me-3">
+                                <img src="{{ asset('assets/images/download.png') }}" alt="">
                             </div>
-                            <div class="position-relative border p-3 d-flex justify-content-start gap-3 flex-column">
-                                <div class="d-flex justify-content-start gap-3 align-items-center">
-                                    <div>
-                                        <div class="bg-primary testimonial-profile mb-0">R</div>
-                                    </div>
-                                    <div>
-                                        <h5 class="mb-0 testimonial-client-name">Rahul Doe</h5>
-                                        <div>
-                                            <span>25 feb 2025</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-center gap-2">
-                                    <div class="bg-primary d-flex align-items-center justify-content-center text-white"
-                                        style="width:20px; font-size: 14px; height:20px; border-radius:50%;">
-                                        <i class="fa-solid fa-check"></i>
-                                    </div>
-                                    <div style="color: #fadb53;">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                                <div class="position-absolute top-0 end-0 mt-3 me-3">
-                                    <img src="{{ asset('assets/images/download.png') }}" alt="">
-                                </div>
-                                <p class="mb-0 testimonial-client-review">One of the most skillfull Neurosurgeon in Mumbai
-                                    with
-                                    a very good clinical diagnosis, surgical
-                                    hand.
-                                    He is very hard working for patients well being. He gives more time to patients both in
-                                    OPD
-                                    as
-                                    well
-                                    as on rounds for admitted patients and explains regarding the disease, the surgical
-                                    procedure
-                                    needed, it's benefit and complications, outcomes in a very good way.</p>
-                            </div>
-
+                            <p class="mb-0 testimonial-client-review">A very humble and patient doctor. Dr. Keval calmly
+                                listens to the problems and explains the
+                                issues
+                                with accurate judgment and treatment suggestions. He knows how to put the patient at ease
+                                and
+                                deal
+                                with the case.
+                                Would definitely recommend for neuro care.</p>
                         </div>
+                        <div class="position-relative border p-3 d-flex justify-content-start gap-3 flex-column">
+                            <div class="d-flex justify-content-start gap-3 align-items-center">
+                                <div>
+                                    <div class="bg-warning testimonial-profile mb-0">K</div>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0 testimonial-client-name">Kinnari Thaker</h5>
+                                    <div>
+                                        <span>25 feb 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="bg-primary d-flex align-items-center justify-content-center text-white"
+                                    style="width:20px; font-size: 14px; height:20px; border-radius:50%;">
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                                <div style="color: #fadb53;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="position-absolute top-0 end-0 mt-3 me-3">
+                                <img src="{{ asset('assets/images/download.png') }}" alt="">
+                            </div>
+                            <p class="mb-0 testimonial-client-review">Dr. Keval Shukla is one of the most skilled doctor.
+                                His diagnosis is very accurate & treatment is very effective.
+                                He is humble and clam. Trust in your doctor is one of the vital steps of the healing
+                                process, which he earns very easily.</p>
+                        </div>
+                        <div class="position-relative border p-3 d-flex justify-content-start gap-3 flex-column">
+                            <div class="d-flex justify-content-start gap-3 align-items-center">
+                                <div>
+                                    <div class="bg-info testimonial-profile mb-0">S</div>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0 testimonial-client-name">Shankar Kadam</h5>
+                                    <div>
+                                        <span>25 feb 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="bg-primary d-flex align-items-center justify-content-center text-white"
+                                    style="width:20px; font-size: 14px; height:20px; border-radius:50%;">
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                                <div style="color: #fadb53;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="position-absolute top-0 end-0 mt-3 me-3">
+                                <img src="{{ asset('assets/images/download.png') }}" alt="">
+                            </div>
+                            <p class="mb-0 testimonial-client-review">Best Neurosurgen in Mumbai.
+                                Very humble.
+                                Good at his skill.
+                                Very professional.
+                                Best for patients.</p>
+                        </div>
+                        <div class="position-relative border p-3 d-flex justify-content-start gap-3 flex-column">
+                            <div class="d-flex justify-content-start gap-3 align-items-center">
+                                <div>
+                                    <div class="bg-primary testimonial-profile mb-0">R</div>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0 testimonial-client-name">Rahul Doe</h5>
+                                    <div>
+                                        <span>25 feb 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="bg-primary d-flex align-items-center justify-content-center text-white"
+                                    style="width:20px; font-size: 14px; height:20px; border-radius:50%;">
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                                <div style="color: #fadb53;">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="position-absolute top-0 end-0 mt-3 me-3">
+                                <img src="{{ asset('assets/images/download.png') }}" alt="">
+                            </div>
+                            <p class="mb-0 testimonial-client-review">One of the most skillfull Neurosurgeon in Mumbai with
+                                a very good clinical diagnosis, surgical
+                                hand.
+                                He is very hard working for patients well being. He gives more time to patients both in OPD
+                                as
+                                well
+                                as on rounds for admitted patients and explains regarding the disease, the surgical
+                                procedure
+                                needed, it's benefit and complications, outcomes in a very good way.</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+    
 
         <div class="why-chose-us bg-white-transparent">
 
             <div class="section-title container">
-                <h1>
+                <p>
                     FAQS
-                </h1>
+        </p>
             </div>
             <div class="container">
                 <div class=" row">

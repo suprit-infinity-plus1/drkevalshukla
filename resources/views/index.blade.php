@@ -4,6 +4,9 @@
 @section('meta_description',
     'Consult Dr. Keval Shukla, leading best neurosurgeon in Mumbai for brain, spine & minimally
     invasive surgery. Expert care, advanced treatments & faster recovery.')
+    @section('meta')
+    <link rel="canonical" href="https://drkevalshukla.com">
+@endsection
 @section('content')
 
     <div class="banner-container module">
@@ -297,7 +300,7 @@
                                 <img src="{{ asset('assets/images/help/services/brain-surgery.jpeg') }}"
                                     alt="Service Images" />
                                 <div class="service-detail hover-info">
-                                    <a href="{{ route('endoscopic-skull-base-surgery') }}" class="button primary">Know
+                                    <a href="{{ route('brain-surgery') }}" class="button primary">Know
                                         More</a>
                                 </div>
                             </div>
@@ -324,7 +327,7 @@
                             </div>
                             <div class="service-text hover-bottom">
                                 <h6>
-                                    <a href="{{ route('endoscopic-skull-base-surgery') }}"
+                                    <a href="{{ route('spine-surgery') }}"
                                         class="ellipsis-multiline-1">SPINE SURGERY</a>
                                 </h6>
                                 <p class="ellipsis-multiline-3">
@@ -541,9 +544,9 @@
     <div class="why-chose-us bg-white-transparent">
 
         <div class="section-title container">
-            <h1>
+            <p>
                 Why Choose Dr Keval Shukla
-            </h1>
+</p>
         </div>
         <div class="container">
             <div class=" row">
@@ -605,7 +608,7 @@
 
     </div>
 
-    <div class="testimonials grey-bg module mb-0">
+    <!-- <div class="testimonials grey-bg module mb-0">
         <div class="section-title-second">
             <h2>Awesome Reviews</h2>
             <p>What our customers say about us</p>
@@ -646,7 +649,6 @@
                 </div>
 
                 <div class="testimonial-text">
-                    {{-- <img src="{{ asset('assets/images/help/testimonial-1.png') }}" alt="" /> --}}
                     <div class="testimonial-profile" style="background-color: rgb(151 194 193);">
                         S
                     </div>
@@ -661,7 +663,6 @@
                 </div>
 
                 <div class="testimonial-text">
-                    {{-- <img src="{{ asset('assets/images/help/testimonial-1.png') }}" alt="" /> --}}
                     <div class="testimonial-profile" style="background-color: rgb(15 157 138);">
                         R
                     </div>
@@ -679,13 +680,17 @@
             </div>
 
         </div>
-    </div>
+    </div> -->
 
-    <section class="bg-white-transparent pb-0">
+    <section class="bg-white-transparent pb-0 pt-0">
+        <div class="section-title-second">
+            <h2>What People Say</h2>
+            <p>Real feedback from our valued customers</p>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 col-md-3 mb-3 mb-md-0">
-                    <h3 class="">Exellent</h3>
+                    <h3 class="">Excellent</h3>
                     <div style="color: #fadb53;">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -852,9 +857,9 @@
 
     <div class="why-chose-us bg-white-transparent">
         <div class="section-title container">
-            <h1>
+            <p>
                 Faqs
-            </h1>
+</p>
         </div>
         <div class="container">
             <div class=" row">

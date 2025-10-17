@@ -193,7 +193,7 @@
                                         <li><a class="dropdown-item" href="{{ route('spine-surgery') }}">Spine
                                                 Surgery</a>
                                         </li>
-                                        <li><a class="dropdown-item" href="{{ route('spine-surgery') }}">Brain
+                                        <li><a class="dropdown-item" href="{{ route('brain-surgery') }}">Brain
                                                 Surgery</a>
                                         </li>
                                     </ul>

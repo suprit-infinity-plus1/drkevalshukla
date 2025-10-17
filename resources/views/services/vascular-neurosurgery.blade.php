@@ -97,7 +97,7 @@
                         </div><!-- News Img /-->
 
                         <div class="section-title container p-0 mb-2">
-                            <h1>TRUSTED VASCULAR NEUROSURGEON IN MUMBAI – DR. KEVAL SHUKLA</h1>
+                            <p>TRUSTED VASCULAR NEUROSURGEON IN MUMBAI – DR. KEVAL SHUKLA</p>
                         </div>
                         <div class="service-text">
                             <p>If you’re looking for a vascular neurosurgeon in Mumbai, Dr. Keval Shukla provides advanced
@@ -538,10 +538,14 @@
         </div>
 
         <section class="bg-white-transparent pb-0">
+        <div class="section-title-second">
+            <h2>What People Say</h2>
+            <p>Real feedback from our valued customers</p>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 col-md-3 mb-3 mb-md-0">
-                    <h3 class="">Exellent</h3>
+                    <h3 class="">Excellent</h3>
                     <div style="color: #fadb53;">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -703,12 +707,13 @@
             </div>
         </div>
     </section>
+    
         <div class="why-chose-us bg-white-transparent">
 
             <div class="section-title container">
-                <h1>
+                <p>
                     FAQS
-                </h1>
+        </p>
             </div>
             <div class="container">
                 <div class=" row">

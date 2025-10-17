@@ -29,7 +29,7 @@ Route::get('/minimally-invasive-spine-surgeries', [MainController::class, 'minim
 Route::get('/neuro-oncology-surgery', [MainController::class, 'neuroOncology'])->name('neuro-oncology');
 Route::get('/neuro-trauma-surgery', [MainController::class, 'neuroTrauma'])->name('neuro-trauma');
 // Route::get('/vascular-neurosurgery', [MainController::class, 'vascularNeurosurgery'])->name('vascular-neurosurgery');
-Route::get('/vascular-neurosurgeon-in-mumbai', [MainController::class, 'vascularNeurosurgery'])->name('vascular-neurosurgery');
+Route::get('/Vascular-neurosurgeon-in-mumbai', [MainController::class, 'vascularNeurosurgery'])->name('vascular-neurosurgery');
 Route::get('/epilepsy-surgery-in-mumbai', [MainController::class, 'epilepsySurgery'])->name('epilepsy-surgery');
 Route::get('/endoscopic-skull-base-surgery', [MainController::class, 'endoscopicSkullBaseSurgery'])->name('endoscopic-skull-base-surgery');
 Route::get('/spine-surgery-in-mumbai', [MainController::class, 'spineSurgery'])->name('spine-surgery');
