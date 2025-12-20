@@ -1,12 +1,8 @@
 @extends('layouts.master')
 @section('title', 'Best Neurosurgeon in Mumbai | Dr. Keval Shukla')
 @section('meta_keywords', 'best neurosurgeon in mumbai')
-@section('meta_description',
-    'Consult Dr. Keval Shukla, leading best neurosurgeon in Mumbai for brain, spine & minimally
+@section('meta_description', 'Consult Dr. Keval Shukla, leading best neurosurgeon in Mumbai for brain, spine & minimally
     invasive surgery. Expert care, advanced treatments & faster recovery.')
-    @section('meta')
-    <link rel="canonical" href="https://drkevalshukla.com">
-@endsection
 @section('content')
 
     <div class="banner-container module">
@@ -300,7 +296,7 @@
                                 <img src="{{ asset('assets/images/help/services/brain-surgery.jpeg') }}"
                                     alt="Service Images" />
                                 <div class="service-detail hover-info">
-                                    <a href="{{ route('brain-surgery') }}" class="button primary">Know
+                                    <a href="{{ route('endoscopic-skull-base-surgery') }}" class="button primary">Know
                                         More</a>
                                 </div>
                             </div>
@@ -327,7 +323,7 @@
                             </div>
                             <div class="service-text hover-bottom">
                                 <h6>
-                                    <a href="{{ route('spine-surgery') }}"
+                                    <a href="{{ route('endoscopic-skull-base-surgery') }}"
                                         class="ellipsis-multiline-1">SPINE SURGERY</a>
                                 </h6>
                                 <p class="ellipsis-multiline-3">
@@ -348,7 +344,7 @@
 
 
     <!-- =================Service Card=================== -->
-    {{--
+{{--
     <div class="container bg-white-transparent">
         <div class="section-title container">
             <h2>Specialities</h2>
@@ -544,9 +540,9 @@
     <div class="why-chose-us bg-white-transparent">
 
         <div class="section-title container">
-            <p>
+            <h1>
                 Why Choose Dr Keval Shukla
-</p>
+            </h1>
         </div>
         <div class="container">
             <div class=" row">
@@ -608,445 +604,426 @@
 
     </div>
 
-    <!-- <div class="testimonials grey-bg module mb-0">
-        <div class="section-title-second">
-            <h2>Awesome Reviews</h2>
-            <p>What our customers say about us</p>
-        </div>
+    <div class="testimonials grey-bg module mb-0">
 
-        <div class="grid-container grid-x grid-padding-x">
+        <div class="testimonials grey-bg module">
 
-            <div class="testimonial-slid owl-carousel owl-theme">
+            <div class="section-title-second">
+                <h2>Awesome Reviews</h2>
+                <p>What our customers say about us</p>
+            </div>
 
-                <div class="testimonial-text">
-                    <div class="testimonial-profile" style="background-color: rgb(243 77 29);">
-                        K
+            <div class="grid-container grid-x grid-padding-x">
+
+                <div class="testimonial-slid owl-carousel owl-theme">
+
+                    <div class="testimonial-text">
+                        {{-- <img src="{{ asset('assets/images/help/testimonial-1.png') }}" alt="" /> --}}
+                        <div class="testimonial-profile" style="background-color: rgb(243 77 29);">
+                            K
+                        </div>
+                        <p>
+                            A very humble and patient doctor. Dr. Keval calmly listens to the problems and explains the
+                            issues
+                            with accurate judgment and treatment suggestions. He knows how to put the patient at ease and
+                            deal
+                            with the case.
+                            Would definitely recommend for neuro care.
+                        </p>
+                        <h6>Kamlesh Shah - <span>Google Ads</span></h6>
                     </div>
-                    <p>
-                        A very humble and patient doctor. Dr. Keval calmly listens to the problems and explains the
-                        issues
-                        with accurate judgment and treatment suggestions. He knows how to put the patient at ease and
-                        deal
-                        with the case.
-                        Would definitely recommend for neuro care.
-                    </p>
-                    <h6>Kamlesh Shah - <span>Google Ads</span></h6>
-                </div>
 
-                <div class="testimonial-text">
-                    <div class="testimonial-profile" style="background-color: rgb(120 27 161);">
-                        K
+                    <div class="testimonial-text">
+                        {{-- <img src="{{ asset('assets/images/help/testimonial-2.png') }}" alt="" /> --}}
+                        <div class="testimonial-profile" style="background-color: rgb(120 27 161);">
+                            K
+                        </div>
+                        <p>
+                            Dr. Keval Shukla is one of the most skilled doctor. His diagnosis is very accurate & treatment
+                            is
+                            very effective.
+                            He is humble and clam. Trust in your doctor is one of the vital steps of the healing process,
+                            which
+                            he earns very easily.
+                        </p>
+                        <h6>Kinnari Thaker - <span>Google Ads</span></h6>
                     </div>
-                    <p>
-                        Dr. Keval Shukla is one of the most skilled doctor. His diagnosis is very accurate & treatment
-                        is
-                        very effective.
-                        He is humble and clam. Trust in your doctor is one of the vital steps of the healing process,
-                        which
-                        he earns very easily.
-                    </p>
-                    <h6>Kinnari Thaker - <span>Google Ads</span></h6>
-                </div>
 
-                <div class="testimonial-text">
-                    <div class="testimonial-profile" style="background-color: rgb(151 194 193);">
-                        S
+                    <div class="testimonial-text">
+                        {{-- <img src="{{ asset('assets/images/help/testimonial-1.png') }}" alt="" /> --}}
+                        <div class="testimonial-profile" style="background-color: rgb(151 194 193);">
+                            S
+                        </div>
+                        <p>
+                            Best Neurosurgen in Mumbai.
+                            Very humble.
+                            Good at his skill.
+                            Very professional.
+                            Best for patients.
+                        </p>
+                        <h6>Shankar Kadam - <span>Google Ads</span></h6>
                     </div>
-                    <p>
-                        Best Neurosurgen in Mumbai.
-                        Very humble.
-                        Good at his skill.
-                        Very professional.
-                        Best for patients.
-                    </p>
-                    <h6>Shankar Kadam - <span>Google Ads</span></h6>
-                </div>
 
-                <div class="testimonial-text">
-                    <div class="testimonial-profile" style="background-color: rgb(15 157 138);">
-                        R
+                    <div class="testimonial-text">
+                        {{-- <img src="{{ asset('assets/images/help/testimonial-1.png') }}" alt="" /> --}}
+                        <div class="testimonial-profile" style="background-color: rgb(15 157 138);">
+                            R
+                        </div>
+                        <p>
+                            One of the most skillfull Neurosurgeon in Mumbai with a very good clinical diagnosis, surgical
+                            hand.
+                            He is very hard working for patients well being. He gives more time to patients both in OPD as
+                            well
+                            as on rounds for admitted patients and explains regarding the disease, the surgical procedure
+                            needed, it's benefit and complications, outcomes in a very good way.
+                        </p>
+                        <h6>Rahul Doe - <span>Google Ads</span></h6>
                     </div>
-                    <p>
-                        One of the most skillfull Neurosurgeon in Mumbai with a very good clinical diagnosis, surgical
-                        hand.
-                        He is very hard working for patients well being. He gives more time to patients both in OPD as
-                        well
-                        as on rounds for admitted patients and explains regarding the disease, the surgical procedure
-                        needed, it's benefit and complications, outcomes in a very good way.
-                    </p>
-                    <h6>Rahul Doe - <span>Google Ads</span></h6>
+
                 </div>
 
             </div>
 
         </div>
-    </div> -->
 
-    <section class="bg-white-transparent pb-0 pt-0">
-        <div class="section-title-second">
-            <h2>What People Say</h2>
-            <p>Real feedback from our valued customers</p>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 col-md-3 mb-3 mb-md-0">
-                    <h3 class="">Excellent</h3>
-                    <div style="color: #fadb53;">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+
+        <section class="bg-danger text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 col-md-3">
+                        <h3 class="text-white">Exellent</h3>
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
                     </div>
-                    <p>Patient voices that celebrate trust, comfort, and beautiful outcomes.</p>
-                    <img style="width:100px"  src="{{ asset('assets/images/google-logo.png') }}" alt="">
-                </div>
-                <div class="col-sm-7 col-md-9">
-                    {{-- review --}}
-                    <div id="testimonial-slider" class="owl-carousel owl-theme position-relative">
-                        <div class="position-relative border p-3 d-flex justify-content-start gap-3 flex-column">
-                            <div class="d-flex justify-content-start gap-3 align-items-center">
-                                <div>
-                                    <div class="bg-danger testimonial-profile mb-0">K</div>
+                    <div class="col-sm-7 col-md-9">
+
+                        <div id="testimonial-slider" class="owl-carousel owl-theme">
+
+                            <div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <div class="bg-primary">R</div>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-white">hello man</h3>
+                                        <div>
+                                            <span>25 feb 2025</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <i class="fa-solid fa-check"></i>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
                                 </div>
                                 <div>
-                                    <h5 class="mb-0 testimonial-client-name">Kamlesh Shah</h5>
+                                    <img src="{{ asset('assets/images/download.png') }}" alt="">
+                                </div>
+                                <p class="text-white">its google review</p>
+                            </div>
+
+                            <div>
+                                <div class="d-flex justify-content-between align-items-center">
                                     <div>
-                                        <span>25 feb 2025</span>
+                                        <div class="bg-primary">R</div>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-white">hello man</h3>
+                                        <div>
+                                            <span>25 feb 2025</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <i class="fa-solid fa-check"></i>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="{{ asset('assets/images/download.png') }}" alt="">
+                                </div>
+                                <p class="text-white">its google review</p>
+                            </div>
+
+                            <div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <div class="bg-primary">R</div>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-white">hello man</h3>
+                                        <div>
+                                            <span>25 feb 2025</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <i class="fa-solid fa-check"></i>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="{{ asset('assets/images/download.png') }}" alt="">
+                                </div>
+                                <p class="text-white">its google review</p>
+                            </div>
+                         
+                            <div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <div class="bg-primary">R</div>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-white">hello man</h3>
+                                        <div>
+                                            <span>25 feb 2025</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <i class="fa-solid fa-check"></i>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="{{ asset('assets/images/download.png') }}" alt="">
+                                </div>
+                                <p class="text-white">its google review</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div class="why-chose-us bg-white-transparent">
+            <div class="section-title container">
+                <h1>
+                    Faqs
+                </h1>
+            </div>
+            <div class="container">
+                <div class=" row">
+                    <div class="col-lg-8 col-12">
+                        <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true"
+                            data-deep-link-smudge="500" id="deeplinked-accordion">
+                            <li class="accordion-item border-0 is-active" data-accordion-item>
+                                <a href="#" class="accordion-title">Do I need to make an appointment with the best
+                                    neurosurgeon in Mumbai?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink1">
+                                    Yes, it is recommended to book an appointment before visiting. You can call the clinic
+                                    or
+                                    fill the online form to consult the best neurosurgeon in Mumbai without delays.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0" data-accordion-item>
+                                <a href="#" class="accordion-title">Do you provide 24/7 emergency neurosurgical
+                                    care?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink1">
+                                    Yes. Emergency neurosurgical care is available for conditions like head trauma, brain
+                                    injury, or spine accidents. Immediate consultation with the best neurosurgeon in Mumbai
+                                    can
+                                    save lives.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0" data-accordion-item>
+                                <a href="#" class="accordion-title">What are the specializations of Dr. Keval
+                                    Shukla?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink2">
+                                    Dr. Keval Shukla specializes in brain tumor surgery, spine surgery, minimally invasive
+                                    neurosurgery, disc replacement, and trauma management, making him one of the most
+                                    trusted
+                                    neurosurgeons in Mumbai.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0" data-accordion-item>
+                                <a href="#" class="accordion-title"> When should I visit a neurosurgeon in
+                                    Mumbai?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink3">
+                                    If you experience persistent headaches, seizures, back or neck pain, sudden weakness,
+                                    loss
+                                    of sensation, or trauma-related injuries, you should consult a best neurosurgeon in
+                                    Mumbai
+                                    immediately.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0 " data-accordion-item>
+                                <a href="#" class="accordion-title">What is the role of a neurosurgeon?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink4">
+                                    A neurosurgeon diagnoses and treats disorders of the brain, spine, and nervous system.
+                                    The
+                                    best neurosurgeon in Mumbai ensures both surgical and non-surgical care tailored to
+                                    patient
+                                    needs.
+                                </div>
+                            </li>
+                            <li class="accordion-item border-0 " data-accordion-item>
+                                <a href="#" class="accordion-title">What recovery time should I expect after
+                                    neurosurgery?</a>
+                                <div class="accordion-content" data-tab-content id="deeplink4">
+                                    Recovery depends on the type of surgery, patient health, and procedure complexity. With
+                                    advanced minimally invasive techniques, recovery is usually faster in Mumbai hospitals.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 d-sm-none d-lg-block">
+                        <img src="{{ asset('assets/images/help/dekevalshukla-img2.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="form-section module dark-bg grey-bg">
+            <div class="grid-container grid-x grid-padding-x">
+                <div class="large-6 medium-8 small-12 large-offset-3 medium-offset-2 cell">
+                    <div class="form">
+                        <h2>Contact Us</h2>
+                        <p>Want to book an appointment with us? Fill up the form below to get appointment.</p>
+                        <form action="{{ route('contact.submit') }}" method="POST">
+                            @csrf
+                            <input type="text" name="name" class="form-control mb-3" placeholder="Full Name"
+                                required>
+
+                            {{-- <input type="email" name="email" class="form-control mb-3" placeholder="Email Address"> --}}
+
+                            <input type="text" name="phone" class="form-control mb-3" placeholder="Phone Number"
+                                required>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <select name="gender" id="gender" class="form-control mb-3">
+                                        <option value="" selected disabled>Gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="number" name="age" class="form-control mb-3" placeholder="Age">
+                                </div>
+                            </div>
+
+                            <!-- Appointment Date & Time -->
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="date" name="appointment_date" class="form-control mb-3"
+                                        placeholder="Select Date">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="time" name="appointment_time" class="form-control mb-3"
+                                        placeholder="Select Time">
+                                </div>
+                            </div>
+
+                            <textarea name="message" class="form-control mb-3" rows="3" placeholder="Problem in Brief" required></textarea>
+
+                            <input type="hidden" name="form_type" value="appointment_form">
+
+                            <button type="submit" class="button secondary button-second">Send Message</button>
+                        </form>
+
+                    </div><!-- Form/-->
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Form Section /-->
+
+        <div class="blog-section pb-5">
+
+            <div class="container">
+                <div class="section-title mb-5">
+                    <h2>Our Blogs</h2>
+                    <p>Our latest blog updates for the week.</p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Blog Card 1 -->
+                    @foreach ($latestBlog as $blog)
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <img src="{{ asset($blog->cover_image) }}" class="card-img-top" alt="Product Img">
+                                <div class="card-body">
+                                    <h6 class="card-title blog-title">
+                                        <a href="{{ route('blog', $blog->blog_url) }}"
+                                            class="text-decoration-none text-dark">
+                                            {{ str($blog->title)->limit(20) }}
+                                        </a>
+                                    </h6>
+                                    <div class="blog-description-wrapper">
+                                        <p class="blog-description">
+                                            {{-- {!! $blog->description !!} --}}
+                                            {{ str(strip_tags($blog->description))->limit(130) }}
+
+                                        </p>
+                                        <a href="{{ route('blog', $blog->blog_url) }}" class="blog-readmore">Read
+                                            More</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="d-flex align-items-center gap-2">
-                                <div class="bg-primary d-flex align-items-center justify-content-center text-white"
-                                    style="width:20px; font-size: 14px; height:20px; border-radius:50%;">
-                                    <i class="fa-solid fa-check"></i>
-                                </div>
-                                <div style="color: #fadb53;">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="position-absolute top-0 end-0 mt-3 me-3">
-                                <img src="{{ asset('assets/images/download.png') }}" alt="">
-                            </div>
-                            <p class="mb-0 testimonial-client-review">A very humble and patient doctor. Dr. Keval calmly
-                                listens to the problems and explains the
-                                issues
-                                with accurate judgment and treatment suggestions. He knows how to put the patient at ease
-                                and
-                                deal
-                                with the case.
-                                Would definitely recommend for neuro care.</p>
                         </div>
-                        <div class="position-relative border p-3 d-flex justify-content-start gap-3 flex-column">
-                            <div class="d-flex justify-content-start gap-3 align-items-center">
-                                <div>
-                                    <div class="bg-warning testimonial-profile mb-0">K</div>
-                                </div>
-                                <div>
-                                    <h5 class="mb-0 testimonial-client-name">Kinnari Thaker</h5>
-                                    <div>
-                                        <span>25 feb 2025</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-2">
-                                <div class="bg-primary d-flex align-items-center justify-content-center text-white"
-                                    style="width:20px; font-size: 14px; height:20px; border-radius:50%;">
-                                    <i class="fa-solid fa-check"></i>
-                                </div>
-                                <div style="color: #fadb53;">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="position-absolute top-0 end-0 mt-3 me-3">
-                                <img src="{{ asset('assets/images/download.png') }}" alt="">
-                            </div>
-                            <p class="mb-0 testimonial-client-review">Dr. Keval Shukla is one of the most skilled doctor.
-                                His diagnosis is very accurate & treatment is very effective.
-                                He is humble and clam. Trust in your doctor is one of the vital steps of the healing
-                                process, which he earns very easily.</p>
-                        </div>
-                        <div class="position-relative border p-3 d-flex justify-content-start gap-3 flex-column">
-                            <div class="d-flex justify-content-start gap-3 align-items-center">
-                                <div>
-                                    <div class="bg-info testimonial-profile mb-0">S</div>
-                                </div>
-                                <div>
-                                    <h5 class="mb-0 testimonial-client-name">Shankar Kadam</h5>
-                                    <div>
-                                        <span>25 feb 2025</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-2">
-                                <div class="bg-primary d-flex align-items-center justify-content-center text-white"
-                                    style="width:20px; font-size: 14px; height:20px; border-radius:50%;">
-                                    <i class="fa-solid fa-check"></i>
-                                </div>
-                                <div style="color: #fadb53;">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="position-absolute top-0 end-0 mt-3 me-3">
-                                <img src="{{ asset('assets/images/download.png') }}" alt="">
-                            </div>
-                            <p class="mb-0 testimonial-client-review">Best Neurosurgen in Mumbai.
-                                Very humble.
-                                Good at his skill.
-                                Very professional.
-                                Best for patients.</p>
-                        </div>
-                        <div class="position-relative border p-3 d-flex justify-content-start gap-3 flex-column">
-                            <div class="d-flex justify-content-start gap-3 align-items-center">
-                                <div>
-                                    <div class="bg-primary testimonial-profile mb-0">R</div>
-                                </div>
-                                <div>
-                                    <h5 class="mb-0 testimonial-client-name">Rahul Doe</h5>
-                                    <div>
-                                        <span>25 feb 2025</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center gap-2">
-                                <div class="bg-primary d-flex align-items-center justify-content-center text-white"
-                                    style="width:20px; font-size: 14px; height:20px; border-radius:50%;">
-                                    <i class="fa-solid fa-check"></i>
-                                </div>
-                                <div style="color: #fadb53;">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="position-absolute top-0 end-0 mt-3 me-3">
-                                <img src="{{ asset('assets/images/download.png') }}" alt="">
-                            </div>
-                            <p class="mb-0 testimonial-client-review">One of the most skillfull Neurosurgeon in Mumbai with
-                                a very good clinical diagnosis, surgical
-                                hand.
-                                He is very hard working for patients well being. He gives more time to patients both in OPD
-                                as
-                                well
-                                as on rounds for admitted patients and explains regarding the disease, the surgical
-                                procedure
-                                needed, it's benefit and complications, outcomes in a very good way.</p>
-                        </div>
-
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>
-    </section>
+    @endsection
+    @section('extrajs')
+        <script>
+            $(document).ready(function() {});
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.6.2/countUp.umd.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                document.querySelectorAll('.count').forEach(function(el) {
+                    const target = parseInt(el.getAttribute('data-count'));
+                    const counter = new countUp.CountUp(el, target, {
+                        duration: 2,
+                        suffix: '+'
+                    });
 
-
-
-    <div class="why-chose-us bg-white-transparent">
-        <div class="section-title container">
-            <p>
-                Faqs
-</p>
-        </div>
-        <div class="container">
-            <div class=" row">
-                <div class="col-lg-8 col-12">
-                    <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true"
-                        data-deep-link-smudge="500" id="deeplinked-accordion">
-                        <li class="accordion-item border-0 is-active" data-accordion-item>
-                            <a href="#" class="accordion-title">Do I need to make an appointment with the best
-                                neurosurgeon in Mumbai?</a>
-                            <div class="accordion-content" data-tab-content id="deeplink1">
-                                Yes, it is recommended to book an appointment before visiting. You can call the clinic
-                                or
-                                fill the online form to consult the best neurosurgeon in Mumbai without delays.
-                            </div>
-                        </li>
-                        <li class="accordion-item border-0" data-accordion-item>
-                            <a href="#" class="accordion-title">Do you provide 24/7 emergency neurosurgical
-                                care?</a>
-                            <div class="accordion-content" data-tab-content id="deeplink1">
-                                Yes. Emergency neurosurgical care is available for conditions like head trauma, brain
-                                injury, or spine accidents. Immediate consultation with the best neurosurgeon in Mumbai
-                                can
-                                save lives.
-                            </div>
-                        </li>
-                        <li class="accordion-item border-0" data-accordion-item>
-                            <a href="#" class="accordion-title">What are the specializations of Dr. Keval
-                                Shukla?</a>
-                            <div class="accordion-content" data-tab-content id="deeplink2">
-                                Dr. Keval Shukla specializes in brain tumor surgery, spine surgery, minimally invasive
-                                neurosurgery, disc replacement, and trauma management, making him one of the most
-                                trusted
-                                neurosurgeons in Mumbai.
-                            </div>
-                        </li>
-                        <li class="accordion-item border-0" data-accordion-item>
-                            <a href="#" class="accordion-title"> When should I visit a neurosurgeon in
-                                Mumbai?</a>
-                            <div class="accordion-content" data-tab-content id="deeplink3">
-                                If you experience persistent headaches, seizures, back or neck pain, sudden weakness,
-                                loss
-                                of sensation, or trauma-related injuries, you should consult a best neurosurgeon in
-                                Mumbai
-                                immediately.
-                            </div>
-                        </li>
-                        <li class="accordion-item border-0 " data-accordion-item>
-                            <a href="#" class="accordion-title">What is the role of a neurosurgeon?</a>
-                            <div class="accordion-content" data-tab-content id="deeplink4">
-                                A neurosurgeon diagnoses and treats disorders of the brain, spine, and nervous system.
-                                The
-                                best neurosurgeon in Mumbai ensures both surgical and non-surgical care tailored to
-                                patient
-                                needs.
-                            </div>
-                        </li>
-                        <li class="accordion-item border-0 " data-accordion-item>
-                            <a href="#" class="accordion-title">What recovery time should I expect after
-                                neurosurgery?</a>
-                            <div class="accordion-content" data-tab-content id="deeplink4">
-                                Recovery depends on the type of surgery, patient health, and procedure complexity. With
-                                advanced minimally invasive techniques, recovery is usually faster in Mumbai hospitals.
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 d-sm-none d-lg-block">
-                    <img src="{{ asset('assets/images/help/dekevalshukla-img2.png') }}" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="form-section module dark-bg grey-bg">
-        <div class="grid-container grid-x grid-padding-x">
-            <div class="large-6 medium-8 small-12 large-offset-3 medium-offset-2 cell">
-                <div class="form">
-                    <h2>Contact Us</h2>
-                    <p>Want to book an appointment with us? Fill up the form below to get appointment.</p>
-                    <form action="{{ route('contact.submit') }}" method="POST">
-                        @csrf
-                        <input type="text" name="name" class="form-control mb-3" placeholder="Full Name" required>
-
-                        {{-- <input type="email" name="email" class="form-control mb-3" placeholder="Email Address"> --}}
-
-                        <input type="text" name="phone" class="form-control mb-3" placeholder="Phone Number"
-                            required>
-
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <select name="gender" id="gender" class="form-control mb-3">
-                                    <option value="" selected disabled>Gender</option>
-                                    <option value="male">Male</option>
-                                    <option value="female">Female</option>
-                                    <option value="other">Other</option>
-                                </select>
-                            </div>
-                            <div class="col-sm-6">
-                                <input type="number" name="age" class="form-control mb-3" placeholder="Age">
-                            </div>
-                        </div>
-
-                        <!-- Appointment Date & Time -->
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <input type="date" name="appointment_date" class="form-control mb-3"
-                                    placeholder="Select Date">
-                            </div>
-                            <div class="col-sm-6">
-                                <input type="time" name="appointment_time" class="form-control mb-3"
-                                    placeholder="Select Time">
-                            </div>
-                        </div>
-
-                        <textarea name="message" class="form-control mb-3" rows="3" placeholder="Problem in Brief" required></textarea>
-
-                        <input type="hidden" name="form_type" value="appointment_form">
-
-                        <button type="submit" class="button secondary button-second">Send Message</button>
-                    </form>
-
-                </div><!-- Form/-->
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-    <!-- Form Section /-->
-
-    <div class="blog-section pb-5">
-
-        <div class="container">
-            <div class="section-title mb-5">
-                <h2>Our Blogs</h2>
-                <p>Our latest blog updates for the week.</p>
-            </div>
-
-            <div class="row g-4">
-                <!-- Blog Card 1 -->
-                @foreach ($latestBlog as $blog)
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card h-100 border-0 shadow-sm">
-                            <img src="{{ asset($blog->cover_image) }}" class="card-img-top" alt="Product Img">
-                            <div class="card-body">
-                                <h6 class="card-title blog-title">
-                                    <a href="{{ route('blog', $blog->blog_url) }}"
-                                        class="text-decoration-none text-dark">
-                                        {{ str($blog->title)->limit(20) }}
-                                    </a>
-                                </h6>
-                                <div class="blog-description-wrapper">
-                                    <p class="blog-description">
-                                        {{-- {!! $blog->description !!} --}}
-                                        {{ str(strip_tags($blog->description))->limit(130) }}
-
-                                    </p>
-                                    <a href="{{ route('blog', $blog->blog_url) }}" class="blog-readmore">Read
-                                        More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                @endforeach
-            </div>
-        </div>
-    </div>
-@endsection
-@section('extrajs')
-    <script>
-        $(document).ready(function() {});
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.6.2/countUp.umd.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            document.querySelectorAll('.count').forEach(function(el) {
-                const target = parseInt(el.getAttribute('data-count'));
-                const counter = new countUp.CountUp(el, target, {
-                    duration: 2,
-                    suffix: '+'
+                    if (!counter.error) {
+                        counter.start();
+                    } else {
+                        console.error(counter.error);
+                    }
                 });
-
-                if (!counter.error) {
-                    counter.start();
-                } else {
-                    console.error(counter.error);
-                }
             });
-        });
-    </script>
-@endsection
+        </script>
+    @endsection
