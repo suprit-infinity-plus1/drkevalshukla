@@ -4,8 +4,10 @@
 @section('meta_description',
     'Consult Dr. Keval Shukla, leading best neurosurgeon in Mumbai for brain, spine & minimally
     invasive surgery. Expert care, advanced treatments & faster recovery.')
-    @section('meta')
+@section('meta')
     <link rel="canonical" href="https://drkevalshukla.com">
+    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
 @endsection
 @section('content')
 
@@ -327,8 +329,7 @@
                             </div>
                             <div class="service-text hover-bottom">
                                 <h6>
-                                    <a href="{{ route('spine-surgery') }}"
-                                        class="ellipsis-multiline-1">SPINE SURGERY</a>
+                                    <a href="{{ route('spine-surgery') }}" class="ellipsis-multiline-1">SPINE SURGERY</a>
                                 </h6>
                                 <p class="ellipsis-multiline-3">
                                     Spine surgery is a specialized field focused on diagnosing and treating conditions
@@ -541,12 +542,80 @@
 
     </div>
 
+{{-- <div class="contain">
+  <div id="demo_carousel" class="owl-carousel owl-theme">
+    <div class="item">
+      1
+    </div>
+    <div class="item">
+      2
+    </div>
+    <div class="item">
+      3
+    </div>
+    <div class="item">
+      4
+    </div>
+    <div class="item">
+      5
+    </div>
+    <div class="item">
+      6
+    </div>
+  </div>
+</div> --}}
+<div class="contain ">
+  <div id="demo_carousel" class="owl-carousel owl-theme">
+
+    <div class="item">
+      <div class="video-card">
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/_Yj2np-KCIE?controls=1&rel=0&modestbranding=1"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <p class="video-title">Patient Testimonial</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="video-card">
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/w1-XmQDmft4?controls=1&rel=0&modestbranding=1"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <p class="video-title">Success Story</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="video-card">
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/eGhf13S4Dy8?controls=1&rel=0&modestbranding=1"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <p class="video-title">Brain & Spine Surgeon</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
     <div class="why-chose-us bg-white-transparent">
 
         <div class="section-title container">
             <p>
                 Why Choose Dr Keval Shukla
-</p>
+            </p>
         </div>
         <div class="container">
             <div class=" row">
@@ -609,78 +678,78 @@
     </div>
 
     <!-- <div class="testimonials grey-bg module mb-0">
-        <div class="section-title-second">
-            <h2>Awesome Reviews</h2>
-            <p>What our customers say about us</p>
-        </div>
+            <div class="section-title-second">
+                <h2>Awesome Reviews</h2>
+                <p>What our customers say about us</p>
+            </div>
 
-        <div class="grid-container grid-x grid-padding-x">
+            <div class="grid-container grid-x grid-padding-x">
 
-            <div class="testimonial-slid owl-carousel owl-theme">
+                <div class="testimonial-slid owl-carousel owl-theme">
 
-                <div class="testimonial-text">
-                    <div class="testimonial-profile" style="background-color: rgb(243 77 29);">
-                        K
+                    <div class="testimonial-text">
+                        <div class="testimonial-profile" style="background-color: rgb(243 77 29);">
+                            K
+                        </div>
+                        <p>
+                            A very humble and patient doctor. Dr. Keval calmly listens to the problems and explains the
+                            issues
+                            with accurate judgment and treatment suggestions. He knows how to put the patient at ease and
+                            deal
+                            with the case.
+                            Would definitely recommend for neuro care.
+                        </p>
+                        <h6>Kamlesh Shah - <span>Google Ads</span></h6>
                     </div>
-                    <p>
-                        A very humble and patient doctor. Dr. Keval calmly listens to the problems and explains the
-                        issues
-                        with accurate judgment and treatment suggestions. He knows how to put the patient at ease and
-                        deal
-                        with the case.
-                        Would definitely recommend for neuro care.
-                    </p>
-                    <h6>Kamlesh Shah - <span>Google Ads</span></h6>
-                </div>
 
-                <div class="testimonial-text">
-                    <div class="testimonial-profile" style="background-color: rgb(120 27 161);">
-                        K
+                    <div class="testimonial-text">
+                        <div class="testimonial-profile" style="background-color: rgb(120 27 161);">
+                            K
+                        </div>
+                        <p>
+                            Dr. Keval Shukla is one of the most skilled doctor. His diagnosis is very accurate & treatment
+                            is
+                            very effective.
+                            He is humble and clam. Trust in your doctor is one of the vital steps of the healing process,
+                            which
+                            he earns very easily.
+                        </p>
+                        <h6>Kinnari Thaker - <span>Google Ads</span></h6>
                     </div>
-                    <p>
-                        Dr. Keval Shukla is one of the most skilled doctor. His diagnosis is very accurate & treatment
-                        is
-                        very effective.
-                        He is humble and clam. Trust in your doctor is one of the vital steps of the healing process,
-                        which
-                        he earns very easily.
-                    </p>
-                    <h6>Kinnari Thaker - <span>Google Ads</span></h6>
-                </div>
 
-                <div class="testimonial-text">
-                    <div class="testimonial-profile" style="background-color: rgb(151 194 193);">
-                        S
+                    <div class="testimonial-text">
+                        <div class="testimonial-profile" style="background-color: rgb(151 194 193);">
+                            S
+                        </div>
+                        <p>
+                            Best Neurosurgen in Mumbai.
+                            Very humble.
+                            Good at his skill.
+                            Very professional.
+                            Best for patients.
+                        </p>
+                        <h6>Shankar Kadam - <span>Google Ads</span></h6>
                     </div>
-                    <p>
-                        Best Neurosurgen in Mumbai.
-                        Very humble.
-                        Good at his skill.
-                        Very professional.
-                        Best for patients.
-                    </p>
-                    <h6>Shankar Kadam - <span>Google Ads</span></h6>
-                </div>
 
-                <div class="testimonial-text">
-                    <div class="testimonial-profile" style="background-color: rgb(15 157 138);">
-                        R
+                    <div class="testimonial-text">
+                        <div class="testimonial-profile" style="background-color: rgb(15 157 138);">
+                            R
+                        </div>
+                        <p>
+                            One of the most skillfull Neurosurgeon in Mumbai with a very good clinical diagnosis, surgical
+                            hand.
+                            He is very hard working for patients well being. He gives more time to patients both in OPD as
+                            well
+                            as on rounds for admitted patients and explains regarding the disease, the surgical procedure
+                            needed, it's benefit and complications, outcomes in a very good way.
+                        </p>
+                        <h6>Rahul Doe - <span>Google Ads</span></h6>
                     </div>
-                    <p>
-                        One of the most skillfull Neurosurgeon in Mumbai with a very good clinical diagnosis, surgical
-                        hand.
-                        He is very hard working for patients well being. He gives more time to patients both in OPD as
-                        well
-                        as on rounds for admitted patients and explains regarding the disease, the surgical procedure
-                        needed, it's benefit and complications, outcomes in a very good way.
-                    </p>
-                    <h6>Rahul Doe - <span>Google Ads</span></h6>
+
                 </div>
 
             </div>
-
-        </div>
-    </div> -->
+        </div> -->
 
     <section class="bg-white-transparent pb-0 pt-0">
         <div class="section-title-second">
@@ -699,7 +768,7 @@
                         <i class="fa-solid fa-star"></i>
                     </div>
                     <p>Patient voices that celebrate trust, comfort, and beautiful outcomes.</p>
-                    <img style="width:100px"  src="{{ asset('assets/images/google-logo.png') }}" alt="">
+                    <img style="width:100px" src="{{ asset('assets/images/google-logo.png') }}" alt="">
                 </div>
                 <div class="col-sm-7 col-md-9">
                     {{-- review --}}
@@ -859,7 +928,7 @@
         <div class="section-title container">
             <p>
                 Faqs
-</p>
+            </p>
         </div>
         <div class="container">
             <div class=" row">
@@ -1026,8 +1095,10 @@
             </div>
         </div>
     </div>
-@endsection
+@endsection 
 @section('extrajs')
+{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
     <script>
         $(document).ready(function() {});
     </script>

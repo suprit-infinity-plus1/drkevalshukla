@@ -126,6 +126,24 @@ console.log("hello man");
             },
         },
     });
+ $(document).ready(function(){
+  $("#demo_carousel").owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: true,
+    dots: true,
+
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+
+    responsive:{
+      0:{ items:1 },
+      768:{ items:2 },
+      1024:{ items:3 }
+    }
+  });
+});
 
     //Our Partners Crousel
     $(".partners").owlCarousel({
@@ -236,3 +254,19 @@ document.onkeydown = function (e) {
         return true;
     }
 };
+
+$('#owl-carousel').owlCarousel({
+    loop: false,
+    margin: 30,
+    dots: true,
+    nav: true,
+  
+    rewind: true,
+autoplay:true,	
+    	autoplayTimeout:2000,
+    	autoplayHoverPause:true,
+
+})
+$(document).ready(function(){
+  
+});
