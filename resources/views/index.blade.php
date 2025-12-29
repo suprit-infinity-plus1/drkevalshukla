@@ -602,6 +602,18 @@
         <p class="video-title">Brain & Spine Surgeon</p>
       </div>
     </div>
+    <div class="item">
+      <div class="video-card">
+        <div class="video-wrapper">
+          {{-- <iframe 
+            src="https://www.youtube.com/embed/eGhf13S4Dy8?controls=1&rel=0&modestbranding=1"
+            allowfullscreen>
+          </iframe> --}}
+          <iframe height="500" src="https://www.youtube.com/embed/eGhf13S4Dy8?si=aJQ5wuooIFBabPEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <p class="video-title">Brain & Spine Surgeon</p>
+      </div>
+    </div>
 
   </div>
 </div>

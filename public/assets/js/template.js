@@ -132,6 +132,7 @@ console.log("hello man");
     margin: 20,
     nav: true,
     dots: true,
+    
 
     autoplay: true,
     autoplayTimeout: 3000,
@@ -140,7 +141,7 @@ console.log("hello man");
     responsive:{
       0:{ items:1 },
       768:{ items:2 },
-      1024:{ items:3 }
+      1024:{ items:4 }
     }
   });
 });
