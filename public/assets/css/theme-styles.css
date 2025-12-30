@@ -3317,7 +3317,7 @@ body.box .banner-container .slide-text {
 }
 
 /* ===== THUMB CARD ===== */
-.yt-short-card{
+/* .yt-short-card{
   position:relative;
   padding-top:177%;
   background:#000;
@@ -3332,17 +3332,37 @@ body.box .banner-container .slide-text {
   width:100%;
   height:100%;
   object-fit:cover;
+} */
+
+.yt-short-card{
+  position: relative;
+  padding-top: 177%;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
 }
 
-.yt-short-card::after{
-  content:"▶";
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  font-size:42px;
-  color:#fb1b1b;
+/* Thumbnail */
+.yt-thumb{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+
+/* SHORTS ICON – CENTER & SMALL */
+.yt-shorts-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px !important;      /* 👈 chhota size */
+  height: auto;     /* ratio safe */
+  z-index: 10;
+  pointer-events: none;
+}
+
 
 /* ===== POPUP OVERLAY ===== */
 .yt-popup-overlay{

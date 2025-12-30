@@ -611,19 +611,22 @@
 <!-- ===== CAROUSEL ===== -->
 <div class="owl-carousel">
 
-  <div class="yt-short-card" data-video="_Yj2np-KCIE">
-    <img src="https://img.youtube.com/vi/_Yj2np-KCIE/hqdefault.jpg">
-    
-  </div>
-
   <div class="yt-short-card" data-video="w1-XmQDmft4">
-    <img src="https://img.youtube.com/vi/w1-XmQDmft4/hqdefault.jpg">
-  </div>
+  <img class="yt-thumb" src="https://img.youtube.com/vi/_Yj2np-KCIE/hqdefault.jpg">
 
-  <div class="yt-short-card" data-video="eGhf13S4Dy8">
-    <img src="https://img.youtube.com/vi/eGhf13S4Dy8/hqdefault.jpg">
-  </div>
+  <!-- YOUR SHORTS ICON IMAGE -->
+  <img class="yt-shorts-icon" src="assets/images/short.png" alt="YouTube Shorts">
+</div>
 
+ <div class="yt-short-card" data-video="w1-XmQDmft4">
+  <img class="yt-thumb" src="https://img.youtube.com/vi/w1-XmQDmft4/hqdefault.jpg">
+  <img class="yt-shorts-icon" src="assets/images/short.png" alt="YouTube Shorts">
+</div>
+
+<div class="yt-short-card" data-video="eGhf13S4Dy8">
+  <img class="yt-thumb" src="https://img.youtube.com/vi/eGhf13S4Dy8/hqdefault.jpg">
+  <img class="yt-shorts-icon" src="assets/images/short.png" alt="YouTube Shorts">
+</div>
 </div>
 
 <!-- ===== POPUP ===== -->
