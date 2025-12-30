@@ -564,7 +564,9 @@
     </div>
   </div>
 </div> --}}
-<div class="contain ">
+
+
+{{-- <div class="contain ">
   <div id="demo_carousel" class="owl-carousel owl-theme">
 
     <div class="item">
@@ -602,19 +604,33 @@
         <p class="video-title">Brain & Spine Surgeon</p>
       </div>
     </div>
-    <div class="item">
-      <div class="video-card">
-        <div class="video-wrapper">
-          {{-- <iframe 
-            src="https://www.youtube.com/embed/eGhf13S4Dy8?controls=1&rel=0&modestbranding=1"
-            allowfullscreen>
-          </iframe> --}}
-          <iframe height="500" src="https://www.youtube.com/embed/eGhf13S4Dy8?si=aJQ5wuooIFBabPEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <p class="video-title">Brain & Spine Surgeon</p>
-      </div>
-    </div>
 
+  </div>
+</div> --}}
+
+<!-- ===== CAROUSEL ===== -->
+<div class="owl-carousel">
+
+  <div class="yt-short-card" data-video="_Yj2np-KCIE">
+    <img src="https://img.youtube.com/vi/_Yj2np-KCIE/hqdefault.jpg">
+    
+  </div>
+
+  <div class="yt-short-card" data-video="w1-XmQDmft4">
+    <img src="https://img.youtube.com/vi/w1-XmQDmft4/hqdefault.jpg">
+  </div>
+
+  <div class="yt-short-card" data-video="eGhf13S4Dy8">
+    <img src="https://img.youtube.com/vi/eGhf13S4Dy8/hqdefault.jpg">
+  </div>
+
+</div>
+
+<!-- ===== POPUP ===== -->
+<div class="yt-popup-overlay" id="ytPopup">
+  <div class="yt-popup-box">
+    <span class="yt-close-btn">&times;</span>
+    <div class="yt-video-wrap" id="ytVideoWrap"></div>
   </div>
 </div>
 
