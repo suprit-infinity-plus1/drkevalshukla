@@ -73,18 +73,8 @@
         gtag('js', new Date());
 
         gtag('config', 'G-3TGX5NPBH2');
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3TGX5NPBH2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-3TGX5NPBH2');
+        // folowing given by client
+        gtag('config', 'G-0132YN70C5');
     </script>
 </head>
 

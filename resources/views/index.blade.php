@@ -542,69 +542,37 @@
 
     </div>
 
-{{-- <div class="contain">
-  <div id="demo_carousel" class="owl-carousel owl-theme">
-    <div class="item">
-      1
-    </div>
-    <div class="item">
-      2
-    </div>
-    <div class="item">
-      3
-    </div>
-    <div class="item">
-      4
-    </div>
-    <div class="item">
-      5
-    </div>
-    <div class="item">
-      6
-    </div>
-  </div>
-</div> --}}
-<div class="contain ">
-  <div id="demo_carousel" class="owl-carousel owl-theme">
 
-    <div class="item">
-      <div class="video-card">
-        <div class="video-wrapper">
-          <iframe 
-            src="https://www.youtube.com/embed/_Yj2np-KCIE?controls=1&rel=0&modestbranding=1"
-            allowfullscreen>
-          </iframe>
+
+
+    <!-- ===== CAROUSEL ===== -->
+    <div class="owl-carousel grey-bg">
+
+        <div class="yt-short-card" data-video="w1-XmQDmft4">
+            <img class="yt-thumb" src="https://img.youtube.com/vi/_Yj2np-KCIE/hqdefault.jpg">
+
+            <!-- YOUR SHORTS ICON IMAGE -->
+            <img class="yt-shorts-icon" src="assets/images/short.png" alt="YouTube Shorts">
         </div>
-        <p class="video-title">Patient Testimonial</p>
-      </div>
-    </div>
 
-    <div class="item">
-      <div class="video-card">
-        <div class="video-wrapper">
-          <iframe 
-            src="https://www.youtube.com/embed/w1-XmQDmft4?controls=1&rel=0&modestbranding=1"
-            allowfullscreen>
-          </iframe>
+        <div class="yt-short-card" data-video="w1-XmQDmft4">
+            <img class="yt-thumb" src="https://img.youtube.com/vi/w1-XmQDmft4/hqdefault.jpg">
+            <img class="yt-shorts-icon" src="assets/images/short.png" alt="YouTube Shorts">
         </div>
-        <p class="video-title">Success Story</p>
-      </div>
-    </div>
 
-    <div class="item">
-      <div class="video-card">
-        <div class="video-wrapper">
-          <iframe 
-            src="https://www.youtube.com/embed/eGhf13S4Dy8?controls=1&rel=0&modestbranding=1"
-            allowfullscreen>
-          </iframe>
+        <div class="yt-short-card" data-video="eGhf13S4Dy8">
+            <img class="yt-thumb" src="https://img.youtube.com/vi/eGhf13S4Dy8/hqdefault.jpg">
+            <img class="yt-shorts-icon" src="assets/images/short.png" alt="YouTube Shorts">
         </div>
-        <p class="video-title">Brain & Spine Surgeon</p>
-      </div>
     </div>
 
-  </div>
-</div>
+    <!-- ===== POPUP ===== -->
+    <div class="yt-popup-overlay" id="ytPopup">
+        <div class="yt-popup-box">
+            <span class="yt-close-btn">&times;</span>
+            <div class="yt-video-wrap" id="ytVideoWrap"></div>
+        </div>
+    </div>
 
 
 
@@ -675,81 +643,7 @@
         </div>
     </div>
 
-    </div>
 
-    <!-- <div class="testimonials grey-bg module mb-0">
-            <div class="section-title-second">
-                <h2>Awesome Reviews</h2>
-                <p>What our customers say about us</p>
-            </div>
-
-            <div class="grid-container grid-x grid-padding-x">
-
-                <div class="testimonial-slid owl-carousel owl-theme">
-
-                    <div class="testimonial-text">
-                        <div class="testimonial-profile" style="background-color: rgb(243 77 29);">
-                            K
-                        </div>
-                        <p>
-                            A very humble and patient doctor. Dr. Keval calmly listens to the problems and explains the
-                            issues
-                            with accurate judgment and treatment suggestions. He knows how to put the patient at ease and
-                            deal
-                            with the case.
-                            Would definitely recommend for neuro care.
-                        </p>
-                        <h6>Kamlesh Shah - <span>Google Ads</span></h6>
-                    </div>
-
-                    <div class="testimonial-text">
-                        <div class="testimonial-profile" style="background-color: rgb(120 27 161);">
-                            K
-                        </div>
-                        <p>
-                            Dr. Keval Shukla is one of the most skilled doctor. His diagnosis is very accurate & treatment
-                            is
-                            very effective.
-                            He is humble and clam. Trust in your doctor is one of the vital steps of the healing process,
-                            which
-                            he earns very easily.
-                        </p>
-                        <h6>Kinnari Thaker - <span>Google Ads</span></h6>
-                    </div>
-
-                    <div class="testimonial-text">
-                        <div class="testimonial-profile" style="background-color: rgb(151 194 193);">
-                            S
-                        </div>
-                        <p>
-                            Best Neurosurgen in Mumbai.
-                            Very humble.
-                            Good at his skill.
-                            Very professional.
-                            Best for patients.
-                        </p>
-                        <h6>Shankar Kadam - <span>Google Ads</span></h6>
-                    </div>
-
-                    <div class="testimonial-text">
-                        <div class="testimonial-profile" style="background-color: rgb(15 157 138);">
-                            R
-                        </div>
-                        <p>
-                            One of the most skillfull Neurosurgeon in Mumbai with a very good clinical diagnosis, surgical
-                            hand.
-                            He is very hard working for patients well being. He gives more time to patients both in OPD as
-                            well
-                            as on rounds for admitted patients and explains regarding the disease, the surgical procedure
-                            needed, it's benefit and complications, outcomes in a very good way.
-                        </p>
-                        <h6>Rahul Doe - <span>Google Ads</span></h6>
-                    </div>
-
-                </div>
-
-            </div>
-        </div> -->
 
     <section class="bg-white-transparent pb-0 pt-0">
         <div class="section-title-second">
@@ -1003,7 +897,7 @@
     </div>
 
 
-    <div class="form-section module dark-bg grey-bg">
+    <div class="form-section module dark-bg grey-bg mb-0">
         <div class="grid-container grid-x grid-padding-x">
             <div class="large-6 medium-8 small-12 large-offset-3 medium-offset-2 cell">
                 <div class="form">
@@ -1060,44 +954,44 @@
         </div>
     </div>
     <!-- Form Section /-->
+    @if ($latestBlog->count() > 0)
+        <div class="blog-section bg-white-transparent">
 
-    <div class="blog-section pb-5">
+            <div class="container">
+                <div class="section-title mb-5">
+                    <h2>Our Blogs</h2>
+                    <p>Our latest blog updates for the week.</p>
+                </div>
 
-        <div class="container">
-            <div class="section-title mb-5">
-                <h2>Our Blogs</h2>
-                <p>Our latest blog updates for the week.</p>
-            </div>
+                <div class="row g-4">
+                    <!-- Blog Card 1 -->
+                    @foreach ($latestBlog as $blog)
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <img src="{{ asset($blog->cover_image) }}" class="card-img-top" alt="Product Img">
+                                <div class="card-body">
+                                    <h6 class="card-title blog-title">
+                                        <a href="{{ route('blog', $blog->blog_url) }}"
+                                            class="text-decoration-none text-dark">
+                                            {{ str($blog->title)->limit(20) }}
+                                        </a>
+                                    </h6>
+                                    <div class="blog-description-wrapper">
+                                        <p class="blog-description">
+                                            {{-- {!! $blog->description !!} --}}
+                                            {{ str(strip_tags($blog->description))->limit(130) }}
 
-            <div class="row g-4">
-                <!-- Blog Card 1 -->
-                @foreach ($latestBlog as $blog)
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card h-100 border-0 shadow-sm">
-                            <img src="{{ asset($blog->cover_image) }}" class="card-img-top" alt="Product Img">
-                            <div class="card-body">
-                                <h6 class="card-title blog-title">
-                                    <a href="{{ route('blog', $blog->blog_url) }}"
-                                        class="text-decoration-none text-dark">
-                                        {{ str($blog->title)->limit(20) }}
-                                    </a>
-                                </h6>
-                                <div class="blog-description-wrapper">
-                                    <p class="blog-description">
-                                        {{-- {!! $blog->description !!} --}}
-                                        {{ str(strip_tags($blog->description))->limit(130) }}
-
-                                    </p>
-                                    <a href="{{ route('blog', $blog->blog_url) }}" class="blog-readmore">Read
-                                        More</a>
+                                        </p>
+                                        <a href="{{ route('blog', $blog->blog_url) }}" class="blog-readmore">Read
+                                            More</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                @endforeach
+                    @endforeach
+                </div>
             </div>
         </div>
-    </div>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
      @if (session('status') && session('msg'))
         <script>
@@ -1109,10 +1003,11 @@
             });
         </script>
     @endif
-@endsection 
+    @endif
+@endsection
 @section('extrajs')
 
-{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
     <script>
         $(document).ready(function() {});

@@ -126,23 +126,38 @@ console.log("hello man");
             },
         },
     });
- $(document).ready(function(){
-  $("#demo_carousel").owlCarousel({
-    loop: true,
-    margin: 20,
-    nav: true,
-    dots: true,
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  autoplay:true,
+  autoplayTimeout:3000,
+  autoplayHoverPause:true,
+  margin:15,
+  responsive:{
+    0:{items:1},
+    600:{items:2},
+    1000:{items:4}
+  }
+});
 
-    autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
+/* OPEN POPUP */
+$('.yt-short-card').on('click', function(){
+  const id = $(this).data('video');
 
-    responsive:{
-      0:{ items:1 },
-      768:{ items:2 },
-      1024:{ items:3 }
-    }
-  });
+  $('#ytVideoWrap').html(`
+    <iframe
+      src="https://www.youtube.com/embed/${id}?autoplay=1&mute=1&playsinline=1"
+      allow="autoplay; fullscreen"
+      allowfullscreen>
+    </iframe>
+  `);
+
+  $('#ytPopup').css('display','flex');
+});
+
+/* CLOSE POPUP */
+$('.yt-popup-overlay, .yt-close-btn').on('click', function(){
+  $('#ytPopup').hide();
+  $('#ytVideoWrap').html('');
 });
 
     //Our Partners Crousel
