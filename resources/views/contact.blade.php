@@ -93,9 +93,12 @@
                     <h4 class="fw-bold mb-4">Fill the form below to contact us</h4>
                     <form action="{{ route('contact.submit') }}" method="POST">
                         @csrf
-                        <input type="text" name="name" value="" placeholder="Full Name" required>
+                        <!-- Honeypot Anti-Bot Field -->
+                        <input type="text" name="website" style="display:none !important;" tabindex="-1"
+                            autocomplete="off">
+                        <input type="text" name="name" placeholder="Full Name" required>
                         {{-- <input type="email" value="" placeholder="Email Address"> --}}
-                        <input type="text" name="phone" value="" placeholder="Phone Number" required>
+                        <input type="text" name="phone" placeholder="Phone Number" required>
 
                         <textarea id="Reason" class="form-control" rows="3" name="message" placeholder="Message"></textarea>
                         <input type="hidden" name="form_type" value="simple_contact">

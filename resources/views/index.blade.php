@@ -1011,6 +1011,9 @@
                     <p>Want to book an appointment with us? Fill up the form below to get appointment.</p>
                     <form action="{{ route('contact.submit') }}" method="POST">
                         @csrf
+                        <!-- Honeypot Anti-Bot Field -->
+                        <input type="text" name="website" style="display:none !important;" tabindex="-1"
+                            autocomplete="off">
                         <input type="text" name="name" class="form-control mb-3" placeholder="Full Name" required>
 
                         {{-- <input type="email" name="email" class="form-control mb-3" placeholder="Email Address"> --}}
@@ -1095,8 +1098,20 @@
             </div>
         </div>
     </div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     @if (session('status') && session('msg'))
+        <script>
+            Swal.fire({
+                icon: "{{ session('status') === 'success' ? 'success' : 'error' }}",
+                title: "{{ session('status') === 'success' ? 'Success' : 'Error' }}",
+                text: "{{ session('msg') }}",
+                confirmButtonColor: "#1a73e8"
+            });
+        </script>
+    @endif
 @endsection 
 @section('extrajs')
+
 {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
     <script>

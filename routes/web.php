@@ -25,6 +25,8 @@ Route::get('/blog/open-brain-surgery', [MainController::class, 'blogOpenBrainSur
 
 Route::post('/contact', [MainController::class, 'submitContact'])->name('contact.submit');
 
+Route::get('/test-mail', [MainController::class, 'sendMail']);
+
 Route::get('/minimally-invasive-spine-surgeries', [MainController::class, 'minimallyInvasiveSpineSurgeries'])->name('minimally-invasive-spine-surgeries');
 Route::get('/neuro-oncology-surgery', [MainController::class, 'neuroOncology'])->name('neuro-oncology');
 Route::get('/neuro-trauma-surgery', [MainController::class, 'neuroTrauma'])->name('neuro-trauma');

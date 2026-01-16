@@ -33,10 +33,14 @@
                         <h2>Book an Appointment</h2>
                         <p>Want to book an appointment with us? Fill up the form below to get appointment.</p>
                         <div class="form-section appointment-form">
-                            <form action="">
-                                <input type="text" value="" placeholder="Full Name">
+                        <form action="{{ route('contact.submit') }}" method="POST">
+                        @csrf
+                        <!-- Honeypot Anti-Bot Field -->
+                        <input type="text" name="website" style="display:none !important;" tabindex="-1"
+                            autocomplete="off">
+                                <input type="text" name="name" value="" placeholder="Full Name">
                                 {{-- <input type="email" value="" placeholder="Email Address"> --}}
-                                <input type="text" value="" placeholder="Phone Number">
+                                <input type="text" name="phone"  placeholder="Phone Number">
 
                                 <div class="row">
                                     <div class="col-sm-6">
@@ -48,7 +52,7 @@
                                         </select>
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="number" value="" placeholder="Age">
+                                        <input type="number" name="age" placeholder="Age">
                                     </div>
                                 </div>
 
@@ -64,9 +68,11 @@
                                     </div>
                                 </div>
 
-                                <textarea id="Reason" class="form-control" rows="3" placeholder="Problem in Brief"
+                                <textarea id="Reason" name="message" class="form-control" rows="3" placeholder="Problem in Brief"
                                     required></textarea>
-                                <a class="button secondary button-second">Send Message</a>
+                                <input type="hidden" name="form_type" value="appointment_form">
+                                {{-- <a class="button secondary button-second">Send Message</a> --}}
+                                <button type="submit" class="button secondary button-second">Send Message</button>
                             </form>
                         </div><!-- contact Form ends here. -->
                     </div><!-- Form/-->
